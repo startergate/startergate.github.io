@@ -1,0 +1,26 @@
+{
+  "name": "startergate.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/startergate/about-me.git",
+  "author": "startergate <startergate36@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "gatsby": "^2.22.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "prettier": "2.0.5"
+  }
+}
