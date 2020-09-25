@@ -27,8 +27,11 @@ const ProfileImage = () => {
   `)
 
   return <Img style={{
-    borderRadius: `50%`
+    display: `inline-block`,
+    right: 0,
+    borderRadius: `50%`,
+    width: `64px`
   }} fluid={data.placeholderImage.childImageSharp.fluid} />
 }
 
-export default Image
+export default ProfileImage

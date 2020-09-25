@@ -13,7 +13,7 @@ const SubMenu = ({ title, link }) => {
       <Link
         to={link}
         style={{
-          color: `white`,
+          color: `black`,
           textDecoration: `none`,
         }}
       >

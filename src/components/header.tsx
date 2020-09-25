@@ -2,50 +2,32 @@ import { Link } from "gatsby"
 import * as PropTypes from "prop-types"
 import * as React from "react"
 import SubMenu from "./subMenu"
+import Profile from "./images/profile";
 
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#3D414D`,
+      background: `none`,
       marginBottom: `1.45rem`,
       padding: `auto`,
       textAlign: `center`,
     }}
   >
+
     <div
       style={{
-        width: "50%",
         margin: `0 auto`,
-        maxWidth: 480,
-        padding: `1.45rem 1.0875rem`,
-        display: `inline-block`,
-        textAlign: `left`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-    <div
-      style={{
-        width: "50%",
-        margin: `0 auto`,
-        maxWidth: 480,
-        padding: `1.45rem 1.0875rem`,
+        width: `100%`,
+        padding: `0.5rem 0.5rem`,
         display: "inline-block",
         textAlign: "right",
+        lineHeight: `100%`,
+        right: 0
       }}
     >
       <SubMenu title="GitHub" link="https://github.com/startergate" />
       <SubMenu title="Projects" link="/project" />
+      <Profile />
     </div>
   </header>
 )
