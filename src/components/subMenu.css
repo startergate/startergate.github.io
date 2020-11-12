@@ -1,0 +1,7 @@
+.subMenuTitle {
+    font-weight: bolder;
+    text-rendering: optimizeLegibility;
+    font-size: 1rem;
+    line-height: 1.1;
+    display: inline;
+}

@@ -33,4 +33,5 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
   ],
+  projectData: []
 }

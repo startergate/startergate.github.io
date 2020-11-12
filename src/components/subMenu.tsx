@@ -1,26 +1,16 @@
 import { Link } from "gatsby"
-import React from "react"
+import * as React from "react"
+
+import './subMenu.css'
 
 const SubMenu = ({ title, link }) => {
   return (
-    <h5
-      style={{
-        marginBottom: "0",
-        display: "inline",
-        margin: "0px 10px",
-      }}
-    >
-      <Link
-        to={link}
-        style={{
-          color: `black`,
-          textDecoration: `none`,
-        }}
-      >
+    <h5 className='subMenuTitle'>
+      <Link to={link}>
         {title}
       </Link>
     </h5>
-  )
-}
+  );
+};
 
-export default SubMenu
+export default SubMenu;

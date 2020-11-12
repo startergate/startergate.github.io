@@ -1,0 +1,28 @@
+.topMenu {
+    position: fixed;
+    background: none;
+    top: 48px;
+    right: 64px;
+    z-index: 1000;
+}
+
+.topMenu .topLink {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0;
+    margin: 0;
+}
+
+.topMenu .topLink li {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 24px;
+    pointer-events: all;
+    margin-left: 24px;
+}
+
+.topMenu .topLink li:first-child {
+    margin-left: 0;
+}
