@@ -33,5 +33,15 @@ module.exports = {
     },
     `gatsby-plugin-offline`,
   ],
-  projectData: []
+  projectData: [
+    {
+      name: 'dummy',
+      description: 'what the fuck is this',
+      startedAt: new Date(2020, 10, 10),
+      finishedAt: new Date(2020, 10, 30),
+      tags: ['python', 'django'],
+      links: ['https://github.com/startergate/what-ever-the-fuck-this-is'],
+      
+    }
+  ]
 }
