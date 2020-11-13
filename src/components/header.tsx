@@ -10,7 +10,7 @@ const Header = ({ siteTitle }) => (
   <header className="topMenu">
       <ul className="topLink">
         <li><SubMenu title="GitHub" link="https://github.com/startergate" /></li>
-        <li><SubMenu title="Projects" link="/project" /></li>
+        <li><SubMenu title="Projects" link="/projects" /></li>
         <li><SubMenu title="Conferences" link="/Conferences" /></li>
         <li><SubMenu title="CV" link="/cv.pdf" /></li>
         <li><a className="noLint" href="/"><Profile /></a></li>
