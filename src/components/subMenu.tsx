@@ -3,7 +3,7 @@ import * as React from "react"
 
 import './subMenu.css'
 
-const SubMenu = ({ title, link }) => {
+export const SubMenu = ({ title, link }) => {
   return (
     <h5 className='subMenuTitle'>
       <Link to={link}>
@@ -13,4 +13,12 @@ const SubMenu = ({ title, link }) => {
   );
 };
 
-export default SubMenu;
+export const ExternalSubMenu = ({ title, link }) => {
+  return (
+    <h5 className='subMenuTitle'>
+      <a href={link}>
+        {title}
+      </a>
+    </h5>
+  );
+};
