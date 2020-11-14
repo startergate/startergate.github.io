@@ -73,6 +73,11 @@ a:hover {
     background: white;
     color: var(--main-color);
   }
+
+  h1 {
+    background: white;
+    color: var(--main-color);
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -84,6 +89,21 @@ a:hover {
     background: var(--main-color);
     color: white;
   }
+
+  h1 {
+    background: var(--main-color);
+    color: white;
+  }
+}
+
+h1 {
+  width: fit-content;
+  font-size: 64px;
+}
+
+h2 {
+  width: fit-content;
+  font-size: 48px;
 }
 
 main {
