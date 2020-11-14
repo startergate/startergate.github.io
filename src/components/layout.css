@@ -2,12 +2,19 @@
   --main-color: #3D414D
 }
 
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html {
   font-family: 'SF Pro Display', 'Noto Sans CJK KR', 'Noto Sans KR', 'NanumGothic', '나눔고딕', 'Malgun Gothic', '맑은 고딕', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
 body {
+  top: 0;
+  left: 0;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

@@ -22,8 +22,8 @@ const IndexPage = () => (
       </div>
     </section>
     <section>
-      <h1>Languages</h1>
-      <h2>Expert</h2>
+      <h2>Languages</h2>
+      <h3>Expert</h3>
       <div style={{
         display: "flex",
         flexWrap: "wrap"
@@ -34,7 +34,7 @@ const IndexPage = () => (
       </div>
     </section>
     <section>
-      <h1>Project Highlights</h1>
+      <h2>Project Highlights</h2>
 
       <Link to="/projects/">See More...</Link>
     </section>
