@@ -2,3 +2,8 @@
     align-items: center;
     display: flex;
 }
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
