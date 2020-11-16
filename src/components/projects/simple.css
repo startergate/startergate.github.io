@@ -1,0 +1,11 @@
+.project-card {
+    background: white;
+    border-radius: 6px;
+    color: black;
+    border: 1px solid #e1e4e8;
+    padding: 16px;
+}
+
+.project-card > div {
+    width: 100%;
+}
