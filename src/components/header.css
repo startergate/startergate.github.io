@@ -1,4 +1,4 @@
-.topMenu {
+.top-menu {
     position: fixed;
     background: none;
     top: 48px;
@@ -6,7 +6,7 @@
     z-index: 1000;
 }
 
-.topMenu .topLink {
+.top-menu .top-link {
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -14,7 +14,7 @@
     margin: 0;
 }
 
-.topMenu .topLink li {
+.top-menu .top-link li {
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -23,6 +23,6 @@
     margin-left: 24px;
 }
 
-.topMenu .topLink li:first-child {
+.top-menu .top-link li:first-child {
     margin-left: 0;
 }

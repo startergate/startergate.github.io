@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import * as PropTypes from "prop-types"
 import * as React from "react"
 import { SubMenu, ExternalSubMenu } from "./subMenu"
@@ -7,8 +6,8 @@ import Profile from "./images/profile";
 import './header.css'
 
 const Header = ({ siteTitle }) => (
-  <header className="topMenu">
-      <ul className="topLink">
+  <header className="top-menu">
+      <ul className="top-link">
         <li><ExternalSubMenu title="GitHub" link="https://github.com/startergate" /></li>
         <li><SubMenu title="Projects" link="/projects" /></li>
         <li><SubMenu title="Conferences" link="/Conferences" /></li>

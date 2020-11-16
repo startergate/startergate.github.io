@@ -5,7 +5,7 @@ import './subMenu.css'
 
 export const SubMenu = ({ title, link }) => {
   return (
-    <h5 className='subMenuTitle'>
+    <h5 className='submenu-title'>
       <Link to={link}>
         {title}
       </Link>
@@ -15,7 +15,7 @@ export const SubMenu = ({ title, link }) => {
 
 export const ExternalSubMenu = ({ title, link }) => {
   return (
-    <h5 className='subMenuTitle'>
+    <h5 className='submenu-title'>
       <a href={link}>
         {title}
       </a>
