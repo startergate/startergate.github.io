@@ -12,6 +12,15 @@
     width: 100%;
 }
 
+.project-card-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.project-card-image {
+    margin-right: 4px;
+}
+
 .project-card-language {
     display: flex;
     line-height: 20px;
