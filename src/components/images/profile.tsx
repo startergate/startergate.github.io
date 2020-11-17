@@ -28,12 +28,7 @@ const ProfileImage = () => {
 
   return (
     <Img
-      style={{
-        display: `inline-block`,
-        right: 0,
-        borderRadius: `50%`,
-        width: `64px`,
-      }}
+      className='top-menu-image'
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
   );
