@@ -26,7 +26,7 @@ const Projects = (props: PageProps) => {
   return (
     <Layout {...props}>
       <SEO title="Projects" />
-      <section className='subpage'>
+      <section className="subpage">
         <h1>Projects</h1>
         <div className="list">
           {data.map((value, index) => {
