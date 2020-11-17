@@ -4,6 +4,8 @@
     color: black;
     border: 1px solid #e1e4e8;
     padding: 16px;
+    margin-right: 16px;
+    margin-bottom: 16px;
 }
 
 .project-card > div {
