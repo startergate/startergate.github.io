@@ -3,7 +3,7 @@ import {graphql, Link, useStaticQuery} from "gatsby";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
-import {JavaScript, Python, TypeScript} from "../components/profiles/Language";
+import {JavaScript, Python, TypeScript} from "../components/profiles/language";
 import Project from '../components/projects/simple';
 
 import './index.css';
