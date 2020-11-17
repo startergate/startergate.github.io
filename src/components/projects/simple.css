@@ -13,3 +13,11 @@
 .project-card-language {
     line-height: 19px;
 }
+
+.project-card-description {
+    margin-top: 8px;
+    margin-bottom: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: fade;
+}
