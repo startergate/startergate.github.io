@@ -34,9 +34,13 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
+          © {new Date().getFullYear()} Ho Seung Choi a.k.a. startergate, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org">Gatsby</a>,
+          {` `}
+          Hosted on
+          {` `}
+          <a href="https://pages.github.com">GitHub Pages</a>
         </footer>
       </div>
     </>
