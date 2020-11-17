@@ -1,5 +1,17 @@
 [
   {
+    "name": "DoNote V",
+    "description": "TypeScript로 다시 만드는 DoNote",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["python", "django"],
+    "links": ["https://github.com/startergate/DoNote-V", "https://github.com/startergate/DoNote-V-API",
+      "https://github.com/startergate/DoNote-V-Proxy", "https://github.com/startergate/DoNoted-V-Deploy",
+      "https://github.com/startergate/DoNote-V-API-Express"
+    ],
+    "isHighlighted": true
+  },
+  {
     "name": "dummy",
     "description": "what the fuck is this",
     "startedAt": "2020-10-10",

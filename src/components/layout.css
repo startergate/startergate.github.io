@@ -104,8 +104,13 @@ h1 {
 h2 {
   width: fit-content;
   font-size: 48px;
+  margin-bottom: 16px;
 }
 
 main {
   padding: 0 64px
+}
+
+section:not(.title) {
+  margin-bottom: 24px;
 }

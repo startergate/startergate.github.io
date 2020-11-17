@@ -9,3 +9,7 @@
 .project-card > div {
     width: 100%;
 }
+
+.project-card-language {
+    line-height: 19px;
+}
