@@ -109,6 +109,7 @@ a:hover {
 h1 {
   width: fit-content;
   font-size: 64px;
+  margin-bottom: 24px;
 }
 
 h2 {
@@ -122,5 +123,6 @@ h2 {
 }
 
 section:not(.title) {
+  margin-top: 48px;
   margin-bottom: 64px;
 }
