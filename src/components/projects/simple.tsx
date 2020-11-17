@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import './simple.css';
+import LanguageColor from '../../enums/langs';
 
 const ProjectCard = ({ data }) => {
   return (
@@ -11,7 +12,15 @@ const ProjectCard = ({ data }) => {
       </div>
       <div className="project-card-description">{data.description}</div>
       <div className="project-card-tags">
-        <span className="project-card-language">{data.tags[0]}</span>
+        <span className="project-card-language">
+          <span
+            className="project-card-language-badge"
+            style={{
+              backgroundColor: LanguageColor[data.tags[0]],
+            }}
+          />
+          {data.tags[0]}
+        </span>
       </div>
     </div>
   );
