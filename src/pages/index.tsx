@@ -59,6 +59,10 @@ const IndexPage = () => {
           <Python/>
         </div>
       </section>
+      <section id="cv">
+        <h2>Curriculum Vitae</h2>
+        <button>Download CV as PDF</button>
+      </section>
     </Layout>
   )
 }
