@@ -72,7 +72,9 @@ const IndexPage = () => {
       </section>
       <section id="cv">
         <h2>Curriculum Vitae</h2>
-        <button>Download CV as PDF</button>
+        <a href="/cv.pdf" download>
+          Download CV as PDF
+        </a>
       </section>
     </Layout>
   );
