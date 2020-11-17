@@ -5,12 +5,12 @@
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
 
-import * as React from "react"
-import * as PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
+import * as React from 'react';
+import * as PropTypes from 'prop-types';
+import { useStaticQuery, graphql } from 'gatsby';
 
-import Header from "./header"
-import "./layout.css"
+import Header from './header';
+import './layout.css';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -21,7 +21,7 @@ const Layout = ({ children }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <>
@@ -29,21 +29,21 @@ const Layout = ({ children }) => {
       <div className="app">
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} Ho Seung Choi a.k.a. startergate, Built with
+          © {new Date().getFullYear()} Ho Seung Choi a.k.a. startergate, Built
+          with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>,
-          {` `}
+          <a href="https://www.gatsbyjs.org">Gatsby</a>,{` `}
           Hosted on
           {` `}
           <a href="https://pages.github.com">GitHub Pages</a>
         </footer>
       </div>
     </>
-  )
-}
+  );
+};
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
-}
+};
 
-export default Layout
+export default Layout;
