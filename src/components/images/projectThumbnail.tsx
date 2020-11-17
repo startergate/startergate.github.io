@@ -2,7 +2,7 @@ import * as React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-const Image = ({ src, ...props }) => {
+const ProjectThumbnail = ({ src, ...props }) => {
     const data = useStaticQuery(graphql`
         query {
             allFile( filter: { internal: { mediaType: { regex: "images/" } } } ) {
@@ -10,7 +10,7 @@ const Image = ({ src, ...props }) => {
                     node {
                         relativePath
                         childImageSharp {
-                            fluid(maxWidth: 300) {
+                            fluid(maxWidth: 64) {
                                 ...GatsbyImageSharpFluid
                             }
                         }
@@ -32,4 +32,4 @@ const Image = ({ src, ...props }) => {
   )
 }
 
-export default Image;
+export default ProjectThumbnail;
