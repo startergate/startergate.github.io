@@ -3,27 +3,37 @@ import { useStaticQuery, graphql, PageProps, Link } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Project from '../components/projects/simple';
+
+import './projects.css';
 
 const Projects = (props: PageProps) => {
   const data = useStaticQuery(graphql`
     query {
-      projectsJson {
-        name
-        description
-        links
-        startedAt
-        finishedAt
+      allProjectsJson {
+        nodes {
+          tags
+          startedAt
+          name
+          finishedAt
+          description
+          id
+        }
       }
     }
-  `);
-  console.log(data.projectsJson);
+  `).allProjectsJson.nodes;
 
   return (
-    <Layout>
+    <Layout {...props}>
       <SEO title="Projects" />
-      <h2>Projects</h2>
-      <p>Welcome to page 2 ({props.path})</p>
-      <Link to="/">Go back to the homepage</Link>
+      <section className='subpage'>
+        <h1>Projects</h1>
+        <div className="list">
+          {data.map((value, index) => {
+            return <Project data={value} />;
+          })}
+        </div>
+      </section>
     </Layout>
   );
 };
