@@ -26,12 +26,7 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
+      <div className="app">
         <main>{children}</main>
         <footer>
           © {new Date().getFullYear()} Ho Seung Choi a.k.a. startergate, Built with

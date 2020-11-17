@@ -107,10 +107,10 @@ h2 {
   margin-bottom: 16px;
 }
 
-main {
-  padding: 0 64px
+.app {
+  padding: 0 5rem 3rem;
 }
 
 section:not(.title) {
-  margin-bottom: 24px;
+  margin-bottom: 64px;
 }
