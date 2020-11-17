@@ -1,6 +1,5 @@
 import * as React from "react";
 import Thumbnail from "../images/thumbnail";
-import {JavaScriptImage, PythonImage, TypeScriptImage} from "../images/languages";
 
 import './language.css';
 
