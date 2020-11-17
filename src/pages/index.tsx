@@ -42,8 +42,7 @@ const IndexPage = () => {
       >
         <div>
           <h1>Learn, Find, Figure Out</h1>
-          <p className="title-name">STARTERGATE</p>
-          <p>최호승</p>
+          <p className="title-name">STARTERGATE / 최호승</p>
           <p>백엔드 엔지니어</p>
           <p>게임 개발자</p>
           <p>
