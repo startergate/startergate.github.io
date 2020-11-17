@@ -2,7 +2,7 @@ import * as React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
 import Img from 'gatsby-image';
 
-const ProjectThumbnail = ({ src, ...props }) => {
+const Thumbnail = ({ src, ...props }) => {
     const data = useStaticQuery(graphql`
         query {
             allFile( filter: { internal: { mediaType: { regex: "images/" } } } ) {
@@ -32,4 +32,4 @@ const ProjectThumbnail = ({ src, ...props }) => {
   )
 }
 
-export default ProjectThumbnail;
+export default Thumbnail;

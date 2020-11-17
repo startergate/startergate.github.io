@@ -2,7 +2,6 @@ import * as React from "react";
 import {graphql, Link, useStaticQuery} from "gatsby";
 
 import Layout from "../components/layout";
-import ProjectThumbnail from "../components/images/projectThumbnail";
 import SEO from "../components/seo";
 import {JavaScript, Python, TypeScript} from "../components/profiles/Language";
 import Project from '../components/projects/simple';
