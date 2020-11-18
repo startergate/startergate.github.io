@@ -20,17 +20,15 @@ const IndexPage = () => {
           id
           name
           description
-          isHighlighted
           startedAt
           finishedAt
           tags
           links
+          imgSrc
         }
       }
     }
   `).allProjectsJson.nodes;
-
-  console.log(highlighted);
 
   return (
     <Layout>

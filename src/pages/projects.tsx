@@ -12,12 +12,14 @@ const Projects = (props: PageProps) => {
     query {
       allProjectsJson {
         nodes {
-          tags
-          startedAt
-          name
-          finishedAt
-          description
           id
+          name
+          description
+          startedAt
+          finishedAt
+          tags
+          links
+          imgSrc
         }
       }
     }
