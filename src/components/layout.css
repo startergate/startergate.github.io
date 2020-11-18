@@ -123,6 +123,7 @@ h2 {
 }
 
 section:not(.title) {
+  width: 67%;
   margin-top: 48px;
   margin-bottom: 64px;
 }
