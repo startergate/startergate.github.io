@@ -15,11 +15,25 @@
 
 .project-card-name {
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bolder;
+    display: flex;
 }
 
-.project-card-image {
+.project-card-badge {
+    height: 24px;
+    width: 24px;
+    display: inline-block;
     margin-right: 4px;
+    align-items: center;
+}
+
+svg.project-card-badge {
+    padding: 4px;
+}
+
+div.project-card-badge {
+    border-radius: 25%;
+    background-color: var(--main-color);
 }
 
 .project-card-language {

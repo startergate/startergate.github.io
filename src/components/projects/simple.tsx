@@ -2,12 +2,15 @@ import * as React from 'react';
 
 import './simple.css';
 import LanguageColor from '../../enums/langs';
+import Badge from '../images/badge';
 
 const ProjectCard = ({ data }) => {
+  console.log(data.imgSrc);
+
   return (
     <div className="project-card" id={data.id}>
       <div className="project-card-name">
-        <span className="project-card-image">image</span>
+        <Badge className="project-card-badge" src={data.imgSrc} />
         {data.name}
       </div>
       <div className="project-card-description">{data.description}</div>
