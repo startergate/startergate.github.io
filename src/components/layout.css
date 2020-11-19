@@ -84,7 +84,7 @@ a:hover {
     color: var(--main-color);
   }
 
-  h1 {
+  h1 span {
     background: white;
     color: var(--main-color);
   }
@@ -100,7 +100,7 @@ a:hover {
     color: white;
   }
 
-  h1 {
+  h1 span {
     background: var(--main-color);
     color: white;
   }
@@ -114,6 +114,29 @@ h1 {
   padding-right: 4px;
 }
 
+h1 span {
+  padding-left: 2px;
+  padding-right: 4px;
+}
+
+@media screen and (max-width: 998px) {
+  h1 {
+    font-size: 54px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  h1 {
+    font-size: 36px;
+  }
+}
+
 h2 {
   width: fit-content;
   font-size: 48px;
@@ -122,6 +145,13 @@ h2 {
 
 .app {
   padding: 0 5rem 3rem;
+}
+
+@media screen and (max-width: 998px) {
+  .app {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
 
 section:not(.title) {

@@ -5,3 +5,10 @@
     line-height: 1.1;
     display: inline;
 }
+
+@media screen and (max-width: 760px) {
+    .submenu-title {
+        display: none;
+        pointer-events: none;
+    }
+}

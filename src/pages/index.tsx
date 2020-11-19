@@ -39,7 +39,7 @@ const IndexPage = () => {
         style={{ width: '100%', height: '100vh' }}
       >
         <div>
-          <h1>Learn, Find, Figure Out</h1>
+          <h1><span>Learn, Find, Figure Out</span></h1>
           <p className="title-name">STARTERGATE / 최호승</p>
           <p>백엔드 엔지니어</p>
           <p>게임 개발자</p>
