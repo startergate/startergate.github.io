@@ -4,6 +4,7 @@ import { SubMenu, ExternalSubMenu } from './subMenu';
 import Profile from './images/profile';
 
 import './header.css';
+import { Link } from 'gatsby';
 
 const Header = ({ siteTitle }) => (
   <header className="top-menu">
@@ -21,9 +22,9 @@ const Header = ({ siteTitle }) => (
         <SubMenu title="CV" link="/#cv" />
       </li>
       <li>
-        <a className="noLint" href="/">
+        <Link className="noLint" to="/">
           <Profile />
-        </a>
+        </Link>
       </li>
     </ul>
   </header>
