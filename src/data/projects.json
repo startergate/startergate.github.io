@@ -12,6 +12,7 @@
       "https://github.com/startergate/DoNoted-V-Deploy",
       "https://github.com/startergate/DoNote-V-API-Express"
     ],
+    "imgSrc": "projects/donote.png",
     "isHighlighted": true
   },
   {
@@ -20,7 +21,25 @@
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
     "tags": ["Python", "Django"],
+    "links": [
+      "https://github.com/Junyeong-Market/Eliverd-API",
+      "https://github.com/Junyeong-Market/eliverd_customer",
+      "https://github.com/Junyeong-Market/eliverd_store",
+      "https://github.com/Junyeong-Market/eliverd_pos",
+      "https://github.com/Junyeong-Market/Eliverd-API-Deploy",
+      "https://github.com/Junyeong-Market/KP-TEST"
+    ],
+    "imgSrc": "projects/eliverd.png",
+    "isHighlighted": true
+  },
+  {
+    "name": "DOTORI",
+    "description": "GSM 기숙사 관리 시스템",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["TypeScript", "Node.js"],
     "links": ["https://github.com/Junyeong-Market/Eliverd-API"],
+    "imgSrc": "teams/bean.png",
     "isHighlighted": true
   }
 ]
