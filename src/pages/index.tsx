@@ -14,8 +14,8 @@ import './index.css';
 
 const IndexPage = () => {
   const highlighted = useStaticQuery(graphql`
-    query {
-      allProjectsJson(filter: { isHighlighted: { eq: true } }, limit: 3) {
+    query getHighlightedProjects {
+      allProjectsJson(filter: { isHighlighted: { eq: true } }, limit: 4) {
         nodes {
           id
           name
