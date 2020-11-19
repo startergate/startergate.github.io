@@ -18,7 +18,7 @@ const Header = ({ siteTitle }) => (
         <SubMenu title="Conferences" link="/Conferences" />
       </li>
       <li>
-        <SubMenu title="CV" link="/cv.pdf" />
+        <SubMenu title="CV" link="/#cv" />
       </li>
       <li>
         <a className="noLint" href="/">
