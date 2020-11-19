@@ -5,8 +5,6 @@ import LanguageColor from '../../enums/langs';
 import Badge from '../images/badge';
 
 const ProjectCard = ({ data }) => {
-  console.log(data.imgSrc);
-
   return (
     <div className="project-card" id={data.id}>
       <div className="project-card-name">

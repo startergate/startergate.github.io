@@ -6,7 +6,8 @@
     padding: 16px;
     margin-right: 16px;
     margin-bottom: 16px;
-    width: 350px
+    width: 340px;
+    min-width: 340px;
 }
 
 .project-card > div {
