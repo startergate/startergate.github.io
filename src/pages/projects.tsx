@@ -44,6 +44,14 @@ const Projects = (props: PageProps) => {
           <ul className="project-filter-selector">
             <li
               key="all"
+              onClick={(event) =>
+                [
+                  // @ts-ignore
+                  ...event.currentTarget.parentElement.children,
+                ].forEach((children) =>
+                  children.classList.remove('project-filter-choice-activated')
+                )
+              }
               className="project-filter-choice"
             >
               필터 초기화
@@ -52,6 +60,17 @@ const Projects = (props: PageProps) => {
               return (
                 <li
                   key={item}
+                  onClick={(event) => {
+                    event.currentTarget.classList.contains(
+                      'project-filter-choice-activated'
+                    )
+                      ? event.currentTarget.classList.remove(
+                          'project-filter-choice-activated'
+                        )
+                      : event.currentTarget.classList.add(
+                          'project-filter-choice-activated'
+                        );
+                  }}
                   className="project-filter-choice"
                 >
                   {item}
