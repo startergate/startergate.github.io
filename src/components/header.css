@@ -2,8 +2,14 @@
     position: fixed;
     background: none;
     top: 48px;
-    right: 64px;
+    right: 5em;
     z-index: 1000;
+}
+
+@media screen and (max-width: 998px) {
+    .top-menu {
+        right: 3em;
+    }
 }
 
 .top-menu .top-link {
