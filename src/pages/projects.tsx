@@ -6,6 +6,7 @@ import SEO from '../components/seo';
 import Project from '../components/projects/simple';
 
 import './projects.css';
+import Filter from '../components/projects/filter';
 
 const Projects = (props: PageProps) => {
   const data = useStaticQuery(graphql`
@@ -25,61 +26,28 @@ const Projects = (props: PageProps) => {
     }
   `).allProjectsJson.nodes;
 
-  let tags: any = new Set();
-
-  const cards = data.map((value, index) => {
-    value.tags.forEach((item) => tags.add(item));
-    return <Project data={value} />;
-  });
-
-  tags = [...tags].sort();
+  const handler = (selected) => {
+    let ids = (selected.length > 0 ? data.filter(x => x.tags.filter(tag => selected.includes(tag)).length) : data).map(x => x.id);
+    let elements = document.querySelectorAll('.project-card');
+    elements.forEach(element => {
+      element.classList.remove('hidden')
+      if (!ids.includes(element.id)) {
+        element.classList.add('hidden')
+      }
+    })
+  }
 
   return (
     <Layout {...props}>
       <SEO title="Projects" />
       <section className="subpage">
-        <h1>Projects</h1>
-        <div className="project-filter">
-          <span className="project-filter-display">필터 없음</span>
-          <ul className="project-filter-selector">
-            <li
-              key="all"
-              onClick={(event) =>
-                [
-                  // @ts-ignore
-                  ...event.currentTarget.parentElement.children,
-                ].forEach((children) =>
-                  children.classList.remove('project-filter-choice-activated')
-                )
-              }
-              className="project-filter-choice"
-            >
-              필터 초기화
-            </li>
-            {tags.map((item) => {
-              return (
-                <li
-                  key={item}
-                  onClick={(event) => {
-                    event.currentTarget.classList.contains(
-                      'project-filter-choice-activated'
-                    )
-                      ? event.currentTarget.classList.remove(
-                          'project-filter-choice-activated'
-                        )
-                      : event.currentTarget.classList.add(
-                          'project-filter-choice-activated'
-                        );
-                  }}
-                  className="project-filter-choice"
-                >
-                  {item}
-                </li>
-              );
-            })}
-          </ul>
+        <h1><span>Projects</span></h1>
+        <Filter filterHandler={handler} />
+        <div className="list project-list">
+          {data.map((value, index) => (
+            <Project data={value} />
+          ))}
         </div>
-        <div className="list">{cards}</div>
       </section>
     </Layout>
   );
