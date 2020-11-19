@@ -110,6 +110,8 @@ h1 {
   width: fit-content;
   font-size: 64px;
   margin-bottom: 24px;
+  padding-left: 2px;
+  padding-right: 4px;
 }
 
 h2 {
