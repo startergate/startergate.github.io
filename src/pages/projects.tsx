@@ -27,24 +27,31 @@ const Projects = (props: PageProps) => {
   `).allProjectsJson.nodes;
 
   const handler = (selected) => {
-    let ids = (selected.length > 0 ? data.filter(x => x.tags.filter(tag => selected.includes(tag)).length) : data).map(x => x.id);
+    let ids = (selected.length > 0
+      ? data.filter(
+          (x) => x.tags.filter((tag) => selected.includes(tag)).length
+        )
+      : data
+    ).map((x) => x.id);
     let elements = document.querySelectorAll('.project-card');
-    elements.forEach(element => {
-      element.classList.remove('hidden')
+    elements.forEach((element) => {
+      element.classList.remove('hidden');
       if (!ids.includes(element.id)) {
-        element.classList.add('hidden')
+        element.classList.add('hidden');
       }
-    })
-  }
+    });
+  };
 
   return (
     <Layout {...props}>
       <SEO title="Projects" />
       <section className="subpage">
-        <h1><span>Projects</span></h1>
+        <h1>
+          <span>Projects</span>
+        </h1>
         <Filter filterHandler={handler} />
         <div className="list project-list">
-          {data.map(value => (
+          {data.map((value) => (
             <Project data={value} />
           ))}
         </div>

@@ -39,7 +39,9 @@ const IndexPage = () => {
         style={{ width: '100%', height: '100vh' }}
       >
         <div>
-          <h1><span>Learn, Find, Figure Out</span></h1>
+          <h1>
+            <span>Learn, Find, Figure Out</span>
+          </h1>
           <p className="title-name">STARTERGATE / 최호승</p>
           <p>백엔드 엔지니어</p>
           <p>게임 개발자</p>
@@ -58,15 +60,13 @@ const IndexPage = () => {
       <section id="project">
         <h2>Project Highlights</h2>
         <div className="list">
-          {highlighted.map((value, index) => {
-            return <Project data={value} />;
-          })}
+          {highlighted.map((value) => (
+            <Project data={value} />
+          ))}
         </div>
         <Link to="/projects/">See More...</Link>
       </section>
-      <section id="link">
-
-      </section>
+      <section id="link"></section>
       <section id="cv-languages">
         <h2>Languages</h2>
         <h3>Expert</h3>

@@ -52,10 +52,15 @@ const Filter = ({ filterHandler }) => {
           );
         })}
       </ul>
-      <span onClick={() => {
-        const selector = document.querySelector('.project-filter-selector');
-        toggle(selector, 'hidden');
-      }} className="project-filter-display">필터 없음</span>
+      <span
+        onClick={() => {
+          const selector = document.querySelector('.project-filter-selector');
+          toggle(selector, 'hidden');
+        }}
+        className="project-filter-display"
+      >
+        필터 없음
+      </span>
     </div>
   );
 };
