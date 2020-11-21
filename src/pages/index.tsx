@@ -49,6 +49,12 @@ const IndexPage = () => {
           </p>
         </div>
       </section>
+      <section id="backend-dev">
+        <h2>Backend Engineer</h2>
+      </section>
+      <section id="game-dev">
+        <h2>Game Developer</h2>
+      </section>
       <section id="project">
         <h2>Project Highlights</h2>
         <div className="list">
@@ -58,7 +64,10 @@ const IndexPage = () => {
         </div>
         <Link to="/projects/">See More...</Link>
       </section>
-      <section id="languages">
+      <section id="link">
+
+      </section>
+      <section id="cv-languages">
         <h2>Languages</h2>
         <h3>Expert</h3>
         <div className="list">

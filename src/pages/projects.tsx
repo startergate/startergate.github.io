@@ -44,7 +44,7 @@ const Projects = (props: PageProps) => {
         <h1><span>Projects</span></h1>
         <Filter filterHandler={handler} />
         <div className="list project-list">
-          {data.map((value, index) => (
+          {data.map(value => (
             <Project data={value} />
           ))}
         </div>
