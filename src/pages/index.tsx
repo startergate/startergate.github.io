@@ -4,7 +4,7 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Language from '../components/profiles/language';
-import External from '../components/profiles/external';
+import * as External from '../components/profiles/external';
 import Project from '../components/projects/simple';
 
 import './index.css';
@@ -64,9 +64,9 @@ const IndexPage = () => {
     groupedLanguages[value['fieldValue']] = value.nodes;
   });
 
-  externals.forEach(value => {
+  externals.forEach((value) => {
     labeledExternals[value['type']] = value;
-  })
+  });
 
   return (
     <Layout>
@@ -106,10 +106,13 @@ const IndexPage = () => {
       </section>
       <section id="link">
         <h2>Links</h2>
+        {externals.map((value) => {
+          return <External.Icon data={value} />;
+        })}
       </section>
       <section id="cv-languages">
         <h2>Languages</h2>
-        <External data={labeledExternals.StackShare}/>
+        <External.Small data={labeledExternals.StackShare} />
         <div id="cv-languages-using">
           <h3>Using</h3>
           <div className="list">

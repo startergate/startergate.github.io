@@ -1,5 +1,28 @@
 .badge-external {
     display: inline-block;
+    width: 216px;
+}
+
+.badge-external-icon {
+    display: block;
+    width: 128px;
+    height: 128px;
+    padding: 32px;
+    border: 1px solid gainsboro;
+    border-radius: 8px;
+}
+
+.badge-external-icon-image {
+    margin: auto;
+}
+
+.badge-external-text {
+    display: block;
+    padding: 12px 8px;
+}
+
+.badge-external-small {
+    display: inline-block;
     border: 1px solid gainsboro;
     border-radius: 8px;
     padding: 4px 6px;
@@ -9,17 +32,17 @@
     width: fit-content;
 }
 
-.badge-external * {
+.badge-external-small * {
     display: inline-block;
 }
 
-.badge-external-image {
+.badge-external-small-image {
     width: 16px;
     height: 16px;
     margin: 4px 6px 4px 4px;
 }
 
-.badge-external-id {
+.badge-external-small-id {
     position: relative;
     font-weight: 600;
     font-size: 14px;
