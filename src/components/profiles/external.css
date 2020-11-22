@@ -2,10 +2,10 @@
     display: inline-block;
     border: 1px solid gainsboro;
     border-radius: 8px;
-    padding: 8px 12px;
+    padding: 4px 6px;
     margin-right: 8px;
     margin-bottom: 8px;
-    height: 48px;
+    height: 32px;
     width: fit-content;
 }
 
@@ -14,16 +14,16 @@
 }
 
 .badge-external-image {
-    width: 22px;
-    height: 22px;
-    margin: 4px 8px 4px 4px;
+    width: 16px;
+    height: 16px;
+    margin: 4px 6px 4px 4px;
 }
 
 .badge-external-id {
     position: relative;
     font-weight: 600;
-    font-size: 24px;
+    font-size: 14px;
     color: white;
-    line-height: 30px;
+    line-height: 22px;
     float: right;
 }
