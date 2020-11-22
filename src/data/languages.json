@@ -5,7 +5,7 @@
       "src": "langs/typescript.png",
       "background": "#4178BA"
     },
-    "level": "Learned"
+    "level": "using"
   },
   {
     "name": "JavaScript",
@@ -13,13 +13,13 @@
       "src": "langs/javascript.png",
       "background": "#f4de50"
     },
-    "level": "Using"
+    "level": "using"
   },
   {
     "name": "Python",
     "image": {
       "src": "langs/python.png"
     },
-    "level": "Using"
+    "level": "using"
   }
 ]
