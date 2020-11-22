@@ -1,13 +1,13 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
+import { Link } from 'gatsby';
 import { SubMenu, ExternalSubMenu } from './subMenu';
 import Profile from './images/profile';
 
 import './header.css';
-import { Link } from 'gatsby';
 
 const Header = ({ siteTitle }) => (
-  <header className="top-menu">
+  <nav className="top-menu">
     <ul className="top-link">
       <li>
         <ExternalSubMenu title="GitHub" link="https://github.com/startergate" />
@@ -27,7 +27,7 @@ const Header = ({ siteTitle }) => (
         </Link>
       </li>
     </ul>
-  </header>
+  </nav>
 );
 
 Header.propTypes = {
