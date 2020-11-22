@@ -6,7 +6,7 @@ import './language.css';
 const Language = ({ data }) => {
   return (
     <div
-      className="badge-lang"
+      className="badge badge-lang"
       style={{
         backgroundColor: data.image.background || '#FFFFFF',
       }}

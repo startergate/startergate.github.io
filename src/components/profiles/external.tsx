@@ -2,13 +2,14 @@ import * as React from 'react';
 import Badge from '../images/badge';
 import Thumbnail from '../images/thumbnail';
 
+import './badge.css'
 import './external.css';
 
 const Icon = ({ data }) => {
   return (
     <a className="badge-external noLint" href={data.link} title={data.type}>
       <p
-        className="badge-external-icon"
+        className="badge badge-external-icon"
         style={{
           backgroundColor: data.image.background || '#FFFFFF',
         }}

@@ -9,8 +9,6 @@
     width: 128px;
     height: 128px;
     padding: 32px;
-    border: 1px solid gainsboro;
-    border-radius: 8px;
 }
 
 .badge-external-icon-image {
@@ -24,8 +22,6 @@
 
 .badge-external-small {
     display: inline-block;
-    border: 1px solid gainsboro;
-    border-radius: 8px;
     padding: 4px 6px;
     margin-right: 8px;
     margin-bottom: 8px;
