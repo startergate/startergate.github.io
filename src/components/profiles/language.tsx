@@ -37,4 +37,17 @@ const Python = () => {
   );
 };
 
+const Language = ({ data }) => {
+  return (
+    <div
+      className="badge-lang"
+      style={{
+        backgroundColor: data.image.background || '#FFFFFF',
+      }}
+    >
+      <Thumbnail src={data.image.src} />
+    </div>
+  )
+}
+
 export { JavaScript, TypeScript, Python };
