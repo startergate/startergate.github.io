@@ -1,0 +1,25 @@
+[
+  {
+    "name": "TypeScript",
+    "image": {
+      "src": "langs/typescript.png",
+      "background": "#4178BA"
+    },
+    "level": "Learned"
+  },
+  {
+    "name": "JavaScript",
+    "image": {
+      "src": "langs/javascript.png",
+      "background": "#f4de50"
+    },
+    "level": "Using"
+  },
+  {
+    "name": "Python",
+    "image": {
+      "src": "langs/python.png"
+    },
+    "level": "Using"
+  }
+]
