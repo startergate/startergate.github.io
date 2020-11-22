@@ -144,6 +144,12 @@ h2 {
   margin-bottom: 16px;
 }
 
+h3 {
+  width: fit-content;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
 .app {
   padding: 0 5rem 3rem;
 }
