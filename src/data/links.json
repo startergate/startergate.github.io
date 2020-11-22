@@ -1,0 +1,11 @@
+[
+  {
+    "type": "StackShare",
+    "link": "https://stackshare.io/startergate",
+    "external_id": "startergate",
+    "image": {
+      "src": "externals/stackshare.png",
+      "background": "#0690FA"
+    }
+  }
+]
