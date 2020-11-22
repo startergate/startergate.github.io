@@ -6,7 +6,7 @@ import './external.css';
 
 const Icon = ({ data }) => {
   return (
-    <a className="badge-external" href={data.link} title={data.type}>
+    <a className="badge-external noLint" href={data.link} title={data.type}>
       <p
         className="badge-external-icon"
         style={{
@@ -16,8 +16,8 @@ const Icon = ({ data }) => {
         <Thumbnail className="badge-external-icon-image" src={data.image.src} />
       </p>
       <p className="badge-external-text">
-        <h6>{data.type}</h6>
-        {data.external_id}
+        <h6><span>{data.type}</span></h6>
+        <span>{data.external_id}</span>
       </p>
     </a>
   );
@@ -25,7 +25,7 @@ const Icon = ({ data }) => {
 
 const Small = ({ data }) => (
   <a
-    className="badge-external-small"
+    className="badge badge-external-small"
     style={{
       backgroundColor: data.image.background || '#FFFFFF',
     }}

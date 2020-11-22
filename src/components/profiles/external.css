@@ -1,6 +1,7 @@
 .badge-external {
     display: inline-block;
-    width: 216px;
+    margin-right: 64px;
+    margin-bottom: 16px;
 }
 
 .badge-external-icon {

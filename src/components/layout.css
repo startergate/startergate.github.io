@@ -85,6 +85,11 @@ a:hover {
     color: var(--main-color);
   }
 
+  a:hover span {
+    background: white;
+    color: var(--main-color);
+  }
+
   h1 span {
     background: white;
     color: var(--main-color);
@@ -97,6 +102,11 @@ a:hover {
   }
 
   a:hover:not(.noLint) {
+    background: var(--main-color);
+    color: white;
+  }
+
+  a:hover span {
     background: var(--main-color);
     color: white;
   }
@@ -152,6 +162,7 @@ h3 {
 
 h6 {
   font-size: 16px;
+  margin-bottom: 4px;
 }
 
 .app {
