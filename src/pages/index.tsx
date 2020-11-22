@@ -3,18 +3,14 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import {
-  JavaScript,
-  Python,
-  TypeScript,
-} from '../components/profiles/language';
+import Language from '../components/profiles/language';
 import Project from '../components/projects/simple';
 
 import './index.css';
 
 const IndexPage = () => {
-  const highlighted = useStaticQuery(graphql`
-    query getHighlightedProjects {
+  const data = useStaticQuery(graphql`
+    query getIndexData {
       allProjectsJson(filter: { isHighlighted: { eq: true } }, limit: 4) {
         nodes {
           id
@@ -27,8 +23,31 @@ const IndexPage = () => {
           imgSrc
         }
       }
+      allLanguagesJson {
+        group(field: level) {
+          nodes {
+            level
+            id
+            name
+            image {
+              background
+              src
+            }
+          }
+          fieldValue
+        }
+      }
     }
-  `).allProjectsJson.nodes;
+  `);
+
+  const highlighted = data.allProjectsJson.nodes;
+  const languages = data.allLanguagesJson.group;
+
+  const groupedLanguages: any = {};
+
+  languages.forEach((value) => {
+    groupedLanguages[value['fieldValue']] = value.nodes;
+  });
 
   return (
     <Layout>
@@ -69,11 +88,29 @@ const IndexPage = () => {
       <section id="link"></section>
       <section id="cv-languages">
         <h2>Languages</h2>
-        <h3>Expert</h3>
-        <div className="list">
-          <JavaScript />
-          <TypeScript />
-          <Python />
+        <div id="cv-languages-using">
+          <h3>Using</h3>
+          <div className="list">
+            {groupedLanguages.using?.map((value) => (
+              <Language data={value} />
+            ))}
+          </div>
+        </div>
+        <div id="cv-languages-learned">
+          <h3>Learned / Used</h3>
+          <div className="list">
+            {groupedLanguages.learned?.map((value) => (
+              <Language data={value} />
+            ))}
+          </div>
+        </div>
+        <div id="cv-languages-learning">
+          <h3>Learning / Interested</h3>
+          <div className="list">
+            {groupedLanguages.learning?.map((value) => (
+              <Language data={value} />
+            ))}
+          </div>
         </div>
       </section>
       <section id="cv">
