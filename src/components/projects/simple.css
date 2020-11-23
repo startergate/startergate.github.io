@@ -37,19 +37,6 @@ div.project-card-badge {
     background-color: var(--main-color);
 }
 
-.project-card-language {
-    display: flex;
-    line-height: 20px;
-}
-
-.project-card-language-badge {
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    margin: 2px 4px 2px 2px;
-}
-
 .project-card-description {
     margin-top: 8px;
     margin-bottom: 16px;
