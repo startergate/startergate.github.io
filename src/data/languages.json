@@ -16,9 +16,23 @@
     "level": "using"
   },
   {
+    "name": "Node.js",
+    "image": {
+      "src": "langs/nodejs.png"
+    },
+    "level": "using"
+  },
+  {
     "name": "Python",
     "image": {
       "src": "langs/python.png"
+    },
+    "level": "using"
+  },
+  {
+    "name": "Express.js",
+    "image": {
+      "src": "langs/expressjs.png"
     },
     "level": "using"
   }
