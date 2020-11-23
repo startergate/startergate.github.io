@@ -80,12 +80,12 @@ a:hover {
     color: white;
   }
 
-  a:hover:not(.noLint) {
+  a:hover:not(.noLint,.noLintAbsolute) {
     background: white;
     color: var(--main-color);
   }
 
-  a:hover span {
+  a:hover:not(.noLintAbsolute) span {
     background: white;
     color: var(--main-color);
   }
@@ -101,12 +101,12 @@ a:hover {
     color: var(--main-color);
   }
 
-  a:hover:not(.noLint) {
+  a:hover:not(.noLint,.noLintAbsolute) {
     background: var(--main-color);
     color: white;
   }
 
-  a:hover span {
+  a:hover:not(.noLintAbsolute) span {
     background: var(--main-color);
     color: white;
   }
