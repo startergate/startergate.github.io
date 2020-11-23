@@ -27,6 +27,15 @@
     }
   },
   {
+    "type": "Discord",
+    "link": "https://discord.com/channels/@me",
+    "external_id": "startergate#0782",
+    "image": {
+      "src": "externals/discord.png",
+      "background": "#7289DA"
+    }
+  },
+  {
     "type": "LinkedIn",
     "link": "https://www.linkedin.com/in/호승-최-bb9a2aba/",
     "external_id": "최호승",
