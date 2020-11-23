@@ -8,6 +8,7 @@ import * as External from '../components/profiles/external';
 import Project from '../components/projects/simple';
 
 import './index.css';
+import Overlay from '../components/projects/overlay';
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -147,6 +148,7 @@ const IndexPage = () => {
           Download CV as PDF
         </a>
       </section>
+      <Overlay data={highlighted} />
     </Layout>
   );
 };

@@ -1,19 +1,17 @@
 import * as React from 'react';
 
-import './simple.css';
-import LanguageColor from '../../enums/langs';
 import Badge from '../images/badge';
-import ProjectDetail from './detail';
-import * as ReactDOM from 'react-dom';
 import LanguageBadge from './projectLanguage';
 
+import './simple.css';
+
 const overlayDispatcher = (event: React.MouseEvent) => {
-  const overlayHandler = document.querySelector('.overlay');
-  overlayHandler.innerHTML = '';
-  ReactDOM.render(
-    <ProjectDetail id={event.currentTarget.id} />,
-    overlayHandler
-  );
+  const body = document.querySelector('body');
+  const overlays = document.querySelector('.project-overlay');
+  const target = document.getElementById(`overlay-${event.currentTarget.id}`);
+  body.classList.add('disabled')
+  overlays.classList.add('active');
+  target.classList.add('active');
 };
 
 const ProjectCard = ({ data }) => {

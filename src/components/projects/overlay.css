@@ -1,0 +1,32 @@
+.project-overlay {
+    background-color: rgba(0 ,0, 0, 0.5);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    z-index: 5000;
+    padding: 64px;
+}
+
+.overlay-item {
+    display: none;
+    border: 1px solid gainsboro;
+    border-radius: 16px;
+    padding: 48px;
+    text-align: left;
+}
+
+@media (prefers-color-scheme: light) {
+    .overlay-item {
+        background-color: gainsboro;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .overlay-item {
+        background-color: var(--main-color);
+    }
+}

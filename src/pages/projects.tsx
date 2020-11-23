@@ -8,6 +8,7 @@ import Project from '../components/projects/simple';
 import './projects.css';
 import Filter from '../components/projects/filter';
 import * as External from '../components/profiles/external';
+import Overlay from '../components/projects/overlay';
 
 const Projects = (props: PageProps) => {
   const data = useStaticQuery(graphql`
@@ -72,6 +73,7 @@ const Projects = (props: PageProps) => {
           ))}
         </div>
       </section>
+      <Overlay data={projects} />
     </Layout>
   );
 };
