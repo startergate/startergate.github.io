@@ -26,9 +26,9 @@ const Icon = ({ data }) => {
       </span>
       <span className="badge-external-text">
         <h6>
-          <span>{data.type}</span>
+          <span className="lint">{data.type}</span>
         </h6>
-        <span>{data.external_id}</span>
+        <span className="lint">{data.external_id}</span>
       </span>
     </a>
   );
