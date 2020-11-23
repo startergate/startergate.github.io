@@ -19,7 +19,7 @@ const Filter = ({ filterHandler }) => {
     );
     selected = [...selected].map((element) => element.textContent);
     document.querySelector('.project-filter-display').innerHTML =
-      selected.join(', ') || '필터 없음';
+      selected.join(', ') || '사용 기술';
     filterHandler?.(selected);
   };
 
@@ -58,8 +58,9 @@ const Filter = ({ filterHandler }) => {
           toggle(selector, 'hidden');
         }}
         className="project-filter-display"
+        title="눌러서 필터 변경"
       >
-        필터 없음
+        사용 기술
       </span>
     </div>
   );
