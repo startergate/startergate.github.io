@@ -1,11 +1,81 @@
 [
   {
+    "type": "메일",
+    "link": "mailto://me@startergate.dev",
+    "external_id": "me@startergate.dev",
+    "image": {
+      "src": "externals/paper-plane.png",
+      "background": "#fbbc05"
+    }
+  },
+  {
+    "type": "Facebook",
+    "link": "https://www.facebook.com/startergate.satellite/",
+    "external_id": "startergate.satellite",
+    "image": {
+      "src": "externals/facebook.png",
+      "background": "#1877f2"
+    }
+  },
+  {
+    "type": "Twitter",
+    "link": "https://twitter.com/satellite_stg",
+    "external_id": "@satellite_stg",
+    "image": {
+      "src": "externals/twitter.png",
+      "background": "#1DA1F2"
+    }
+  },
+  {
+    "type": "LinkedIn",
+    "link": "https://www.linkedin.com/in/호승-최-bb9a2aba/",
+    "external_id": "최호승",
+    "image": {
+      "src": "externals/linkedin.png",
+      "background": "#2867B2"
+    }
+  },
+
+  {
+    "type": "Rocketpunch",
+    "link": "https://www.rocketpunch.com/@startergate",
+    "external_id": "@startergate",
+    "image": {
+      "src": "externals/rocketpunch.png"
+    }
+  },
+  {
+    "type": "GitHub",
+    "link": "https://github.com/startergate",
+    "external_id": "startergate",
+    "image": {
+      "src": "externals/github.png",
+      "background": "#24292e"
+    }
+  },
+  {
     "type": "StackShare",
     "link": "https://stackshare.io/startergate",
     "external_id": "startergate",
     "image": {
       "src": "externals/stackshare.png",
       "background": "#0690FA"
+    }
+  },
+  {
+    "type": "npm",
+    "link": "https://www.npmjs.com/~startergate",
+    "external_id": "~startergate",
+    "image": {
+      "src": "externals/npm.png"
+    }
+  },
+  {
+    "type": "Steam",
+    "link": "https://steamcommunity.com/id/startergate",
+    "external_id": "startergate",
+    "image": {
+      "src": "externals/steam.png"
     }
   }
 ]

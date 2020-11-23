@@ -106,9 +106,11 @@ const IndexPage = () => {
       </section>
       <section id="link">
         <h2>Links</h2>
-        {externals.map((value) => {
-          return <External.Icon data={value} />;
-        })}
+        <div className="list">
+          {externals.map((value) => {
+            return <External.Icon data={value} />;
+          })}
+        </div>
       </section>
       <section id="cv-languages">
         <h2>Languages</h2>

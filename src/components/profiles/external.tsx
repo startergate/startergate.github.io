@@ -26,7 +26,7 @@ const Icon = ({ data }) => {
 
 const Small = ({ data }) => (
   <a
-    className="badge badge-external-small"
+    className="badge badge-external-small noLint"
     style={{
       backgroundColor: data.image.background || '#FFFFFF',
     }}
