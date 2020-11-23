@@ -117,7 +117,7 @@ const IndexPage = () => {
         <h2>Languages</h2>
         <External.Small data={labeledExternals.StackShare} />
         <div id="cv-languages-using">
-          <h3>Using</h3>
+          <h4>Using</h4>
           <div className="list">
             {groupedLanguages.using?.map((value) => (
               <Language data={value} />
@@ -125,7 +125,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div id="cv-languages-learned">
-          <h3>Learned / Used</h3>
+          <h4>Learned / Used</h4>
           <div className="list">
             {groupedLanguages.learned?.map((value) => (
               <Language data={value} />
@@ -133,7 +133,7 @@ const IndexPage = () => {
           </div>
         </div>
         <div id="cv-languages-learning">
-          <h3>Learning / Interested</h3>
+          <h4>Learning / Interested</h4>
           <div className="list">
             {groupedLanguages.learning?.map((value) => (
               <Language data={value} />
