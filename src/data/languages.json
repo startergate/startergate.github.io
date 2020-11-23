@@ -35,5 +35,12 @@
       "src": "langs/expressjs.png"
     },
     "level": "using"
+  },
+  {
+    "name": "Koa.js",
+    "image": {
+      "src": "langs/koajs.png"
+    },
+    "level": "using"
   }
 ]
