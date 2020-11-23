@@ -14,7 +14,7 @@ const Icon = ({ data }) => {
           backgroundColor: data.image.background || '#FFFFFF',
         }}
       >
-        <Thumbnail className="badge-external-icon-image" src={data.image.src} />
+        <Thumbnail className="badge-image badge-external-icon-image" src={data.image.src} />
       </p>
       <p className="badge-external-text">
         <h6>
