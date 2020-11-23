@@ -97,6 +97,7 @@ const IndexPage = () => {
       </section>
       <section id="project">
         <h2>Project Highlights</h2>
+        <External.Small data={labeledExternals.GitHub} />
         <div className="list">
           {highlighted.map((value) => (
             <Project data={value} />

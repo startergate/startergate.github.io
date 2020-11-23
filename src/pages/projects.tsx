@@ -7,10 +7,11 @@ import Project from '../components/projects/simple';
 
 import './projects.css';
 import Filter from '../components/projects/filter';
+import * as External from '../components/profiles/external';
 
 const Projects = (props: PageProps) => {
   const data = useStaticQuery(graphql`
-    query getAllProjects {
+    query getProjectData {
       allProjectsJson {
         nodes {
           id
@@ -23,15 +24,29 @@ const Projects = (props: PageProps) => {
           imgSrc
         }
       }
+      linksJson(type: { eq: "GitHub" }) {
+        id
+        type
+        external_id
+        link
+        image {
+          background
+          src
+        }
+      }
     }
-  `).allProjectsJson.nodes;
+  `);
+
+  const projects = data.allProjectsJson.nodes;
+  const badgeData = data.linksJson;
+  console.log(badgeData);
 
   const handler = (selected) => {
     let ids = (selected.length > 0
-      ? data.filter(
+      ? projects.filter(
           (x) => x.tags.filter((tag) => selected.includes(tag)).length
         )
-      : data
+      : projects
     ).map((x) => x.id);
     let elements = document.querySelectorAll('.project-card');
     elements.forEach((element) => {
@@ -49,9 +64,10 @@ const Projects = (props: PageProps) => {
         <h1>
           <span>Projects</span>
         </h1>
+        <External.Small data={badgeData} />
         <Filter filterHandler={handler} />
         <div className="list project-list">
-          {data.map((value) => (
+          {projects.map((value) => (
             <Project data={value} />
           ))}
         </div>
