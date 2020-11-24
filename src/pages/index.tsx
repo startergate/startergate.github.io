@@ -3,7 +3,6 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Image from '../components/images/image';
 import Language from '../components/profiles/language';
 import * as External from '../components/profiles/external';
 import Project from '../components/projects/simple';
@@ -113,7 +112,7 @@ const IndexPage = () => {
         <br/>
         여러 게임을 해보다 보니 직접 만들어보고 싶다는 생각이 들었습니다. 그래서 고등학교 1학년에 유니티 방과후를 들었습니다.
         <br/>
-        방과후에서 배운 지식을 바탕으로 고등학교 2학년 때에 Tiny Beluga라는 동아리를 만들었습니다. 친구들과 같이 Lost라는 게임을 만들었습니다.
+        방과후에서 배운 지식을 바탕으로 고2 때에 Tiny Beluga라는 동아리를 만들고, 친구들과 함께 Lost라는 게임을 개발하고 출시했습니다.
         <br/>
         여러 장르를 시도합니다. 처음으로 출시해본 게임은 2D 플랫포머였고, 좋은 아이디어만 있다면 다양하게 만들어보고 있습니다.
       </section>
@@ -168,7 +167,7 @@ const IndexPage = () => {
         <section id="cv-education">
           <h3>Education</h3>
           <div className="cv-item">
-            <a href="https://gsm.gen.hs.kr" className="cv-item-title" title="광주소프트웨어마이스터고등학교"><h6><span className="lint">광주소프트웨어마이스터고등학교</span></h6></a>
+            <h6><a href="https://gsm.gen.hs.kr" className="cv-item-title" title="광주소프트웨어마이스터고등학교"><span className="lint">광주소프트웨어마이스터고등학교</span></a></h6>
             <span>광주광역시</span>
             <span>2018.03 ~ 2021.01</span>
             <br/>
@@ -178,7 +177,7 @@ const IndexPage = () => {
         <section id="cv-experiences">
           <h3>Experiences</h3>
           <div className="cv-item">
-            <a href="https://www.peoplefund.co.kr" className="cv-item-title" title="피플펀드컴퍼니"><h6><span className="lint">피플펀드컴퍼니</span></h6></a>
+            <h6><a href="https://www.peoplefund.co.kr" className="cv-item-title" title="피플펀드컴퍼니"><span className="lint">피플펀드컴퍼니</span></a></h6>
             <span>서울특별시</span>
             <span>2020.01 ~ 2020.02</span>
             <br/>
@@ -233,7 +232,7 @@ const IndexPage = () => {
         <section id="cv-group-activities">
           <h3>Group Activities</h3>
           <div className="cv-item">
-            <a href="https://github.com/BeanSil" className="cv-item-title" title="빈실"><h6><span className="lint">빈실</span></h6></a>
+            <h6><a href="https://github.com/BeanSil" className="cv-item-title" title="빈실"><span className="lint">빈실</span></a></h6>
             <span>광주소프트웨어마이스터고등학교</span>
             <span>웹 개발 동아리</span>
             <br/>
@@ -244,7 +243,7 @@ const IndexPage = () => {
             <span>프로젝트: DOTORI</span>
           </div>
           <div className="cv-item">
-            <a href="https://github.com/tiny-beluga" className="cv-item-title" title="Tiny Beluga"><h6><span className="lint">Tiny Beluga</span></h6></a>
+            <h6><a href="https://github.com/tiny-beluga" className="cv-item-title" title="Tiny Beluga"><span className="lint">Tiny Beluga</span></a></h6>
             <span>광주소프트웨어마이스터고등학교</span>
             <span>게임 개발 동아리</span>
             <br/>
