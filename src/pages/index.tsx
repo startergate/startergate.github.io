@@ -23,6 +23,10 @@ const IndexPage = () => {
           tags
           links
           imgSrc
+          contents {
+            title
+            text
+          }
         }
       }
       allLanguagesJson {

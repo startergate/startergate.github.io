@@ -23,6 +23,10 @@ const Projects = (props: PageProps) => {
           tags
           links
           imgSrc
+          contents {
+            title
+            text
+          }
         }
       }
       linksJson(type: { eq: "GitHub" }) {
