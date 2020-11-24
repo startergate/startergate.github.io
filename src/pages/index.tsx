@@ -93,6 +93,15 @@ const IndexPage = () => {
       </section>
       <section id="backend-dev">
         <h2>Backend Engineer</h2>
+        백엔드 엔지니어입니다. 눈에 보이지 않는 걸 만듭니다.
+        <br/>
+        서버에서 돌아가는 프로그램을 만듭니다. 직접 해야할 때는 모바일 앱이나 웹 앱도 직접 만듭니다.
+        <br/>
+        컴퓨터에는 항상 관심이 많았습니다. 초등학교 때에는 컴퓨터 방과후를 다녔고, 중학교 때에 <a href="https://opentutorials.org/course/1">생활코딩</a>으로 코딩을 시작했습니다.
+        <br/>
+        코딩에 관심이 많아져서 고등학교는 소프트웨어마이스터고로 진학했습니다.
+        <br/>
+        항상 변화하며 새로운 것을 시도합니다. 새로운 것은 항상 더 나은 것이라 생각합니다.
       </section>
       <section id="game-dev">
         <h2>Game Developer</h2>
