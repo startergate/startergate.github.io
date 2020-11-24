@@ -9,7 +9,7 @@ const overlayDispatcher = (event: React.MouseEvent) => {
   const body = document.querySelector('body');
   const overlays = document.querySelector('.project-overlay');
   const target = document.getElementById(`overlay-${event.currentTarget.id}`);
-  body.classList.add('disabled')
+  body.classList.add('disabled');
   overlays.classList.add('active');
   target.classList.add('active');
 };

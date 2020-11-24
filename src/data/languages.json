@@ -61,7 +61,7 @@
     "type": "PHP",
     "image": {
       "src": "langs/php.png",
-      "background":  "#6e6ea7"
+      "background": "#6e6ea7"
     },
     "level": "learned"
   },
@@ -69,7 +69,7 @@
     "type": "Go",
     "image": {
       "src": "langs/go.png",
-      "background":  "#00ADD8"
+      "background": "#00ADD8"
     },
     "level": "learning"
   },
