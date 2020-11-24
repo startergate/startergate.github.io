@@ -12,6 +12,12 @@
       "https://github.com/startergate/DoNoted-V-Deploy",
       "https://github.com/startergate/DoNote-V-API-Express"
     ],
+    "contents": [
+      {
+        "title": "레거시와 함께하는 프로젝트",
+        "text": "이 프로젝트는 기존의 데이터베이스를 유지하고, PHP로 구현됬던 프론트와 백엔드를 다시 구현하는 프로젝트이다. 기존의 DoNote의 데이터베이스 모델은 내가 코딩을 막 시작했을떄 만든거라서 굉장히 특이하고 이상한 구조로 되어 있는데, 각 유저마다 테이블을 하나씩 만들어 준다. ORM을 사용하는..."
+      }
+    ],
     "imgSrc": "projects/donote.png",
     "isHighlighted": true
   },
