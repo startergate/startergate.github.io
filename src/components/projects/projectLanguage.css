@@ -1,6 +1,7 @@
 .project-language {
-    display: flex;
+    display: inline-flex;
     line-height: 20px;
+    margin-right: 8px;
 }
 
 .project-language-badge {

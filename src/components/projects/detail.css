@@ -1,3 +1,17 @@
+.project-detail {
+    margin-left: 128px;
+    margin-right: 128px;
+    padding: 48px 96px;
+}
+
 .project-detail-icon {
-    width: 96px;
+    width: 128px;
+}
+
+.project-detail-title,.project-detail-content {
+    padding: 16px 32px;
+}
+
+.project-detail-title:not(:last-child) {
+    border-bottom: 1px solid gainsboro;
 }
