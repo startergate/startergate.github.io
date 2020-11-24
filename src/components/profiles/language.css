@@ -1,12 +1,13 @@
 .badge-lang {
     background-color: white;
-    width: 56px;
-    height: 56px;
+    width: 64px;
+    height: 64px;
     padding: 4px;
-    margin: 4px;
+    margin-right: 8px;
+    margin-bottom: 8px;
 }
 
 .badge-lang-image {
-    max-height: 46px;
-    max-width: 46px;
+    max-height: 54px;
+    max-width: 54px;
 }
