@@ -206,7 +206,7 @@ const IndexPage = () => {
             <span>2020.9</span>
             <span>장려상</span>
             <br/>
-            <span>M2C: Modular Multi Camera</span>
+            <span>Eliverd</span>
           </div>
           <div className="cv-item">
             <h6>정보처리기능사</h6>
