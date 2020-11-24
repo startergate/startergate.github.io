@@ -3,12 +3,13 @@ import { graphql, Link, useStaticQuery } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
+import Image from '../components/images/image';
 import Language from '../components/profiles/language';
 import * as External from '../components/profiles/external';
 import Project from '../components/projects/simple';
+import Overlay from '../components/projects/overlay';
 
 import './index.css';
-import Overlay from '../components/projects/overlay';
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -144,6 +145,96 @@ const IndexPage = () => {
       </section>
       <section id="cv">
         <h2>Curriculum Vitae</h2>
+        <section id="cv-education">
+          <h3>Education</h3>
+          <div className="cv-item">
+            <a href="https://gsm.gen.hs.kr" className="cv-item-title" title="광주소프트웨어마이스터고등학교"><h6><span className="lint">광주소프트웨어마이스터고등학교</span></h6></a>
+            <span>광주광역시</span>
+            <span>2018.03 ~ 2021.01</span>
+            <br/>
+            <span>소프트웨어개발과</span>
+          </div>
+        </section>
+        <section id="cv-experiences">
+          <h3>Experiences</h3>
+          <div className="cv-item">
+            <a href="https://www.peoplefund.co.kr" className="cv-item-title" title="피플펀드컴퍼니"><h6><span className="lint">피플펀드컴퍼니</span></h6></a>
+            <span>서울특별시</span>
+            <span>2020.01 ~ 2020.02</span>
+            <br/>
+            <span>백엔드 엔지니어 (현장실습)</span>
+            <br/>
+            <span>계정 인증 미들웨어 및 일부 기능 리팩토링</span>
+          </div>
+        </section>
+        <section id="cv-activities">
+          <h3>Activities</h3>
+          <External.Small data={{
+            "type": "GitHub",
+            "link": "https://github.com/startergate/Conferences",
+            "external_id": "Conferences",
+            "image": {
+              "src": "externals/github.png",
+              "background": "#24292e"
+            }
+          }} />
+          <div className="cv-item">
+            <h6>글로벌 비즈쿨 CO-TDM 창업경진대회</h6>
+            <span>2018.6</span>
+            <span>최우수상</span>
+            <br/>
+            <span>E-Faucet: 스마트 수도꼭지</span>
+          </div>
+          <div className="cv-item">
+            <h6>GSM 창의알고리즘 콘테스트</h6>
+            <span>2018.4</span>
+            <span>장려상</span>
+            <br/>
+            <span>M2C: Modular Multi Camera</span>
+          </div>
+          <div className="cv-item">
+            <h6>GSM 팀프로젝트발표회</h6>
+            <span>2020.9</span>
+            <span>장려상</span>
+            <br/>
+            <span>M2C: Modular Multi Camera</span>
+          </div>
+          <div className="cv-item">
+            <h6>정보처리기능사</h6>
+            <span>2019.3</span>
+            <span>한국산업인력공단</span>
+          </div>
+          <div className="cv-item">
+            <h6>TOEIC</h6>
+            <span>2018.8</span>
+            <span>865점</span>
+          </div>
+        </section>
+        <section id="cv-group-activities">
+          <h3>Group Activities</h3>
+          <div className="cv-item">
+            <a href="https://github.com/BeanSil" className="cv-item-title" title="빈실"><h6><span className="lint">빈실</span></h6></a>
+            <span>광주소프트웨어마이스터고등학교</span>
+            <span>웹 개발 동아리</span>
+            <br/>
+            <span>동아리원</span><span>2018.3 ~ 2020.8</span>
+            <br/>
+            <span>부장</span><span>2020.1 ~ 2020.8</span>
+            <br/>
+            <span>프로젝트: DOTORI</span>
+          </div>
+          <div className="cv-item">
+            <a href="https://github.com/tiny-beluga" className="cv-item-title" title="Tiny Beluga"><h6><span className="lint">Tiny Beluga</span></h6></a>
+            <span>광주소프트웨어마이스터고등학교</span>
+            <span>게임 개발 동아리</span>
+            <br/>
+            <span>동아리원, 2019.3 ~ </span>
+            <br/>
+            <span>부장, 2019.3 ~ </span>
+            <br/>
+            <span>프로젝트: Lost</span>
+          </div>
+        </section>
         <a href="/cv.pdf" download>
           Download CV as PDF
         </a>
