@@ -1,32 +1,10 @@
 [
   {
-    "name": "DoNote V",
-    "description": "TypeScript로 다시 만드는 DoNote",
-    "startedAt": "2020-10-10",
-    "finishedAt": "2020-10-30",
-    "tags": ["TypeScript", "Node.js"],
-    "links": [
-      "https://github.com/startergate/DoNote-V",
-      "https://github.com/startergate/DoNote-V-API",
-      "https://github.com/startergate/DoNote-V-Proxy",
-      "https://github.com/startergate/DoNoted-V-Deploy",
-      "https://github.com/startergate/DoNote-V-API-Express"
-    ],
-    "contents": [
-      {
-        "title": "레거시와 함께하는 프로젝트",
-        "text": "이 프로젝트는 기존의 데이터베이스를 유지하고, PHP로 구현됬던 프론트와 백엔드를 다시 구현하는 프로젝트이다. 기존의 DoNote의 데이터베이스 모델은 내가 코딩을 막 시작했을떄 만든거라서 굉장히 특이하고 이상한 구조로 되어 있는데, 각 유저마다 테이블을 하나씩 만들어 준다. ORM을 사용하는..."
-      }
-    ],
-    "imgSrc": "projects/donote.png",
-    "isHighlighted": true
-  },
-  {
     "name": "Eliverd",
     "description": "Deliver Your Life, Eliverd. 모두를 위한 배달 서비스",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["Python", "Django"],
+    "tags": ["Python", "Django", "MySQL", "Docker", "AWS EC2", "AWS S3"],
     "links": [
       "https://github.com/Junyeong-Market/Eliverd-API",
       "https://github.com/Junyeong-Market/eliverd_customer",
@@ -43,9 +21,329 @@
     "description": "GSM 기숙사 관리 시스템",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["TypeScript", "Node.js"],
-    "links": ["https://github.com/Junyeong-Market/Eliverd-API"],
+    "tags": ["TypeScript", "Node.js", "Koa.js", "MariaDB", "AWS EC2"],
+    "links": [
+      "https://github.com/BeanSil/DOTORI-api",
+      "https://github.com/GwonHeeJun/Dotori-Client",
+      "https://github.com/BeanSil/commit-convention-checker",
+      "https://github.com/BeanSil/git-flow-automation",
+      "https://github.com/BeanSil/Bean-Account"
+    ],
     "imgSrc": "teams/bean.png",
     "isHighlighted": true
+  },
+  {
+    "name": "DoNote V",
+    "description": "TypeScript로 다시 만드는 DoNote",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL"],
+    "links": [
+      "https://github.com/startergate/DoNote-V",
+      "https://github.com/startergate/DoNote-V-API",
+      "https://github.com/startergate/DoNote-V-Proxy",
+      "https://github.com/startergate/DoNote-V-Deploy",
+      "https://github.com/startergate/DoNote-V-API-Express"
+    ],
+    "contents": [
+      {
+        "title": "레거시와 함께하는 프로젝트",
+        "text": "이 프로젝트는 기존의 데이터베이스를 유지하고, PHP로 구현됬던 프론트와 백엔드를 다시 구현하는걸 목표로 하고 있다. 기존의 DoNote의 데이터베이스 모델은 내가 코딩을 막 시작했을떄 만든거라서 굉장히 특이하고 이상한 구조로 되어 있는데, 각 유저마다 테이블을 하나씩 만들어 준다. ORM을 사용하는"
+      }
+    ],
+    "imgSrc": "projects/donote.png",
+    "isHighlighted": true
+  },
+  {
+    "name": "DoNote",
+    "description": "간단한 메모 웹앱",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["PHP", "MySQL"],
+    "links": [
+      "https://github.com/startergate/DoNote",
+      "https://github.com/startergate/DoNote-API",
+      "https://github.com/startergate/DoNote-Desktop",
+      "https://github.com/startergate/DoCalender"
+    ],
+    "imgSrc": "projects/donote.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "Webinar",
+    "description": "최대 동접자 1,800명을 기록한 마이스터고 웨비나 플랫폼",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["JavaScript", "Node.js", "Express.js", "MariaDB", "socket.io"],
+    "links": [
+      "https://github.com/meister-highschool-webinar/Backend",
+      "https://github.com/meister-highschool-webinar/front-app"
+    ],
+    "imgSrc": "teams/webinar.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "GSM Pay",
+    "description": "학교 축제 부스 간편 결제 시스템",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "GraphQL"],
+    "links": [
+      "https://github.com/GSM-Pay/Payment-API",
+      "https://github.com/GSM-Pay/Payment-Client",
+      "https://github.com/GSM-Pay/Payment-ManagerClient",
+      "https://github.com/GSM-Pay/Payment-Client-OLD"
+    ],
+    "imgSrc": "teams/bean.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "SID",
+    "description": "STARTERGATE IDENTITY: 통합 계정 서비스",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["JavaScript", "Node.js", "Express.js", "MySQL"],
+    "links": [
+      "https://github.com/startergate/SID-1.0",
+      "https://github.com/startergate/SID-2.0",
+      "https://github.com/startergate/SID-2.0-Client",
+      "https://github.com/startergate/SID.php",
+      "https://github.com/startergate/SID.js",
+      "https://github.com/startergate/SID.ts",
+      "https://github.com/startergate/SID.js-for-jQuery",
+      "https://github.com/startergate/SID.cpp",
+      "https://github.com/startergate/SID.NET",
+      "https://github.com/startergate/SID.java",
+      "https://github.com/startergate/SID.py"
+    ],
+    "imgSrc": "projects/sid.png",
+    "isHighlighted": true
+  },
+  {
+    "name": "Nyan ID",
+    "description": "Oauth 2.0 계정 서비스",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["TypeScript", "Node.js", "Express.js", "MySQL"],
+    "links": [
+      "https://github.com/startergate/Nyan-ID",
+      "https://github.com/startergate/Nyan-ID-Homepage",
+      "https://github.com/startergate/Nyan.js"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "HIVE",
+    "description": "영화 정보 크롤링 사이트",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["JavaScript", "Node.js", "Express.js", "MySQL"],
+    "links": [
+      "https://github.com/startergate/HIVE",
+      "https://github.com/startergate/HIVEAPI",
+      "https://github.com/startergate/HIVE-Ticket",
+      "https://github.com/startergate/MoInBk"
+    ],
+    "imgSrc": "projects/hive.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "Lost",
+    "description": "2D 플랫포머 게임",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["C#", "Unity", "Steamworks"],
+    "links": [
+      "https://store.steampowered.com/app/1095360/Lost/",
+      "https://github.com/tiny-beluga/Lost-Issue-Tracker"
+    ],
+    "imgSrc": "projects/lost.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "SteamBot",
+    "description": "디스코드 스팀 크롤링 봇",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["Python", "Discord", "Docker", "Threading"],
+    "links": [
+      "https://github.com/startergate/SteamBot",
+      "https://github.com/startergate/SteamBot-Deploy"
+    ],
+    "imgSrc": "projects/steambot.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "Cloudy",
+    "description": "설치형 클라우드 드라이브 서비스",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["PHP"],
+    "links": [
+      "https://github.com/startergate/Cloudy",
+      "https://github.com/startergate/Thundercloudy",
+      "https://github.com/startergate/Thundercloudy-Server"
+    ],
+    "imgSrc": "projects/cloudy.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "Basterds: Hair Naked",
+    "description": "타워 디펜스 게임",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["Python", "TypeScript", "C++", "Node.js", "Django", "Koa.js", "Unreal Engine", "MySQL"],
+    "links": [
+      "https://github.com/Jeong-Mw/Basterds_app",
+      "https://github.com/startergate/Basterds-Game-Server",
+      "https://github.com/startergate/Basterds-Stat-Server",
+      "https://github.com/startergate/Basterds-Stat-Client"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "DEEPendency",
+    "description": "스팀 창작마당 아이템 의존성 자동 설치기",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["TypeScript"],
+    "links": [
+      "https://github.com/startergate/DEEPendency"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "The Intersection",
+    "description": "PC 플랫폼 게임 통합 런처",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["C++", "JavaScript", "Qt", "Express.js"],
+    "links": [
+      "https://github.com/startergate/The-Intersection",
+      "https://github.com/startergate/The-Intersection-Server",
+      "https://github.com/startergate/The-Intersection-2",
+      "https://github.com/startergate/EpicGamesStoreCrawler",
+      "https://github.com/startergate/OriginCrawler"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "STARTERGATE.CDN",
+    "description": "개인 프로젝트용 CDN",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["JavaScript", "Node.js", "Express.js"],
+    "links": [
+      "https://github.com/startergate/STARTERGATE.CDN"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "HakCam",
+    "description": "학교 수업 스트리밍 서비스",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["JavaScript", "Node.js", "Express.js"],
+    "links": [
+      "https://github.com/startergate/HakCam",
+      "https://github.com/startergate/HakCam-API"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "Problert",
+    "description": "위치 기반 민원 접수 시스템",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
+    "links": [
+      "https://github.com/startergate/Problert-API",
+      "https://github.com/junwkdd/Problert"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "Don't Afraid",
+    "description": "트라우마 치료 게임",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["C#", "JavaScript", "Node.js", "Unity", "Electron"],
+    "links": [
+      "https://github.com/Co-Hackaton-2018-8-1/DontAfraid"
+    ],
+    "imgSrc": "projects/dontafraid.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "Untitled Blockchain Project",
+    "description": "실버 택배 블록체인 보상 체계",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["Python", "JavaScript", "Node.js"],
+    "links": [
+      "https://github.com/SW-Hackathon-2018-GSM/Blockchain-Post",
+      "https://github.com/SW-Hackathon-2018-GSM/Blockchain-Web"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "MovieBot",
+    "description": "디스코드 영화 정보 크롤링 봇",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["Python", "Discord"],
+    "links": [
+      "https://github.com/startergate/MovieBot"
+    ],
+    "imgSrc": "projects/moviebot.png",
+    "isHighlighted": false
+  },
+  {
+    "name": "Nearby",
+    "description": "주변 정보 검색 페이지",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["HTML", "JavaScript", "Google Maps API"],
+    "links": [
+      "https://github.com/startergate/HakCam",
+      "https://github.com/startergate/HakCam-API"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "BKNG",
+    "description": "학원 포인트 적립 시스템",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["PHP", "MySQL"],
+    "links": [
+      "https://github.com/startergate/HakCam",
+      "https://github.com/startergate/HakCam-API"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "Glack",
+    "description": "GitHub 챗봇",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["Python"],
+    "links": [
+      "https://github.com/startergate/Glack",
+      "https://github.com/startergate/Gitcord"
+    ],
+    "isHighlighted": false
+  },
+  {
+    "name": "FaLD",
+    "description": "일베 콘텐츠 검출 딥러닝 모델",
+    "startedAt": "2020-10-10",
+    "finishedAt": "2020-10-30",
+    "tags": ["Python", "Tensorflow", "Jupyter Notebook"],
+    "links": [
+      "https://github.com/startergate/FaLD-Py",
+      "https://github.com/startergate/FaLD-Dev"
+    ],
+    "isHighlighted": false
   }
 ]
