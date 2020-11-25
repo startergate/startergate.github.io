@@ -140,8 +140,8 @@ const IndexPage = () => {
         </div>
         <Link to="/projects/">See More...</Link>
       </section>
-      <section id="cv-languages">
-        <h2>Languages</h2>
+      <section id="cv-technologies">
+        <h2>Technologies</h2>
         <External.Small data={labeledExternals.StackShare} />
         <div id="cv-languages-using">
           <h4>Using</h4>
@@ -169,7 +169,7 @@ const IndexPage = () => {
         </div>
       </section>
       <section id="cv">
-        <h2>Curriculum Vitae</h2>
+        <h2>Résumé</h2>
         <section id="cv-education">
           <h3>Education</h3>
           <div className="cv-item">
