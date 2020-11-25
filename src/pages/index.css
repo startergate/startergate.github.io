@@ -17,7 +17,16 @@
 }
 
 .cv-item:not(:last-child) {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
+}
+
+.section-main:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+.section-punchline {
+    font-size: 24px;
+    font-weight: 550;
 }
 
 .cv-item * {
