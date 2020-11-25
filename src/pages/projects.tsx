@@ -44,7 +44,6 @@ const Projects = (props: PageProps) => {
 
   const projects = data.allProjectsJson.nodes;
   const badgeData = data.linksJson;
-  console.log(badgeData);
 
   const handler = (selected) => {
     let ids = (selected.length > 0
