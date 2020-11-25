@@ -21,7 +21,7 @@
 
 @media (prefers-color-scheme: light) {
     .overlay-item {
-        background-color: gainsboro;
+        background-color: white;
     }
 }
 
