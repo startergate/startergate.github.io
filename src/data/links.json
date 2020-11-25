@@ -18,15 +18,6 @@
     }
   },
   {
-    "type": "Twitter",
-    "link": "https://twitter.com/satellite_stg",
-    "external_id": "@satellite_stg",
-    "image": {
-      "src": "externals/twitter.png",
-      "background": "#1DA1F2"
-    }
-  },
-  {
     "type": "Discord",
     "link": "https://discord.com/channels/@me",
     "external_id": "startergate#0782",
