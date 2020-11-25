@@ -140,14 +140,6 @@ const IndexPage = () => {
         </div>
         <Link to="/projects/">See More...</Link>
       </section>
-      <section id="link">
-        <h2>Links</h2>
-        <div className="list">
-          {externals.map((value) => {
-            return <External.Icon data={value} />;
-          })}
-        </div>
-      </section>
       <section id="cv-languages">
         <h2>Languages</h2>
         <External.Small data={labeledExternals.StackShare} />
@@ -307,6 +299,14 @@ const IndexPage = () => {
         <a href="/cv.pdf" download>
           Download CV as PDF
         </a>
+      </section>
+      <section id="link">
+        <h2>Links</h2>
+        <div className="list">
+          {externals.map((value) => {
+            return <External.Icon data={value} />;
+          })}
+        </div>
       </section>
       <Overlay data={highlighted} />
     </Layout>
