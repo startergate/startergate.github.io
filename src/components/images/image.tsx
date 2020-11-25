@@ -25,7 +25,9 @@ const Image = ({ src, ...props }) => {
     [data, src]
   );
 
-  return match ? <Img fluid={match.node.childImageSharp.fluid} {...props} /> : null;
+  return match ? (
+    <Img fluid={match.node.childImageSharp.fluid} {...props} />
+  ) : null;
 };
 
 export default Image;

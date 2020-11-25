@@ -192,7 +192,16 @@
     "description": "타워 디펜스 게임",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["Python", "TypeScript", "C++", "Node.js", "Django", "Koa.js", "Unreal Engine", "MySQL"],
+    "tags": [
+      "Python",
+      "TypeScript",
+      "C++",
+      "Node.js",
+      "Django",
+      "Koa.js",
+      "Unreal Engine",
+      "MySQL"
+    ],
     "links": [
       "https://github.com/Jeong-Mw/Basterds_app",
       "https://github.com/startergate/Basterds-Game-Server",
@@ -207,9 +216,7 @@
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
     "tags": ["TypeScript"],
-    "links": [
-      "https://github.com/startergate/DEEPendency"
-    ],
+    "links": ["https://github.com/startergate/DEEPendency"],
     "isHighlighted": false
   },
   {
@@ -233,9 +240,7 @@
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
     "tags": ["JavaScript", "Node.js", "Express.js"],
-    "links": [
-      "https://github.com/startergate/STARTERGATE.CDN"
-    ],
+    "links": ["https://github.com/startergate/STARTERGATE.CDN"],
     "isHighlighted": false
   },
   {
@@ -268,9 +273,7 @@
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
     "tags": ["C#", "JavaScript", "Node.js", "Unity", "Electron"],
-    "links": [
-      "https://github.com/Co-Hackaton-2018-8-1/DontAfraid"
-    ],
+    "links": ["https://github.com/Co-Hackaton-2018-8-1/DontAfraid"],
     "imgSrc": "projects/dontafraid.png",
     "isHighlighted": false
   },
@@ -292,9 +295,7 @@
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
     "tags": ["Python", "Discord"],
-    "links": [
-      "https://github.com/startergate/MovieBot"
-    ],
+    "links": ["https://github.com/startergate/MovieBot"],
     "imgSrc": "projects/moviebot.png",
     "isHighlighted": false
   },
