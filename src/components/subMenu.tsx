@@ -14,7 +14,7 @@ export const SubMenu = ({ title, link }) => {
 export const ExternalSubMenu = ({ title, link }) => {
   return (
     <h5 className="submenu-title">
-      <a href={link}>{title}</a>
+      <a href={link} target="_blank">{title}</a>
     </h5>
   );
 };

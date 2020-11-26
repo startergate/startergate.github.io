@@ -90,7 +90,7 @@ const IndexPage = () => {
           <p>게임 개발자</p>
           <p>
             3학년 고등학생 @{' '}
-            <a href="https://gsm.gen.hs.kr">광주소프트웨어마이스터고등학교</a>
+            <a href="https://gsm.gen.hs.kr" target="_blank">광주소프트웨어마이스터고등학교</a>
           </p>
         </div>
       </section>
@@ -106,7 +106,7 @@ const IndexPage = () => {
           <br />
           컴퓨터에는 항상 관심이 많았습니다. 초등학교 때에는 컴퓨터 방과후를
           다녔고, 중학교 때에{' '}
-          <a href="https://opentutorials.org/course/1">생활코딩</a>으로 코딩을
+          <a href="https://opentutorials.org/course/1" target="_blank">생활코딩</a>으로 코딩을
           시작했습니다.
           <br />
           코딩에 관심이 많아져서 고등학교는 소프트웨어마이스터고로 진학했습니다.
@@ -120,6 +120,7 @@ const IndexPage = () => {
               href="http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01"
               className="cv-item-title"
               title="광주소프트웨어마이스터고등학교 소프트웨어개발과"
+              target="_blank"
             >
               <span className="lint">
                 광주소프트웨어마이스터고등학교 소프트웨어개발과
@@ -270,6 +271,7 @@ const IndexPage = () => {
                 href="https://www.peoplefund.co.kr"
                 className="cv-item-title"
                 title="피플펀드컴퍼니"
+                target="_blank"
               >
                 <span className="lint">피플펀드컴퍼니</span>
               </a>
