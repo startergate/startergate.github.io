@@ -44,13 +44,15 @@ const Filter = ({ filterHandler }) => {
         <li key="all" onClick={reset} className="project-filter-choice">
           필터 초기화
         </li>
-        {data.map((item) => {
-          return (
-            <li key={item} onClick={select} className="project-filter-choice">
-              {item}
-            </li>
-          );
-        })}
+        <ul className="project-filter-choice-list">
+          {data.map((item) => {
+            return (
+              <li key={item} onClick={select} className="project-filter-choice">
+                {item}
+              </li>
+            );
+          })}
+        </ul>
       </ul>
       <span
         onClick={() => {
