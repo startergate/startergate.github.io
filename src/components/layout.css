@@ -216,6 +216,10 @@ section:not(.title) {
   }
 }
 
+section section {
+  margin-bottom: 32px !important;
+}
+
 .hidden {
   display: none;
 }
