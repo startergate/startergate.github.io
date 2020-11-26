@@ -23,6 +23,7 @@ enum LanguageColor {
   Steamworks = '#66c0f4',
   Discord = '#7289DA',
   'Google Maps API' = '#4285F4',
+  "Google Cloud Platform" = '#4285F4',
   'AWS EC2' = '#FF9900',
   'AWS S3' = '#FF9900',
 }

@@ -37,7 +37,7 @@
     "description": "TypeScript로 다시 만드는 DoNote",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL"],
+    "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "AWS EC2"],
     "links": [
       "https://github.com/startergate/DoNote-V",
       "https://github.com/startergate/DoNote-V-API",
@@ -59,7 +59,7 @@
     "description": "간단한 메모 웹앱",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["PHP", "MySQL"],
+    "tags": ["PHP", "MySQL", "AWS EC2"],
     "links": [
       "https://github.com/startergate/DoNote",
       "https://github.com/startergate/DoNote-API",
@@ -87,7 +87,7 @@
     "description": "학교 축제 부스 간편 결제 시스템",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "GraphQL"],
+    "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "GraphQL", "AWS EC2"],
     "links": [
       "https://github.com/GSM-Pay/Payment-API",
       "https://github.com/GSM-Pay/Payment-Client",
@@ -102,7 +102,7 @@
     "description": "STARTERGATE IDENTITY: 통합 계정 서비스",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["JavaScript", "Node.js", "Express.js", "MySQL"],
+    "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
     "links": [
       "https://github.com/startergate/SID-1.0",
       "https://github.com/startergate/SID-2.0",
@@ -137,7 +137,7 @@
     "description": "영화 정보 크롤링 사이트",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["JavaScript", "Node.js", "Express.js", "MySQL"],
+    "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
     "links": [
       "https://github.com/startergate/HIVE",
       "https://github.com/startergate/HIVEAPI",
@@ -178,7 +178,7 @@
     "description": "설치형 클라우드 드라이브 서비스",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["PHP"],
+    "tags": ["PHP", "AWS EC2"],
     "links": [
       "https://github.com/startergate/Cloudy",
       "https://github.com/startergate/Thundercloudy",
@@ -200,7 +200,8 @@
       "Django",
       "Koa.js",
       "Unreal Engine",
-      "MySQL"
+      "MySQL",
+      "AWS EC2"
     ],
     "links": [
       "https://github.com/Jeong-Mw/Basterds_app",
@@ -224,7 +225,7 @@
     "description": "PC 플랫폼 게임 통합 런처",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["C++", "JavaScript", "Qt", "Express.js"],
+    "tags": ["C++", "JavaScript", "Qt", "Express.js", "AWS EC2"],
     "links": [
       "https://github.com/startergate/The-Intersection",
       "https://github.com/startergate/The-Intersection-Server",
@@ -239,7 +240,7 @@
     "description": "개인 프로젝트용 CDN",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["JavaScript", "Node.js", "Express.js"],
+    "tags": ["JavaScript", "Node.js", "Express.js", "Google Cloud Platform"],
     "links": ["https://github.com/startergate/STARTERGATE.CDN"],
     "isHighlighted": false
   },
@@ -260,7 +261,7 @@
     "description": "위치 기반 민원 접수 시스템",
     "startedAt": "2020-10-10",
     "finishedAt": "2020-10-30",
-    "tags": ["JavaScript", "Node.js", "Express.js", "MongoDB"],
+    "tags": ["JavaScript", "Node.js", "Express.js", "MongoDB", "AWS EC2"],
     "links": [
       "https://github.com/startergate/Problert-API",
       "https://github.com/junwkdd/Problert"
