@@ -13,9 +13,9 @@
 }
 
 .project-card:hover {
-    animation-name: project-card-hover;
     animation-duration: 0.25s;
     box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.03);
 }
 
 .project-card > div {
