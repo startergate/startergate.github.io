@@ -23,13 +23,10 @@ const Filter = ({ filterHandler }) => {
     filterHandler?.(selected);
   };
 
-  const reset = (event) => {
-    [
-      // @ts-ignore
-      ...event.currentTarget.parentElement.children,
-    ].forEach((children) =>
-      children.classList.remove('project-filter-choice-activated')
-    );
+  const reset = () => {
+    document.querySelectorAll('.project-filter-choice-activated').forEach(element => {
+      element.classList.remove('project-filter-choice-activated')
+    });
     updateSelected();
   };
 
