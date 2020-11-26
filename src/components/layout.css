@@ -182,12 +182,12 @@ h6 {
   margin-bottom: 4px;
 }
 
-.app {
+body {
   padding: 0 5rem 3rem;
 }
 
 @media screen and (max-width: 998px) {
-  .app {
+  body {
     padding-left: 3rem;
     padding-right: 3rem;
   }
