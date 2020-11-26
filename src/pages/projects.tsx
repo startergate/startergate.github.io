@@ -65,10 +65,12 @@ const Projects = (props: PageProps) => {
     <Layout {...props}>
       <SEO title="Projects" />
       <section className="subpage">
-        <h1>
-          <span>Projects</span>
-        </h1>
-        <External.Small data={badgeData} />
+        <div className="subpage-title">
+          <h1>
+            <span>Projects</span>
+          </h1>
+          <External.Small data={badgeData} />
+        </div>
         <Filter filterHandler={handler} />
         <div className="list project-list">
           {projects.map((value) => (

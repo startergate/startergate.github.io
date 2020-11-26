@@ -95,7 +95,7 @@ a:hover {
     color: var(--main-color);
   }
 
-  h1 span {
+  h1 > span {
     background: white;
     color: var(--main-color);
   }
@@ -116,7 +116,7 @@ a:hover {
     color: white;
   }
 
-  h1 span {
+  h1 > span {
     background: var(--main-color);
     color: white;
   }
@@ -130,7 +130,7 @@ h1 {
   padding-right: 4px;
 }
 
-h1 span {
+h1 > span {
   padding-left: 2px;
   padding-right: 4px;
 }
