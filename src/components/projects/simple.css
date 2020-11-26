@@ -2,12 +2,20 @@
     background: white;
     border-radius: 6px;
     color: black;
+    cursor: pointer;
     border: 1px solid #e1e4e8;
     padding: 16px;
     margin-right: 16px;
     margin-bottom: 16px;
     width: 340px;
     min-width: 340px;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.project-card:hover {
+    animation-name: project-card-hover;
+    animation-duration: 0.25s;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
 .project-card > div {
