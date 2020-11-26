@@ -66,6 +66,7 @@ progress {
 template {
   display: none;
 }
+
 a {
   background-color: transparent;
   text-decoration: none;
@@ -155,7 +156,7 @@ h1 > span {
 
 h2 {
   width: fit-content;
-  font-size: 48px;
+  font-size: 56px;
   margin-bottom: 16px;
 }
 
