@@ -90,7 +90,9 @@ const IndexPage = () => {
           <p>게임 개발자</p>
           <p>
             3학년 고등학생 @{' '}
-            <a href="https://gsm.gen.hs.kr" target="_blank">광주소프트웨어마이스터고등학교</a>
+            <a href="https://gsm.gen.hs.kr" target="_blank">
+              광주소프트웨어마이스터고등학교
+            </a>
           </p>
         </div>
       </section>
@@ -106,8 +108,10 @@ const IndexPage = () => {
           <br />
           컴퓨터에는 항상 관심이 많았습니다. 초등학교 때에는 컴퓨터 방과후를
           다녔고, 중학교 때에{' '}
-          <a href="https://opentutorials.org/course/1" target="_blank">생활코딩</a>으로 코딩을
-          시작했습니다.
+          <a href="https://opentutorials.org/course/1" target="_blank">
+            생활코딩
+          </a>
+          으로 코딩을 시작했습니다.
           <br />
           코딩에 관심이 많아져서 고등학교는 소프트웨어마이스터고로 진학했습니다.
           <br />
@@ -369,9 +373,11 @@ const IndexPage = () => {
             <span>광주소프트웨어마이스터고등학교</span>
             <span>게임 개발 동아리</span>
             <br />
-            <span>동아리원, 2019.3 ~ </span>
+            <span>동아리원</span>
+            <span>2019.3 ~ </span>
             <br />
-            <span>부장, 2019.3 ~ </span>
+            <span>부장</span>
+            <span>2019.3 ~ </span>
             <br />
             <span>프로젝트: Lost</span>
           </div>

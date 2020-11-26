@@ -24,9 +24,11 @@ const Filter = ({ filterHandler }) => {
   };
 
   const reset = () => {
-    document.querySelectorAll('.project-filter-choice-activated').forEach(element => {
-      element.classList.remove('project-filter-choice-activated')
-    });
+    document
+      .querySelectorAll('.project-filter-choice-activated')
+      .forEach((element) => {
+        element.classList.remove('project-filter-choice-activated');
+      });
     updateSelected();
   };
 
