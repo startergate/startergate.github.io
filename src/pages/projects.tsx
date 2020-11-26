@@ -65,7 +65,7 @@ const Projects = (props: PageProps) => {
     <Layout {...props}>
       <SEO title="Projects" />
       <section className="subpage">
-        <div className="subpage-title">
+        <div className="page-title">
           <h1>
             <span>Projects</span>
           </h1>

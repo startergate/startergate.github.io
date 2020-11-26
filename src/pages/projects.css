@@ -3,22 +3,6 @@ section.subpage {
     width: 100%;
 }
 
-.subpage-title {
-    margin-bottom: 24px;
-}
-
-.subpage-title > h1 {
-    display: inline-block;
-    margin-bottom: 0;
-    margin-right: 16px;
-}
-
-.subpage-title > .badge-external-small {
-    margin-bottom: 0;
-    bottom: 100%;
-    vertical-align: bottom;
-}
-
 .project-list {
     position: relative;
 }

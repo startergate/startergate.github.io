@@ -206,8 +206,10 @@ const IndexPage = () => {
         </div>
       </section>
       <section id="project">
-        <h2>Project Highlights</h2>
-        <External.Small data={labeledExternals.GitHub} />
+        <div className="page-title">
+          <h2>Project Highlights</h2>
+          <External.Small data={labeledExternals.GitHub} />
+        </div>
         <div className="list">
           {highlighted.map((value) => (
             <Project data={value} />
@@ -285,18 +287,20 @@ const IndexPage = () => {
           </div>
         </section>
         <section id="cv-activities">
-          <h3>Activities</h3>
-          <External.Small
-            data={{
-              type: 'GitHub',
-              link: 'https://github.com/startergate/Conferences',
-              external_id: 'Conferences',
-              image: {
-                src: 'externals/github.png',
-                background: '#24292e',
-              },
-            }}
-          />
+          <div className="page-title">
+            <h3>Activities</h3>
+            <External.Small
+              data={{
+                type: 'GitHub',
+                link: 'https://github.com/startergate/Conferences',
+                external_id: 'Conferences',
+                image: {
+                  src: 'externals/github.png',
+                  background: '#24292e',
+                },
+              }}
+            />
+          </div>
           <div className="cv-item">
             <h5>글로벌 비즈쿨 CO-TDM 창업경진대회</h5>
             <span>2018.6</span>

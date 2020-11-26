@@ -205,6 +205,17 @@ section:not(.title) {
   }
 }
 
+@media screen and (min-width: 760px){
+  .page-title > * {
+    display: inline-block;
+    margin-bottom: 0;
+    margin-right: 16px;
+  }
+  .page-title {
+    margin-bottom: 24px;
+  }
+}
+
 .hidden {
   display: none;
 }

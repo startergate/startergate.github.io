@@ -25,6 +25,14 @@
     width: fit-content;
 }
 
+@media screen and (min-width: 760px) {
+    .page-title > .badge-external-small {
+        margin-bottom: 0;
+        bottom: 100%;
+        vertical-align: bottom;
+    }
+}
+
 .badge-external-small * {
     display: inline-block;
 }
