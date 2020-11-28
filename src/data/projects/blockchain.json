@@ -1,0 +1,15 @@
+{
+  "name": "Untitled Blockchain Project",
+  "description": "실버 택배 블록체인 보상 체계",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Failed",
+  "type": ["Etc"],
+  "tags": ["Python", "JavaScript", "Node.js"],
+  "links": [
+    "https://github.com/SW-Hackathon-2018-GSM/Blockchain-Post",
+    "https://github.com/SW-Hackathon-2018-GSM/Blockchain-Web"
+  ],
+  "isHighlighted": false,
+  "orderLevel": 4
+}

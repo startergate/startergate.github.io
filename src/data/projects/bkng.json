@@ -1,0 +1,15 @@
+{
+  "name": "BKNG",
+  "description": "학원 포인트 적립 시스템",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["PHP", "MySQL"],
+  "links": [
+    "https://github.com/startergate/HakCam",
+    "https://github.com/startergate/HakCam-API"
+  ],
+  "isHighlighted": false,
+  "orderLevel": 3
+}

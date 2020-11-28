@@ -1,0 +1,16 @@
+{
+  "name": "SteamBot",
+  "description": "디스코드 스팀 크롤링 봇",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Chatbot"],
+  "tags": ["Python", "Discord", "Docker", "Threading"],
+  "links": [
+    "https://github.com/startergate/SteamBot",
+    "https://github.com/startergate/SteamBot-Deploy"
+  ],
+  "imgSrc": "projects/steambot.png",
+  "isHighlighted": false,
+  "orderLevel": 0
+}

@@ -1,0 +1,19 @@
+{
+  "name": "DOTORI",
+  "description": "GSM 기숙사 관리 시스템",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Failed",
+  "type": ["Server"],
+  "tags": ["TypeScript", "Node.js", "Koa.js", "MariaDB", "AWS EC2"],
+  "links": [
+    "https://github.com/BeanSil/DOTORI-api",
+    "https://github.com/GwonHeeJun/Dotori-Client",
+    "https://github.com/BeanSil/commit-convention-checker",
+    "https://github.com/BeanSil/git-flow-automation",
+    "https://github.com/BeanSil/Bean-Account"
+  ],
+  "imgSrc": "teams/bean.png",
+  "isHighlighted": true,
+  "orderLevel": 0
+}

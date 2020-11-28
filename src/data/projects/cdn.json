@@ -1,0 +1,12 @@
+{
+  "name": "STARTERGATE.CDN",
+  "description": "개인 프로젝트용 CDN",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["JavaScript", "Node.js", "Express.js", "Google Cloud Platform"],
+  "links": ["https://github.com/startergate/STARTERGATE.CDN"],
+  "isHighlighted": false,
+  "orderLevel": 2
+}

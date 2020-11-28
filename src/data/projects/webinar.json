@@ -1,0 +1,16 @@
+{
+  "name": "Webinar",
+  "description": "최대 동접자 1,800명을 기록한 마이스터고 웨비나 플랫폼",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["JavaScript", "Node.js", "Express.js", "MariaDB", "socket.io"],
+  "links": [
+    "https://github.com/meister-highschool-webinar/Backend",
+    "https://github.com/meister-highschool-webinar/front-app"
+  ],
+  "imgSrc": "teams/webinar.png",
+  "isHighlighted": false,
+  "orderLevel": 1
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Cloudy",
+  "description": "설치형 클라우드 드라이브 서비스",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["PHP", "AWS EC2"],
+  "links": [
+    "https://github.com/startergate/Cloudy",
+    "https://github.com/startergate/Thundercloudy",
+    "https://github.com/startergate/Thundercloudy-Server"
+  ],
+  "imgSrc": "projects/cloudy.png",
+  "isHighlighted": false,
+  "orderLevel": 1
+}

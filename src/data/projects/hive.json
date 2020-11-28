@@ -1,0 +1,18 @@
+{
+  "name": "HIVE",
+  "description": "영화 정보 크롤링 사이트",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
+  "links": [
+    "https://github.com/startergate/HIVE",
+    "https://github.com/startergate/HIVEAPI",
+    "https://github.com/startergate/HIVE-Ticket",
+    "https://github.com/startergate/MoInBk"
+  ],
+  "imgSrc": "projects/hive.png",
+  "isHighlighted": true,
+  "orderLevel": 1
+}

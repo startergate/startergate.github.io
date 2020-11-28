@@ -1,0 +1,27 @@
+{
+  "name": "Basterds: Hair Naked",
+  "description": "타워 디펜스 게임",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Game", "Server"],
+  "tags": [
+    "Python",
+    "TypeScript",
+    "C++",
+    "Node.js",
+    "Django",
+    "Koa.js",
+    "Unreal Engine",
+    "MySQL",
+    "AWS EC2"
+  ],
+  "links": [
+    "https://github.com/Jeong-Mw/Basterds_app",
+    "https://github.com/startergate/Basterds-Game-Server",
+    "https://github.com/startergate/Basterds-Stat-Server",
+    "https://github.com/startergate/Basterds-Stat-Client"
+  ],
+  "isHighlighted": false,
+  "orderLevel": 1
+}

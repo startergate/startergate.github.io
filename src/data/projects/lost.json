@@ -1,0 +1,16 @@
+{
+  "name": "Lost",
+  "description": "2D 플랫포머 게임",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Game"],
+  "tags": ["C#", "Unity", "Steamworks"],
+  "links": [
+    "https://store.steampowered.com/app/1095360/Lost/",
+    "https://github.com/tiny-beluga/Lost-Issue-Tracker"
+  ],
+  "imgSrc": "projects/lost.png",
+  "isHighlighted": false,
+  "orderLevel": 0
+}

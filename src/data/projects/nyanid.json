@@ -1,0 +1,16 @@
+{
+  "name": "Nyan ID",
+  "description": "Oauth 2.0 계정 서비스",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Planning",
+  "type": ["Server"],
+  "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL"],
+  "links": [
+    "https://github.com/startergate/Nyan-ID",
+    "https://github.com/startergate/Nyan-ID-Homepage",
+    "https://github.com/startergate/Nyan.js"
+  ],
+  "isHighlighted": false,
+  "orderLevel": 1
+}

@@ -1,0 +1,18 @@
+{
+  "name": "DoNote",
+  "description": "간단한 메모 웹앱",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["PHP", "MySQL", "AWS EC2"],
+  "links": [
+    "https://github.com/startergate/DoNote",
+    "https://github.com/startergate/DoNote-API",
+    "https://github.com/startergate/DoNote-Desktop",
+    "https://github.com/startergate/DoCalender"
+  ],
+  "imgSrc": "projects/donote.png",
+  "isHighlighted": false,
+  "orderLevel": 1
+}

@@ -1,0 +1,25 @@
+{
+  "name": "SID",
+  "description": "STARTERGATE IDENTITY: 통합 계정 서비스",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
+  "links": [
+    "https://github.com/startergate/SID-1.0",
+    "https://github.com/startergate/SID-2.0",
+    "https://github.com/startergate/SID-2.0-Client",
+    "https://github.com/startergate/SID.php",
+    "https://github.com/startergate/SID.js",
+    "https://github.com/startergate/SID.ts",
+    "https://github.com/startergate/SID.js-for-jQuery",
+    "https://github.com/startergate/SID.cpp",
+    "https://github.com/startergate/SID.NET",
+    "https://github.com/startergate/SID.java",
+    "https://github.com/startergate/SID.py"
+  ],
+  "imgSrc": "projects/sid.png",
+  "isHighlighted": false,
+  "orderLevel": 0
+}

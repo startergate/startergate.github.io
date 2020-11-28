@@ -1,0 +1,20 @@
+{
+  "name": "Eliverd",
+  "description": "Deliver Your Life, Eliverd. 모두를 위한 배달 서비스",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["Python", "Django", "MySQL", "Docker", "AWS EC2", "AWS S3"],
+  "links": [
+    "https://github.com/Junyeong-Market/Eliverd-API",
+    "https://github.com/Junyeong-Market/eliverd_customer",
+    "https://github.com/Junyeong-Market/eliverd_store",
+    "https://github.com/Junyeong-Market/eliverd_pos",
+    "https://github.com/Junyeong-Market/Eliverd-API-Deploy",
+    "https://github.com/Junyeong-Market/KP-TEST"
+  ],
+  "imgSrc": "projects/eliverd.png",
+  "isHighlighted": true,
+  "orderLevel": 0
+}

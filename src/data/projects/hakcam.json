@@ -1,0 +1,15 @@
+{
+  "name": "HakCam",
+  "description": "학교 수업 스트리밍 서비스",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Failed",
+  "type": ["Server"],
+  "tags": ["JavaScript", "Node.js", "Express.js"],
+  "links": [
+    "https://github.com/startergate/HakCam",
+    "https://github.com/startergate/HakCam-API"
+  ],
+  "isHighlighted": false,
+  "orderLevel": 2
+}

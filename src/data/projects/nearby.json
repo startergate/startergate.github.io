@@ -1,0 +1,15 @@
+{
+  "name": "Nearby",
+  "description": "주변 정보 검색 페이지",
+  "startedAt": "2020-10-10",
+  "finishedAt": "2020-10-30",
+  "status": "Done",
+  "type": ["App"],
+  "tags": ["HTML", "JavaScript", "Google Maps API"],
+  "links": [
+    "https://github.com/startergate/HakCam",
+    "https://github.com/startergate/HakCam-API"
+  ],
+  "isHighlighted": false,
+  "orderLevel": 2
+}
