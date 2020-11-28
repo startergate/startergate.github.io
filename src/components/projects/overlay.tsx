@@ -5,7 +5,6 @@ import './overlay.css';
 
 const Overlay = ({ data }) => {
   document.addEventListener('keydown', (event) => {
-    console.log(event)
     if (event.keyCode == 27 || event.which == 27) {
       const overlay = document.querySelector('.project-overlay');
       overlay.dispatchEvent(new MouseEvent('click', {
@@ -20,7 +19,6 @@ const Overlay = ({ data }) => {
     <div
       className="project-overlay"
       onClick={(event) => {
-        console.log(event)
         if (event.target !== event.currentTarget) return;
         event.currentTarget.classList.remove('active');
         document.querySelector('body').classList.remove('disabled');
