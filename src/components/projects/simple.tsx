@@ -24,6 +24,7 @@ const ProjectCard = ({ data }) => {
       <div className="project-card-description">{data.description}</div>
       <div className="project-card-tags">
         <LanguageBadge tag={data.tags[0]} />
+        <span className="project-card-type">{data.type.join(", ")}</span>
       </div>
     </div>
   );

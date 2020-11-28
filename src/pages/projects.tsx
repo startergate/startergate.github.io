@@ -13,13 +13,17 @@ import Overlay from '../components/projects/overlay';
 const Projects = (props: PageProps) => {
   const data = useStaticQuery(graphql`
     query getProjectData {
-      allProjectsJson {
+      allProjectsJson(
+        sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] }
+      ) {
         nodes {
           id
           name
           description
           startedAt
           finishedAt
+          status
+          type
           tags
           links
           imgSrc

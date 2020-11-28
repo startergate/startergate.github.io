@@ -20,6 +20,8 @@ const IndexPage = () => {
           description
           startedAt
           finishedAt
+          status
+          type
           tags
           links
           imgSrc
