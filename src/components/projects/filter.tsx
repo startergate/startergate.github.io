@@ -4,28 +4,20 @@ import toggle from '../../util/classToggler';
 
 import './filter.css';
 
-const Filter = ({ filterHandler }) => {
-  const data = useStaticQuery(graphql`
-    query getProjectTags {
-      allProjectsJson {
-        distinct(field: tags)
-      }
-    }
-  `).allProjectsJson.distinct;
-
+const Filter = ({ filterHandler, data, defaultTitle, ...props }) => {
   const updateSelected = () => {
     let selected: any = document.querySelectorAll(
-      '.project-filter-choice-activated'
+      `#${props.id} .project-filter-choice-activated`
     );
     selected = [...selected].map((element) => element.textContent);
-    document.querySelector('.project-filter-display').innerHTML =
-      selected.join(', ') || '사용 기술';
+    document.querySelector(`#${props.id} .project-filter-display`).innerHTML =
+      selected.join(', ') || defaultTitle;
     filterHandler?.(selected);
   };
 
   const reset = () => {
     document
-      .querySelectorAll('.project-filter-choice-activated')
+      .querySelectorAll(`#${props.id} .project-filter-choice-activated`)
       .forEach((element) => {
         element.classList.remove('project-filter-choice-activated');
       });
@@ -38,9 +30,19 @@ const Filter = ({ filterHandler }) => {
   };
 
   return (
-    <div className="project-filter">
+    <div className="project-filter" {...props}>
+      <p
+        onClick={() => {
+          const selector = document.querySelector(`#${props.id} .project-filter-selector`);
+          toggle(selector, 'hidden');
+        }}
+        className="project-filter-display"
+        title="눌러서 필터 변경"
+      >
+        {defaultTitle}
+      </p>
       <ul className="project-filter-selector hidden">
-        <li key="all" onClick={reset} className="project-filter-choice">
+        <li key={`${props.id}-all`} onClick={reset} className="project-filter-choice">
           필터 초기화
         </li>
         <ul className="project-filter-choice-list">
@@ -53,16 +55,6 @@ const Filter = ({ filterHandler }) => {
           })}
         </ul>
       </ul>
-      <span
-        onClick={() => {
-          const selector = document.querySelector('.project-filter-selector');
-          toggle(selector, 'hidden');
-        }}
-        className="project-filter-display"
-        title="눌러서 필터 변경"
-      >
-        사용 기술
-      </span>
     </div>
   );
 };

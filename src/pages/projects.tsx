@@ -33,6 +33,12 @@ const Projects = (props: PageProps) => {
           }
         }
       }
+      tags: allProjectsJson {
+          distinct(field: tags)
+      }
+      type: allProjectsJson {
+          distinct(field: type)
+      }
       linksJson(type: { eq: "GitHub" }) {
         id
         type
@@ -48,21 +54,42 @@ const Projects = (props: PageProps) => {
 
   const projects = data.allProjectsJson.nodes;
   const badgeData = data.linksJson;
+  const types = data.type.distinct;
+  const tags = data.tags.distinct;
 
-  const handler = (selected) => {
-    let ids = (selected.length > 0
+  let selectedTypes = [];
+  let selectedTags = [];
+
+  const handler = () => {
+    let temp = (selectedTags.length > 0
       ? projects.filter(
-          (x) => x.tags.filter((tag) => selected.includes(tag)).length
+          (x) => x.tags.filter((tag) => selectedTags.includes(tag)).length
         )
       : projects
+    )
+    temp = temp = (selectedTypes.length > 0
+        ? temp.filter(
+          (x) => x.type.filter((type) => selectedTypes.includes(type)).length
+        )
+        : temp
     ).map((x) => x.id);
     let elements = document.querySelectorAll('.project-card');
     elements.forEach((element) => {
       element.classList.remove('hidden');
-      if (!ids.includes(element.id)) {
+      if (!temp.includes(element.id)) {
         element.classList.add('hidden');
       }
     });
+  };
+
+  const tagHandler = (selected) => {
+    selectedTags = selected;
+    handler();
+  };
+
+  const typeHandler = (selected) => {
+    selectedTypes = selected;
+    handler();
   };
 
   return (
@@ -75,7 +102,10 @@ const Projects = (props: PageProps) => {
           </h1>
           <External.Small data={badgeData} />
         </div>
-        <Filter filterHandler={handler} />
+        <div className={"project-filters"}>
+          <Filter filterHandler={tagHandler} data={tags} defaultTitle={"사용 기술"} id={"project-filter-tags"} />
+          <Filter filterHandler={typeHandler} data={types} defaultTitle={"프로젝트 유형"} id={"project-filter-types"} />
+        </div>
         <div className="list project-list">
           {projects.map((value) => (
             <Project data={value} />
