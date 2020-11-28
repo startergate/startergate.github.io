@@ -4,7 +4,7 @@
   "startedAt": "2020-10-10",
   "finishedAt": "2020-10-30",
   "status": "Done",
-  "type": ["Server"],
+  "type": ["Server", "Web Application"],
   "tags": ["PHP", "MySQL", "AWS EC2"],
   "links": [
     "https://github.com/startergate/DoNote",

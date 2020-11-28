@@ -4,7 +4,7 @@
   "startedAt": "2020-10-10",
   "finishedAt": "2020-10-30",
   "status": "Done",
-  "type": ["Server"],
+  "type": ["Server", "Web Application"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "GraphQL", "AWS EC2"],
   "links": [
     "https://github.com/GSM-Pay/Payment-API",

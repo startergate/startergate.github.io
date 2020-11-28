@@ -4,7 +4,7 @@
   "startedAt": "2020-10-10",
   "finishedAt": "2020-10-30",
   "status": "Done",
-  "type": ["App","Server"],
+  "type": ["Native Appliation", "Server"],
   "tags": ["C++", "JavaScript", "Qt", "Express.js", "AWS EC2"],
   "links": [
     "https://github.com/startergate/The-Intersection",

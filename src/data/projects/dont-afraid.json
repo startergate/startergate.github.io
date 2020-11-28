@@ -4,7 +4,7 @@
   "startedAt": "2020-10-10",
   "finishedAt": "2020-10-30",
   "status": "Done",
-  "type": ["App","Game"],
+  "type": ["Native Appliation","Game"],
   "tags": ["C#", "JavaScript", "Node.js", "Unity", "Electron"],
   "links": ["https://github.com/Co-Hackaton-2018-8-1/DontAfraid"],
   "imgSrc": "projects/dontafraid.png",

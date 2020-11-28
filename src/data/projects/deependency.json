@@ -4,7 +4,7 @@
   "startedAt": "2020-10-10",
   "finishedAt": "2020-10-30",
   "status": "Planning",
-  "type": ["App"],
+  "type": ["Etc"],
   "tags": ["TypeScript"],
   "links": ["https://github.com/startergate/DEEPendency"],
   "isHighlighted": false,
