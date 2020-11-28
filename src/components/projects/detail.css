@@ -15,3 +15,7 @@
 .project-detail-title:not(:last-child) {
     border-bottom: 1px solid gainsboro;
 }
+
+.project-detail-content-item:not(:last-child) {
+    margin-bottom: 16px;
+}
