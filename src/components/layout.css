@@ -194,6 +194,13 @@ body {
   }
 }
 
+@media screen and (max-width: 500px) {
+  body {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
 section:not(.title) {
   width: 100%;
   margin-top: 48px;
