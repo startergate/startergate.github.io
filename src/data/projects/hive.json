@@ -12,6 +12,16 @@
     "https://github.com/startergate/HIVE-Ticket",
     "https://github.com/startergate/MoInBk"
   ],
+  "contents": [
+    {
+      "title": "What is HIVE?",
+      "text": "HIVE는 영화 정보 통합 조회 서비스이다. 네이버, 왓차피디아, IMDB, 로튼토마토의 평점을 보여주고, 넷플릭스와 왓챠에서 시청할 수 있는지 알려준다."
+    },
+    {
+      "title": "Promise Hell",
+      "text": "서비스 특성 상 수많은 웹 크롤링에 의존해야 했었는데, 이 과정 자체가 시간이 굉장히 많이 걸리는 일이었다. 특히나 한글 제목으로 영어 제목도 찾아서 같이 조회했어야 하는데, 이 때문에 실행 순서가 정해지게 되었다. 이를 효율적이고 좀 더 빠르게 해결하기 위해서 수많은 Promise를 사용한다. 프로젝트를 진행하며 JavaScript Promise, async/await에 대해 더 자세히 알 수 있었다."
+    }
+  ],
   "imgSrc": "projects/hive.png",
   "isHighlighted": true,
   "orderLevel": 1
