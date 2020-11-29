@@ -9,6 +9,27 @@
     text-align: center;
     z-index: 5000;
     padding: 64px;
+    overflow: scroll;
+    transition: all 0.3s;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .project-overlay {
+        padding: 48px;
+    }
+}
+
+@media screen and (max-width: 998px) {
+    .project-overlay {
+        padding: 36px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .project-overlay {
+        padding: 0;
+    }
 }
 
 .overlay-item {
