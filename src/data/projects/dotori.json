@@ -1,8 +1,8 @@
 {
   "name": "DOTORI",
   "description": "GSM 기숙사 관리 시스템",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2020-02-14",
+  "finishedAt": "2020-08-26",
   "status": "Failed",
   "type": ["Server"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MariaDB", "AWS EC2"],
