@@ -14,9 +14,9 @@ const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query getIndexData {
       allProjectsJson(
-          sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] },
-          filter: { isHighlighted: { eq: true } },
-          limit: 4
+        sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] }
+        filter: { isHighlighted: { eq: true } }
+        limit: 4
       ) {
         nodes {
           id
@@ -228,7 +228,7 @@ const IndexPage = () => {
         <Link to="/projects/">See More...</Link>
       </section>
       <section id="cv-technologies">
-        <div className={"page-title"}>
+        <div className={'page-title'}>
           <h2>Technologies</h2>
           <External.Small data={labeledExternals.StackShare} />
         </div>

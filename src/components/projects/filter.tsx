@@ -33,7 +33,9 @@ const Filter = ({ filterHandler, data, defaultTitle, ...props }) => {
     <div className="project-filter" {...props}>
       <p
         onClick={() => {
-          const selector = document.querySelector(`#${props.id} .project-filter-selector`);
+          const selector = document.querySelector(
+            `#${props.id} .project-filter-selector`
+          );
           toggle(selector, 'hidden');
         }}
         className="project-filter-display"
@@ -42,7 +44,11 @@ const Filter = ({ filterHandler, data, defaultTitle, ...props }) => {
         {defaultTitle}
       </p>
       <ul className="project-filter-selector hidden">
-        <li key={`${props.id}-all`} onClick={reset} className="project-filter-choice">
+        <li
+          key={`${props.id}-all`}
+          onClick={reset}
+          className="project-filter-choice"
+        >
           필터 초기화
         </li>
         <ul className="project-filter-choice-list">

@@ -34,10 +34,10 @@ const Projects = (props: PageProps) => {
         }
       }
       tags: allProjectsJson {
-          distinct(field: tags)
+        distinct(field: tags)
       }
       type: allProjectsJson {
-          distinct(field: type)
+        distinct(field: type)
       }
       linksJson(type: { eq: "GitHub" }) {
         id
@@ -61,17 +61,17 @@ const Projects = (props: PageProps) => {
   let selectedTags = [];
 
   const handler = () => {
-    let temp = (selectedTags.length > 0
-      ? projects.filter(
-          (x) => x.tags.filter((tag) => selectedTags.includes(tag)).length
-        )
-      : projects
-    )
+    let temp =
+      selectedTags.length > 0
+        ? projects.filter(
+            (x) => x.tags.filter((tag) => selectedTags.includes(tag)).length
+          )
+        : projects;
     temp = temp = (selectedTypes.length > 0
-        ? temp.filter(
+      ? temp.filter(
           (x) => x.type.filter((type) => selectedTypes.includes(type)).length
         )
-        : temp
+      : temp
     ).map((x) => x.id);
     let elements = document.querySelectorAll('.project-card');
     elements.forEach((element) => {
@@ -102,9 +102,19 @@ const Projects = (props: PageProps) => {
           </h1>
           <External.Small data={badgeData} />
         </div>
-        <div className={"project-filters"}>
-          <Filter filterHandler={tagHandler} data={tags} defaultTitle={"사용 기술"} id={"project-filter-tags"} />
-          <Filter filterHandler={typeHandler} data={types} defaultTitle={"프로젝트 유형"} id={"project-filter-types"} />
+        <div className={'project-filters'}>
+          <Filter
+            filterHandler={tagHandler}
+            data={tags}
+            defaultTitle={'사용 기술'}
+            id={'project-filter-tags'}
+          />
+          <Filter
+            filterHandler={typeHandler}
+            data={types}
+            defaultTitle={'프로젝트 유형'}
+            id={'project-filter-types'}
+          />
         </div>
         <div className="list project-list">
           {projects.map((value) => (

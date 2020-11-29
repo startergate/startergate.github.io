@@ -4,7 +4,7 @@ import ProjectDetail from './detail';
 import './overlay.css';
 
 const Overlay = ({ data }) => {
-  document.addEventListener('keydown', (event) => {
+  /* document.addEventListener('keydown', (event) => {
     if (event.keyCode == 27 || event.which == 27) {
       const overlay = document.querySelector('.project-overlay');
       overlay.dispatchEvent(new MouseEvent('click', {
@@ -13,7 +13,7 @@ const Overlay = ({ data }) => {
         cancelable: true
       }))
     }
-  })
+  }) */
 
   return (
     <div
@@ -28,10 +28,10 @@ const Overlay = ({ data }) => {
       }}
     >
       {data.map((project) => (
-        <ProjectDetail data={project}/>
+        <ProjectDetail data={project} />
       ))}
     </div>
-  )
+  );
 };
 
 export default Overlay;
