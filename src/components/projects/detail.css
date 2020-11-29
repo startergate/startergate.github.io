@@ -54,6 +54,10 @@
     border-bottom: 1px solid gainsboro;
 }
 
+.project-detail-icon {
+    width: 128px;
+}
+
 .project-detail-content-item:not(:last-child) {
     margin-bottom: 16px;
 }
