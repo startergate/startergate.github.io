@@ -13,7 +13,11 @@ import './index.css';
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query getIndexData {
-      allProjectsJson(filter: { isHighlighted: { eq: true } }, limit: 4) {
+      allProjectsJson(
+          sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] },
+          filter: { isHighlighted: { eq: true } },
+          limit: 4
+      ) {
         nodes {
           id
           name
@@ -224,8 +228,10 @@ const IndexPage = () => {
         <Link to="/projects/">See More...</Link>
       </section>
       <section id="cv-technologies">
-        <h2>Technologies</h2>
-        <External.Small data={labeledExternals.StackShare} />
+        <div className={"page-title"}>
+          <h2>Technologies</h2>
+          <External.Small data={labeledExternals.StackShare} />
+        </div>
         <div id="cv-languages-using">
           <h4>Using</h4>
           <div className="list">
