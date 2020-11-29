@@ -17,6 +17,23 @@ const ProjectDetail = ({ data }) => (
           <LanguageBadge tag={value} />
         ))}
       </div>
+      <span className={"project-detail-exit"} onClick={() => {
+        const overlay = document.querySelector('.project-overlay');
+        overlay.dispatchEvent(new MouseEvent('click', {
+          view: window,
+          bubbles: true,
+          cancelable: true
+        }))
+      }}>
+      <svg viewBox="0 0 12 12" version="1.1">
+        <line x1="1" y1="11"
+              x2="11" y2="1"
+              strokeWidth="1"/>
+        <line x1="1" y1="1"
+              x2="11" y2="11"
+              strokeWidth="1"/>
+      </svg>
+    </span>
     </div>
     {data.contents ? (
       <div className="project-detail-content">

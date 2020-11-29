@@ -6,6 +6,20 @@
 
 .project-detail-icon {
     width: 128px;
+.project-detail-exit {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    right: 0;
+    stroke: var(--main-color);
+    cursor: pointer;
+}
+
+@media (prefers-color-scheme: dark) {
+    .project-detail-exit {
+        stroke: white;
+    }
 }
 
 .project-detail-title,.project-detail-content {
