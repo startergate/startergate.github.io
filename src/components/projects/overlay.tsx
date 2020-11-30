@@ -13,7 +13,7 @@ const Overlay = ({ data }) => {
         cancelable: true
       }))
     }
-  }) */
+  });*/
 
   return (
     <div

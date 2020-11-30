@@ -9,24 +9,6 @@
     }
   },
   {
-    "type": "Facebook",
-    "link": "https://www.facebook.com/startergate.satellite/",
-    "external_id": "startergate.satellite",
-    "image": {
-      "src": "externals/facebook.png",
-      "background": "#1877f2"
-    }
-  },
-  {
-    "type": "Discord",
-    "link": "https://discord.com/channels/@me",
-    "external_id": "startergate#0782",
-    "image": {
-      "src": "externals/discord.png",
-      "background": "#7289DA"
-    }
-  },
-  {
     "type": "LinkedIn",
     "link": "https://www.linkedin.com/in/호승-최-bb9a2aba/",
     "external_id": "최호승",
@@ -77,14 +59,6 @@
     "image": {
       "src": "externals/docker.png",
       "background": "#0db7ed"
-    }
-  },
-  {
-    "type": "Steam",
-    "link": "https://steamcommunity.com/id/startergate",
-    "external_id": "startergate",
-    "image": {
-      "src": "externals/steam.png"
     }
   }
 ]
