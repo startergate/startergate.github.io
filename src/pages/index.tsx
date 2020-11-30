@@ -145,11 +145,11 @@ const IndexPage = () => {
         </div>
         <div className="cv-item">
           <h5>Node.js</h5>
-          <span>Node.js 8부터 시작</span>
+          <span>Node.js 8부터 시작, TypeScript와 함께 사용 중</span>
           <br />
-          <span>TypeScript와 함께 가장 많이 사용중</span>
+          <span>Apollo + Koa로 GraphQL 개발 경험</span>
           <br />
-          <span>Express와 Koa 사용 중</span>
+          <span>다양한 종류와 규모의 프로젝트 개발</span>
         </div>
         <div className="cv-item">
           <h5>Python</h5>
@@ -212,7 +212,7 @@ const IndexPage = () => {
           <br />
           <span>Unity 사용한 2D 플랫포머 게임 개발 / 출시 경험</span>
           <br />
-          <span>차기작 얼심히 구상중...</span>
+          <span>차기작 얼심히 구상 중...</span>
         </div>
       </section>
       <section id="project">
