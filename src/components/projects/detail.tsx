@@ -1,6 +1,7 @@
 import * as React from 'react';
 
 import Image from '../images/image';
+import FullImage from '../images/fullImage';
 import LanguageBadge from './projectLanguage';
 
 import './overlay.css';
@@ -38,9 +39,10 @@ const ProjectDetail = ({ data }) => (
     </div>
     {data.contents ? (
       <div className="project-detail-content">
-        {data.contents?.map(({ title, text }) => (
+        {data.contents?.map(({ title, image, text }) => (
           <div className="project-detail-content-item">
             <h5>{title}</h5>
+            <FullImage src={image} />
             {text}
           </div>
         ))}
