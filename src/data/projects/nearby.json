@@ -6,9 +6,7 @@
   "status": "Done",
   "type": ["Web Application"],
   "tags": ["HTML", "JavaScript", "Google Maps API"],
-  "links": [
-    "https://github.com/startergate/Nearby"
-  ],
+  "links": ["https://github.com/startergate/Nearby"],
   "isHighlighted": false,
   "orderLevel": 2
 }
