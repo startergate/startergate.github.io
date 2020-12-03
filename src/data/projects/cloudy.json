@@ -1,8 +1,8 @@
 {
   "name": "Cloudy",
   "description": "설치형 클라우드 드라이브 서비스",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2018-01-02",
+  "finishedAt": "2018-01-08",
   "status": "Done",
   "type": ["Server", "Web Application"],
   "tags": ["PHP", "AWS EC2"],

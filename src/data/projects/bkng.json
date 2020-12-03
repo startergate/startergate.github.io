@@ -1,8 +1,8 @@
 {
   "name": "BKNG",
   "description": "학원 포인트 적립 시스템",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2018-01-27",
+  "finishedAt": "2018-04-02",
   "status": "Done",
   "type": ["Server", "Web Application"],
   "tags": ["PHP", "MySQL"],

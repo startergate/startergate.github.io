@@ -1,8 +1,8 @@
 {
   "name": "Don't Afraid",
   "description": "트라우마 치료 게임",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2018-08-07",
+  "finishedAt": "2018-08-08",
   "status": "Done",
   "type": ["Native Appliation", "Game"],
   "tags": ["C#", "JavaScript", "Node.js", "Unity", "Electron"],

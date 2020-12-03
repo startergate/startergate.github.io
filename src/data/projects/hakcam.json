@@ -1,8 +1,8 @@
 {
   "name": "HakCam",
   "description": "학교 수업 스트리밍 서비스",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2019-08-05",
+  "finishedAt": "2019-08-07",
   "status": "Failed",
   "type": ["Server"],
   "tags": ["JavaScript", "Node.js", "Express.js"],

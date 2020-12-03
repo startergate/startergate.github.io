@@ -1,8 +1,8 @@
 {
   "name": "STARTERGATE.CDN",
   "description": "개인 프로젝트용 CDN",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2019-04-29",
+  "finishedAt": "2019-06-03",
   "status": "Done",
   "type": ["Server", "Web Application"],
   "tags": ["JavaScript", "Node.js", "Express.js", "Google Cloud Platform"],

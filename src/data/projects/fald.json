@@ -1,8 +1,8 @@
 {
   "name": "FaLD",
   "description": "일베 콘텐츠 검출 딥러닝 모델",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2018-12-20",
+  "finishedAt": "2019-01-02",
   "status": "Failed",
   "type": ["Etc"],
   "tags": ["Python", "Tensorflow", "Jupyter Notebook"],

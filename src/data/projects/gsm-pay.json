@@ -1,8 +1,8 @@
 {
   "name": "GSM Pay",
   "description": "학교 축제 부스 간편 결제 시스템",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2020-06-17",
+  "finishedAt": "2020-09-23",
   "status": "Done",
   "type": ["Server", "Web Application"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "GraphQL", "AWS EC2"],

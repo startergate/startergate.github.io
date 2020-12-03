@@ -1,8 +1,8 @@
 {
   "name": "SteamBot",
   "description": "디스코드 스팀 크롤링 봇",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2019-03-14",
+  "finishedAt": "2019-09-10",
   "status": "Done",
   "type": ["Chatbot"],
   "tags": ["Python", "Discord", "Docker", "Threading"],

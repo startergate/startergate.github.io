@@ -1,8 +1,8 @@
 {
   "name": "HIVE",
   "description": "영화 정보 크롤링 사이트",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2019-06-25",
+  "finishedAt": "2019-07-10",
   "status": "Done",
   "type": ["Server"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],

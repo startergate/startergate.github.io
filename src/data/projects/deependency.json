@@ -1,8 +1,7 @@
 {
   "name": "DEEPendency",
   "description": "스팀 창작마당 아이템 의존성 자동 설치기",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2020-04-01",
   "status": "Planning",
   "type": ["Etc"],
   "tags": ["TypeScript"],

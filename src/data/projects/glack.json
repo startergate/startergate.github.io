@@ -1,8 +1,7 @@
 {
   "name": "Glack",
   "description": "GitHub 챗봇",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2020-01-13",
   "status": "Planning",
   "type": ["Chatbot"],
   "tags": ["Python"],

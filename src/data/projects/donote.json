@@ -1,8 +1,8 @@
 {
   "name": "DoNote",
   "description": "간단한 메모 웹앱",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2017-10-27",
+  "finishedAt": "2019-05-07",
   "status": "Done",
   "type": ["Server", "Web Application"],
   "tags": ["PHP", "MySQL", "AWS EC2"],

@@ -1,8 +1,7 @@
 {
   "name": "DoNote V",
   "description": "TypeScript로 다시 만드는 DoNote",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2019-08-09",
   "status": "Developing",
   "type": ["Server", "Web Application"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "AWS EC2"],

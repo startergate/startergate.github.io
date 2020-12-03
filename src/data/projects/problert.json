@@ -1,8 +1,8 @@
 {
   "name": "Problert",
   "description": "위치 기반 민원 접수 시스템",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2019-08-27",
+  "finishedAt": "2019-09-02",
   "status": "Done",
   "type": ["Server"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MongoDB", "AWS EC2"],

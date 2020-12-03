@@ -1,8 +1,8 @@
 {
   "name": "SID",
   "description": "STARTERGATE IDENTITY: 통합 계정 서비스",
-  "startedAt": "2020-10-10",
-  "finishedAt": "2020-10-30",
+  "startedAt": "2019-01-09",
+  "finishedAt": "2019-09-15",
   "status": "Done",
   "type": ["Server", "Web Application"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
