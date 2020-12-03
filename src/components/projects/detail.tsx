@@ -55,9 +55,25 @@ const ProjectDetail = ({ data }) => (
             </div>
           </div>
         </div>
-        <span className={`project-detail-time-start`}>{getKoreanDateString(new Date(data.startedAt))}</span>
-        <span className={`project-detail-time-elapsed`}>{data.finishedAt ? `${(new Date(data.finishedAt).getTime() - new Date(data.startedAt).getTime()) / 86400000}일` : "개발 중"}</span>
-        <span className={`project-detail-time-end`}>{data.finishedAt ? getKoreanDateString(new Date(data.finishedAt)) : ""}</span>
+        <span className={`project-detail-time-start`}>
+          {getKoreanDateString(new Date(data.startedAt))}
+        </span>
+        <span className={`project-detail-time-elapsed`}>
+          {data.finishedAt
+            ? `${
+                (new Date(data.finishedAt).getTime() -
+                  new Date(data.startedAt).getTime()) /
+                86400000
+              }일`
+            : data.status === 'Planning'
+            ? '계획 중'
+            : '개발 중'}
+        </span>
+        <span className={`project-detail-time-end`}>
+          {data.finishedAt
+            ? getKoreanDateString(new Date(data.finishedAt))
+            : ''}
+        </span>
       </div>
       <span
         className={'project-detail-exit'}
