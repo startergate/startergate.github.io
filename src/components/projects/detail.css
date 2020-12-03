@@ -95,8 +95,15 @@
 
 .project-detail-time-start {
     float: left;
+    width: 0;
+    overflow: visible;
+    white-space: nowrap;
 }
+
 
 .project-detail-time-end {
     float: right;
+    width: 0;
+    overflow: visible;
+    white-space: nowrap;
 }
