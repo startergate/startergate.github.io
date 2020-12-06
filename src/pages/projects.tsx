@@ -25,7 +25,11 @@ const Projects = (props: PageProps) => {
           status
           type
           tags
-          links
+          links {
+            type
+            link
+            external_id
+          }
           imgSrc
           contents {
             title
@@ -40,7 +44,7 @@ const Projects = (props: PageProps) => {
         distinct(field: type)
       }
       status: allProjectsJson {
-          distinct(field: status)
+        distinct(field: status)
       }
       linksJson(type: { eq: "GitHub" }) {
         id
@@ -60,8 +64,8 @@ const Projects = (props: PageProps) => {
   const selecteds = {
     types: [],
     tags: [],
-    status: []
-  }
+    status: [],
+  };
 
   const handler = () => {
     let temp =
@@ -73,14 +77,13 @@ const Projects = (props: PageProps) => {
     temp =
       selecteds.types.length > 0
         ? temp.filter(
-            (x) => x.type.filter((type) => selecteds.types.includes(type)).length
+            (x) =>
+              x.type.filter((type) => selecteds.types.includes(type)).length
           )
-        : temp
+        : temp;
     temp = (selecteds.status.length > 0
-        ? temp.filter(
-          (x) => selecteds.status.includes(x.status)
-        )
-        : temp
+      ? temp.filter((x) => selecteds.status.includes(x.status))
+      : temp
     ).map((x) => x.id);
     let elements = document.querySelectorAll('.project-card');
     elements.forEach((element) => {

@@ -7,10 +7,31 @@
   "type": ["Server", "Web Application"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "GraphQL", "AWS EC2"],
   "links": [
-    "https://github.com/GSM-Pay/Payment-API",
-    "https://github.com/GSM-Pay/Payment-Client",
-    "https://github.com/GSM-Pay/Payment-ManagerClient",
-    "https://github.com/GSM-Pay/Payment-Client-OLD"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay",
+      "external_id": "GSM-Pay"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-API",
+      "external_id": "GSM-Pay/Payment-API"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-Client",
+      "external_id": "GSM-Pay/Payment-Client"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-ManagerClient",
+      "external_id": "GSM-Pay/Payment-ManagerClient"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-Client-OLD",
+      "external_id": "GSM-Pay/Payment-Client-OLD"
+    }
   ],
   "imgSrc": "teams/bean.png",
   "isHighlighted": false,

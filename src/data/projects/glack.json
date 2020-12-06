@@ -6,8 +6,16 @@
   "type": ["Chatbot"],
   "tags": ["Python"],
   "links": [
-    "https://github.com/startergate/Glack",
-    "https://github.com/startergate/Gitcord"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Glack",
+      "external_id": "Glack"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Gitcord",
+      "external_id": "Gitcord"
+    }
   ],
   "isHighlighted": false,
   "orderLevel": 2

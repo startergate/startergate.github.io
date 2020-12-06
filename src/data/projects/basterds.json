@@ -17,10 +17,26 @@
     "AWS EC2"
   ],
   "links": [
-    "https://github.com/Jeong-Mw/Basterds_app",
-    "https://github.com/startergate/Basterds-Game-Server",
-    "https://github.com/startergate/Basterds-Stat-Server",
-    "https://github.com/startergate/Basterds-Stat-Client"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Jeong-Mw/Basterds_app",
+      "external_id": "Jeong-Mw/Basterds_app"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Basterds-Game-Server",
+      "external_id": "Basterds-Game-Server"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Basterds-Stat-Server",
+      "external_id": "Basterds-Stat-Server"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Basterds-Stat-Client",
+      "external_id": "Basterds-Stat-Client"
+    }
   ],
   "isHighlighted": false,
   "orderLevel": 1

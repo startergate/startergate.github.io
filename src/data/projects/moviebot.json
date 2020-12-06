@@ -5,7 +5,13 @@
   "status": "Planning",
   "type": ["Chatbot"],
   "tags": ["Python", "Discord"],
-  "links": ["https://github.com/startergate/MovieBot"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/MovieBot",
+      "external_id": "MovieBot"
+    }
+  ],
   "imgSrc": "projects/moviebot.png",
   "isHighlighted": false,
   "orderLevel": 3

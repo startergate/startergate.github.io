@@ -7,12 +7,41 @@
   "type": ["Server"],
   "tags": ["Python", "Django", "MySQL", "Docker", "AWS EC2", "AWS S3"],
   "links": [
-    "https://github.com/Junyeong-Market/Eliverd-API",
-    "https://github.com/Junyeong-Market/eliverd_customer",
-    "https://github.com/Junyeong-Market/eliverd_store",
-    "https://github.com/Junyeong-Market/eliverd_pos",
-    "https://github.com/Junyeong-Market/Eliverd-API-Deploy",
-    "https://github.com/Junyeong-Market/KP-TEST"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Junyeong-Market",
+      "external_id": "Junyeong-Market"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Junyeong-Market/Eliverd-API",
+      "external_id": "Junyeong-Market/Eliverd-API"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Junyeong-Market/eliverd_customer",
+      "external_id": "Junyeong-Market/eliverd_customer"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Junyeong-Market/eliverd_store",
+      "external_id": "Junyeong-Market/eliverd_store"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Junyeong-Market/eliverd_pos",
+      "external_id": "Junyeong-Market/eliverd_pos"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Junyeong-Market/Eliverd-API-Deploy",
+      "external_id": "Junyeong-Market/Eliverd-API-Deploy"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Junyeong-Market/KP-TEST",
+      "external_id": "Junyeong-Market/KP-TEST"
+    }
   ],
   "contents": [
     {

@@ -7,11 +7,31 @@
   "type": ["Server"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MariaDB", "AWS EC2"],
   "links": [
-    "https://github.com/BeanSil/DOTORI-api",
-    "https://github.com/GwonHeeJun/Dotori-Client",
-    "https://github.com/BeanSil/commit-convention-checker",
-    "https://github.com/BeanSil/git-flow-automation",
-    "https://github.com/BeanSil/Bean-Account"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/BeanSil/DOTORI-api",
+      "external_id": "BeanSil/DOTORI-api"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GwonHeeJun/Dotori-Client",
+      "external_id": "GwonHeeJun/Dotori-Client"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/BeanSil/commit-convention-checker",
+      "external_id": "BeanSil/commit-convention-checker"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/BeanSil/git-flow-automation",
+      "external_id": "BeanSil/git-flow-automation"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/BeanSil/Bean-Account",
+      "external_id": "BeanSil/Bean-Account"
+    }
   ],
   "contents": [
     {

@@ -7,8 +7,16 @@
   "type": ["Chatbot"],
   "tags": ["Python", "Discord", "Docker", "Threading"],
   "links": [
-    "https://github.com/startergate/SteamBot",
-    "https://github.com/startergate/SteamBot-Deploy"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SteamBot",
+      "external_id": "SteamBot"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SteamBot-Deploy",
+      "external_id": "SteamBot-Deploy"
+    }
   ],
   "imgSrc": "projects/steambot.png",
   "isHighlighted": false,

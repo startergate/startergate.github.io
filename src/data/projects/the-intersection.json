@@ -7,11 +7,31 @@
   "type": ["Native Appliation", "Server"],
   "tags": ["C++", "JavaScript", "Qt", "Express.js", "AWS EC2"],
   "links": [
-    "https://github.com/startergate/The-Intersection",
-    "https://github.com/startergate/The-Intersection-Server",
-    "https://github.com/startergate/The-Intersection-2",
-    "https://github.com/startergate/EpicGamesStoreCrawler",
-    "https://github.com/startergate/OriginCrawler"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/The-Intersection",
+      "external_id": "The-Intersection"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/The-Intersection-Server",
+      "external_id": "The-Intersection-Server"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/The-Intersection-2",
+      "external_id": "The-Intersection-2"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/EpicGamesStoreCrawler",
+      "external_id": "EpicGamesStoreCrawler"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/OriginCrawler",
+      "external_id": "OriginCrawler"
+    }
   ],
   "isHighlighted": false,
   "orderLevel": 1

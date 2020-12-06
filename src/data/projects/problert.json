@@ -7,8 +7,16 @@
   "type": ["Server"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MongoDB", "AWS EC2"],
   "links": [
-    "https://github.com/startergate/Problert-API",
-    "https://github.com/junwkdd/Problert"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Problert-API",
+      "external_id": "Problert-API"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/junwkdd/Problert",
+      "external_id": "junwkdd/Problert"
+    }
   ],
   "isHighlighted": false,
   "orderLevel": 2

@@ -7,8 +7,11 @@
   "type": ["Server", "Web Application"],
   "tags": ["PHP", "MySQL"],
   "links": [
-    "https://github.com/startergate/HakCam",
-    "https://github.com/startergate/HakCam-API"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/BKNG",
+      "external_id": "BKNG"
+    }
   ],
   "isHighlighted": false,
   "orderLevel": 3

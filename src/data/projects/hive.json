@@ -7,10 +7,26 @@
   "type": ["Server"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
   "links": [
-    "https://github.com/startergate/HIVE",
-    "https://github.com/startergate/HIVEAPI",
-    "https://github.com/startergate/HIVE-Ticket",
-    "https://github.com/startergate/MoInBk"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/HIVE",
+      "external_id": "HIVE"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/HIVE",
+      "external_id": "HIVEAPI"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/HIVE-Ticket",
+      "external_id": "HIVE-Ticket"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/MoInBk",
+      "external_id": "MoInBk"
+    }
   ],
   "contents": [
     {

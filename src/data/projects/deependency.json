@@ -5,7 +5,13 @@
   "status": "Planning",
   "type": ["Etc"],
   "tags": ["TypeScript"],
-  "links": ["https://github.com/startergate/DEEPendency"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DEEPendency",
+      "external_id": "DEEPendency"
+    }
+  ],
   "isHighlighted": false,
   "orderLevel": 3
 }

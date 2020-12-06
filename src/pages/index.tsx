@@ -27,7 +27,11 @@ const IndexPage = () => {
           status
           type
           tags
-          links
+          links {
+            type
+            link
+            external_id
+          }
           imgSrc
           contents {
             title

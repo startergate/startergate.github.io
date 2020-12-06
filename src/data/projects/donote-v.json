@@ -6,11 +6,31 @@
   "type": ["Server", "Web Application"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "AWS EC2"],
   "links": [
-    "https://github.com/startergate/DoNote-V",
-    "https://github.com/startergate/DoNote-V-API",
-    "https://github.com/startergate/DoNote-V-Proxy",
-    "https://github.com/startergate/DoNote-V-Deploy",
-    "https://github.com/startergate/DoNote-V-API-Express"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V",
+      "external_id": "DoNote-V"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-API",
+      "external_id": "DoNote-V-API"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-Proxy",
+      "external_id": "DoNote-V-Proxy"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-Deploy",
+      "external_id": "DoNote-V-Deploy"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-API-Express",
+      "external_id": "DoNote-V-API-Express"
+    }
   ],
   "contents": [
     {

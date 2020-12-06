@@ -7,8 +7,16 @@
   "type": ["Game"],
   "tags": ["C#", "Unity", "Steamworks"],
   "links": [
-    "https://store.steampowered.com/app/1095360/Lost/",
-    "https://github.com/tiny-beluga/Lost-Issue-Tracker"
+    {
+      "type": "Steam",
+      "link": "https://store.steampowered.com/app/1095360/Lost/",
+      "external_id": "Lost"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/tiny-beluga/Lost-Issue-Tracker",
+      "external_id": "tiny-beluga/Lost-Issue-Tracker"
+    }
   ],
   "imgSrc": "projects/lost.png",
   "isHighlighted": false,

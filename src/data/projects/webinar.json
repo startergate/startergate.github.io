@@ -7,8 +7,16 @@
   "type": ["Server"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MariaDB", "socket.io"],
   "links": [
-    "https://github.com/meister-highschool-webinar/Backend",
-    "https://github.com/meister-highschool-webinar/front-app"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/meister-highschool-webinar/Backend",
+      "external_id": "meister-highschool-webinar/Backend"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/meister-highschool-webinar/front-app",
+      "external_id": "meister-highschool-webinar/front-app"
+    }
   ],
   "imgSrc": "teams/webinar.png",
   "isHighlighted": false,

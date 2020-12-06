@@ -6,7 +6,13 @@
   "status": "Done",
   "type": ["Server", "Web Application"],
   "tags": ["JavaScript", "Node.js", "Express.js", "Google Cloud Platform"],
-  "links": ["https://github.com/startergate/STARTERGATE.CDN"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/STARTERGATE.CDN",
+      "external_id": "STARTERGATE.CDN"
+    }
+  ],
   "isHighlighted": false,
   "orderLevel": 2
 }

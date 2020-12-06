@@ -7,8 +7,16 @@
   "type": ["Etc"],
   "tags": ["Python", "Tensorflow", "Jupyter Notebook"],
   "links": [
-    "https://github.com/startergate/FaLD-Py",
-    "https://github.com/startergate/FaLD-Dev"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/FaLD-Py",
+      "external_id": "FaLD-Py"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/FaLD-Dev",
+      "external_id": "FaLD-Dev"
+    }
   ],
   "isHighlighted": false,
   "orderLevel": 4

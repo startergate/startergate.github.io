@@ -7,17 +7,71 @@
   "type": ["Server", "Web Application"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
   "links": [
-    "https://github.com/startergate/SID-1.0",
-    "https://github.com/startergate/SID-2.0",
-    "https://github.com/startergate/SID-2.0-Client",
-    "https://github.com/startergate/SID.php",
-    "https://github.com/startergate/SID.js",
-    "https://github.com/startergate/SID.ts",
-    "https://github.com/startergate/SID.js-for-jQuery",
-    "https://github.com/startergate/SID.cpp",
-    "https://github.com/startergate/SID.NET",
-    "https://github.com/startergate/SID.java",
-    "https://github.com/startergate/SID.py"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID-1.0",
+      "external_id": "SID-1.0"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID-2.0",
+      "external_id": "SID-2.0"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID-2.0-Client",
+      "external_id": "SID-2.0"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.php",
+      "external_id": "SID.php"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.js",
+      "external_id": "SID.js"
+    },
+    {
+      "type": "npm",
+      "link": "https://www.npmjs.com/package/@startergate/sidjs",
+      "external_id": "@startergate/sidjs"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.ts",
+      "external_id": "SID.ts"
+    },
+    {
+      "type": "npm",
+      "link": "https://www.npmjs.com/package/@startergate/sidts",
+      "external_id": "@startergate/sidts"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.js-for-jQuery",
+      "external_id": "SID.js-for-jQuery"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.cpp",
+      "external_id": "SID.cpp"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.NET",
+      "external_id": "SID.NET"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.java",
+      "external_id": "SID.java"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.py",
+      "external_id": "SID.py"
+    }
   ],
   "imgSrc": "projects/sid.png",
   "isHighlighted": false,

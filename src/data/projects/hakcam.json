@@ -7,8 +7,16 @@
   "type": ["Server"],
   "tags": ["JavaScript", "Node.js", "Express.js"],
   "links": [
-    "https://github.com/startergate/HakCam",
-    "https://github.com/startergate/HakCam-API"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/HakCam",
+      "external_id": "HakCam"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/HakCam-API",
+      "external_id": "HakCam-API"
+    }
   ],
   "isHighlighted": false,
   "orderLevel": 2

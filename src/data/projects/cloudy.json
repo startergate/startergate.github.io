@@ -7,9 +7,21 @@
   "type": ["Server", "Web Application"],
   "tags": ["PHP", "AWS EC2"],
   "links": [
-    "https://github.com/startergate/Cloudy",
-    "https://github.com/startergate/Thundercloudy",
-    "https://github.com/startergate/Thundercloudy-Server"
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Cloudy",
+      "external_id": "Cloudy"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Thundercloudy",
+      "external_id": "Thundercloudy"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Thundercloudy-Server",
+      "external_id": "Thundercloudy-Server"
+    }
   ],
   "imgSrc": "projects/cloudy.png",
   "isHighlighted": false,
