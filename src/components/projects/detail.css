@@ -102,9 +102,11 @@
 
 .progress-bar-icon {
     animation: 1.5s ease progress-bar-init;
+    animation-delay: 0.2s;
+    animation-fill-mode: forwards;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 100%;
     width: 24px;
     transform: translate(50%,-41%);
     text-align: center;
