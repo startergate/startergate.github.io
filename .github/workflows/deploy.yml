@@ -1,0 +1,32 @@
+# This is a basic workflow to help you get started with Actions
+
+name: deploy
+
+on:
+  workflow_dispatch:
+  
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Use Node.js 14
+        uses: actions/setup-node
+        with: 
+          node-version: 14
+
+      - name: GitHub Action for Yarn
+        uses: Borales/actions-yarn@v2.1.0
+      
+      - run: yarn install
+      
+      - run: yarn build
+      
+      - name: GitHub Pages action
+        uses: peaceiris/actions-gh-pages@v3.7.3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: master
+          allow_empty_commit: true
+          cname: startergate.dev
