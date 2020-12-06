@@ -45,18 +45,24 @@
     }
 }
 
-.project-detail-title,.project-detail-content {
+.project-detail > div {
     position: relative;
     padding: 16px 32px;
 }
 
+@media screen and (max-width: 1200px) {
+    .project-detail > div {
+        padding: 16px 24px;
+    }
+}
+
 @media screen and (max-width: 760px) {
-    .project-detail-title,.project-detail-content {
+    .project-detail > div {
         padding: 16px 16px;
     }
 }
 
-.project-detail-title:not(:last-child) {
+.project-detail > div:not(:last-child) {
     border-bottom: 1px solid gainsboro;
 }
 
