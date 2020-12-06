@@ -50,6 +50,12 @@
     padding: 16px 32px;
 }
 
+@media screen and (max-width: 760px) {
+    .project-detail-title,.project-detail-content {
+        padding: 16px 16px;
+    }
+}
+
 .project-detail-title:not(:last-child) {
     border-bottom: 1px solid gainsboro;
 }
