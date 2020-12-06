@@ -39,6 +39,9 @@ const Projects = (props: PageProps) => {
       type: allProjectsJson {
         distinct(field: type)
       }
+      status: allProjectsJson {
+          distinct(field: status)
+      }
       linksJson(type: { eq: "GitHub" }) {
         id
         type
@@ -56,22 +59,32 @@ const Projects = (props: PageProps) => {
   const badgeData = data.linksJson;
   const types = data.type.distinct;
   const tags = data.tags.distinct;
+  const status = data.status.distinct;
 
-  let selectedTypes = [];
-  let selectedTags = [];
+  const selecteds = {
+    types: [],
+    tags: [],
+    status: []
+  }
 
   const handler = () => {
     let temp =
-      selectedTags.length > 0
+      selecteds.tags.length > 0
         ? projects.filter(
-            (x) => x.tags.filter((tag) => selectedTags.includes(tag)).length
+            (x) => x.tags.filter((tag) => selecteds.tags.includes(tag)).length
           )
         : projects;
-    temp = temp = (selectedTypes.length > 0
-      ? temp.filter(
-          (x) => x.type.filter((type) => selectedTypes.includes(type)).length
+    temp =
+      selecteds.types.length > 0
+        ? temp.filter(
+            (x) => x.type.filter((type) => selecteds.types.includes(type)).length
+          )
+        : temp
+    temp = (selecteds.status.length > 0
+        ? temp.filter(
+          (x) => selecteds.status.includes(x.status)
         )
-      : temp
+        : temp
     ).map((x) => x.id);
     let elements = document.querySelectorAll('.project-card');
     elements.forEach((element) => {
@@ -83,12 +96,17 @@ const Projects = (props: PageProps) => {
   };
 
   const tagHandler = (selected) => {
-    selectedTags = selected;
+    selecteds.tags = selected;
     handler();
   };
 
   const typeHandler = (selected) => {
-    selectedTypes = selected;
+    selecteds.types = selected;
+    handler();
+  };
+
+  const statusHandler = (selected) => {
+    selecteds.status = selected;
     handler();
   };
 
@@ -114,6 +132,12 @@ const Projects = (props: PageProps) => {
             data={types}
             defaultTitle={'프로젝트 유형'}
             id={'project-filter-types'}
+          />
+          <Filter
+            filterHandler={statusHandler}
+            data={status}
+            defaultTitle={'진행 상황'}
+            id={'project-filter-status'}
           />
         </div>
         <div className="list project-list">
