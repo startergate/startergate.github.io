@@ -2,6 +2,8 @@ import * as React from 'react';
 import Badge from '../images/badge';
 import Thumbnail from '../images/thumbnail';
 
+import Links from '../../enums/links';
+
 import './badge.css';
 import './external.css';
 
@@ -16,12 +18,12 @@ const Icon = ({ data }) => {
       <span
         className="badge badge-external-icon"
         style={{
-          backgroundColor: data.image.background || '#FFFFFF',
+          backgroundColor: Links[data.type].background || '#FFFFFF',
         }}
       >
         <Thumbnail
           className="badge-image badge-external-icon-image"
-          src={data.image.src}
+          src={Links[data.type].src}
         />
       </span>
       <span className="badge-external-text">
@@ -38,17 +40,17 @@ const Small = ({ data }) => (
   <a
     className="badge badge-external-small noLintAbsolute"
     style={{
-      backgroundColor: data.image.background || '#FFFFFF',
+      backgroundColor: Links[data.type].background || '#FFFFFF',
     }}
     href={data.link}
     title={data.type}
     target="_blank"
   >
-    <Badge className="badge-external-small-image" src={data.image.src} />
+    <Badge className="badge-external-small-image" src={Links[data.type].src} />
     <span
       className="badge-external-small-id"
       style={{
-        color: data.image.background ? '#FFFFFF' : '#000000',
+        color: Links[data.type].background ? '#FFFFFF' : '#000000',
       }}
     >
       {data.external_id}

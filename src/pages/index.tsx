@@ -55,10 +55,6 @@ const IndexPage = () => {
           type
           external_id
           link
-          image {
-            background
-            src
-          }
         }
       }
     }
@@ -306,10 +302,6 @@ const IndexPage = () => {
                 type: 'GitHub',
                 link: 'https://github.com/startergate/Conferences',
                 external_id: 'Conferences',
-                image: {
-                  src: 'externals/github.png',
-                  background: '#24292e',
-                },
               }}
             />
           </div>

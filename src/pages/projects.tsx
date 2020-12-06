@@ -47,10 +47,6 @@ const Projects = (props: PageProps) => {
         type
         external_id
         link
-        image {
-          background
-          src
-        }
       }
     }
   `);

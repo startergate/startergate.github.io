@@ -2,63 +2,36 @@
   {
     "type": "메일",
     "link": "mailto://me@startergate.dev",
-    "external_id": "me@startergate.dev",
-    "image": {
-      "src": "externals/paper-plane.png",
-      "background": "#fbbc05"
-    }
+    "external_id": "me@startergate.dev"
   },
   {
     "type": "LinkedIn",
     "link": "https://www.linkedin.com/in/호승-최-bb9a2aba/",
-    "external_id": "최호승",
-    "image": {
-      "src": "externals/linkedin.png",
-      "background": "#2867B2"
-    }
+    "external_id": "최호승"
   },
-
   {
     "type": "Rocketpunch",
     "link": "https://www.rocketpunch.com/@startergate",
-    "external_id": "@startergate",
-    "image": {
-      "src": "externals/rocketpunch.png"
-    }
+    "external_id": "@startergate"
   },
   {
     "type": "GitHub",
     "link": "https://github.com/startergate",
-    "external_id": "startergate",
-    "image": {
-      "src": "externals/github.png",
-      "background": "#24292e"
-    }
+    "external_id": "startergate"
   },
   {
     "type": "StackShare",
     "link": "https://stackshare.io/startergate",
-    "external_id": "startergate",
-    "image": {
-      "src": "externals/stackshare.png",
-      "background": "#0690FA"
-    }
+    "external_id": "startergate"
   },
   {
     "type": "npm",
     "link": "https://www.npmjs.com/~startergate",
-    "external_id": "~startergate",
-    "image": {
-      "src": "externals/npm.png"
-    }
+    "external_id": "~startergate"
   },
   {
     "type": "Docker Hub",
     "link": "https://hub.docker.com/u/startergate",
-    "external_id": "startergate",
-    "image": {
-      "src": "externals/docker.png",
-      "background": "#0db7ed"
-    }
+    "external_id": "startergate"
   }
 ]
