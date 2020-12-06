@@ -84,7 +84,18 @@
     position: relative;
 }
 
+@keyframes progress-bar-init {
+    0% {
+        right: 100%
+    }
+
+    100% {
+        right: 0;
+    }
+}
+
 .progress-bar-icon {
+    animation: 1.5s ease progress-bar-init;
     position: absolute;
     top: 0;
     right: 0;
