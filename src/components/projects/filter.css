@@ -44,6 +44,10 @@
     -moz-border-radius-bottomright: 6px;
 }
 
+.project-filter-choice-list::-webkit-scrollbar {
+    display: none;
+}
+
 .project-filter-selector > .project-filter-choice:first-child {
     border-top-left-radius: 6px;
     border-top-right-radius: 6px;
