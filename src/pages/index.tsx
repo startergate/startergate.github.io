@@ -92,6 +92,7 @@ const IndexPage = () => {
             <span>Learn, Find, Figure Out</span>
           </h1>
           <p className="title-name">STARTERGATE / 최호승</p>
+          <p className={"contacts"}><a href="mailto://me@startergate.dev">me@startergate.dev</a></p>
           <p>백엔드 엔지니어</p>
           <p>게임 개발자</p>
           <p>

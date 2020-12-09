@@ -10,6 +10,11 @@
     margin-bottom: 8px;
 }
 
+.contacts {
+    font-family: 'JetBrains Mono', 'SF Pro Display', sans-serif;
+    margin-bottom: 8px;
+}
+
 .list {
     display: flex;
     flex-wrap: wrap;
