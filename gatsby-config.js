@@ -38,6 +38,7 @@ module.exports = {
         path: `./src/data/`,
       },
     },
+    `gatsby-transformer-remark`,
     `gatsby-plugin-offline`,
   ]
 }

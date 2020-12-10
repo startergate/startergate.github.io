@@ -11,9 +11,10 @@ import LanguageBadge from './projectLanguage';
 
 import './overlay.css';
 import './detail.css';
-import Contributor from "./contributor";
+import Contributor from './contributor';
+import * as ReactMarkdown from "react-markdown";
 
-const ProjectDetail = ({ data }) => {
+const ProjectDetail = ({ data, contents }) => {
   return (
     <div className="overlay-item project-detail" id={'overlay-' + data.id}>
       <div className="project-detail-title">
@@ -95,11 +96,11 @@ const ProjectDetail = ({ data }) => {
       </div>
       {data.contents ? (
         <div className="project-detail-content">
-          {data.contents?.map(({ title, image, text }) => (
+          {data.contents?.map(({ title, image, ref, text }) => (
             <div className="project-detail-content-item">
               <h5>{title}</h5>
               <FullImage src={image} />
-              {text}
+              <ReactMarkdown>{(ref ? contents[ref].internal.content : text)}</ReactMarkdown>
             </div>
           ))}
         </div>

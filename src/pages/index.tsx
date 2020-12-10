@@ -39,6 +39,7 @@ const IndexPage = () => {
           imgSrc
           contents {
             title
+            ref
             text
           }
         }
@@ -65,15 +66,25 @@ const IndexPage = () => {
           link
         }
       }
+      allFile(filter: {extension: {eq: "md"}}) {
+        nodes {
+          relativePath
+          internal {
+            content
+          }
+        }
+      }
     }
   `);
 
   const highlighted = data.allProjectsJson.nodes;
   const languages = data.allLanguagesJson.group;
   const externals = data.allLinksJson.nodes;
+  const files = data.allFile.nodes;
 
   const groupedLanguages: any = {};
   const labeledExternals: any = {};
+  const labeledFiles: any = {};
 
   languages.forEach((value) => {
     groupedLanguages[value['fieldValue']] = value.nodes;
@@ -81,6 +92,10 @@ const IndexPage = () => {
 
   externals.forEach((value) => {
     labeledExternals[value['type']] = value;
+  });
+
+  files.forEach((value) => {
+    labeledFiles[value['relativePath']] = value;
   });
 
   return (
@@ -96,7 +111,9 @@ const IndexPage = () => {
             <span>Learn, Find, Figure Out</span>
           </h1>
           <p className="title-name">STARTERGATE / 최호승</p>
-          <p className={"contacts"}><a href="mailto://me@startergate.dev">me@startergate.dev</a></p>
+          <p className={'contacts'}>
+            <a href="mailto://me@startergate.dev">me@startergate.dev</a>
+          </p>
           <p>백엔드 엔지니어</p>
           <p>게임 개발자</p>
           <p>
@@ -403,7 +420,7 @@ const IndexPage = () => {
           })}
         </div>
       </section>
-      <Overlay data={highlighted} />
+      <Overlay data={highlighted} contents={labeledFiles} />
     </Layout>
   );
 };
