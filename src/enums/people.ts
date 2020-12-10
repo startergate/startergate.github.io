@@ -11,4 +11,8 @@ export default {
     link: 'https://github.com/Parkjonghyo',
     image: 'profiles/somatsal.png',
   },
+  정민우: {
+    link: 'https://github.com/Jeong-Mw',
+    image: 'profiles/mint.png'
+  }
 };
