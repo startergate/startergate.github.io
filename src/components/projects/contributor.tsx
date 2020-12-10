@@ -8,7 +8,7 @@ import './contributor.css';
 const Contributor = ({ data }) => (
   <div className={'project-detail-contributor'}>
     <Image
-      src={people[data.name].image}
+      src={people[data.name]?.image}
       className={'project-detail-contributor-image'}
     />
     <div className={'project-detail-contributor-text'}>

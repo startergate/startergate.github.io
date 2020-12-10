@@ -1,6 +1,12 @@
 {
   "name": "The Intersection",
   "description": "PC 플랫폼 게임 통합 런처",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
   "startedAt": "2019-04-23",
   "finishedAt": "2019-07-16",
   "status": "Done",

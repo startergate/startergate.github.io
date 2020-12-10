@@ -1,6 +1,12 @@
 {
   "name": "DoNote V",
   "description": "TypeScript로 다시 만드는 DoNote",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
   "startedAt": "2019-08-09",
   "status": "Developing",
   "type": ["Server", "Web Application"],

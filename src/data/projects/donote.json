@@ -1,6 +1,12 @@
 {
   "name": "DoNote",
   "description": "간단한 메모 웹앱",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
   "startedAt": "2017-10-27",
   "finishedAt": "2019-05-07",
   "status": "Done",

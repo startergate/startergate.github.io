@@ -1,6 +1,12 @@
 {
   "name": "MovieBot",
   "description": "디스코드 영화 정보 크롤링 봇",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
   "startedAt": "2019-05-07",
   "status": "Planning",
   "type": ["Chatbot"],

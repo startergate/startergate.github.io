@@ -1,6 +1,12 @@
 {
   "name": "STARTERGATE.CDN",
   "description": "개인 프로젝트용 CDN",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
   "startedAt": "2019-04-29",
   "finishedAt": "2019-06-03",
   "status": "Done",

@@ -1,6 +1,12 @@
 {
   "name": "SID",
   "description": "STARTERGATE IDENTITY: 통합 계정 서비스",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
   "startedAt": "2019-01-09",
   "finishedAt": "2019-09-15",
   "status": "Done",

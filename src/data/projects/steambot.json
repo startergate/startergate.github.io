@@ -1,6 +1,12 @@
 {
   "name": "SteamBot",
   "description": "디스코드 스팀 크롤링 봇",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
   "startedAt": "2019-03-14",
   "finishedAt": "2019-09-10",
   "status": "Done",
