@@ -11,6 +11,8 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import Header from './header';
 import './layout.css';
+import Badge from './images/badge';
+import Links from '../enums/links';
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -31,10 +33,24 @@ const Layout = ({ children }) => {
         © {new Date().getFullYear()} Ho Seung Choi a.k.a. startergate, Built
         with
         {` `}
-        <a href="https://www.gatsbyjs.org">Gatsby</a>,{` `}
+        <a className={'noLint'} href="https://www.gatsbyjs.org">
+          <Badge
+            className="footer-badge"
+            src={'gatsby-icon.png'}
+            style={{ display: `inline-block` }}
+          />
+        </a>
+        ,{` `}
         Hosted on
         {` `}
-        <a href="https://pages.github.com">GitHub Pages</a>
+        <a className={'noLint'} href="https://pages.github.com">
+          <Badge
+            className="footer-badge"
+            src={Links.GitHub.src}
+            style={{ display: `inline-block` }}
+          />{' '}
+          Pages
+        </a>
       </footer>
     </>
   );

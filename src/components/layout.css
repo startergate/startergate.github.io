@@ -236,3 +236,9 @@ section section {
 .active {
   display: block !important;
 }
+
+.footer-badge {
+  margin-bottom: -2px;
+  width: 16px;
+  height: 16px;
+}
