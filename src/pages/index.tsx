@@ -66,7 +66,7 @@ const IndexPage = () => {
           link
         }
       }
-      allFile(filter: {extension: {eq: "md"}}) {
+      allFile(filter: { extension: { eq: "md" } }) {
         nodes {
           relativePath
           internal {

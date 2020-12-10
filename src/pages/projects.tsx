@@ -57,7 +57,7 @@ const Projects = (props: PageProps) => {
         external_id
         link
       }
-      allFile(filter: {extension: {eq: "md"}}) {
+      allFile(filter: { extension: { eq: "md" } }) {
         nodes {
           relativePath
           internal {
@@ -79,7 +79,7 @@ const Projects = (props: PageProps) => {
 
   files.forEach((value) => {
     labeledFiles[value['relativePath']] = value;
-  })
+  });
 
   const selecteds = {
     types: [],

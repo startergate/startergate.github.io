@@ -12,7 +12,7 @@ import LanguageBadge from './projectLanguage';
 import './overlay.css';
 import './detail.css';
 import Contributor from './contributor';
-import * as ReactMarkdown from "react-markdown";
+import * as ReactMarkdown from 'react-markdown';
 
 const ProjectDetail = ({ data, contents }) => {
   return (
@@ -102,7 +102,9 @@ const ProjectDetail = ({ data, contents }) => {
             <div className="project-detail-content-item">
               <h5>{title}</h5>
               <FullImage src={image} />
-              <ReactMarkdown>{(ref ? contents[ref].internal.content : text)}</ReactMarkdown>
+              <ReactMarkdown>
+                {ref ? contents[ref].internal.content : text}
+              </ReactMarkdown>
             </div>
           ))}
         </div>
