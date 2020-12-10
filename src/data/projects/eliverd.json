@@ -1,6 +1,20 @@
 {
   "name": "Eliverd",
   "description": "Deliver Your Life, Eliverd. 모두를 위한 배달 서비스",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["팀장", "기획", "서버 개발"]
+    },
+    {
+      "name": "박준영",
+      "roles": ["디자인", "모바일 앱 개발"]
+    },
+    {
+      "name": "박종효",
+      "roles": ["데스크탑 앱 개발"]
+    }
+  ],
   "startedAt": "2020-04-24",
   "finishedAt": "2020-10-18",
   "status": "Done",
@@ -61,7 +75,7 @@
       "text": "Eliverd는 졸업 팀 프로젝트로 진행하는 거 였지만 시스템 설계나 기능은 실제 서비스를 목적으로 만들었다. 물론 실무의 수준에는 미치지 못하지만 컨테이너화나 문서화, 그리고 확장성을 어느 정도 고려해서 설계했다. 데이터베이스는 각 상점마다 주문을 따로 전달해주는 비즈니스 로직에 맞춰서 설계되었으며, 카카오페이와 연동하여 실제 사용자의 경험에 가깝게 구현할 수 있도록 노력했다."
     }
   ],
-  "imgSrc": "projects/eliverd.png",
+  "imgSrc": "projects/eliverd/logo.png",
   "isHighlighted": true,
   "orderLevel": 0
 }
