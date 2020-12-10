@@ -11,6 +11,7 @@ import LanguageBadge from './projectLanguage';
 
 import './overlay.css';
 import './detail.css';
+import Contributor from "./contributor";
 
 const ProjectDetail = ({ data }) => {
   return (
@@ -19,6 +20,9 @@ const ProjectDetail = ({ data }) => {
         <Image className="project-detail-icon" src={data.imgSrc} />
         <h2 className="project-detail-name">{data.name}</h2>
         <div className="project-card-description">{data.description}</div>
+        <div className={"project-detail-contributors"}>
+          {data.collaborators?.map(person => (<Contributor data={person}/>))}
+        </div>
         <div className="project-card-tags">
           {data.tags.map((value) => (
             <LanguageBadge tag={value} />

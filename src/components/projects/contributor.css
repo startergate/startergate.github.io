@@ -1,0 +1,33 @@
+.project-detail-contributor {
+    margin-right: 16px;
+    margin-bottom: 8px;
+}
+
+.project-detail-contributor,.project-detail-contributor > * {
+    display: inline-block;
+}
+
+.project-detail-contributor-image {
+    display: inline-block;
+    right: 0;
+    border-radius: 50%;
+    width: 36px;
+    margin-right: 8px;
+    vertical-align: center;
+}
+
+.project-detail-contributor-text {
+    float: right;
+    height: 100%;
+    vertical-align: center;
+}
+
+.project-detail-contributor-text > div {
+    height: 50%;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.project-detail-contributor-name {
+    margin-bottom: 4px;
+}

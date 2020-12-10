@@ -22,6 +22,10 @@ const IndexPage = () => {
           id
           name
           description
+          collaborators {
+            name
+            roles
+          }
           startedAt
           finishedAt
           status

@@ -20,6 +20,10 @@ const Projects = (props: PageProps) => {
           id
           name
           description
+          collaborators {
+            name
+            roles
+          }
           startedAt
           finishedAt
           status

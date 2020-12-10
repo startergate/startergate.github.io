@@ -74,6 +74,10 @@
     margin-bottom: 16px;
 }
 
+.project-detail-contributors {
+    margin-bottom: 8px;
+}
+
 .project-detail-time {
     text-align: center;
 }
