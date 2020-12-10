@@ -1,6 +1,24 @@
 {
   "name": "FaLD",
   "description": "일베 콘텐츠 검출 딥러닝 모델",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["팀장", "기획", "개발"]
+    },
+    {
+      "name": "조도울",
+      "roles": ["개발"]
+    },
+    {
+      "name": "차명준",
+      "roles": ["개발"]
+    },
+    {
+      "name": "정지원",
+      "roles": ["개발"]
+    }
+  ],
   "startedAt": "2018-12-20",
   "finishedAt": "2019-01-02",
   "status": "Failed",

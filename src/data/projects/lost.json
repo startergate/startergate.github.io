@@ -1,6 +1,28 @@
 {
   "name": "Lost",
   "description": "2D 플랫포머 게임",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["팀장", "기획", "게임 개발"]
+    },
+    {
+      "name": "박종효",
+      "roles": ["게임 개발"]
+    },
+    {
+      "name": "정상현",
+      "roles": ["게임 개발"]
+    },
+    {
+      "name": "박재홍",
+      "roles": ["QA"]
+    },
+    {
+      "name": "오영빈",
+      "roles": ["작곡"]
+    }
+  ],
   "startedAt": "2019-03-08",
   "finishedAt": "2020-08-06",
   "status": "Done",

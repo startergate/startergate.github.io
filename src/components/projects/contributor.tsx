@@ -6,9 +6,9 @@ import people from '../../enums/people';
 import './contributor.css';
 
 const Contributor = ({ data }) => (
-  <div className={'project-detail-contributor'}>
+  <a className={'project-detail-contributor noLint'} href={people[data.name]?.link}>
     <Image
-      src={people[data.name]?.image}
+      src={people[data.name]?.image || 'profiles/default.png'}
       className={'project-detail-contributor-image'}
     />
     <div className={'project-detail-contributor-text'}>
@@ -17,7 +17,7 @@ const Contributor = ({ data }) => (
         {data.roles.join(', ')}
       </div>
     </div>
-  </div>
+  </a>
 );
 
 export default Contributor;

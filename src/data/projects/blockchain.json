@@ -1,6 +1,16 @@
 {
   "name": "Untitled Blockchain Project",
   "description": "실버 택배 블록체인 보상 체계",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개발"]
+    },
+    {
+      "name": "모훈",
+      "roles": ["개발"]
+    }
+  ],
   "startedAt": "2018-08-31",
   "finishedAt": "2018-09-01",
   "status": "Failed",

@@ -1,6 +1,16 @@
 {
   "name": "Nearby",
   "description": "주변 정보 검색 페이지",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["디자인", "개발"]
+    },
+    {
+      "name": "장지수",
+      "roles": ["기획"]
+    }
+  ],
   "startedAt": "2018-10-29",
   "finishedAt": "2018-11-08",
   "status": "Done",

@@ -1,6 +1,20 @@
 {
   "name": "Basterds: Hair Naked",
   "description": "타워 디펜스 게임",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["팀장", "기획", "서버 개발", "게임 네트워킹"]
+    },
+    {
+      "name": "정민우",
+      "roles": ["디자인", "프론트 개발"]
+    },
+    {
+      "name": "최준혁",
+      "roles": ["게임 개발"]
+    }
+  ],
   "startedAt": "2019-12-18",
   "finishedAt": "2020-01-08",
   "status": "Done",

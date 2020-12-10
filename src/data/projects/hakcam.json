@@ -1,6 +1,28 @@
 {
   "name": "HakCam",
   "description": "학교 수업 스트리밍 서비스",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["팀장", "기획", "서버 개발"]
+    },
+    {
+      "name": "박종효",
+      "roles": ["프론트 개발"]
+    },
+    {
+      "name": "박건도",
+      "roles": ["프론트 개발"]
+    },
+    {
+      "name": "곽은상",
+      "roles": ["프론트 개발"]
+    },
+    {
+      "name": "정민우",
+      "roles": ["기획"]
+    }
+  ],
   "startedAt": "2019-08-05",
   "finishedAt": "2019-08-07",
   "status": "Failed",
