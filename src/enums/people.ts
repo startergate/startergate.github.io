@@ -1,14 +1,14 @@
 export default {
   최호승: {
-    "link": "https://github.com/startergate",
-    "image": 'startergate.png'
+    link: 'https://github.com/startergate',
+    image: 'startergate.png',
   },
   박준영: {
-    "link": "https://github.com/Unperknown",
-    "image": "profiles/unperknown.jpeg"
+    link: 'https://github.com/Unperknown',
+    image: 'profiles/unperknown.jpeg',
   },
   박종효: {
-    "link": "https://github.com/Parkjonghyo",
-    "image": "profiles/somatsal.png"
-  }
-}
+    link: 'https://github.com/Parkjonghyo',
+    image: 'profiles/somatsal.png',
+  },
+};
