@@ -20,7 +20,7 @@ const ProjectDetail = ({ data, contents }) => {
       <div className="project-detail-title">
         <Image className="project-detail-icon" src={data.imgSrc} />
         <h2 className="project-detail-name">{data.name}</h2>
-        <div className="project-card-description">{data.description}</div>
+        <div className="project-detail-description">{data.description}</div>
         <div className={'project-detail-contributors'}>
           {data.collaborators?.map((person) => (
             <Contributor data={person} />
