@@ -40,4 +40,8 @@ export default {
   Steam: {
     src: 'externals/steam.png',
   },
+  Sourcerer: {
+    src: 'externals/sourcerer.png',
+    background: '#000'
+  }
 };
