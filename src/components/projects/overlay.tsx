@@ -3,7 +3,7 @@ import ProjectDetail from './detail';
 
 import './overlay.css';
 
-const Overlay = ({ data, contents, ...props }) => {
+const Overlay = ({ data, ...props }) => {
   /* document.addEventListener('keydown', (event) => {
     if (event.keyCode == 27 || event.which == 27) {
       const overlay = document.querySelector('.project-overlay');
@@ -28,7 +28,7 @@ const Overlay = ({ data, contents, ...props }) => {
       }}
     >
       {data.map((project) => (
-        <ProjectDetail data={project} contents={contents} />
+        <ProjectDetail data={project} />
       ))}
     </div>
   );

@@ -8,13 +8,13 @@ import FullImage from '../images/fullImage';
 import * as External from '../profiles/external';
 
 import LanguageBadge from './projectLanguage';
+import Contributor from './contributor';
+import MarkdownLoader from "./mdLoader";
 
 import './overlay.css';
 import './detail.css';
-import Contributor from './contributor';
-import * as ReactMarkdown from 'react-markdown';
 
-const ProjectDetail = ({ data, contents }) => {
+const ProjectDetail = ({ data }) => {
   return (
     <div className="overlay-item project-detail" id={'overlay-' + data.id}>
       <div className="project-detail-title">
@@ -102,9 +102,7 @@ const ProjectDetail = ({ data, contents }) => {
             <div className="project-detail-content-item">
               <h5>{title}</h5>
               <FullImage src={image} />
-              <ReactMarkdown>
-                {ref ? contents[ref].internal.content : text}
-              </ReactMarkdown>
+              {ref ? <MarkdownLoader path={ref}/> : text}
             </div>
           ))}
         </div>

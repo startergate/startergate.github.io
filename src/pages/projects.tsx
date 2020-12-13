@@ -57,14 +57,6 @@ const Projects = (props: PageProps) => {
         external_id
         link
       }
-      allFile(filter: { extension: { eq: "md" } }) {
-        nodes {
-          relativePath
-          internal {
-            content
-          }
-        }
-      }
     }
   `);
 
@@ -165,7 +157,7 @@ const Projects = (props: PageProps) => {
           ))}
         </div>
       </section>
-      <Overlay data={projects} contents={labeledFiles} />
+      <Overlay data={projects} />
     </Layout>
   );
 };

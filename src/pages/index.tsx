@@ -66,25 +66,15 @@ const IndexPage = () => {
           link
         }
       }
-      allFile(filter: { extension: { eq: "md" } }) {
-        nodes {
-          relativePath
-          internal {
-            content
-          }
-        }
-      }
     }
   `);
 
   const highlighted = data.allProjectsJson.nodes;
   const languages = data.allLanguagesJson.group;
   const externals = data.allLinksJson.nodes;
-  const files = data.allFile.nodes;
 
   const groupedLanguages: any = {};
   const labeledExternals: any = {};
-  const labeledFiles: any = {};
 
   languages.forEach((value) => {
     groupedLanguages[value['fieldValue']] = value.nodes;
@@ -92,10 +82,6 @@ const IndexPage = () => {
 
   externals.forEach((value) => {
     labeledExternals[value['type']] = value;
-  });
-
-  files.forEach((value) => {
-    labeledFiles[value['relativePath']] = value;
   });
 
   return (
@@ -420,7 +406,7 @@ const IndexPage = () => {
           })}
         </div>
       </section>
-      <Overlay data={highlighted} contents={labeledFiles} />
+      <Overlay data={highlighted} />
     </Layout>
   );
 };
