@@ -9,6 +9,7 @@ const FullImage = ({ src, ...props }) => {
         edges {
           node {
             relativePath
+            publicURL
             childImageSharp {
               fluid {
                 ...GatsbyImageSharpFluid
@@ -24,10 +25,10 @@ const FullImage = ({ src, ...props }) => {
     () => data.allFile.edges.find(({ node }) => src === node.relativePath),
     [data, src]
   );
-
-  return match ? (
+  if (!match) return null;
+  return match.node.childImageSharp ? (
     <Img fluid={match.node.childImageSharp.fluid} {...props} />
-  ) : null;
+  ) : <img src={match.node.publicURL} loading={"lazy"} {...props} />;
 };
 
 export default FullImage;
