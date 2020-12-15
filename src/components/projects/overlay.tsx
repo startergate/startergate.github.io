@@ -19,6 +19,7 @@ const Overlay = ({ data, ...props }) => {
     <div
       className="project-overlay"
       onClick={(event) => {
+        event.persist();
         if (event.target !== event.currentTarget) return;
         event.currentTarget.classList.remove('active');
         document.querySelector('body').classList.remove('disabled');
