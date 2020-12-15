@@ -29,6 +29,10 @@ const Projects = (props: PageProps) => {
           status
           type
           tags
+          images {
+            src
+            description
+          }
           links {
             type
             link

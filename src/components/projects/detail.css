@@ -158,3 +158,28 @@
     white-space: nowrap;
     direction: rtl;
 }
+
+.project-detail-images {
+    width: 100%;
+    cursor: grab;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.project-detail-images {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+.project-detail-image {
+    display: inline-block;
+    max-height: 50vh;
+    tab-index: -1;
+}
+
+.project-detail-image {
+    margin: 4px 5px
+}

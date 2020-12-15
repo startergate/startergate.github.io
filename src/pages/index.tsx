@@ -31,6 +31,10 @@ const IndexPage = () => {
           status
           type
           tags
+          images {
+            src
+            description
+          }
           links {
             type
             link

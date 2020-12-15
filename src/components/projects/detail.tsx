@@ -9,7 +9,7 @@ import * as External from '../profiles/external';
 
 import LanguageBadge from './projectLanguage';
 import Contributor from './contributor';
-import MarkdownLoader from "./mdLoader";
+import MarkdownLoader from './mdLoader';
 
 import './overlay.css';
 import './detail.css';
@@ -96,13 +96,22 @@ const ProjectDetail = ({ data }) => {
           </svg>
         </span>
       </div>
+      {data.images ? (
+        <div className={"project-detail-content"}>
+          <div className={'project-detail-images'}>
+            {data.images?.map(({ src, description }) => (
+              <FullImage className={'project-detail-image'} src={src} title={description} />
+            ))}
+          </div>
+        </div>
+      ) : null}
       {data.contents ? (
         <div className="project-detail-content">
           {data.contents?.map(({ title, image, ref, text }) => (
             <div className="project-detail-content-item">
               <h5>{title}</h5>
               <FullImage src={image} />
-              {ref ? <MarkdownLoader path={ref}/> : text}
+              {ref ? <MarkdownLoader path={ref} /> : text}
             </div>
           ))}
         </div>

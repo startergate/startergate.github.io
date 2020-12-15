@@ -20,6 +20,64 @@
   "status": "Done",
   "type": ["Server"],
   "tags": ["Python", "Django", "MySQL", "Docker", "AWS EC2", "AWS S3"],
+  "images": [
+    {
+      "src": "projects/eliverd/customer/1.gif",
+      "description": "소비자 앱 상품 조회"
+    },
+    {
+      "src": "projects/eliverd/customer/2.gif",
+      "description": "소비자 앱 주문"
+    },
+    {
+      "src": "projects/eliverd/customer/3.gif",
+      "description": "소비자 앱 결제"
+    },
+    {
+      "src": "projects/eliverd/customer/4.gif",
+      "description": "소비자 앱 주문 내역 조회"
+    },
+    {
+      "src": "projects/eliverd/customer/5.gif",
+      "description": "소비자 앱 상품 추천"
+    },
+    {
+      "src": "projects/eliverd/customer/6.gif",
+      "description": "소비자 앱 검색"
+    },
+    {
+      "src": "projects/eliverd/customer/7.gif",
+      "description": "소비자 앱 카테고리 분류"
+    },
+    {
+      "src": "projects/eliverd/customer/8.gif",
+      "description": "소비자 앱 마이페이지"
+    },
+    {
+      "src": "projects/eliverd/store/1.gif",
+      "description": "상점 앱 상품 조회"
+    },
+    {
+      "src": "projects/eliverd/store/2.gif",
+      "description": "상점 앱 주문"
+    },
+    {
+      "src": "projects/eliverd/store/3.gif",
+      "description": "상점 앱 결제"
+    },
+    {
+      "src": "projects/eliverd/store/4.gif",
+      "description": "상점 앱 주문 내역 조회"
+    },
+    {
+      "src": "projects/eliverd/store/5.gif",
+      "description": "상점 앱 상품 추천"
+    },
+    {
+      "src": "projects/eliverd/store/6.gif",
+      "description": "상점 앱 검색"
+    }
+  ],
   "links": [
     {
       "type": "GitHub",
