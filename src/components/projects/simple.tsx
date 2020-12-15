@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useEffect } from 'react';
 
 import Badge from '../images/badge';
 import LanguageBadge from './projectLanguage';
@@ -15,6 +16,24 @@ const overlayDispatcher = (event: React.MouseEvent) => {
 };
 
 const ProjectCard = ({ data }) => {
+  useEffect(() => {
+    const regex = new RegExp('/project/|/', 'g');
+
+    if (
+      location.pathname.split(regex).join('').split('%20').join(' ') ===
+      data.name
+    ) {
+      setTimeout(() => {
+        document.getElementById(data.id).dispatchEvent(
+          new MouseEvent('click', {
+            view: window,
+            bubbles: true,
+            cancelable: true,
+          })
+        );
+      }, 1000);
+    }
+  });
   return (
     <div className="project-card" id={data.id} onClick={overlayDispatcher}>
       <div className="project-card-name">

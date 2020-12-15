@@ -1,5 +1,3 @@
-import * as path from "path";
-
 import * as React from 'react';
 
 import LanguageColor from '../../enums/langs';
@@ -99,10 +97,14 @@ const ProjectDetail = ({ data }) => {
         </span>
       </div>
       {data.images ? (
-        <div className={"project-detail-content"}>
+        <div className={'project-detail-content'}>
           <div className={'project-detail-images'}>
             {data.images?.map(({ src, description }) => (
-              <FullImage className={'project-detail-image'} src={src} title={description} />
+              <FullImage
+                className={'project-detail-image'}
+                src={src}
+                title={description}
+              />
             ))}
           </div>
         </div>
