@@ -42,5 +42,9 @@
   ],
   "imgSrc": "projects/lost.png",
   "isHighlighted": false,
+  "owner": {
+    "name": "Tiny Beluga",
+    "link": "https://tiny-beluga.github.io"
+  },
   "orderLevel": 0
 }
