@@ -1,0 +1,41 @@
+{
+  "name": "FaLD",
+  "description": "일베 콘텐츠 검출 딥러닝 모델",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["팀장", "기획", "개발"]
+    },
+    {
+      "name": "조도울",
+      "roles": ["개발"]
+    },
+    {
+      "name": "차명준",
+      "roles": ["개발"]
+    },
+    {
+      "name": "정지원",
+      "roles": ["개발"]
+    }
+  ],
+  "startedAt": "2018-12-20",
+  "finishedAt": "2019-01-02",
+  "status": "Failed",
+  "type": ["Etc"],
+  "tags": ["Python", "Tensorflow", "Jupyter Notebook"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/FaLD-Py",
+      "external_id": "FaLD-Py"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/FaLD-Dev",
+      "external_id": "FaLD-Dev"
+    }
+  ],
+  "isHighlighted": false,
+  "orderLevel": 4
+}

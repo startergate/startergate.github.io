@@ -1,0 +1,85 @@
+{
+  "name": "SID",
+  "description": "STARTERGATE IDENTITY: 통합 계정 서비스",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
+  "startedAt": "2019-01-09",
+  "finishedAt": "2019-09-15",
+  "status": "Done",
+  "type": ["Server", "Web Application"],
+  "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID-1.0",
+      "external_id": "SID-1.0"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID-2.0",
+      "external_id": "SID-2.0"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID-2.0-Client",
+      "external_id": "SID-2.0"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.php",
+      "external_id": "SID.php"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.js",
+      "external_id": "SID.js"
+    },
+    {
+      "type": "npm",
+      "link": "https://www.npmjs.com/package/@startergate/sidjs",
+      "external_id": "@startergate/sidjs"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.ts",
+      "external_id": "SID.ts"
+    },
+    {
+      "type": "npm",
+      "link": "https://www.npmjs.com/package/@startergate/sidts",
+      "external_id": "@startergate/sidts"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.js-for-jQuery",
+      "external_id": "SID.js-for-jQuery"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.cpp",
+      "external_id": "SID.cpp"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.NET",
+      "external_id": "SID.NET"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.java",
+      "external_id": "SID.java"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/SID.py",
+      "external_id": "SID.py"
+    }
+  ],
+  "imgSrc": "projects/sid.png",
+  "isHighlighted": false,
+  "orderLevel": 0
+}

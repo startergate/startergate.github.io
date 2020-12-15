@@ -1,0 +1,61 @@
+{
+  "name": "GSM Pay",
+  "description": "학교 축제 부스 간편 결제 시스템",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["팀장", "기획", "서버 개발"]
+    },
+    {
+      "name": "박준영",
+      "roles": ["서버 개발"]
+    },
+    {
+      "name": "최연진",
+      "roles": ["서버 개발"]
+    },
+    {
+      "name": "노아련",
+      "roles": ["프론트 개발"]
+    },
+    {
+      "name": "이진혁",
+      "roles": ["기획 기여"]
+    }
+  ],
+  "startedAt": "2020-06-17",
+  "finishedAt": "2020-09-23",
+  "status": "Done",
+  "type": ["Server", "Web Application"],
+  "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "GraphQL", "AWS EC2"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay",
+      "external_id": "GSM-Pay"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-API",
+      "external_id": "GSM-Pay/Payment-API"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-Client",
+      "external_id": "GSM-Pay/Payment-Client"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-ManagerClient",
+      "external_id": "GSM-Pay/Payment-ManagerClient"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/GSM-Pay/Payment-Client-OLD",
+      "external_id": "GSM-Pay/Payment-Client-OLD"
+    }
+  ],
+  "imgSrc": "teams/bean.png",
+  "isHighlighted": false,
+  "orderLevel": 1
+}

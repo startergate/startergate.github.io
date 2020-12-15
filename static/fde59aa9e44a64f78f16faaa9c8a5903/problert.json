@@ -1,0 +1,49 @@
+{
+  "name": "Problert",
+  "description": "위치 기반 민원 접수 시스템",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["서버 개발"]
+    },
+    {
+      "name": "정한결",
+      "roles": ["모바일 앱 개발"]
+    },
+    {
+      "name": "서지우",
+      "roles": ["모바일 앱 개발"]
+    },
+    {
+      "name": "홍준석",
+      "roles": ["모바일 앱 개발"]
+    },
+    {
+      "name": "이성범",
+      "roles": ["모바일 앱 개발"]
+    },
+    {
+      "name": "양현승",
+      "roles": ["모바일 앱 개발"]
+    }
+  ],
+  "startedAt": "2019-08-27",
+  "finishedAt": "2019-09-02",
+  "status": "Done",
+  "type": ["Server"],
+  "tags": ["JavaScript", "Node.js", "Express.js", "MongoDB", "AWS EC2"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Problert-API",
+      "external_id": "Problert-API"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/junwkdd/Problert",
+      "external_id": "junwkdd/Problert"
+    }
+  ],
+  "isHighlighted": false,
+  "orderLevel": 2
+}

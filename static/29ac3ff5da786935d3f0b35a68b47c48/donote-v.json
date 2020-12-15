@@ -1,0 +1,58 @@
+{
+  "name": "DoNote V",
+  "description": "TypeScript로 다시 만드는 DoNote",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
+  "startedAt": "2019-08-09",
+  "status": "Developing",
+  "type": ["Server", "Web Application"],
+  "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "AWS EC2"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V",
+      "external_id": "DoNote-V"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-API",
+      "external_id": "DoNote-V-API"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-Proxy",
+      "external_id": "DoNote-V-Proxy"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-Deploy",
+      "external_id": "DoNote-V-Deploy"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DoNote-V-API-Express",
+      "external_id": "DoNote-V-API-Express"
+    }
+  ],
+  "contents": [
+    {
+      "title": "What is DoNote V?",
+      "text": "DoNote V는 PHP로 만들어진 메모 웹 앱, DoNote를 React와 Koa.js로 새롭게 리팩토링하는 프로젝트이다. 데이터베이스는 기존의 모델을 그대로 사용하고 있다. 기존 기능을 모두 계승하고, 새롭게 개발된 React 코드를 바탕으로 데스크탑 앱도 만든다."
+    },
+    {
+      "title": "레거시와 함께하는 프로젝트",
+      "text": "이 프로젝트는 기존의 데이터베이스를 유지하고, PHP로 구현됐던 프론트와 백엔드를 다시 구현하는걸 목표로 하고 있다. 기존의 DoNote의 데이터베이스 모델은 내가 코딩을 막 시작했을 때 만든거라서 굉장히 특이하고 이상한 구조로 되어 있는데, 각 유저마다 테이블을 하나씩 만들어 준다. ORM을 사용할 수 있는 상황에서는 굉장히 좋지 않은데, 데이터베이스를 자동으로 관리하기 어려워진다는 것이다. 때문에 장기적으로 데이터베이스 구조를 변경할 계획을 세우고, DB Sync는 유저가 로그인 할때마다 유저에 관련된 테이블에 수행하기로 했다."
+    },
+    {
+      "title": "TypeScript로 넘어가기",
+      "text": "이 프로젝트는 학교 프로젝트나 협업 프로젝트들 때문에 미뤄서 진행했는데, 그 사이 내가 사용하는 언어들도 좀 바뀌었다. TypeScript를 사용하게 되었는데, 한 번 사용해보니까 다시 돌아가지 못할 만큼 편했다. 벡엔드가 다 완성되고 프론트가 개발 준비 중인 상태에서 이렇게 되어서 백엔드를 TypeScript로 변경하기로 했다. 변경 작업은 쉬운 편이었는데, 유일하게 Sequelize.js 로 짜여진 데이터베이스 모델이 바꾸는데 시간이 제일 오래 걸렸다. Sequelize를 TypeScript에서 사용하기 위해서는 모델 생성 코드와 함께 Static Type과 Interface를 생성해줘야 하는데, 이를 전부 수작업으로 해줘야해서 실수도 많이 있었고, 시간도 많이 걸렸다. 다음부터는 TypeORM을 사용하는게 더 적합할 것 같다는 결론에 도달했다."
+    }
+  ],
+  "imgSrc": "projects/donote.png",
+  "isHighlighted": true,
+  "orderLevel": 0
+}

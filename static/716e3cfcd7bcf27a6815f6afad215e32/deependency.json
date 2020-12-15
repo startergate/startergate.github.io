@@ -1,0 +1,23 @@
+{
+  "name": "DEEPendency",
+  "description": "스팀 창작마당 아이템 의존성 자동 설치기",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
+  "startedAt": "2020-04-01",
+  "status": "Planning",
+  "type": ["Etc"],
+  "tags": ["TypeScript"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/DEEPendency",
+      "external_id": "DEEPendency"
+    }
+  ],
+  "isHighlighted": false,
+  "orderLevel": 3
+}

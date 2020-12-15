@@ -1,0 +1,33 @@
+{
+  "name": "Nyan ID",
+  "description": "Oauth 2.0 계정 서비스",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
+  "startedAt": "2020-01-14",
+  "status": "Planning",
+  "type": ["Server", "Web Application"],
+  "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Nyan-ID",
+      "external_id": "Nyan-ID"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Nyan-ID-Homepage",
+      "external_id": "Nyan-ID-Homepage"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Nyan.js",
+      "external_id": "Nyan.js"
+    }
+  ],
+  "isHighlighted": false,
+  "orderLevel": 1
+}
