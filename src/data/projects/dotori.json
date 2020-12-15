@@ -89,6 +89,10 @@
     }
   ],
   "imgSrc": "projects/dotori/logo.png",
+  "owner": {
+    "name": "빈실",
+    "link": "https://github.com/BeanSil"
+  },
   "isHighlighted": true,
   "orderLevel": 0
 }

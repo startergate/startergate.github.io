@@ -31,6 +31,7 @@ const ProjectDetail = ({ data }) => {
         />
         {!data.imageIsTitle ? (
           <h2 className="project-detail-name">{data.name}</h2>
+        ) : null}
         <div className="project-detail-description">{data.description}</div>
         <div className={'project-detail-contributors'}>
           {data.collaborators?.map((person) => (

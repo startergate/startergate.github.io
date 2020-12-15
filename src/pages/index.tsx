@@ -41,6 +41,10 @@ const IndexPage = () => {
             external_id
           }
           imgSrc
+          owner {
+            name
+            link
+          }
           contents {
             title
             image

@@ -39,6 +39,10 @@ const Projects = (props: PageProps) => {
             external_id
           }
           imgSrc
+          owner {
+            name
+            link
+          }
           contents {
             title
             image
