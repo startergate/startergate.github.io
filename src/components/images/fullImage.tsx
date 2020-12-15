@@ -12,6 +12,7 @@ const FullImage = ({ src, ...props }) => {
             publicURL
             childImageSharp {
               fluid {
+                presentationWidth
                 ...GatsbyImageSharpFluid
               }
             }
@@ -27,8 +28,10 @@ const FullImage = ({ src, ...props }) => {
   );
   if (!match) return null;
   return match.node.childImageSharp ? (
-    <Img fluid={match.node.childImageSharp.fluid} {...props} />
-  ) : <img src={match.node.publicURL} loading={"lazy"} {...props} />;
+    <Img fluid={match.node.childImageSharp.fluid} style={{ width: match.node.childImageSharp.fluid.presentationWidth }} {...props} />
+  ) : (
+    <img src={match.node.publicURL} loading={'lazy'} {...props} />
+  );
 };
 
 export default FullImage;
