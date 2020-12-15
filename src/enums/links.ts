@@ -42,6 +42,6 @@ export default {
   },
   Sourcerer: {
     src: 'externals/sourcerer.png',
-    background: '#000'
-  }
+    background: '#000',
+  },
 };

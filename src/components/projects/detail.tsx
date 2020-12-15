@@ -1,3 +1,5 @@
+import * as path from "path";
+
 import * as React from 'react';
 
 import LanguageColor from '../../enums/langs';

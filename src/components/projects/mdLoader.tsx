@@ -1,12 +1,12 @@
-import * as React from "react";
+import * as React from 'react';
 
-import * as ReactMarkdown from "react-markdown";
-import { graphql, useStaticQuery } from "gatsby";
+import * as ReactMarkdown from 'react-markdown';
+import { graphql, useStaticQuery } from 'gatsby';
 
-const MarkdownLoader = ({path, ...props}) => {
+const MarkdownLoader = ({ path, ...props }) => {
   const data = useStaticQuery(graphql`
     query getAllMarkdown {
-      allFile(filter: {extension: {eq: "md"}}) {
+      allFile(filter: { extension: { eq: "md" } }) {
         edges {
           node {
             relativePath
@@ -24,9 +24,9 @@ const MarkdownLoader = ({path, ...props}) => {
     [data, path]
   );
 
-  return <ReactMarkdown {...props}>
-    {match.node.internal.content}
-  </ReactMarkdown>
-}
+  return (
+    <ReactMarkdown {...props}>{match.node.internal.content}</ReactMarkdown>
+  );
+};
 
 export default MarkdownLoader;
