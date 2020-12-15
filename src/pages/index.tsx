@@ -41,6 +41,7 @@ const IndexPage = () => {
             external_id
           }
           imgSrc
+          imageIsTitle
           owner {
             name
             link

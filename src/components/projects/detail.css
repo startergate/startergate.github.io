@@ -66,6 +66,12 @@
     border-bottom: 1px solid gainsboro;
 }
 
+.project-detail-name-icon {
+    height: 78px;
+    max-height: 78px;
+    margin-bottom: 16px;
+}
+
 .project-detail-icon {
     width: 128px;
 }
@@ -83,6 +89,12 @@
 
 .project-detail-content-item:not(:last-child) {
     margin-bottom: 16px;
+}
+
+.project-detail-content-image {
+    max-height:250px;
+    max-width: 100%;
+    margin-bottom: 8px;
 }
 
 .project-detail-contributors {
@@ -176,10 +188,8 @@
 
 .project-detail-image {
     display: inline-block;
+    height: 430px;
     max-height: 50vh;
     tab-index: -1;
-}
-
-.project-detail-image {
     margin: 4px 5px
 }

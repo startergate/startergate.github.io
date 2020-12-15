@@ -49,6 +49,7 @@
     }
   ],
   "imgSrc": "projects/hive.png",
+  "imageIsTitle": true,
   "isHighlighted": true,
   "orderLevel": 1
 }
