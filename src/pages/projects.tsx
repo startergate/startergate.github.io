@@ -61,18 +61,10 @@ const Projects = (props: PageProps) => {
   `);
 
   const projects = data.allProjectsJson.nodes;
-  const files = data.allFile.nodes;
   const badgeData = data.linksJson;
   const types = data.type.distinct;
   const tags = data.tags.distinct;
   const status = data.status.distinct;
-
-  const labeledFiles: any = {};
-
-  files.forEach((value) => {
-    labeledFiles[value['relativePath']] = value;
-  });
-
   const selecteds = {
     types: [],
     tags: [],
