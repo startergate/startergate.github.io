@@ -41,6 +41,7 @@ const Projects = (props: PageProps) => {
           imgSrc
           contents {
             title
+            image
             ref
             text
           }

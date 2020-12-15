@@ -5,6 +5,7 @@ import getKoreanDateString from '../../util/getKoreanDateString';
 
 import Image from '../images/image';
 import FullImage from '../images/fullImage';
+import OriginalImage from "../images/originalImg";
 import * as External from '../profiles/external';
 
 import LanguageBadge from './projectLanguage';
@@ -18,8 +19,18 @@ const ProjectDetail = ({ data }) => {
   return (
     <div className="overlay-item project-detail" id={'overlay-' + data.id}>
       <div className="project-detail-title">
-        <Image className="project-detail-icon" src={data.imgSrc} />
-        <h2 className="project-detail-name">{data.name}</h2>
+        <Image
+          className={
+            data.imageIsTitle
+              ? 'project-detail-name-icon'
+              : 'project-detail-icon'
+          }
+          src={data.imgSrc}
+          alt={data.name}
+          imgStyle={{ objectFit: 'contain', objectPosition: 'top left' }}
+        />
+        {!data.imageIsTitle ? (
+          <h2 className="project-detail-name">{data.name}</h2>
         <div className="project-detail-description">{data.description}</div>
         <div className={'project-detail-contributors'}>
           {data.collaborators?.map((person) => (
@@ -100,10 +111,10 @@ const ProjectDetail = ({ data }) => {
         <div className={'project-detail-content'}>
           <div className={'project-detail-images'}>
             {data.images?.map(({ src, description }) => (
-              <FullImage
+              <OriginalImage
                 className={'project-detail-image'}
                 src={src}
-                title={description}
+                alt={description}
               />
             ))}
           </div>
@@ -114,7 +125,7 @@ const ProjectDetail = ({ data }) => {
           {data.contents?.map(({ title, image, ref, text }) => (
             <div className="project-detail-content-item">
               <h5>{title}</h5>
-              <FullImage src={image} />
+              <FullImage className={"project-detail-content-image"} src={image} />
               {ref ? <MarkdownLoader path={ref} /> : text}
             </div>
           ))}
@@ -125,6 +136,9 @@ const ProjectDetail = ({ data }) => {
           <External.Small data={link} />
         ))}
       </div>
+      {data.owner ? (
+        <div className={'project-detail-owner'}>Project Courtesy of <a href={data.owner.link}>{data.owner.name}</a></div>
+      ) : null}
     </div>
   );
 };

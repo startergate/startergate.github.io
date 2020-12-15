@@ -43,6 +43,7 @@ const IndexPage = () => {
           imgSrc
           contents {
             title
+            image
             ref
             text
           }
