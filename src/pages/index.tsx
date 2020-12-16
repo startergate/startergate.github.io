@@ -410,9 +410,11 @@ const IndexPage = () => {
             <span>프로젝트: Lost</span>
           </div>
         </section>
-        <a href="/cv.pdf" download>
-          Download CV as PDF
-        </a>
+        <External.Small data={{
+          type: 'Download',
+          link: '/cv.pdf',
+          external_id: 'Download CV as PDF',
+        }} download/>
       </section>
       <section id="link">
         <h2>Links</h2>

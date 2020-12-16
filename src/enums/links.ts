@@ -44,4 +44,8 @@ export default {
     src: 'externals/sourcerer.png',
     background: '#000',
   },
+  Download: {
+    src: 'down-arrow.png',
+    background: '#24292e'
+  }
 };

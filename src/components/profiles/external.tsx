@@ -36,21 +36,22 @@ const Icon = ({ data }) => {
   );
 };
 
-const Small = ({ data }) => (
+const Small = ({ data, ...props }) => (
   <a
     className="badge badge-external-small noLintAbsolute"
     style={{
-      backgroundColor: Links[data.type].background || '#FFFFFF',
+      backgroundColor: Links[data.type]?.background || '#FFFFFF',
     }}
     href={data.link}
     title={data.type}
     target="_blank"
+    {...props}
   >
     <Badge className="badge-external-small-image" src={Links[data.type].src} />
     <span
       className="badge-external-small-id"
       style={{
-        color: Links[data.type].background ? '#FFFFFF' : '#000000',
+        color: Links[data.type]?.background ? '#FFFFFF' : '#000000',
       }}
     >
       {data.external_id}
