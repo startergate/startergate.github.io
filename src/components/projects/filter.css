@@ -58,6 +58,7 @@
 }
 
 .project-filter-choice {
+    height: 36px;
     min-width: 100%;
     white-space: nowrap;
     border: 1px solid gainsboro;
