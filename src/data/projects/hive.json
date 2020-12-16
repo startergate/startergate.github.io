@@ -49,6 +49,7 @@
     }
   ],
   "imgSrc": "projects/hive.png",
+  "imgSrcOnLightMode": "projects/hive white.png",
   "imageIsTitle": true,
   "isHighlighted": true,
   "orderLevel": 1
