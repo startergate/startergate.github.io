@@ -9,7 +9,8 @@
     text-align: center;
     z-index: 5000;
     padding: 64px;
-    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: scroll;
     transition: all 0.3s;
 }
 
