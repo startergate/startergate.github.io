@@ -44,6 +44,7 @@ const IndexPage = () => {
             external_id
           }
           imgSrc
+          imgSrcOnLightMode
           imageIsTitle
           owner {
             name

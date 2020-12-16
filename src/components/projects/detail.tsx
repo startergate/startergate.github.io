@@ -26,6 +26,7 @@ const ProjectDetail = ({ data }) => {
               : 'project-detail-icon'
           }
           src={data.imgSrc}
+          srcIfLightMode={data.imgSrcOnLightMode}
           alt={data.name}
           imgStyle={{ objectFit: 'contain', objectPosition: 'top left' }}
         />

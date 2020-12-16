@@ -25,9 +25,30 @@ const Image = ({ src, ...props }) => {
     [data, src]
   );
 
-  return match ? (
-    <Img fluid={match.node.childImageSharp.fluid} {...props} />
-  ) : null;
+  if (match) {
+    let matchLightMode;
+    let sources = match.node.childImageSharp.fluid
+
+    if (props.srcIfLightMode) {
+      matchLightMode = React.useMemo(
+        () => data.allFile.edges.find(({ node }) => props.srcIfLightMode === node.relativePath),
+        [data, props.srcIfLightMode]
+      );
+      if (matchLightMode) {
+        sources = [
+          match.node.childImageSharp.fluid,
+          {
+            ...matchLightMode.node.childImageSharp.fluid,
+            media: `(prefers-color-scheme: light)`,
+          },
+        ]
+      }
+    }
+
+    return <Img fluid={sources} {...props} />
+  } else {
+    return null;
+  }
 };
 
 export default Image;
