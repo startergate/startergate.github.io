@@ -7,8 +7,11 @@ import Language from '../components/profiles/language';
 import * as External from '../components/profiles/external';
 import Project from '../components/projects/simple';
 import Overlay from '../components/projects/overlay';
+import OriginalImage from "../components/images/originalImg";
 
 import './index.css';
+
+import peoplefundWhite from '../images/teams/peoplefund_white.png';
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -301,11 +304,14 @@ const IndexPage = () => {
             <h5>
               <a
                 href="https://www.peoplefund.co.kr"
-                className="cv-item-title"
+                className="cv-item-title noLint"
                 title="피플펀드컴퍼니"
                 target="_blank"
               >
-                <span className="lint">피플펀드컴퍼니</span>
+                <picture>
+                  <source style={{margin: 0}} srcSet={peoplefundWhite} media="(prefers-color-scheme: dark)" />
+                  <OriginalImage src={"teams/peoplefund.png"} alt={"피플펀드컴퍼니"}/>
+                </picture>
               </a>
             </h5>
             <span>서울특별시</span>
