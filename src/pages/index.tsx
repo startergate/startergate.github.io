@@ -349,6 +349,13 @@ const IndexPage = () => {
             <span>M2C: Modular Multi Camera</span>
           </div>
           <div className="cv-item">
+            <h5>GSM 소프트웨어 개발 경진 콘테스트</h5>
+            <span>2019</span>
+            <span>장려상</span>
+            <br />
+            <span><a href="/project/The Intersection">The Intersection</a></span>
+          </div>
+          <div className="cv-item">
             <h5>GSM 팀프로젝트발표회</h5>
             <span>2020.9</span>
             <span>장려상</span>
