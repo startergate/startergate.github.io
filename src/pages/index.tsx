@@ -356,6 +356,13 @@ const IndexPage = () => {
             <span><a href="/project/Eliverd">Eliverd</a></span>
           </div>
           <div className="cv-item">
+            <h5>GSM 전공 동아리 해커톤 대회</h5>
+            <span>2020.9</span>
+            <span>장려상</span>
+            <br />
+            <span><a href="/project/GSM Pay">GSM Pay</a></span>
+          </div>
+          <div className="cv-item">
             <h5>정보처리기능사</h5>
             <span>2019.3</span>
             <span>한국산업인력공단</span>
