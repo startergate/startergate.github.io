@@ -34,7 +34,7 @@
     font-weight: 550;
 }
 
-.cv-item *:not(.lint) {
+.cv-item > *:not(.lint) {
     margin-right: 8px;
 }
 
