@@ -353,7 +353,7 @@ const IndexPage = () => {
             <span>2020.9</span>
             <span>장려상</span>
             <br />
-            <span>Eliverd</span>
+            <span><a href="/project/Eliverd">Eliverd</a></span>
           </div>
           <div className="cv-item">
             <h5>정보처리기능사</h5>
@@ -387,7 +387,7 @@ const IndexPage = () => {
             <span>부장</span>
             <span>2020.1 ~ 2020.8</span>
             <br />
-            <span>프로젝트: DOTORI</span>
+            <span>프로젝트: <a href="/project/DOTORI">DOTORI</a>, <a href="/project/GSM Pay">GSM Pay</a></span>
           </div>
           <div className="cv-item">
             <h5>
@@ -408,7 +408,7 @@ const IndexPage = () => {
             <span>부장</span>
             <span>2019.3 ~ </span>
             <br />
-            <span>프로젝트: Lost</span>
+            <span>프로젝트: <a href="/project/Lost">Lost</a></span>
           </div>
         </section>
         <External.Small data={{
