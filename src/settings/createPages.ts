@@ -1,9 +1,9 @@
 import { resolve } from 'path';
 
-export const createPages = ({ graphql, actions }) => {
+export const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  graphql(`
+  const result = await graphql(`
     query {
       allProjectsJson(
         sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] }
@@ -14,16 +14,15 @@ export const createPages = ({ graphql, actions }) => {
         }
       }
     }
-  `).then((result) => {
-    if (result.errors) {
-      throw result.errors;
-    }
+  `)
+  if (result.errors) {
+    throw result.errors;
+  }
 
-    result.data.allProjectsJson.nodes.forEach((data) => {
-      createPage({
-        path: `project/${data.name}/`,
-        component: resolve(__dirname, '../pages/projects.tsx'),
-      });
+  result.data.allProjectsJson.nodes.map((data) => {
+    createPage({
+      path: `project/${data.name}/`,
+      component: resolve(__dirname, '../pages/projects.tsx'),
     });
   });
 };
