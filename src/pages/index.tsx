@@ -249,8 +249,8 @@ const IndexPage = () => {
           <External.Small data={labeledExternals.GitHub} />
         </div>
         <div className="list">
-          {highlighted.map((value) => (
-            <Project data={value} />
+          {highlighted.map((value, index) => (
+            <Project data={value} key={index} />
           ))}
         </div>
         <Link to="/projects/">See More...</Link>
@@ -263,24 +263,24 @@ const IndexPage = () => {
         <div id="cv-languages-using">
           <h4>Using</h4>
           <div className="list">
-            {groupedLanguages.using?.map((value) => (
-              <Language data={value} />
+            {groupedLanguages.using?.map((value, index) => (
+              <Language data={value} key={index} />
             ))}
           </div>
         </div>
         <div id="cv-languages-learned">
           <h4>Learned / Used</h4>
           <div className="list">
-            {groupedLanguages.learned?.map((value) => (
-              <Language data={value} />
+            {groupedLanguages.learned?.map((value, index) => (
+              <Language data={value} key={index} />
             ))}
           </div>
         </div>
         <div id="cv-languages-learning">
           <h4>Learning / Interested</h4>
           <div className="list">
-            {groupedLanguages.learning?.map((value) => (
-              <Language data={value} />
+            {groupedLanguages.learning?.map((value, index) => (
+              <Language data={value} key={index} />
             ))}
           </div>
         </div>
@@ -470,8 +470,8 @@ const IndexPage = () => {
       <section id="link">
         <h2>Links</h2>
         <div className="list">
-          {externals.map((value) => {
-            return <External.Icon data={value} />;
+          {externals.map((value, index) => {
+            return <External.Icon data={value} key={index} />;
           })}
         </div>
       </section>

@@ -35,13 +35,13 @@ const ProjectDetail = ({ data }) => {
         ) : null}
         <div className="project-detail-description">{data.description}</div>
         <div className={'project-detail-contributors'}>
-          {data.collaborators?.map((person) => (
-            <Contributor data={person} />
+          {data.collaborators?.map((person, index) => (
+            <Contributor data={person} key={index} />
           ))}
         </div>
         <div className="project-card-tags">
-          {data.tags.map((value) => (
-            <LanguageBadge tag={value} />
+          {data.tags.map((value, index) => (
+            <LanguageBadge tag={value} key={index} />
           ))}
         </div>
         <div className={'project-detail-time'}>
@@ -112,11 +112,12 @@ const ProjectDetail = ({ data }) => {
       {data.images ? (
         <div className={'project-detail-content'}>
           <div className={'project-detail-images'}>
-            {data.images?.map(({ src, description }) => (
+            {data.images?.map(({ src, description }, index) => (
               <OriginalImage
                 className={'project-detail-image'}
                 src={src}
                 alt={description}
+                key={index}
               />
             ))}
           </div>
@@ -124,8 +125,8 @@ const ProjectDetail = ({ data }) => {
       ) : null}
       {data.contents ? (
         <div className="project-detail-content">
-          {data.contents?.map(({ title, image, ref, text }) => (
-            <div className="project-detail-content-item">
+          {data.contents?.map(({ title, image, ref, text }, index) => (
+            <div className="project-detail-content-item" key={index}>
               <h5>{title}</h5>
               <FullImage
                 className={'project-detail-content-image'}
@@ -137,8 +138,8 @@ const ProjectDetail = ({ data }) => {
         </div>
       ) : null}
       <div className="project-detail-links">
-        {data.links.map((link) => (
-          <External.Small data={link} />
+        {data.links.map((link, index) => (
+          <External.Small data={link} key={index} />
         ))}
       </div>
       {data.owner ? (

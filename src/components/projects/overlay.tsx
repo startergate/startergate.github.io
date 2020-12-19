@@ -32,8 +32,8 @@ const Overlay = ({ data, ...props }) => {
           return navigate('/projects/');
       }}
     >
-      {data.map((project) => (
-        <ProjectDetail data={project} />
+      {data.map((project, index) => (
+        <ProjectDetail data={project} key={index} />
       ))}
     </div>
   );

@@ -155,8 +155,8 @@ const Projects = (props: PageProps) => {
           />
         </div>
         <div className="list project-list">
-          {projects.map((value) => (
-            <Project data={value} />
+          {projects.map((value, index) => (
+            <Project data={value} key={index} />
           ))}
         </div>
       </section>
