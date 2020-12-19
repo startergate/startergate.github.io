@@ -289,6 +289,7 @@ const IndexPage = () => {
                 href="https://gsm.gen.hs.kr"
                 className="cv-item-title"
                 title="광주소프트웨어마이스터고등학교"
+                target="_blank"
               >
                 <span className="lint">광주소프트웨어마이스터고등학교</span>
               </a>
@@ -296,7 +297,15 @@ const IndexPage = () => {
             <span>광주광역시</span>
             <span>2018.03 ~ 2021.01</span>
             <br />
-            <span>소프트웨어개발과</span>
+            <span>
+              <a
+                href="http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01"
+                title="소프트웨어개발과"
+                target="_blank"
+              >
+                소프트웨어개발과
+              </a>
+            </span>
           </div>
         </section>
         <section id="cv-experiences">
