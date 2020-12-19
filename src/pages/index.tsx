@@ -11,8 +11,6 @@ import OriginalImage from '../components/images/originalImg';
 
 import './index.css';
 
-import peoplefundWhite from '../images/teams/peoplefund_white.png';
-
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query getIndexData {
@@ -80,12 +78,20 @@ const IndexPage = () => {
           link
         }
       }
+      pfLogo: file(relativePath: {eq: "teams/peoplefund_white.png"}) {
+        childImageSharp {
+          fluid {
+            srcSet
+          }
+        }
+      }
     }
   `);
 
   const highlighted = data.allProjectsJson.nodes;
   const languages = data.allLanguagesJson.group;
   const externals = data.allLinksJson.nodes;
+  const peoplefund_white = data.pfLogo;
 
   const groupedLanguages: any = {};
   const labeledExternals: any = {};
@@ -321,7 +327,7 @@ const IndexPage = () => {
                 <picture>
                   <source
                     style={{ margin: 0 }}
-                    srcSet={peoplefundWhite}
+                    srcSet={peoplefund_white.childImageSharp.fluid.srcSet}
                     media="(prefers-color-scheme: dark)"
                   />
                   <OriginalImage
