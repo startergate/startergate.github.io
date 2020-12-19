@@ -27,11 +27,14 @@ const Image = ({ src, ...props }) => {
 
   if (match) {
     let matchLightMode;
-    let sources = match.node.childImageSharp.fluid
+    let sources = match.node.childImageSharp.fluid;
 
     if (props.srcIfLightMode) {
       matchLightMode = React.useMemo(
-        () => data.allFile.edges.find(({ node }) => props.srcIfLightMode === node.relativePath),
+        () =>
+          data.allFile.edges.find(
+            ({ node }) => props.srcIfLightMode === node.relativePath
+          ),
         [data, props.srcIfLightMode]
       );
       if (matchLightMode) {
@@ -41,11 +44,11 @@ const Image = ({ src, ...props }) => {
             ...matchLightMode.node.childImageSharp.fluid,
             media: `(prefers-color-scheme: light)`,
           },
-        ]
+        ];
       }
     }
 
-    return <Img fluid={sources} {...props} />
+    return <Img fluid={sources} {...props} />;
   } else {
     return null;
   }

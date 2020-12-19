@@ -5,7 +5,7 @@ import getKoreanDateString from '../../util/getKoreanDateString';
 
 import Image from '../images/image';
 import FullImage from '../images/fullImage';
-import OriginalImage from "../images/originalImg";
+import OriginalImage from '../images/originalImg';
 import * as External from '../profiles/external';
 
 import LanguageBadge from './projectLanguage';
@@ -127,7 +127,10 @@ const ProjectDetail = ({ data }) => {
           {data.contents?.map(({ title, image, ref, text }) => (
             <div className="project-detail-content-item">
               <h5>{title}</h5>
-              <FullImage className={"project-detail-content-image"} src={image} />
+              <FullImage
+                className={'project-detail-content-image'}
+                src={image}
+              />
               {ref ? <MarkdownLoader path={ref} /> : text}
             </div>
           ))}
@@ -139,7 +142,9 @@ const ProjectDetail = ({ data }) => {
         ))}
       </div>
       {data.owner ? (
-        <div className={'project-detail-owner'}>Project Courtesy of <a href={data.owner.link}>{data.owner.name}</a></div>
+        <div className={'project-detail-owner'}>
+          Project Courtesy of <a href={data.owner.link}>{data.owner.name}</a>
+        </div>
       ) : null}
     </div>
   );

@@ -28,7 +28,11 @@ const FullImage = ({ src, ...props }) => {
   );
   if (!match) return null;
   return match.node.childImageSharp ? (
-    <Img fluid={match.node.childImageSharp.fluid} imgStyle={{ objectFit: 'contain', objectPosition: 'top left' }} {...props} />
+    <Img
+      fluid={match.node.childImageSharp.fluid}
+      imgStyle={{ objectFit: 'contain', objectPosition: 'top left' }}
+      {...props}
+    />
   ) : (
     <img src={match.node.publicURL} loading={'lazy'} {...props} />
   );

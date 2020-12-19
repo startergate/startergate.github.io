@@ -4,16 +4,16 @@ import Img from 'gatsby-image';
 
 const OriginalImage = ({ src, ...props }) => {
   const data = useStaticQuery(graphql`
-      query {
-          allFile(filter: { internal: { mediaType: { regex: "images/" } } }) {
-              edges {
-                  node {
-                      relativePath
-                      publicURL
-                  }
-              }
+    query {
+      allFile(filter: { internal: { mediaType: { regex: "images/" } } }) {
+        edges {
+          node {
+            relativePath
+            publicURL
           }
+        }
       }
+    }
   `);
 
   const match = React.useMemo(
@@ -21,7 +21,7 @@ const OriginalImage = ({ src, ...props }) => {
     [data, src]
   );
   if (!match) return null;
-  return <img src={match.node.publicURL} loading={'lazy'} {...props} />
+  return <img src={match.node.publicURL} loading={'lazy'} {...props} />;
 };
 
 export default OriginalImage;

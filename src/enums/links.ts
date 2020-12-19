@@ -46,6 +46,6 @@ export default {
   },
   Download: {
     src: 'down-arrow.png',
-    background: '#24292e'
-  }
+    background: '#24292e',
+  },
 };

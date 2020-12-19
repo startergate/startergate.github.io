@@ -7,7 +7,7 @@ import Language from '../components/profiles/language';
 import * as External from '../components/profiles/external';
 import Project from '../components/projects/simple';
 import Overlay from '../components/projects/overlay';
-import OriginalImage from "../components/images/originalImg";
+import OriginalImage from '../components/images/originalImg';
 
 import './index.css';
 
@@ -310,8 +310,15 @@ const IndexPage = () => {
                 target="_blank"
               >
                 <picture>
-                  <source style={{margin: 0}} srcSet={peoplefundWhite} media="(prefers-color-scheme: dark)" />
-                  <OriginalImage src={"teams/peoplefund.png"} alt={"피플펀드컴퍼니"}/>
+                  <source
+                    style={{ margin: 0 }}
+                    srcSet={peoplefundWhite}
+                    media="(prefers-color-scheme: dark)"
+                  />
+                  <OriginalImage
+                    src={'teams/peoplefund.png'}
+                    alt={'피플펀드컴퍼니'}
+                  />
                 </picture>
               </a>
             </h5>
@@ -353,21 +360,27 @@ const IndexPage = () => {
             <span>2019</span>
             <span>장려상</span>
             <br />
-            <span><a href="/project/The Intersection">The Intersection</a></span>
+            <span>
+              <a href="/project/The Intersection">The Intersection</a>
+            </span>
           </div>
           <div className="cv-item">
             <h5>GSM 팀프로젝트발표회</h5>
             <span>2020.9</span>
             <span>장려상</span>
             <br />
-            <span><a href="/project/Eliverd">Eliverd</a></span>
+            <span>
+              <a href="/project/Eliverd">Eliverd</a>
+            </span>
           </div>
           <div className="cv-item">
             <h5>GSM 전공 동아리 해커톤 대회</h5>
             <span>2020.9</span>
             <span>장려상</span>
             <br />
-            <span><a href="/project/GSM Pay">GSM Pay</a></span>
+            <span>
+              <a href="/project/GSM Pay">GSM Pay</a>
+            </span>
           </div>
           <div className="cv-item">
             <h5>정보처리기능사</h5>
@@ -401,7 +414,10 @@ const IndexPage = () => {
             <span>부장</span>
             <span>2020.1 ~ 2020.8</span>
             <br />
-            <span>프로젝트: <a href="/project/DOTORI">DOTORI</a>, <a href="/project/GSM Pay">GSM Pay</a></span>
+            <span>
+              프로젝트: <a href="/project/DOTORI">DOTORI</a>,{' '}
+              <a href="/project/GSM Pay">GSM Pay</a>
+            </span>
           </div>
           <div className="cv-item">
             <h5>
@@ -422,14 +438,19 @@ const IndexPage = () => {
             <span>부장</span>
             <span>2019.3 ~ </span>
             <br />
-            <span>프로젝트: <a href="/project/Lost">Lost</a></span>
+            <span>
+              프로젝트: <a href="/project/Lost">Lost</a>
+            </span>
           </div>
         </section>
-        <External.Small data={{
-          type: 'Download',
-          link: '/cv.pdf',
-          external_id: 'Download CV as PDF',
-        }} download/>
+        <External.Small
+          data={{
+            type: 'Download',
+            link: '/cv.pdf',
+            external_id: 'Download CV as PDF',
+          }}
+          download
+        />
       </section>
       <section id="link">
         <h2>Links</h2>
