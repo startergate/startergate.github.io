@@ -319,6 +319,30 @@ const IndexPage = () => {
           <div className="cv-item">
             <h5>
               <a
+                href="https://fetching.co.kr"
+                className="cv-item-title noLint"
+                title="FETCHING"
+                target="_blank"
+              >
+                <picture>
+                  <OriginalImage
+                    src={'teams/fetching.jpg'}
+                    alt={'FETCHING'}
+                    style={{
+                      background: "white"
+                    }}
+                  />
+                </picture>
+              </a>
+            </h5>
+            <span>경기도 성남시</span>
+            <span>2020.12 ~ </span>
+            <br />
+            <span>백엔드 엔지니어</span>
+          </div>
+          <div className="cv-item">
+            <h5>
+              <a
                 href="https://www.peoplefund.co.kr"
                 className="cv-item-title noLint"
                 title="피플펀드컴퍼니"
