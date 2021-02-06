@@ -6,14 +6,14 @@ import './language.css';
 const Language = ({ data }) => {
   return (
     <div
-      className="badge badge-lang"
+      className={'badge badge-lang'}
       style={{
         backgroundColor: data.image.background || '#FFFFFF',
       }}
       title={data.name}
     >
       <Thumbnail
-        className="badge-image badge-lang-image"
+        className={'badge-image badge-lang-image'}
         src={data.image.src}
       />
     </div>

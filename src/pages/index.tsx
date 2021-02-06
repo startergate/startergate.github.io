@@ -108,32 +108,26 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <section
-        className="title"
-        id="title"
+        className={'title'}
+        id={'title'}
         style={{ width: '100%', height: '100vh' }}
       >
         <div>
           <h1>
             <span>Learn, Find, Figure Out</span>
           </h1>
-          <p className="title-name">STARTERGATE / 최호승</p>
+          <p className={'title-name'}>STARTERGATE / 최호승</p>
           <p className={'contacts'}>
-            <a href="mailto://me@startergate.dev">me@startergate.dev</a>
+            <a href={'mailto://me@startergate.dev'}>me@startergate.dev</a>
           </p>
           <p>백엔드 엔지니어</p>
           <p>게임 개발자</p>
-          <p>
-            3학년 고등학생 @{' '}
-            <a href="https://gsm.gen.hs.kr" target="_blank">
-              광주소프트웨어마이스터고등학교
-            </a>
-          </p>
         </div>
       </section>
-      <section id="backend-dev">
+      <section id={'backend-dev'}>
         <h2>Backend Engineer</h2>
-        <div className="section-main">
-          <p className="section-punchline">
+        <div className={'section-main'}>
+          <p className={'section-punchline'}>
             백엔드 엔지니어입니다. 눈에 보이지 않는 걸 만듭니다.
           </p>
           <br />
@@ -142,7 +136,7 @@ const IndexPage = () => {
           <br />
           컴퓨터에는 항상 관심이 많았습니다. 초등학교 때에는 컴퓨터 방과후를
           다녔고, 중학교 때에{' '}
-          <a href="https://opentutorials.org/course/1" target="_blank">
+          <a href={'https://opentutorials.org/course/1'} target={'_blank'}>
             생활코딩
           </a>
           으로 코딩을 시작했습니다.
@@ -152,15 +146,15 @@ const IndexPage = () => {
           항상 변화하며 새로운 것을 시도합니다. 새로운 것은 항상 더 나은 것이라
           생각합니다.
         </div>
-        <div className="cv-item">
+        <div className={'cv-item'}>
           <h5>
             <a
-              href="http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01"
-              className="cv-item-title"
-              title="광주소프트웨어마이스터고등학교 소프트웨어개발과"
-              target="_blank"
+              href={'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'}
+              className={'cv-item-title'}
+              title={'광주소프트웨어마이스터고등학교 소프트웨어개발과'}
+              target={'_blank'}
             >
-              <span className="lint">
+              <span className={'lint'}>
                 광주소프트웨어마이스터고등학교 소프트웨어개발과
               </span>
             </a>
@@ -171,7 +165,7 @@ const IndexPage = () => {
           <br />
           <span>웹 개발 동아리 빈실 부장</span>
         </div>
-        <div className="cv-item">
+        <div className={'cv-item'}>
           <h5>Node.js</h5>
           <span>Node.js 8부터 시작, TypeScript와 함께 사용 중</span>
           <br />
@@ -179,7 +173,7 @@ const IndexPage = () => {
           <br />
           <span>다양한 종류와 규모의 프로젝트 개발</span>
         </div>
-        <div className="cv-item">
+        <div className={'cv-item'}>
           <h5>Python</h5>
           <span>Django와 챗봇 개발을 위해 사용</span>
           <br />
@@ -187,7 +181,7 @@ const IndexPage = () => {
           <br />
           <span>파이썬 백엔드 개발 현장실습 경험, 배포된 코드 작성 경험</span>
         </div>
-        <div className="cv-item">
+        <div className={'cv-item'}>
           <h5>빈실</h5>
           <span>학교 내부에서 사용되는 서비스를 개발하는 동아리</span>
           <br />
@@ -196,10 +190,10 @@ const IndexPage = () => {
           <span>테스팅, 문서화, 스프린트 개발 경험</span>
         </div>
       </section>
-      <section id="game-dev">
+      <section id={'game-dev'}>
         <h2>Game Developer</h2>
-        <div className="section-main">
-          <p className="section-punchline">
+        <div className={'section-main'}>
+          <p className={'section-punchline'}>
             인디 게임 개발자입니다. 경험을 만듭니다.
           </p>
           <br />
@@ -218,7 +212,7 @@ const IndexPage = () => {
           여러 장르를 시도합니다. 처음으로 출시해본 게임은 2D 플랫포머였고, 좋은
           아이디어만 있다면 다양하게 만들어보고 있습니다.
         </div>
-        <div className="cv-item">
+        <div className={'cv-item'}>
           <h5>Unity</h5>
           <span>게임 개발 동아리 Tiny Beluga에서 사용 중</span>
           <br />
@@ -226,7 +220,7 @@ const IndexPage = () => {
           <br />
           <span>Unity Teams 활용한 협업 경험</span>
         </div>
-        <div className="cv-item">
+        <div className={'cv-item'}>
           <h5>Unreal Engine</h5>
           <span>게임 프로토타입 개발에 사용 중</span>
           <br />
@@ -234,7 +228,7 @@ const IndexPage = () => {
           <br />
           <span>열심히 공부 중...</span>
         </div>
-        <div className="cv-item">
+        <div className={'cv-item'}>
           <h5>Tiny Beluga</h5>
           <span>인디 게임 개발 동아리</span>
           <br />
@@ -243,61 +237,61 @@ const IndexPage = () => {
           <span>차기작 얼심히 구상 중...</span>
         </div>
       </section>
-      <section id="project">
-        <div className="page-title">
+      <section id={'project'}>
+        <div className={'page-title'}>
           <h2>Project Highlights</h2>
           <External.Small data={labeledExternals.GitHub} />
         </div>
-        <div className="list">
+        <div className={'list'}>
           {highlighted.map((value, index) => (
             <Project data={value} key={index} />
           ))}
         </div>
-        <Link to="/projects/">See More...</Link>
+        <Link to={'/projects/'}>See More...</Link>
       </section>
-      <section id="cv-technologies">
+      <section id={'cv-technologies'}>
         <div className={'page-title'}>
           <h2>Technologies</h2>
           <External.Small data={labeledExternals.StackShare} />
         </div>
-        <div id="cv-languages-using">
+        <div id={'cv-languages-using'}>
           <h4>Using</h4>
-          <div className="list">
+          <div className={'list'}>
             {groupedLanguages.using?.map((value, index) => (
               <Language data={value} key={index} />
             ))}
           </div>
         </div>
-        <div id="cv-languages-learned">
+        <div id={'cv-languages-learned'}>
           <h4>Learned / Used</h4>
-          <div className="list">
+          <div className={'list'}>
             {groupedLanguages.learned?.map((value, index) => (
               <Language data={value} key={index} />
             ))}
           </div>
         </div>
-        <div id="cv-languages-learning">
+        <div id={'cv-languages-learning'}>
           <h4>Learning / Interested</h4>
-          <div className="list">
+          <div className={'list'}>
             {groupedLanguages.learning?.map((value, index) => (
               <Language data={value} key={index} />
             ))}
           </div>
         </div>
       </section>
-      <section id="cv">
+      <section id={'cv'}>
         <h2>Résumé</h2>
-        <section id="cv-education">
+        <section id={'cv-education'}>
           <h3>Education</h3>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>
               <a
-                href="https://gsm.gen.hs.kr"
-                className="cv-item-title"
-                title="광주소프트웨어마이스터고등학교"
-                target="_blank"
+                href={'https://gsm.gen.hs.kr'}
+                className={'cv-item-title'}
+                title={'광주소프트웨어마이스터고등학교'}
+                target={'_blank'}
               >
-                <span className="lint">광주소프트웨어마이스터고등학교</span>
+                <span className={'lint'}>광주소프트웨어마이스터고등학교</span>
               </a>
             </h5>
             <span>광주광역시</span>
@@ -305,31 +299,31 @@ const IndexPage = () => {
             <br />
             <span>
               <a
-                href="http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01"
-                title="소프트웨어개발과"
-                target="_blank"
+                href={'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'}
+                title={'소프트웨어개발과'}
+                target={'_blank'}
               >
                 소프트웨어개발과
               </a>
             </span>
           </div>
         </section>
-        <section id="cv-experiences">
+        <section id={'cv-experiences'}>
           <h3>Experiences</h3>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>
               <a
-                href="https://fetching.co.kr"
-                className="cv-item-title noLint"
-                title="FETCHING"
-                target="_blank"
+                href={'https://fetching.co.kr'}
+                className={'cv-item-title noLint'}
+                title={'FETCHING'}
+                target={'_blank'}
               >
                 <picture>
                   <OriginalImage
                     src={'teams/fetching.jpg'}
                     alt={'FETCHING'}
                     style={{
-                      background: "white"
+                      background: 'white'
                     }}
                   />
                 </picture>
@@ -340,19 +334,19 @@ const IndexPage = () => {
             <br />
             <span>백엔드 엔지니어</span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>
               <a
-                href="https://www.peoplefund.co.kr"
-                className="cv-item-title noLint"
-                title="피플펀드컴퍼니"
-                target="_blank"
+                href={'https://www.peoplefund.co.kr'}
+                className={'cv-item-title noLint'}
+                title={'피플펀드컴퍼니'}
+                target={'_blank'}
               >
                 <picture>
                   <source
                     style={{ margin: 0 }}
                     srcSet={peoplefund_white.childImageSharp.fluid.srcSet}
-                    media="(prefers-color-scheme: dark)"
+                    media={'(prefers-color-scheme: dark)'}
                   />
                   <OriginalImage
                     src={'teams/peoplefund.png'}
@@ -361,7 +355,7 @@ const IndexPage = () => {
                 </picture>
               </a>
             </h5>
-            <span>서울특별시</span>
+            <span>서울특별시 강남구</span>
             <span>2020.01 ~ 2020.02</span>
             <br />
             <span>백엔드 엔지니어 (현장실습)</span>
@@ -369,8 +363,8 @@ const IndexPage = () => {
             <span>계정 인증 미들웨어 및 일부 기능 리팩토링</span>
           </div>
         </section>
-        <section id="cv-activities">
-          <div className="page-title">
+        <section id={'cv-activities'}>
+          <div className={'page-title'}>
             <h3>Activities</h3>
             <External.Small
               data={{
@@ -380,68 +374,68 @@ const IndexPage = () => {
               }}
             />
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>글로벌 비즈쿨 CO-TDM 창업경진대회</h5>
             <span>2018.6</span>
             <span>최우수상</span>
             <br />
             <span>E-Faucet: 스마트 수도꼭지</span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>GSM 창의알고리즘 콘테스트</h5>
             <span>2018.4</span>
             <span>장려상</span>
             <br />
             <span>M2C: Modular Multi Camera</span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>GSM 소프트웨어 개발 경진 콘테스트</h5>
             <span>2019</span>
             <span>장려상</span>
             <br />
             <span>
-              <a href="/project/The Intersection">The Intersection</a>
+              <a href={'/project/The Intersection'}>The Intersection</a>
             </span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>GSM 팀프로젝트발표회</h5>
             <span>2020.9</span>
             <span>장려상</span>
             <br />
             <span>
-              <a href="/project/Eliverd">Eliverd</a>
+              <a href={'/project/Eliverd'}>Eliverd</a>
             </span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>GSM 전공 동아리 해커톤 대회</h5>
             <span>2020.9</span>
             <span>장려상</span>
             <br />
             <span>
-              <a href="/project/GSM Pay">GSM Pay</a>
+              <a href={'/project/GSM Pay'}>GSM Pay</a>
             </span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>정보처리기능사</h5>
             <span>2019.3</span>
             <span>한국산업인력공단</span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>TOEIC</h5>
             <span>2018.8</span>
             <span>865점</span>
           </div>
         </section>
-        <section id="cv-group-activities">
+        <section id={'cv-group-activities'}>
           <h3>Group Activities</h3>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>
               <a
-                href="https://github.com/BeanSil"
-                className="cv-item-title"
-                title="빈실"
+                href={'https://github.com/BeanSil'}
+                className={'cv-item-title'}
+                title={'빈실'}
               >
-                <span className="lint">빈실</span>
+                <span className={'lint'}>빈실</span>
               </a>
             </h5>
             <span>광주소프트웨어마이스터고등학교</span>
@@ -454,18 +448,18 @@ const IndexPage = () => {
             <span>2020.1 ~ 2020.8</span>
             <br />
             <span>
-              프로젝트: <a href="/project/DOTORI">DOTORI</a>,{' '}
-              <a href="/project/GSM Pay">GSM Pay</a>
+              프로젝트: <a href={'/project/DOTORI'}>DOTORI</a>,{' '}
+              <a href={'/project/GSM Pay'}>GSM Pay</a>
             </span>
           </div>
-          <div className="cv-item">
+          <div className={'cv-item'}>
             <h5>
               <a
-                href="https://github.com/tiny-beluga"
-                className="cv-item-title"
-                title="Tiny Beluga"
+                href={'https://github.com/tiny-beluga'}
+                className={'cv-item-title'}
+                title={'Tiny Beluga'}
               >
-                <span className="lint">Tiny Beluga</span>
+                <span className={'lint'}>Tiny Beluga</span>
               </a>
             </h5>
             <span>광주소프트웨어마이스터고등학교</span>
@@ -478,7 +472,7 @@ const IndexPage = () => {
             <span>2019.3 ~ </span>
             <br />
             <span>
-              프로젝트: <a href="/project/Lost">Lost</a>
+              프로젝트: <a href={'/project/Lost'}>Lost</a>
             </span>
           </div>
         </section>
@@ -491,9 +485,9 @@ const IndexPage = () => {
           download
         />
       </section>
-      <section id="link">
+      <section id={'link'}>
         <h2>Links</h2>
-        <div className="list">
+        <div className={'list'}>
           {externals.map((value, index) => {
             return <External.Icon data={value} key={index} />;
           })}

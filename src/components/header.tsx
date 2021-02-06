@@ -7,22 +7,22 @@ import Profile from './images/profile';
 import './header.css';
 
 const Header = ({ siteTitle }) => (
-  <nav className="top-menu">
-    <ul className="top-link">
+  <nav className={'top-menu'}>
+    <ul className={'top-link'}>
       <li>
-        <ExternalSubMenu title="GitHub" link="https://github.com/startergate" />
+        <ExternalSubMenu title={'GitHub'} link={'https://github.com/startergate'} />
       </li>
       <li>
-        <SubMenu title="Projects" link="/projects" />
+        <SubMenu title={'Projects'} link={'/projects'} />
       </li>
       <li>
-        <ExternalSubMenu title="Conferences" link="/Conferences" />
+        <ExternalSubMenu title={'Conferences'} link={'/Conferences'} />
       </li>
       <li>
-        <SubMenu title="CV" link="/#cv" />
+        <SubMenu title={'CV'} link={'/#cv'} />
       </li>
       <li>
-        <Link className="noLint" to="/">
+        <Link className={'noLint'} to={'/'}>
           <Profile />
         </Link>
       </li>

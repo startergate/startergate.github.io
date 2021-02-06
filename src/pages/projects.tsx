@@ -126,9 +126,9 @@ const Projects = (props: PageProps) => {
 
   return (
     <Layout {...props}>
-      <SEO title="Projects" />
-      <section className="subpage">
-        <div className="page-title">
+      <SEO title={'Projects'} />
+      <section className={'subpage'}>
+        <div className={'page-title'}>
           <h1>
             <span>Projects</span>
           </h1>
@@ -154,7 +154,7 @@ const Projects = (props: PageProps) => {
             id={'project-filter-status'}
           />
         </div>
-        <div className="list project-list">
+        <div className={'list project-list'}>
           {projects.map((value, index) => (
             <Project data={value} key={index} />
           ))}

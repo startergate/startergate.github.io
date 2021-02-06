@@ -19,7 +19,7 @@ const Overlay = ({ data, ...props }) => {
 
   return (
     <div
-      className="project-overlay"
+      className={'project-overlay'}
       onClick={async (event) => {
         event.persist();
         if (event.target !== event.currentTarget) return;

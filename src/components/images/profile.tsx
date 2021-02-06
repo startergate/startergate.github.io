@@ -28,7 +28,7 @@ const ProfileImage = () => {
 
   return (
     <Img
-      className="top-menu-image"
+      className={'top-menu-image'}
       fluid={data.placeholderImage.childImageSharp.fluid}
     />
   );

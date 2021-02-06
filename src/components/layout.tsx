@@ -33,9 +33,9 @@ const Layout = ({ children }) => {
         © {new Date().getFullYear()} Ho Seung Choi a.k.a. startergate, Built
         with
         {` `}
-        <a className={'noLint'} href="https://www.gatsbyjs.org">
+        <a className={'noLint'} href={'https://www.gatsbyjs.org'}>
           <Badge
-            className="footer-badge"
+            className={'footer-badge'}
             src={'gatsby-icon.png'}
             style={{ display: `inline-block` }}
           />
@@ -43,9 +43,9 @@ const Layout = ({ children }) => {
         ,{` `}
         Hosted on
         {` `}
-        <a className={'noLint'} href="https://pages.github.com">
+        <a className={'noLint'} href={'https://pages.github.com'}>
           <Badge
-            className="footer-badge"
+            className={'footer-badge'}
             src={Links.GitHub.src}
             style={{ display: `inline-block` }}
           />{' '}

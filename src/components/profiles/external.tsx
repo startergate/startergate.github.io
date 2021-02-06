@@ -10,27 +10,27 @@ import './external.css';
 const Icon = ({ data }) => {
   return (
     <a
-      className="badge-external noLint"
+      className={'badge-external noLint'}
       href={data.link}
       title={data.type}
-      target="_blank"
+      target={'_blank'}
     >
       <span
-        className="badge badge-external-icon"
+        className={'badge badge-external-icon'}
         style={{
           backgroundColor: Links[data.type].background || '#FFFFFF',
         }}
       >
         <Thumbnail
-          className="badge-image badge-external-icon-image"
+          className={'badge-image badge-external-icon-image'}
           src={Links[data.type].src}
         />
       </span>
-      <span className="badge-external-text">
+      <span className={'badge-external-text'}>
         <h6>
-          <span className="lint">{data.type}</span>
+          <span className={'lint'}>{data.type}</span>
         </h6>
-        <span className="lint">{data.external_id}</span>
+        <span className={'lint'}>{data.external_id}</span>
       </span>
     </a>
   );
@@ -38,18 +38,18 @@ const Icon = ({ data }) => {
 
 const Small = ({ data, ...props }) => (
   <a
-    className="badge badge-external-small noLintAbsolute"
+    className={'badge badge-external-small noLintAbsolute'}
     style={{
       backgroundColor: Links[data.type]?.background || '#FFFFFF',
     }}
     href={data.link}
     title={data.type}
-    target="_blank"
+    target={'_blank'}
     {...props}
   >
-    <Badge className="badge-external-small-image" src={Links[data.type].src} />
+    <Badge className={'badge-external-small-image'} src={Links[data.type].src} />
     <span
-      className="badge-external-small-id"
+      className={'badge-external-small-id'}
       style={{
         color: Links[data.type]?.background ? '#FFFFFF' : '#000000',
       }}

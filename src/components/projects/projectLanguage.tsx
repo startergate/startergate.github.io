@@ -6,9 +6,9 @@ import './projectLanguage.css';
 
 const LanguageBadge = ({ tag }) => {
   return (
-    <span className="project-language">
+    <span className={'project-language'}>
       <span
-        className="project-language-badge"
+        className={'project-language-badge'}
         style={{
           backgroundColor: LanguageColor[tag] || '#ccc',
         }}

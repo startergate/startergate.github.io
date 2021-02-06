@@ -30,7 +30,7 @@ const Filter = ({ filterHandler, data, defaultTitle, ...props }) => {
   };
 
   return (
-    <div className="project-filter" {...props}>
+    <div className={'project-filter'} {...props}>
       <p
         onClick={() => {
           const selector = document.querySelector(
@@ -38,23 +38,23 @@ const Filter = ({ filterHandler, data, defaultTitle, ...props }) => {
           );
           toggle(selector, 'hidden');
         }}
-        className="project-filter-display"
-        title="눌러서 필터 변경"
+        className={'project-filter-display'}
+        title={'눌러서 필터 변경'}
       >
         {defaultTitle}
       </p>
-      <ul className="project-filter-selector hidden">
+      <ul className={'project-filter-selector hidden'}>
         <li
           key={`${props.id}-all`}
           onClick={reset}
-          className="project-filter-choice"
+          className={'project-filter-choice'}
         >
           필터 초기화
         </li>
-        <ul className="project-filter-choice-list">
+        <ul className={'project-filter-choice-list'}>
           {data.map((item) => {
             return (
-              <li key={item} onClick={select} className="project-filter-choice">
+              <li key={item} onClick={select} className={'project-filter-choice'}>
                 {item}
               </li>
             );
