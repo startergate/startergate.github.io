@@ -124,6 +124,19 @@ const Projects = (props: PageProps) => {
     handler();
   };
 
+  document.querySelector('html').addEventListener('click', (e) => {
+    const projectFilterTags = document.querySelector('#project-filter-tags')
+    const projectFilterTypes = document.querySelector('#project-filter-types')
+    const projectFilterStatus = document.querySelector('#project-filter-status')
+
+    if (![projectFilterTags, projectFilterTypes, projectFilterStatus].filter((value) => e.path.includes(value)).length) {
+      console.log([projectFilterTags, projectFilterTypes, projectFilterStatus].filter((value) => e.path.includes(value)).length);
+      projectFilterTags.querySelector('.project-filter-selector').classList.add("hidden");
+      projectFilterTypes.querySelector('.project-filter-selector').classList.add("hidden");
+      projectFilterStatus.querySelector('.project-filter-selector').classList.add("hidden");
+    }
+  })
+
   return (
     <Layout {...props}>
       <SEO title={'Projects'} />
