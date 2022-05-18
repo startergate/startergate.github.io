@@ -329,7 +329,7 @@ const IndexPage = () => {
                 </picture>
               </a>
             </h5>
-            <span>경기도 성남시</span>
+            <span>서울특별시 서초구</span>
             <span>2020.12 ~ </span>
             <br />
             <span>백엔드 엔지니어</span>
