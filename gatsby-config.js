@@ -40,11 +40,5 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-offline`,
-    {
-      resolve: "gatsby-plugin-typography",
-      options: {
-        pathToConfigModule: "./src/util/typography"
-      }
-    }
   ]
 }
