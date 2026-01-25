@@ -1,12 +1,13 @@
 import { resolve } from 'path';
-import { GatsbyNode } from 'gatsby';
 
-export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions }) => {
+export const createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const result = await graphql<{allProjectsJson: {nodes: any[]}}>(`
-    {
-      allProjectsJson(sort: [{isHighlighted: DESC}, {orderLevel: ASC}, {name: ASC}]) {
+  const result = await graphql(`
+    query {
+      allProjectsJson(
+        sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] }
+      ) {
         nodes {
           id
           name
@@ -18,7 +19,7 @@ export const createPages: GatsbyNode['createPages'] = async ({ graphql, actions 
     throw result.errors;
   }
 
-  result.data?.allProjectsJson?.nodes?.map((data) => {
+  result.data.allProjectsJson.nodes.map((data) => {
     createPage({
       path: `project/${data.name}/`,
       component: resolve(__dirname, '../pages/projects.tsx'),
