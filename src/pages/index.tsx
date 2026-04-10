@@ -149,7 +149,9 @@ const IndexPage = () => {
         <div className={'cv-item'}>
           <h5>
             <a
-              href={'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'}
+              href={
+                'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'
+              }
               className={'cv-item-title'}
               title={'광주소프트웨어마이스터고등학교 소프트웨어개발과'}
               target={'_blank'}
@@ -299,7 +301,9 @@ const IndexPage = () => {
             <br />
             <span>
               <a
-                href={'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'}
+                href={
+                  'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'
+                }
                 title={'소프트웨어개발과'}
                 target={'_blank'}
               >
@@ -318,26 +322,50 @@ const IndexPage = () => {
                 title={'FETCHING'}
                 target={'_blank'}
               >
+                <span style={{ paddingTop: 8 }}>
+                  <picture>
+                    <OriginalImage
+                      src={'teams/fetching.svg'}
+                      alt={'FETCHING'}
+                      style={{
+                        height: '22px',
+                        background: 'white',
+                      }}
+                    />
+                  </picture>
+                </span>
                 <picture>
                   <OriginalImage
-                    src={'teams/fetching.jpg'}
+                    src={'teams/fetching-old.jpg'}
                     alt={'FETCHING'}
                     style={{
-                      background: 'white'
+                      background: 'white',
                     }}
                   />
                 </picture>
               </a>
             </h5>
-            <span>경기도 성남시</span>
-            <span>2020.12 ~ </span>
+            <span>서울특별시 성동구</span>
+            <span className={'line-through'}>서울특별시 강남구</span>
+            <span className={'line-through'}>경기도 성남시</span>
+            <br />
+            <span>2020.12 ~ 2026.03 (5년 3개월)</span>
             <br />
             <span>백엔드 엔지니어</span>
+            <br />
+            <br />
+            <span>
+              일 크롤링 수 500만건의 대규모 크롤링 시스템 개발 및 운영
+            </span>
+            <br />
+            <span>자체 커머스 서비스 개발 및 운영</span>
+            <br />
+            <span>비용이 제한된 환경에서의 인프라 운영</span>
           </div>
           <div className={'cv-item'}>
             <h5>
               <a
-                href={'https://www.peoplefund.co.kr'}
+                href={'https://www.pfct.co.kr/'}
                 className={'cv-item-title noLint'}
                 title={'피플펀드컴퍼니'}
                 target={'_blank'}
@@ -353,12 +381,15 @@ const IndexPage = () => {
                     alt={'피플펀드컴퍼니'}
                   />
                 </picture>
+                <span className={'text-xs'}>(현. 피에프씨테크놀로지스)</span>
               </a>
             </h5>
             <span>서울특별시 강남구</span>
-            <span>2020.01 ~ 2020.02</span>
+            <br />
+            <span>2020.01 ~ 2020.02 (1개월)</span>
             <br />
             <span>백엔드 엔지니어 (현장실습)</span>
+            <br />
             <br />
             <span>계정 인증 미들웨어 및 일부 기능 리팩토링</span>
           </div>

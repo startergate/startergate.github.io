@@ -242,3 +242,13 @@ section section {
   width: 16px;
   height: 16px;
 }
+
+.line-through {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.text-xs {
+  font-size: 10px;
+  font-weight: 400;
+}
