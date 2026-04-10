@@ -114,10 +114,10 @@ const IndexPage = () => {
       >
         <div>
           <h1>
-            <span>Learn, Find, Figure Out</span>
+            <span className={'slogan'}>Learn, Find, Figure Out</span>
           </h1>
-          <p className={'title-name'}>STARTERGATE / 최호승</p>
-          <p className={'contacts'}>
+          <p className={'title-name monospace'}>STARTERGATE / 최호승</p>
+          <p className={'contacts monospace'}>
             <a href={'mailto://me@startergate.dev'}>me@startergate.dev</a>
           </p>
           <p>백엔드 엔지니어</p>
@@ -234,7 +234,7 @@ const IndexPage = () => {
           <br />
           <span>Unity 사용한 2D 플랫포머 게임 개발 / 출시 경험</span>
           <br />
-          <span>차기작 얼심히 구상 중...</span>
+          <span>차기작 열심히 구상 중...</span>
         </div>
       </section>
       <section id={'project'}>

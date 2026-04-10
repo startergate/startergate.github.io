@@ -1,3 +1,8 @@
+.slogan {
+    font-weight: 600;
+    font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans CJK KR', 'Noto Sans KR', 'NanumGothic', '나눔고딕', 'Malgun Gothic', '맑은 고딕', sans-serif;
+}
+
 .title {
     align-items: center;
     display: flex;
@@ -5,14 +10,16 @@
 
 .title-name {
     font-weight: 600;
-    font-family: 'JetBrains Mono', 'SF Pro Display', sans-serif;
     font-size: 20px;
     margin-bottom: 8px;
 }
 
 .contacts {
-    font-family: 'JetBrains Mono', 'SF Pro Display', sans-serif;
     margin-bottom: 8px;
+}
+
+.monospace {
+    font-family: 'JetBrains Mono', monospace, monospace;
 }
 
 .list {
