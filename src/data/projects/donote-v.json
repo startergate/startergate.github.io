@@ -8,8 +8,8 @@
     }
   ],
   "startedAt": "2019-08-09",
-  "status": "Developing",
-  "type": ["Server", "Web Application"],
+  "status": "Canceled",
+  "type": ["Back-end", "Front-end"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "AWS EC2"],
   "links": [
     {

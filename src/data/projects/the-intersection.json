@@ -10,7 +10,7 @@
   "startedAt": "2019-04-23",
   "finishedAt": "2019-07-16",
   "status": "Done",
-  "type": ["Native Appliation", "Server"],
+  "type": ["Native Appliation", "Back-end"],
   "tags": ["C++", "JavaScript", "Qt", "Express.js", "AWS EC2"],
   "links": [
     {

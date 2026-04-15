@@ -1,10 +1,14 @@
 {
   "name": "FETCHING Crawler",
-  "description": "타워 디펜스 게임",
+  "description": "페칭 크롤링 시스템",
   "collaborators": [
     {
       "name": "최호승",
       "roles": ["개발"]
+    },
+    {
+      "name": "FETCHING",
+      "roles": ["팀"]
     }
   ],
   "startedAt": "2020-12-31",

@@ -18,7 +18,7 @@
   "startedAt": "2019-12-18",
   "finishedAt": "2020-01-08",
   "status": "Done",
-  "type": ["Game", "Server"],
+  "type": ["Game", "Back-end"],
   "tags": [
     "Python",
     "TypeScript",

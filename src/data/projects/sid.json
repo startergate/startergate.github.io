@@ -10,7 +10,7 @@
   "startedAt": "2019-01-09",
   "finishedAt": "2019-09-15",
   "status": "Done",
-  "type": ["Server", "Web Application"],
+  "type": ["Back-end", "Front-end"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MySQL", "AWS EC2"],
   "links": [
     {

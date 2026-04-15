@@ -10,7 +10,7 @@
   "startedAt": "2019-04-29",
   "finishedAt": "2019-06-03",
   "status": "Done",
-  "type": ["Server", "Web Application"],
+  "type": ["Back-end", "Front-end"],
   "tags": ["JavaScript", "Node.js", "Express.js", "Google Cloud Platform"],
   "links": [
     {

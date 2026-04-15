@@ -21,7 +21,7 @@
   ],
   "startedAt": "2018-12-20",
   "finishedAt": "2019-01-02",
-  "status": "Failed",
+  "status": "Canceled",
   "type": ["Etc"],
   "tags": ["Python", "Tensorflow", "Jupyter Notebook"],
   "links": [

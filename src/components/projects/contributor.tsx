@@ -4,14 +4,19 @@ import Image from '../images/image';
 import people from '../../enums/people';
 
 import './contributor.css';
+import organizations from '../../enums/organizations';
 
 const Contributor = ({ data }) => (
   <a
     className={'project-detail-contributor noLint'}
-    href={people[data.name]?.link}
+    href={people[data.name]?.link ?? organizations[data.name]?.link}
   >
     <Image
-      src={people[data.name]?.image || 'profiles/default.png'}
+      src={
+        people[data.name]?.image ??
+        organizations[data.name]?.image ??
+        'profiles/default.png'
+      }
       className={'project-detail-contributor-image'}
     />
     <div className={'project-detail-contributor-text'}>

@@ -10,7 +10,7 @@
   "startedAt": "2018-01-27",
   "finishedAt": "2018-04-02",
   "status": "Done",
-  "type": ["Server", "Web Application"],
+  "type": ["Back-end", "Front-end"],
   "tags": ["PHP", "MySQL"],
   "links": [
     {

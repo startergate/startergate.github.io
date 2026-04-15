@@ -1,6 +1,6 @@
 {
-  "name": "FETCHING Commerce",
-  "description": "페칭 커머스 서비스",
+  "name": "FETCHING Data Processor",
+  "description": "페칭 배치 데이터 프로세서 모노레포",
   "collaborators": [
     {
       "name": "최호승",
@@ -11,18 +11,19 @@
       "roles": ["팀"]
     }
   ],
-  "startedAt": "2021-08-23",
+  "startedAt": "2021-05-02",
   "finishedAt": "2026-03-31",
   "status": "Done",
-  "type": ["Back-end", "Front-end"],
+  "type": ["Etc"],
   "tags": [
     "TypeScript",
     "Node.js",
-    "Next.js",
-    "Nest.js",
+    "AWS ECS",
     "MySQL",
     "Aurora MySQL",
-    "AWS ECS"
+    "Docker",
+    "npm",
+    "RabbitMQ"
   ],
   "links": [],
   "isHighlighted": false,

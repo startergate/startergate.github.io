@@ -22,7 +22,7 @@
   "startedAt": "2018-01-02",
   "finishedAt": "2018-01-08",
   "status": "Done",
-  "type": ["Server", "Web Application"],
+  "type": ["Back-end", "Front-end"],
   "tags": ["PHP", "AWS EC2"],
   "links": [
     {

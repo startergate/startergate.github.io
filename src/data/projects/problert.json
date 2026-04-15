@@ -30,7 +30,7 @@
   "startedAt": "2019-08-27",
   "finishedAt": "2019-09-02",
   "status": "Done",
-  "type": ["Server"],
+  "type": ["Back-end"],
   "tags": ["JavaScript", "Node.js", "Express.js", "MongoDB", "AWS EC2"],
   "links": [
     {

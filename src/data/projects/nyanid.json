@@ -9,7 +9,7 @@
   ],
   "startedAt": "2020-01-14",
   "status": "Planning",
-  "type": ["Server", "Web Application"],
+  "type": ["Back-end", "Front-end"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL"],
   "links": [
     {

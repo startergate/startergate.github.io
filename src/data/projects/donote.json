@@ -10,7 +10,7 @@
   "startedAt": "2017-10-27",
   "finishedAt": "2019-05-07",
   "status": "Done",
-  "type": ["Server", "Web Application"],
+  "type": ["Back-end", "Front-end"],
   "tags": ["PHP", "MySQL", "AWS EC2"],
   "links": [
     {
