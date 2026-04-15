@@ -1,0 +1,30 @@
+{
+  "name": "FETCHING Commerce",
+  "description": "페칭 커머스 서비스",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개발"]
+    },
+    {
+      "name": "FETCHING",
+      "roles": ["팀"]
+    }
+  ],
+  "startedAt": "2021-08-23",
+  "finishedAt": "2026-03-31",
+  "status": "Done",
+  "type": ["Back-end", "Front-end"],
+  "tags": [
+    "TypeScript",
+    "Node.js",
+    "Next.js",
+    "Nest.js",
+    "MySQL",
+    "Aurora MySQL",
+    "AWS ECS"
+  ],
+  "links": [],
+  "isHighlighted": false,
+  "orderLevel": 1
+}

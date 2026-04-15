@@ -1,0 +1,22 @@
+{
+  "name": "FETCHING Shared Util",
+  "description": "페칭 프로젝트 공유 라이브러리",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개발"]
+    },
+    {
+      "name": "FETCHING",
+      "roles": ["팀"]
+    }
+  ],
+  "startedAt": "2021-05-02",
+  "finishedAt": "2026-03-31",
+  "status": "Done",
+  "type": ["Etc"],
+  "tags": ["TypeScript", "Node.js", "npm"],
+  "links": [],
+  "isHighlighted": false,
+  "orderLevel": 1
+}

@@ -1,0 +1,31 @@
+{
+  "name": "FETCHING Crawler",
+  "description": "페칭 크롤링 시스템",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개발"]
+    },
+    {
+      "name": "FETCHING",
+      "roles": ["팀"]
+    }
+  ],
+  "startedAt": "2020-12-31",
+  "finishedAt": "2026-03-31",
+  "status": "Done",
+  "type": ["Crawler"],
+  "tags": [
+    "TypeScript",
+    "Node.js",
+    "AWS ECS",
+    "MySQL",
+    "Aurora MySQL",
+    "Docker",
+    "npm",
+    "RabbitMQ"
+  ],
+  "links": [],
+  "isHighlighted": false,
+  "orderLevel": 1
+}

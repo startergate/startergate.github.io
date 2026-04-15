@@ -1,0 +1,30 @@
+{
+  "name": "FETCHING Admin",
+  "description": "페칭 서비스 어드민",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개발"]
+    },
+    {
+      "name": "FETCHING",
+      "roles": ["팀"]
+    }
+  ],
+  "startedAt": "2020-12-31",
+  "finishedAt": "2026-03-31",
+  "status": "Done",
+  "type": ["Front-end", "Back-end"],
+  "tags": [
+    "TypeScript",
+    "Node.js",
+    "Next.js",
+    "Nest.js",
+    "MySQL",
+    "Aurora MySQL",
+    "AWS ECS"
+  ],
+  "links": [],
+  "isHighlighted": false,
+  "orderLevel": 1
+}

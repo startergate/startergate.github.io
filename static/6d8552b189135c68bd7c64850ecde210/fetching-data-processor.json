@@ -1,0 +1,31 @@
+{
+  "name": "FETCHING Data Processor",
+  "description": "페칭 배치 데이터 프로세서 모노레포",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개발"]
+    },
+    {
+      "name": "FETCHING",
+      "roles": ["팀"]
+    }
+  ],
+  "startedAt": "2021-05-02",
+  "finishedAt": "2026-03-31",
+  "status": "Done",
+  "type": ["Etc"],
+  "tags": [
+    "TypeScript",
+    "Node.js",
+    "AWS ECS",
+    "MySQL",
+    "Aurora MySQL",
+    "Docker",
+    "npm",
+    "RabbitMQ"
+  ],
+  "links": [],
+  "isHighlighted": false,
+  "orderLevel": 1
+}
