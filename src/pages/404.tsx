@@ -2,14 +2,14 @@ import * as React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-
 import Image from '../components/images/image';
 
 import './404.css';
 
+export const Head = () => <SEO title="404: Not found" />;
+
 const NotFoundPage = () => (
   <Layout>
-    <SEO title="404: Not found" />
     <section
       className="title not-found"
       id="not-found"

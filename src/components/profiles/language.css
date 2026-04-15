@@ -1,4 +1,8 @@
 .badge-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
     background-color: white;
     width: 64px;
     height: 64px;
@@ -8,6 +12,6 @@
 }
 
 .badge-lang-image {
-    max-height: 54px;
-    max-width: 54px;
+    max-height: 100%;
+    max-width: 100%;
 }

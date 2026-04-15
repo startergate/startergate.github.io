@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { useStaticQuery, graphql, PageProps, Link } from 'gatsby';
+import { useStaticQuery, graphql, PageProps } from 'gatsby';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -10,11 +10,13 @@ import Filter from '../components/projects/filter';
 import * as External from '../components/profiles/external';
 import Overlay from '../components/projects/overlay';
 
+export const Head = () => <SEO title="Projects" />;
+
 const Projects = (props: PageProps) => {
   const data = useStaticQuery(graphql`
     query getProjectData {
       allProjectsJson(
-        sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] }
+        sort: [{ isHighlighted: DESC }, { orderLevel: ASC }, { name: ASC }]
       ) {
         nodes {
           id
@@ -54,13 +56,13 @@ const Projects = (props: PageProps) => {
         }
       }
       tags: allProjectsJson {
-        distinct(field: tags)
+        distinct(field: { tags: SELECT })
       }
       type: allProjectsJson {
-        distinct(field: type)
+        distinct(field: { type: SELECT })
       }
       status: allProjectsJson {
-        distinct(field: status)
+        distinct(field: { status: SELECT })
       }
       linksJson(type: { eq: "GitHub" }) {
         id
@@ -124,22 +126,33 @@ const Projects = (props: PageProps) => {
     handler();
   };
 
-  document.querySelector('html').addEventListener('click', (e) => {
-    const projectFilterTags = document.querySelector('#project-filter-tags')
-    const projectFilterTypes = document.querySelector('#project-filter-types')
-    const projectFilterStatus = document.querySelector('#project-filter-status')
+  if (typeof document !== 'undefined') {
+    document.querySelector('html').addEventListener('click', (e) => {
+      const projectFilterTags = document.querySelector('#project-filter-tags');
+      const projectFilterTypes = document.querySelector('#project-filter-types');
+      const projectFilterStatus = document.querySelector('#project-filter-status');
+      const path = e.composedPath();
 
-    if (![projectFilterTags, projectFilterTypes, projectFilterStatus].filter((value) => e.path.includes(value)).length) {
-      console.log([projectFilterTags, projectFilterTypes, projectFilterStatus].filter((value) => e.path.includes(value)).length);
-      projectFilterTags.querySelector('.project-filter-selector').classList.add("hidden");
-      projectFilterTypes.querySelector('.project-filter-selector').classList.add("hidden");
-      projectFilterStatus.querySelector('.project-filter-selector').classList.add("hidden");
-    }
-  })
+      if (
+        ![projectFilterTags, projectFilterTypes, projectFilterStatus].filter(
+          (value) => path.includes(value)
+        ).length
+      ) {
+        projectFilterTags
+          ?.querySelector('.project-filter-selector')
+          ?.classList.add('hidden');
+        projectFilterTypes
+          ?.querySelector('.project-filter-selector')
+          ?.classList.add('hidden');
+        projectFilterStatus
+          ?.querySelector('.project-filter-selector')
+          ?.classList.add('hidden');
+      }
+    });
+  }
 
   return (
     <Layout {...props}>
-      <SEO title={'Projects'} />
       <section className={'subpage'}>
         <div className={'page-title'}>
           <h1>

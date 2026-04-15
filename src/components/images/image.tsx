@@ -1,18 +1,16 @@
 import * as React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage, getImage, withArtDirection } from 'gatsby-plugin-image';
 
-const Image = ({ src, ...props }) => {
+const Image = ({ src, srcIfLightMode = null, alt = '', ...props }) => {
   const data = useStaticQuery(graphql`
-    query {
+    query getImageFiles {
       allFile(filter: { internal: { mediaType: { regex: "images/" } } }) {
         edges {
           node {
             relativePath
             childImageSharp {
-              fluid(maxWidth: 512) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(width: 512)
             }
           }
         }
@@ -25,33 +23,31 @@ const Image = ({ src, ...props }) => {
     [data, src]
   );
 
-  if (match) {
-    let matchLightMode;
-    let sources = match.node.childImageSharp.fluid;
+  const matchLightMode = React.useMemo(
+    () =>
+      srcIfLightMode
+        ? data.allFile.edges.find(
+            ({ node }) => srcIfLightMode === node.relativePath
+          )
+        : null,
+    [data, srcIfLightMode]
+  );
 
-    if (props.srcIfLightMode) {
-      matchLightMode = React.useMemo(
-        () =>
-          data.allFile.edges.find(
-            ({ node }) => props.srcIfLightMode === node.relativePath
-          ),
-        [data, props.srcIfLightMode]
-      );
-      if (matchLightMode) {
-        sources = [
-          match.node.childImageSharp.fluid,
+  if (!match || !match.node.childImageSharp) return null;
+
+  const baseImage = getImage(match.node);
+
+  const image =
+    matchLightMode && matchLightMode.node.childImageSharp
+      ? withArtDirection(baseImage, [
           {
-            ...matchLightMode.node.childImageSharp.fluid,
-            media: `(prefers-color-scheme: light)`,
+            media: '(prefers-color-scheme: light)',
+            image: getImage(matchLightMode.node),
           },
-        ];
-      }
-    }
+        ])
+      : baseImage;
 
-    return <Img fluid={sources} {...props} />;
-  } else {
-    return null;
-  }
+  return <GatsbyImage image={image} alt={alt} {...props} />;
 };
 
 export default Image;

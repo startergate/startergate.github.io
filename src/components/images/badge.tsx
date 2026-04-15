@@ -1,18 +1,16 @@
 import * as React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const Badge = ({ src, ...props }) => {
+const Badge = ({ src, alt = '', ...props }) => {
   const data = useStaticQuery(graphql`
-    query {
+    query getBadgeImages {
       allFile(filter: { internal: { mediaType: { regex: "images/" } } }) {
         edges {
           node {
             relativePath
             childImageSharp {
-              fluid(maxWidth: 32) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(width: 32)
             }
           }
         }
@@ -25,11 +23,12 @@ const Badge = ({ src, ...props }) => {
     [data, src]
   );
 
-  if (match) return <Img fluid={match.node.childImageSharp.fluid} {...props} />;
-  else
+  if (match && match.node.childImageSharp) {
+    return <GatsbyImage image={getImage(match.node)} alt={alt} {...props} />;
+  } else {
     return (
       <svg
-        className={"project-card-badge"}
+        className={'project-card-badge'}
         viewBox={'0 0 16 16'}
         version={'1.1'}
         width={'16'}
@@ -42,6 +41,7 @@ const Badge = ({ src, ...props }) => {
         />
       </svg>
     );
+  }
 };
 
 export default Badge;

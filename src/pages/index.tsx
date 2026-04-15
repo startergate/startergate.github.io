@@ -11,11 +11,13 @@ import OriginalImage from '../components/images/originalImg';
 
 import './index.css';
 
+export const Head = () => <SEO title="Home" />;
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query getIndexData {
       allProjectsJson(
-        sort: { fields: [isHighlighted, orderLevel, name], order: [DESC, ASC] }
+        sort: [{ isHighlighted: DESC }, { orderLevel: ASC }, { name: ASC }]
         filter: { isHighlighted: { eq: true } }
         limit: 4
       ) {
@@ -57,7 +59,7 @@ const IndexPage = () => {
         }
       }
       allLanguagesJson {
-        group(field: level) {
+        group(field: { level: SELECT }) {
           nodes {
             level
             id
@@ -78,12 +80,8 @@ const IndexPage = () => {
           link
         }
       }
-      pfLogo: file(relativePath: {eq: "teams/peoplefund_white.png"}) {
-        childImageSharp {
-          fluid {
-            srcSet
-          }
-        }
+      pfLogo: file(relativePath: { eq: "teams/peoplefund_white.png" }) {
+        publicURL
       }
     }
   `);
@@ -106,7 +104,6 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <SEO title="Home" />
       <section
         className={'title'}
         id={'title'}
@@ -373,7 +370,7 @@ const IndexPage = () => {
                 <picture>
                   <source
                     style={{ margin: 0 }}
-                    srcSet={peoplefund_white.childImageSharp.fluid.srcSet}
+                    srcSet={peoplefund_white?.publicURL}
                     media={'(prefers-color-scheme: dark)'}
                   />
                   <OriginalImage

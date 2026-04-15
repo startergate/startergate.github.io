@@ -1,18 +1,16 @@
 import * as React from 'react';
 import { graphql, useStaticQuery } from 'gatsby';
-import Img from 'gatsby-image';
+import { GatsbyImage, getImage } from 'gatsby-plugin-image';
 
-const Thumbnail = ({ src, ...props }) => {
+const Thumbnail = ({ src, alt = '', ...props }) => {
   const data = useStaticQuery(graphql`
-    query {
+    query getThumbnailImages {
       allFile(filter: { internal: { mediaType: { regex: "images/" } } }) {
         edges {
           node {
             relativePath
             childImageSharp {
-              fluid(maxWidth: 128) {
-                ...GatsbyImageSharpFluid
-              }
+              gatsbyImageData(width: 128, layout: CONSTRAINED)
             }
           }
         }
@@ -25,7 +23,8 @@ const Thumbnail = ({ src, ...props }) => {
     [data, src]
   );
 
-  return <Img fluid={match.node.childImageSharp.fluid} {...props} />;
+  if (!match || !match.node.childImageSharp) return null;
+  return <GatsbyImage image={getImage(match.node)} alt={alt} {...props} />;
 };
 
 export default Thumbnail;
