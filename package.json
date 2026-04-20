@@ -3,7 +3,7 @@
   "private": false,
   "description": "",
   "version": "0.1.0",
-  "author": "startergate <startergate36@gmail.com>",
+  "author": "startergate <me@startergate.dev>",
   "dependencies": {
     "gatsby": "^5.13.7",
     "gatsby-plugin-image": "^3.13.1",
