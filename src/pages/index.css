@@ -22,6 +22,10 @@
     font-family: 'JetBrains Mono', monospace, monospace;
 }
 
+.serif {
+    font-family: Georgia, 'Noto Serif KR', 'Batang', '바탕', serif;
+}
+
 .list {
     display: flex;
     flex-wrap: wrap;

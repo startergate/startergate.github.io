@@ -27,38 +27,38 @@
     "image": {
       "src": "langs/python.png"
     },
-    "level": "using"
+    "level": "learned"
   },
   {
-    "type": "C",
+    "name": "C",
     "image": {
       "src": "langs/c.webp"
     },
     "level": "learned"
   },
   {
-    "type": "C++",
+    "name": "C++",
     "image": {
       "src": "langs/cpp.png"
     },
     "level": "learned"
   },
   {
-    "type": "C#",
+    "name": "C#",
     "image": {
       "src": "langs/csharp.png"
     },
     "level": "learned"
   },
   {
-    "type": "Java",
+    "name": "Java",
     "image": {
       "src": "langs/java.png"
     },
     "level": "learned"
   },
   {
-    "type": "PHP",
+    "name": "PHP",
     "image": {
       "src": "langs/php.png",
       "background": "#6e6ea7"
@@ -66,7 +66,7 @@
     "level": "learned"
   },
   {
-    "type": "Go",
+    "name": "Go",
     "image": {
       "src": "langs/go.png",
       "background": "#00ADD8"
@@ -74,18 +74,26 @@
     "level": "learning"
   },
   {
+    "name": "NestJS",
+    "image": {
+      "src": "langs/nestjs.svg",
+      "background": "#1A1A1A"
+    },
+    "level": "using"
+  },
+  {
     "name": "Express.js",
     "image": {
       "src": "langs/expressjs.png"
     },
-    "level": "using"
+    "level": "learned"
   },
   {
     "name": "Koa.js",
     "image": {
       "src": "langs/koajs.png"
     },
-    "level": "using"
+    "level": "learned"
   },
   {
     "name": "Django",
@@ -93,17 +101,17 @@
       "src": "langs/django.png",
       "background": "#092E20"
     },
-    "level": "using"
+    "level": "learned"
   },
   {
     "name": "Django REST Framework",
     "image": {
       "src": "langs/drf.png"
     },
-    "level": "using"
+    "level": "learned"
   },
   {
-    "type": "Unity",
+    "name": "Unity",
     "image": {
       "src": "langs/unity.png",
       "background": "black"
@@ -111,7 +119,7 @@
     "level": "learned"
   },
   {
-    "type": "Unreal Engine",
+    "name": "Unreal Engine",
     "image": {
       "src": "langs/unrealengine.png",
       "background": "black"
@@ -119,21 +127,21 @@
     "level": "learned"
   },
   {
-    "type": "Qt",
+    "name": "Qt",
     "image": {
       "src": "langs/qt.png"
     },
     "level": "learned"
   },
   {
-    "type": "jQuery",
+    "name": "jQuery",
     "image": {
       "src": "langs/jquery.png"
     },
     "level": "learned"
   },
   {
-    "type": "React",
+    "name": "React",
     "image": {
       "src": "langs/react.png",
       "background": "#1F1F1F"
@@ -141,7 +149,7 @@
     "level": "learning"
   },
   {
-    "type": "Gatsby",
+    "name": "Gatsby",
     "image": {
       "src": "langs/gatsby.png",
       "background": "#663399"
@@ -149,7 +157,7 @@
     "level": "learning"
   },
   {
-    "type": "Spring",
+    "name": "Spring",
     "image": {
       "src": "langs/spring.png"
     },
@@ -170,9 +178,25 @@
     "level": "using"
   },
   {
+    "name": "Aurora DB",
+    "image": {
+      "src": "langs/auroradb.png",
+      "cover": true
+    },
+    "level": "using"
+  },
+  {
     "name": "Redis",
     "image": {
       "src": "langs/redis.png"
+    },
+    "level": "using"
+  },
+  {
+    "name": "RabbitMQ",
+    "image": {
+      "src": "langs/rabbitmq.svg",
+      "background": "#FFFFFF"
     },
     "level": "using"
   },
@@ -185,7 +209,7 @@
     "level": "using"
   },
   {
-    "type": "Docker",
+    "name": "Docker",
     "image": {
       "src": "externals/docker.png",
       "background": "#0db7ed"
@@ -193,7 +217,7 @@
     "level": "using"
   },
   {
-    "type": "Jest",
+    "name": "Jest",
     "image": {
       "src": "langs/jest.png",
       "background": "#37383B"

@@ -67,6 +67,7 @@ const IndexPage = () => {
             image {
               background
               src
+              cover
             }
           }
           fieldValue
@@ -123,7 +124,7 @@ const IndexPage = () => {
       </section>
       <section id={'backend-dev'}>
         <h2>Backend Engineer</h2>
-        <div className={'section-main'}>
+        <div className={'section-main serif'}>
           <p className={'section-punchline'}>
             백엔드 엔지니어입니다. 눈에 보이지 않는 걸 만듭니다.
           </p>
@@ -158,40 +159,40 @@ const IndexPage = () => {
               </span>
             </a>
           </h5>
-          <span>HTTP, TCP 같은 웹 이론 및 HTML & CSS 학습</span>
+          <span className={'serif'}>HTTP, TCP 같은 웹 이론 및 HTML & CSS 학습</span>
           <br />
-          <span>과목 산출물 프로젝트 진행</span>
+          <span className={'serif'}>과목 산출물 프로젝트 진행</span>
           <br />
-          <span>웹 개발 동아리 빈실 부장</span>
+          <span className={'serif'}>웹 개발 동아리 빈실 부장</span>
         </div>
         <div className={'cv-item'}>
           <h5>Node.js</h5>
-          <span>Node.js 8부터 시작, TypeScript와 함께 사용 중</span>
+          <span className={'serif'}>Node.js 8부터 시작, TypeScript와 함께 사용 중</span>
           <br />
-          <span>Apollo + Koa로 GraphQL 개발 경험</span>
+          <span className={'serif'}>Apollo + Koa로 GraphQL 개발 경험</span>
           <br />
-          <span>다양한 종류와 규모의 프로젝트 개발</span>
+          <span className={'serif'}>다양한 종류와 규모의 프로젝트 개발</span>
         </div>
         <div className={'cv-item'}>
           <h5>Python</h5>
-          <span>Django와 챗봇 개발을 위해 사용</span>
+          <span className={'serif'}>Django와 챗봇 개발을 위해 사용</span>
           <br />
-          <span>알고리즘 문제 해결을 위해 사용</span>
+          <span className={'serif'}>알고리즘 문제 해결을 위해 사용</span>
           <br />
-          <span>파이썬 백엔드 개발 현장실습 경험, 배포된 코드 작성 경험</span>
+          <span className={'serif'}>파이썬 백엔드 개발 현장실습 경험, 배포된 코드 작성 경험</span>
         </div>
         <div className={'cv-item'}>
           <h5>빈실</h5>
-          <span>학교 내부에서 사용되는 서비스를 개발하는 동아리</span>
+          <span className={'serif'}>학교 내부에서 사용되는 서비스를 개발하는 동아리</span>
           <br />
-          <span>TypeScript, Node.js, Koa.js 사용</span>
+          <span className={'serif'}>TypeScript, Node.js, Koa.js 사용</span>
           <br />
-          <span>테스팅, 문서화, 스프린트 개발 경험</span>
+          <span className={'serif'}>테스팅, 문서화, 스프린트 개발 경험</span>
         </div>
       </section>
       <section id={'game-dev'}>
         <h2>Game Developer</h2>
-        <div className={'section-main'}>
+        <div className={'section-main serif'}>
           <p className={'section-punchline'}>
             인디 게임 개발자입니다. 경험을 만듭니다.
           </p>
@@ -213,27 +214,27 @@ const IndexPage = () => {
         </div>
         <div className={'cv-item'}>
           <h5>Unity</h5>
-          <span>게임 개발 동아리 Tiny Beluga에서 사용 중</span>
+          <span className={'serif'}>게임 개발 동아리 Tiny Beluga에서 사용 중</span>
           <br />
-          <span>개발한 게임 Steam 출시 경험</span>
+          <span className={'serif'}>개발한 게임 Steam 출시 경험</span>
           <br />
-          <span>Unity Teams 활용한 협업 경험</span>
+          <span className={'serif'}>Unity Teams 활용한 협업 경험</span>
         </div>
         <div className={'cv-item'}>
           <h5>Unreal Engine</h5>
-          <span>게임 프로토타입 개발에 사용 중</span>
+          <span className={'serif'}>게임 프로토타입 개발에 사용 중</span>
           <br />
-          <span>언리얼 엔진과 서버를 연결하여 통계 내주는 서비스 개발</span>
+          <span className={'serif'}>언리얼 엔진과 서버를 연결하여 통계 내주는 서비스 개발</span>
           <br />
-          <span>열심히 공부 중...</span>
+          <span className={'serif'}>열심히 공부 중...</span>
         </div>
         <div className={'cv-item'}>
           <h5>Tiny Beluga</h5>
-          <span>인디 게임 개발 동아리</span>
+          <span className={'serif'}>인디 게임 개발 동아리</span>
           <br />
-          <span>Unity 사용한 2D 플랫포머 게임 개발 / 출시 경험</span>
+          <span className={'serif'}>Unity 사용한 2D 플랫포머 게임 개발 / 출시 경험</span>
           <br />
-          <span>차기작 열심히 구상 중...</span>
+          <span className={'serif'}>차기작 열심히 구상 중...</span>
         </div>
       </section>
       <section id={'project'}>
@@ -293,10 +294,10 @@ const IndexPage = () => {
                 <span className={'lint'}>광주소프트웨어마이스터고등학교</span>
               </a>
             </h5>
-            <span>광주광역시</span>
-            <span>2018.03 ~ 2021.01</span>
+            <span className={'serif'}>광주광역시</span>
+            <span className={'serif'}>2018.03 ~ 2021.01</span>
             <br />
-            <span>
+            <span className={'serif'}>
               <a
                 href={
                   'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'
@@ -342,22 +343,22 @@ const IndexPage = () => {
                 </picture>
               </a>
             </h5>
-            <span>서울특별시 성동구</span>
+            <span className={'serif'}>서울특별시 성동구</span>
             <span className={'line-through'}>서울특별시 강남구</span>
             <span className={'line-through'}>경기도 성남시</span>
             <br />
-            <span>2020.12 ~ 2026.03 (5년 3개월)</span>
+            <span className={'serif'}>2020.12 ~ 2026.03 (5년 3개월)</span>
             <br />
-            <span>백엔드 엔지니어</span>
+            <span className={'serif'}>백엔드 엔지니어</span>
             <br />
             <br />
-            <span>
+            <span className={'serif'}>
               일 크롤링 수 500만건의 대규모 크롤링 시스템 개발 및 운영
             </span>
             <br />
-            <span>자체 커머스 서비스 개발 및 운영</span>
+            <span className={'serif'}>자체 커머스 서비스 개발 및 운영</span>
             <br />
-            <span>비용이 제한된 환경에서의 인프라 운영</span>
+            <span className={'serif'}>비용이 제한된 환경에서의 인프라 운영</span>
           </div>
           <div className={'cv-item'}>
             <h5>
@@ -381,14 +382,14 @@ const IndexPage = () => {
                 <span className={'text-xs'}>(현. 피에프씨테크놀로지스)</span>
               </a>
             </h5>
-            <span>서울특별시 강남구</span>
+            <span className={'serif'}>서울특별시 강남구</span>
             <br />
-            <span>2020.01 ~ 2020.02 (1개월)</span>
+            <span className={'serif'}>2020.01 ~ 2020.02 (1개월)</span>
             <br />
-            <span>백엔드 엔지니어 (현장실습)</span>
+            <span className={'serif'}>백엔드 엔지니어 (현장실습)</span>
             <br />
             <br />
-            <span>계정 인증 미들웨어 및 일부 기능 리팩토링</span>
+            <span className={'serif'}>계정 인증 미들웨어 및 일부 기능 리팩토링</span>
           </div>
         </section>
         <section id={'cv-activities'}>
@@ -404,54 +405,54 @@ const IndexPage = () => {
           </div>
           <div className={'cv-item'}>
             <h5>글로벌 비즈쿨 CO-TDM 창업경진대회</h5>
-            <span>2018.6</span>
-            <span>최우수상</span>
+            <span className={'serif'}>2018.6</span>
+            <span className={'serif'}>최우수상</span>
             <br />
-            <span>E-Faucet: 스마트 수도꼭지</span>
+            <span className={'serif'}>E-Faucet: 스마트 수도꼭지</span>
           </div>
           <div className={'cv-item'}>
             <h5>GSM 창의알고리즘 콘테스트</h5>
-            <span>2018.4</span>
-            <span>장려상</span>
+            <span className={'serif'}>2018.4</span>
+            <span className={'serif'}>장려상</span>
             <br />
-            <span>M2C: Modular Multi Camera</span>
+            <span className={'serif'}>M2C: Modular Multi Camera</span>
           </div>
           <div className={'cv-item'}>
             <h5>GSM 소프트웨어 개발 경진 콘테스트</h5>
-            <span>2019</span>
-            <span>장려상</span>
+            <span className={'serif'}>2019</span>
+            <span className={'serif'}>장려상</span>
             <br />
-            <span>
+            <span className={'serif'}>
               <a href={'/project/The Intersection'}>The Intersection</a>
             </span>
           </div>
           <div className={'cv-item'}>
             <h5>GSM 팀프로젝트발표회</h5>
-            <span>2020.9</span>
-            <span>장려상</span>
+            <span className={'serif'}>2020.9</span>
+            <span className={'serif'}>장려상</span>
             <br />
-            <span>
+            <span className={'serif'}>
               <a href={'/project/Eliverd'}>Eliverd</a>
             </span>
           </div>
           <div className={'cv-item'}>
             <h5>GSM 전공 동아리 해커톤 대회</h5>
-            <span>2020.9</span>
-            <span>장려상</span>
+            <span className={'serif'}>2020.9</span>
+            <span className={'serif'}>장려상</span>
             <br />
-            <span>
+            <span className={'serif'}>
               <a href={'/project/GSM Pay'}>GSM Pay</a>
             </span>
           </div>
           <div className={'cv-item'}>
             <h5>정보처리기능사</h5>
-            <span>2019.3</span>
-            <span>한국산업인력공단</span>
+            <span className={'serif'}>2019.3</span>
+            <span className={'serif'}>한국산업인력공단</span>
           </div>
           <div className={'cv-item'}>
             <h5>TOEIC</h5>
-            <span>2018.8</span>
-            <span>865점</span>
+            <span className={'serif'}>2018.8</span>
+            <span className={'serif'}>865점</span>
           </div>
         </section>
         <section id={'cv-group-activities'}>
@@ -466,16 +467,16 @@ const IndexPage = () => {
                 <span className={'lint'}>빈실</span>
               </a>
             </h5>
-            <span>광주소프트웨어마이스터고등학교</span>
-            <span>웹 개발 동아리</span>
+            <span className={'serif'}>광주소프트웨어마이스터고등학교</span>
+            <span className={'serif'}>웹 개발 동아리</span>
             <br />
-            <span>동아리원</span>
-            <span>2018.3 ~ 2020.8</span>
+            <span className={'serif'}>동아리원</span>
+            <span className={'serif'}>2018.3 ~ 2020.8</span>
             <br />
-            <span>부장</span>
-            <span>2020.1 ~ 2020.8</span>
+            <span className={'serif'}>부장</span>
+            <span className={'serif'}>2020.1 ~ 2020.8</span>
             <br />
-            <span>
+            <span className={'serif'}>
               프로젝트: <a href={'/project/DOTORI'}>DOTORI</a>,{' '}
               <a href={'/project/GSM Pay'}>GSM Pay</a>
             </span>
@@ -490,16 +491,16 @@ const IndexPage = () => {
                 <span className={'lint'}>Tiny Beluga</span>
               </a>
             </h5>
-            <span>광주소프트웨어마이스터고등학교</span>
-            <span>게임 개발 동아리</span>
+            <span className={'serif'}>광주소프트웨어마이스터고등학교</span>
+            <span className={'serif'}>게임 개발 동아리</span>
             <br />
-            <span>동아리원</span>
-            <span>2019.3 ~ </span>
+            <span className={'serif'}>동아리원</span>
+            <span className={'serif'}>2019.3 ~ </span>
             <br />
-            <span>부장</span>
-            <span>2019.3 ~ </span>
+            <span className={'serif'}>부장</span>
+            <span className={'serif'}>2019.3 ~ </span>
             <br />
-            <span>
+            <span className={'serif'}>
               프로젝트: <a href={'/project/Lost'}>Lost</a>
             </span>
           </div>
