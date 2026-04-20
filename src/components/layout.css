@@ -243,6 +243,12 @@ section section {
   height: 16px;
 }
 
+@media (prefers-color-scheme: light) {
+  .footer-badge-github {
+    filter: brightness(0);
+  }
+}
+
 .line-through {
   text-decoration: line-through;
   color: grey;

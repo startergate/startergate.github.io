@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
         {` `}
         <a className={'noLint'} href={'https://pages.github.com'}>
           <Badge
-            className={'footer-badge'}
+            className={'footer-badge footer-badge-github'}
             src={Links.GitHub.src}
             style={{ display: `inline-block` }}
           />{' '}
