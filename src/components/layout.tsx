@@ -30,8 +30,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()} Ho Seung Choi a.k.a. startergate, Built
-        with
+        © {new Date().getFullYear()} startergate, Built with
         {` `}
         <a className={'noLint'} href={'https://www.gatsbyjs.org'}>
           <Badge
