@@ -9,7 +9,34 @@
 }
 
 :root {
-  --main-color: #3D414D
+  --main-color: #3D414D;
+  --bg-color: #ffffff;
+  --text-color: #3D414D;
+  --link-color: #3D414D;
+  --link-hover-bg: #3D414D;
+  --link-hover-color: #ffffff;
+  --h1-span-bg: #3D414D;
+  --h1-span-color: #ffffff;
+  --github-badge-filter: brightness(0);
+  --submenu-bg: #ffffff;
+  --overlay-bg: #ffffff;
+  --exit-stroke: #3D414D;
+  --progress-fill: #6d6d6d;
+}
+
+html[data-theme="dark"] {
+  --bg-color: #3D414D;
+  --text-color: #ffffff;
+  --link-color: #ffffff;
+  --link-hover-bg: #ffffff;
+  --link-hover-color: #3D414D;
+  --h1-span-bg: #ffffff;
+  --h1-span-color: #3D414D;
+  --github-badge-filter: none;
+  --submenu-bg: #3D414D;
+  --overlay-bg: #3D414D;
+  --exit-stroke: #ffffff;
+  --progress-fill: #ffffff;
 }
 
 * {
@@ -24,12 +51,16 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+
 body {
   top: 0;
   left: 0;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.2s, color 0.2s;
 }
 
 body.disabled {
@@ -72,56 +103,27 @@ a {
   background-color: transparent;
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
+  color: var(--link-color);
 }
+
 a:active,
 a:hover {
   outline-width: 0;
 }
-@media (prefers-color-scheme: dark) {
-  body {
-    background-color: var(--main-color);
-    color: white;
-  }
 
-  a {
-    color: white;
-  }
-
-  a:hover:not(.noLint) {
-    background: white;
-    color: var(--main-color);
-  }
-
-  a:hover span.lint {
-    background: white;
-    color: var(--main-color);
-  }
-
-  h1 > span {
-    background: white;
-    color: var(--main-color);
-  }
+a:hover:not(.noLint) {
+  background: var(--link-hover-bg);
+  color: var(--link-hover-color);
 }
 
-@media (prefers-color-scheme: light) {
-  a {
-    color: var(--main-color);
-  }
+a:hover span.lint {
+  background: var(--link-hover-bg);
+  color: var(--link-hover-color);
+}
 
-  a:hover:not(.noLint) {
-    background: var(--main-color);
-    color: white;
-  }
-
-  a:hover span.lint {
-    background: var(--main-color);
-    color: white;
-  }
-
-  h1 > span {
-    background: var(--main-color);
-    color: white;
-  }
+h1 > span {
+  background: var(--h1-span-bg);
+  color: var(--h1-span-color);
 }
 
 h1 {
@@ -243,10 +245,8 @@ section section {
   height: 16px;
 }
 
-@media (prefers-color-scheme: light) {
-  .footer-badge-github {
-    filter: brightness(0);
-  }
+.footer-badge-github {
+  filter: var(--github-badge-filter);
 }
 
 .line-through {

@@ -35,14 +35,8 @@
     height: 24px;
     top: 0;
     right: 0;
-    stroke: var(--main-color);
+    stroke: var(--exit-stroke, var(--main-color));
     cursor: pointer;
-}
-
-@media (prefers-color-scheme: dark) {
-    .project-detail-exit {
-        stroke: white;
-    }
 }
 
 .project-detail > div {
@@ -146,13 +140,7 @@
 }
 
 .progress-bar-icon,.progress-bar-icon path {
-   fill: #6d6d6d;
-}
-
-@media (prefers-color-scheme: dark) {
-    .progress-bar-icon,.progress-bar-icon path {
-        fill: white;
-    }
+   fill: var(--progress-fill, #6d6d6d);
 }
 
 .project-detail-time-start {

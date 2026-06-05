@@ -13,7 +13,6 @@ import Header from './header';
 import './layout.css';
 import Badge from './images/badge';
 import Links from '../enums/links';
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {

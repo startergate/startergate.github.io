@@ -41,14 +41,6 @@
     text-align: left;
 }
 
-@media (prefers-color-scheme: light) {
-    .overlay-item {
-        background-color: white;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .overlay-item {
-        background-color: var(--main-color);
-    }
+.overlay-item {
+    background-color: var(--overlay-bg, white);
 }

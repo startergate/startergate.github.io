@@ -39,3 +39,21 @@
     border-radius: 50%;
     width: 64px;
 }
+
+/* 테마 토글 버튼 */
+.theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 2px;
+    color: var(--text-color, inherit);
+    display: inline-flex;
+    align-items: center;
+    vertical-align: middle;
+    opacity: 0.8;
+    transition: opacity 0.15s;
+}
+
+.theme-toggle:hover {
+    opacity: 1;
+}

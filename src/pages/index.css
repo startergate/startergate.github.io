@@ -54,3 +54,82 @@
     height: 24px;
     margin-right: 2px;
 }
+
+.float-actions {
+    position: fixed;
+    bottom: 3rem;
+    right: 5rem;
+    z-index: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    opacity: 0.35;
+    transition: opacity 0.2s;
+}
+
+.float-actions:hover {
+    opacity: 1;
+}
+
+.float-top-btn {
+    background: var(--bg-color, white);
+    border: 2px solid var(--text-color, #3D414D);
+    border-radius: 10px;
+    width: 100%;
+    padding: 6px 16px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: var(--text-color, #3D414D);
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.float-top-btn:hover {
+    background: var(--text-color, #3D414D);
+    color: var(--bg-color, white);
+}
+
+.mode-float {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--text-color, #3D414D);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--bg-color, white);
+}
+
+.mode-float-btn {
+    background: transparent;
+    border: none;
+    padding: 7px 16px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: var(--text-color, #3D414D);
+    text-align: center;
+    transition: background-color 0.15s, color 0.15s;
+    white-space: nowrap;
+}
+
+.mode-float-btn:not(:last-child) {
+    border-bottom: 1px solid var(--text-color, #3D414D);
+}
+
+.mode-float-btn.active {
+    background: var(--text-color, #3D414D);
+    color: var(--bg-color, white);
+}
+
+@media screen and (max-width: 998px) {
+    .float-actions {
+        right: 3rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .float-actions {
+        right: 1.5rem;
+        bottom: 1.5rem;
+    }
+}
