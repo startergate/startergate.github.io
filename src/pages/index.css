@@ -102,14 +102,13 @@
 .mode-float-btn {
     background: transparent;
     border: none;
-    padding: 7px 16px;
+    padding: 8px 12px;
     cursor: pointer;
-    font-size: 0.8rem;
-    font-weight: bold;
+    font-size: 1.1rem;
     color: var(--text-color, #3D414D);
     text-align: center;
     transition: background-color 0.15s, color 0.15s;
-    white-space: nowrap;
+    line-height: 1;
 }
 
 .mode-float-btn:not(:last-child) {

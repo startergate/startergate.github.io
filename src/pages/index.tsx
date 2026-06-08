@@ -597,14 +597,16 @@ const IndexPage = () => {
           <button
             className={`mode-float-btn${mode === 'backend' ? ' active' : ''}`}
             onClick={() => setMode('backend')}
+            aria-label="Backend Engineer 모드"
           >
-            Backend
+            💻
           </button>
           <button
             className={`mode-float-btn${mode === 'game' ? ' active' : ''}`}
             onClick={() => setMode('game')}
+            aria-label="Game Developer 모드"
           >
-            Game
+            🎮
           </button>
         </div>
       </div>
