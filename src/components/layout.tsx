@@ -9,11 +9,12 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
+import { ArrowUp } from 'lucide-react';
 import Header from './header';
 import './layout.css';
 import Badge from './images/badge';
 import Links from '../enums/links';
-const Layout = ({ children }) => {
+const Layout = ({ children, bottomActions = null }: { children: React.ReactNode; bottomActions?: React.ReactNode }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -28,6 +29,16 @@ const Layout = ({ children }) => {
     <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <main>{children}</main>
+      <div className={'float-container'}>
+        {bottomActions}
+        <button
+          className={'scroll-top-btn'}
+          onClick={() => typeof window !== 'undefined' && window.scrollTo({ top: 0, behavior: 'smooth' })}
+          aria-label="맨 위로"
+        >
+          <ArrowUp size={18} strokeWidth={2.5} />
+        </button>
+      </div>
       <footer>
         © {new Date().getFullYear()} startergate, Built with
         {` `}
@@ -56,6 +67,7 @@ const Layout = ({ children }) => {
 
 Layout.propTypes = {
   children: PropTypes.node.isRequired,
+  bottomActions: PropTypes.node,
 };
 
 export default Layout;

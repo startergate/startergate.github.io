@@ -258,3 +258,51 @@ section section {
   font-size: 10px;
   font-weight: 400;
 }
+
+.float-container {
+  position: fixed;
+  bottom: 3rem;
+  right: 5rem;
+  z-index: 900;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+@media screen and (max-width: 998px) {
+  .float-container {
+    right: 3rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .float-container {
+    right: 1.5rem;
+    bottom: 1.5rem;
+  }
+}
+
+.scroll-top-btn {
+  width: 38px;
+  height: 38px;
+  background: var(--bg-color, white);
+  border: 2px solid var(--text-color, #3D414D);
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: var(--text-color, #3D414D);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.35;
+  transition: opacity 0.2s, background-color 0.15s, color 0.15s;
+  flex-shrink: 0;
+}
+
+.scroll-top-btn:hover {
+  opacity: 1;
+  background: var(--text-color, #3D414D);
+  color: var(--bg-color, white);
+}

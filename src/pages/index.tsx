@@ -152,8 +152,27 @@ const IndexPage = () => {
   const currentProjects = mode === 'backend' ? backendProjects : gameProjects;
   const allHighlighted = [...backendProjects, ...gameProjects];
 
+  const modeActions = (
+    <div className={'float-actions'}>
+      <button
+        className={`mode-float-btn${mode === 'backend' ? ' active' : ''}`}
+        onClick={() => setMode('backend')}
+        aria-label="Backend Engineer 모드"
+      >
+        💻
+      </button>
+      <button
+        className={`mode-float-btn${mode === 'game' ? ' active' : ''}`}
+        onClick={() => setMode('game')}
+        aria-label="Game Developer 모드"
+      >
+        🎮
+      </button>
+    </div>
+  );
+
   return (
-    <Layout>
+    <Layout bottomActions={modeActions}>
       <section
         className={'title'}
         id={'title'}
@@ -585,31 +604,6 @@ const IndexPage = () => {
         </div>
       </section>
       <Overlay data={allHighlighted} />
-      <div className={'float-actions'}>
-        <button
-          className={'float-top-btn'}
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          aria-label="맨 위로"
-        >
-          ↑
-        </button>
-        <div className={'mode-float'}>
-          <button
-            className={`mode-float-btn${mode === 'backend' ? ' active' : ''}`}
-            onClick={() => setMode('backend')}
-            aria-label="Backend Engineer 모드"
-          >
-            💻
-          </button>
-          <button
-            className={`mode-float-btn${mode === 'game' ? ' active' : ''}`}
-            onClick={() => setMode('game')}
-            aria-label="Game Developer 모드"
-          >
-            🎮
-          </button>
-        </div>
-      </div>
     </Layout>
   );
 };
