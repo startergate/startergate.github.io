@@ -50,6 +50,8 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  scroll-snap-type: y proximity;
+  scroll-padding-top: 48px;
 }
 
 body {
@@ -202,6 +204,14 @@ body {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+}
+
+section {
+  scroll-snap-align: start;
+}
+
+section section {
+  scroll-snap-align: none;
 }
 
 section:not(.title) {
