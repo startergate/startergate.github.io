@@ -175,18 +175,15 @@ const IndexPage = () => {
       >
         <div>
           <h1>
-            <span className={'slogan'}>Learn, Find, Figure Out</span>
+            <span className={'slogan'}>Construct [ﾠﾠﾠﾠﾠﾠﾠﾠ]</span>
           </h1>
           <p className={'title-name monospace'}>STARTERGATE / 최호승</p>
-          <p className={'contacts monospace'}>
+          <p className={'work'}>
+            {mode === 'backend' ? '백엔드 엔지니어' : '게임 개발자'}
+          </p>
+          <p className={'monospace'}>
             <a href={'mailto://me@startergate.dev'}>me@startergate.dev</a>
           </p>
-          {mode === 'backend' ? (
-            <p>백엔드 엔지니어</p>
-          ) : (
-            <p>게임 개발자</p>
-          )}
-
         </div>
       </section>
 
@@ -198,65 +195,83 @@ const IndexPage = () => {
               백엔드 엔지니어입니다. 눈에 보이지 않는 걸 만듭니다.
             </p>
             <br />
-            서버에서 돌아가는 프로그램을 만듭니다. 직접 해야할 때는 모바일 앱이나
-            웹 앱도 직접 만듭니다.
-            <br />
-            컴퓨터에는 항상 관심이 많았습니다. 초등학교 때에는 컴퓨터 방과후를
-            다녔고, 중학교 때에{' '}
-            <a href={'https://opentutorials.org/course/1'} target={'_blank'}>
-              생활코딩
-            </a>
-            으로 코딩을 시작했습니다.
-            <br />
-            코딩에 관심이 많아져서 고등학교는 소프트웨어마이스터고로 진학했습니다.
-            <br />
-            항상 변화하며 새로운 것을 시도합니다. 새로운 것은 항상 더 나은 것이라
-            생각합니다.
+            서버에서 돌아가는 프로그램과 그와 연결되는 프로그램을 만듭니다.
           </div>
           <div className={'cv-item'}>
-            <h5>
-              <a
-                href={
-                  'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'
-                }
-                className={'cv-item-title'}
-                title={'광주소프트웨어마이스터고등학교 소프트웨어개발과'}
-                target={'_blank'}
-              >
-                <span className={'lint'}>
-                  광주소프트웨어마이스터고등학교 소프트웨어개발과
-                </span>
-              </a>
-            </h5>
-            <span className={'serif'}>HTTP, TCP 같은 웹 이론 및 HTML & CSS 학습</span>
+            <h5>경험</h5>
+            <span className={'serif'}>
+              MAU 75만명을 처리하는 백엔드 서버부터 일 500만건 규모의 크롤링
+              시스템, 4대 규모의 데이터베이스 클러스터 운영, 이를 운영하는
+              클라우드와 온프레미스 여러곳에 분포된 인프라와 사내 네트워크 구축
+              및 관리까지 다양한 업무를 경험했습니다.
+            </span>
             <br />
-            <span className={'serif'}>과목 산출물 프로젝트 진행</span>
             <br />
-            <span className={'serif'}>웹 개발 동아리 빈실 부장</span>
+            <span className={'serif'}>
+              학생 시절부터 개발 공부를 시작하여 약 9년의 개발 경험, 5년 3개월의
+              현업 경력이 있습니다. 백엔드 개발부터 그와 연관된 프론트, 인프라,
+              CI/CD도 개발한 경험이 있고, 프로젝트의 전체적인 아키텍처를 설계한
+              경험도 여럿 있습니다.
+            </span>
+            <br />
+            <br />
+            <span className={'serif'}>
+              서비스를 운영하며 비용 절감, 크레딧 활용, 특정 서비스의 필요 등의
+              목적을 충족시키기 위해 아마존 웹 서비스, Google Cloud Platform,
+              네이버 클라우드 플랫폼 등의 다양한 클라우드 서비스를 혼합하여
+              서비스 구현 및 운영하였으며, 이로 인해 발생하는 비용이나 제한
+              사항들을 경험했습니다.
+            </span>
+            <br />
+            <br />
+            <span className={'serif'}>
+              페칭에서 서비스를 개발 및 운영하며 동료들은 물론, 베스핀글로벌과
+              같은 MSP사부터, 스마트로, 포트원, 네이버 쇼핑과 같은 파트너사,
+              페칭 파트너센터에 입접한 고객사, 과제 진행을 위한 공공기관까지
+              여러 종류의 외부 기관과 소통 및 서비스 도입, API 연동 등의 다양한
+              외부 협업을 경험했습니다.
+            </span>
           </div>
           <div className={'cv-item'}>
-            <h5>Node.js</h5>
-            <span className={'serif'}>Node.js 8부터 시작, TypeScript와 함께 사용 중</span>
+            <h5>기술 스택</h5>
+            <span className={'serif'}>
+              TypeScript 기반으로 Node.js를 사용해서 개발하고 있습니다.
+              현업에서는 5년 3개월간 근무한 페칭에서 백엔드부터 프론트, 크롤러,
+              배치 프로그램 등 다양한 부분에 사용했습니다. 서버 프레임워크로는
+              Nest.js를 사용했으며, 이외에도 Express.js와 Koa.js로 프로젝트를
+              진행한 경험이 있습니다. 이전에는 피플펀드컴퍼니에서 1개월간
+              근무하며 실무에서 Python을 사용한 경험이 있으며, Django 웹서버를
+              개발했습니다.
+            </span>
             <br />
-            <span className={'serif'}>Apollo + Koa로 GraphQL 개발 경험</span>
             <br />
-            <span className={'serif'}>다양한 종류와 규모의 프로젝트 개발</span>
-          </div>
-          <div className={'cv-item'}>
-            <h5>Python</h5>
-            <span className={'serif'}>Django와 챗봇 개발을 위해 사용</span>
+            <span className={'serif'}>
+              데이터베이스는 MySQL 기반의 것을 주로 사용하고 있습니다. SQL
+              쿼리를 직접 짜는 것은 물론 TypeORM을 통해서 사용한 프로젝트도
+              있습니다. AWS 상에서 읽기 레플리카를 추가한 클러스터를 현업에서
+              운영해본 경험이 있으며, 이를 AWS Aurora MySQL로 마이그레이션한 후
+              운영한 경험이 있습니다. 이외에도 DynamoDB, Redis를 현업에서 캐싱
+              등의 용도로 사용했습니다. 또한 RabbitMQ를 안정적인 시스템 운영 및
+              태스크 분산 등의 목적으로 직접 서버를 구축하여 AWS SQS와 조합하여
+              프로덕션 환경에서 운영했습니다.
+            </span>
             <br />
-            <span className={'serif'}>알고리즘 문제 해결을 위해 사용</span>
             <br />
-            <span className={'serif'}>파이썬 백엔드 개발 현장실습 경험, 배포된 코드 작성 경험</span>
-          </div>
-          <div className={'cv-item'}>
-            <h5>빈실</h5>
-            <span className={'serif'}>학교 내부에서 사용되는 서비스를 개발하는 동아리</span>
+            <span className={'serif'}>
+              AWS를 주력으로 사용하고 있으며, GCP, 네이버 클라우드 플랫폼도
+              현업에서 사용했습니다. Elastic Cloud와 Grafana Cloud 와 같은
+              클라우드 기반의 외부 서비스와도 AWS VPC Endpoint와 같은 서비스를
+              통해 비용 효율적으로 연동하여 운영했습니다.
+            </span>
             <br />
-            <span className={'serif'}>TypeScript, Node.js, Koa.js 사용</span>
             <br />
-            <span className={'serif'}>테스팅, 문서화, 스프린트 개발 경험</span>
+            <span className={'serif'}>
+              GitHub Action을 통한 CI/CD를 구축하여 프로덕션 환경에서
+              사용하였으며, AWS SDK를 통한 배포 로직을 구현 및 운영했습니다.
+              배포된 서비스의 안정적인 운영을 위해서 Sentry, Grafana와 자체 구현
+              서비스를 통한 클라우드와 온프레미스 모니터링 시스템을 구현하여
+              Slack과 연동하여 운영했습니다.
+            </span>
           </div>
         </section>
       )}
@@ -281,12 +296,14 @@ const IndexPage = () => {
             방과후에서 배운 지식을 바탕으로 고2 때에 Tiny Beluga라는 동아리를
             만들고, 친구들과 함께 Lost라는 게임을 개발하고 출시했습니다.
             <br />
-            여러 장르를 시도합니다. 처음으로 출시해본 게임은 2D 플랫포머였고, 좋은
-            아이디어만 있다면 다양하게 만들어보고 있습니다.
+            여러 장르를 시도합니다. 처음으로 출시해본 게임은 2D 플랫포머였고,
+            좋은 아이디어만 있다면 다양하게 만들어보고 있습니다.
           </div>
           <div className={'cv-item'}>
             <h5>Unity</h5>
-            <span className={'serif'}>게임 개발 동아리 Tiny Beluga에서 사용 중</span>
+            <span className={'serif'}>
+              게임 개발 동아리 Tiny Beluga에서 사용 중
+            </span>
             <br />
             <span className={'serif'}>개발한 게임 Steam 출시 경험</span>
             <br />
@@ -296,7 +313,9 @@ const IndexPage = () => {
             <h5>Unreal Engine</h5>
             <span className={'serif'}>게임 프로토타입 개발에 사용 중</span>
             <br />
-            <span className={'serif'}>언리얼 엔진과 서버를 연결하여 통계 내주는 서비스 개발</span>
+            <span className={'serif'}>
+              언리얼 엔진과 서버를 연결하여 통계 내주는 서비스 개발
+            </span>
             <br />
             <span className={'serif'}>열심히 공부 중...</span>
           </div>
@@ -304,7 +323,9 @@ const IndexPage = () => {
             <h5>Tiny Beluga</h5>
             <span className={'serif'}>인디 게임 개발 동아리</span>
             <br />
-            <span className={'serif'}>Unity 사용한 2D 플랫포머 게임 개발 / 출시 경험</span>
+            <span className={'serif'}>
+              Unity 사용한 2D 플랫포머 게임 개발 / 출시 경험
+            </span>
             <br />
             <span className={'serif'}>차기작 열심히 구상 중...</span>
           </div>
@@ -420,8 +441,8 @@ const IndexPage = () => {
               </a>
             </h5>
             <span className={'serif'}>서울특별시 성동구</span>
-            <span className={'line-through'}>서울특별시 강남구</span>
-            <span className={'line-through'}>경기도 성남시</span>
+            <span className={'line-through serif'}>서울특별시 강남구</span>
+            <span className={'line-through serif'}>경기도 성남시</span>
             <br />
             <span className={'serif'}>2020.12 ~ 2026.03 (5년 3개월)</span>
             <br />
@@ -429,12 +450,23 @@ const IndexPage = () => {
             <br />
             <br />
             <span className={'serif'}>
-              일 크롤링 수 500만건의 대규모 크롤링 시스템 개발 및 운영
+              MAU 75만명을 처리하는 백엔드 서버, 일 500만건 규모의 크롤링
+              시스템, 주문 및 커머스 컨텐츠 관리부터 회계 시스템을 포함한 다양한
+              기능의 어드민과 이를 운영하는 인프라와 사내 네트워크 관리까지
+              다양한 업무를 경험했습니다.
+            </span>
+            <span className={'serif'}>
+              사내 어드민, 커머스, 상품 수집 시스템 등 회사의 모든 프로덕트
+              개발에 참여하였고, 몇몇 프로젝트는 초기부터 담당하여 전체적인
+              아키텍처까지 직접 설계하고 구축했습니다.
             </span>
             <br />
-            <span className={'serif'}>자체 커머스 서비스 개발 및 운영</span>
-            <br />
-            <span className={'serif'}>비용이 제한된 환경에서의 인프라 운영</span>
+            <span className={'serif'}>
+              개발한 프로덕트의 운영에도 모두 참여했으며, 비용이 제한된 환경에서
+              효율적이고 안정적으로 데이터베이스를 운영하고, 자동 빌드 및 AWS
+              클라우드 환경과 온프레미스 환경에 자동 배포하는 등의 CI/CD를 직접
+              구축했습니다.
+            </span>
           </div>
           <div className={'cv-item'}>
             <h5>
@@ -462,7 +494,9 @@ const IndexPage = () => {
             <span className={'serif'}>백엔드 엔지니어 (현장실습)</span>
             <br />
             <br />
-            <span className={'serif'}>계정 인증 미들웨어 및 일부 기능 리팩토링</span>
+            <span className={'serif'}>
+              계정 인증 미들웨어 및 일부 기능 리팩토링
+            </span>
           </div>
         </section>
         <section id={'cv-activities'}>
