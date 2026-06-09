@@ -46,6 +46,10 @@
     align-items: center;
 }
 
+.project-card-badge img {
+    object-fit: contain !important;
+}
+
 svg.project-card-badge {
     padding: 4px;
 }
