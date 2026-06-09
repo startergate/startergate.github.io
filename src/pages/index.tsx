@@ -127,7 +127,7 @@ const IndexPage = () => {
     }
   `);
 
-  const { mode, setMode } = useApp();
+  const { mode, setMode, theme } = useApp();
 
   const backendProjects = data.backendProjects.nodes;
   const gameProjects = data.gameProjects.nodes;
@@ -445,9 +445,12 @@ const IndexPage = () => {
                 target={'_blank'}
               >
                 <OriginalImage
-                  src={'teams/peoplefund.png'}
+                  src={
+                    theme === 'dark'
+                      ? 'teams/peoplefund_white.png'
+                      : 'teams/peoplefund.png'
+                  }
                   alt={'피플펀드컴퍼니'}
-                  style={{ filter: 'var(--github-badge-filter)' }}
                 />
                 <span className={'text-xs'}>(현. 피에프씨테크놀로지스)</span>
               </a>
