@@ -399,11 +399,15 @@ const IndexPage = () => {
             <h5>
               <a
                 href={'https://gsm.gen.hs.kr'}
-                className={'cv-item-title'}
+                className={'cv-item-title noLint'}
                 title={'광주소프트웨어마이스터고등학교'}
                 target={'_blank'}
               >
-                <span className={'lint'}>광주소프트웨어마이스터고등학교</span>
+                <OriginalImage
+                  src={theme === 'dark' ? 'teams/gsm_white.webp' : 'teams/gsm.webp'}
+                  alt={'광주소프트웨어마이스터고등학교'}
+                  style={{ height: '64px' }}
+                />
               </a>
             </h5>
             <span className={'serif'}>광주광역시</span>
