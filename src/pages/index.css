@@ -6,6 +6,28 @@
 .title {
     align-items: center;
     display: flex;
+    position: relative;
+}
+
+.scroll-hint {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0.3;
+    animation: scroll-bounce 2s ease-in-out infinite;
+    color: var(--text-color);
+    transition: opacity 0.4s ease;
+}
+
+.scroll-hint.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+
+@keyframes scroll-bounce {
+    0%, 100% { transform: translateX(-50%) translateY(0); }
+    50% { transform: translateX(-50%) translateY(8px); }
 }
 
 .title-name {

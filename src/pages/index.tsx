@@ -8,6 +8,7 @@ import * as External from '../components/profiles/external';
 import Project from '../components/projects/simple';
 import Overlay from '../components/projects/overlay';
 import OriginalImage from '../components/images/originalImg';
+import { ChevronDown } from 'lucide-react';
 import { useApp } from '../contexts/AppContext';
 
 import './index.css';
@@ -129,6 +130,13 @@ const IndexPage = () => {
 
   const { mode, setMode, theme } = useApp();
 
+  const [showScrollHint, setShowScrollHint] = React.useState(true);
+  React.useEffect(() => {
+    const onScroll = () => setShowScrollHint(window.scrollY < 50);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
+  }, []);
+
   const backendProjects = data.backendProjects.nodes;
   const gameProjects = data.gameProjects.nodes;
   const languages = data.allLanguagesJson.group;
@@ -184,6 +192,13 @@ const IndexPage = () => {
           <p className={'monospace'}>
             <a href={'mailto://me@startergate.dev'}>me@startergate.dev</a>
           </p>
+        </div>
+        <div
+          className={`scroll-hint${showScrollHint ? '' : ' fade-out'}`}
+          onClick={() => document.querySelector('section:not(.title)')?.scrollIntoView({ behavior: 'smooth' })}
+          style={{ cursor: 'pointer' }}
+        >
+          <ChevronDown size={24} strokeWidth={1.5} />
         </div>
       </section>
 
