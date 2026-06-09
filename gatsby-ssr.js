@@ -7,6 +7,22 @@ exports.wrapRootElement = ({ element }) => {
 
 exports.onRenderBody = ({ setHeadComponents }) => {
   setHeadComponents([
+    React.createElement('link', {
+      key: 'gfonts-preconnect',
+      rel: 'preconnect',
+      href: 'https://fonts.googleapis.com',
+    }),
+    React.createElement('link', {
+      key: 'gfonts-preconnect-static',
+      rel: 'preconnect',
+      href: 'https://fonts.gstatic.com',
+      crossOrigin: 'anonymous',
+    }),
+    React.createElement('link', {
+      key: 'noto-serif-kr',
+      rel: 'stylesheet',
+      href: 'https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;500&display=swap',
+    }),
     React.createElement('script', {
       key: 'theme-init',
       dangerouslySetInnerHTML: {
