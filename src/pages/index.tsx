@@ -124,9 +124,6 @@ const IndexPage = () => {
           link
         }
       }
-      pfLogo: file(relativePath: { eq: "teams/peoplefund_white.png" }) {
-        publicURL
-      }
     }
   `);
 
@@ -136,8 +133,6 @@ const IndexPage = () => {
   const gameProjects = data.gameProjects.nodes;
   const languages = data.allLanguagesJson.group;
   const externals = data.allLinksJson.nodes;
-  const peoplefund_white = data.pfLogo;
-
   const groupedLanguages: any = {};
   const labeledExternals: any = {};
 
@@ -449,17 +444,11 @@ const IndexPage = () => {
                 title={'피플펀드컴퍼니'}
                 target={'_blank'}
               >
-                <picture>
-                  <source
-                    style={{ margin: 0 }}
-                    srcSet={peoplefund_white?.publicURL}
-                    media={'(prefers-color-scheme: dark)'}
-                  />
-                  <OriginalImage
-                    src={'teams/peoplefund.png'}
-                    alt={'피플펀드컴퍼니'}
-                  />
-                </picture>
+                <OriginalImage
+                  src={'teams/peoplefund.png'}
+                  alt={'피플펀드컴퍼니'}
+                  style={{ filter: 'var(--github-badge-filter)' }}
+                />
                 <span className={'text-xs'}>(현. 피에프씨테크놀로지스)</span>
               </a>
             </h5>
