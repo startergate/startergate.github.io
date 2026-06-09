@@ -491,7 +491,7 @@ const IndexPage = () => {
           <div className={'cv-item'}>
             <h5>
               <a
-                href={'https://gsm.gen.hs.kr'}
+                href={'http://gsm.gen.hs.kr'}
                 className={'cv-item-title noLint'}
                 title={'광주소프트웨어마이스터고등학교'}
                 target={'_blank'}
