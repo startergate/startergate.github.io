@@ -393,39 +393,6 @@ const IndexPage = () => {
 
       <section id={'cv'}>
         <h2>Résumé</h2>
-        <section id={'cv-education'}>
-          <h3>Education</h3>
-          <div className={'cv-item'}>
-            <h5>
-              <a
-                href={'https://gsm.gen.hs.kr'}
-                className={'cv-item-title noLint'}
-                title={'광주소프트웨어마이스터고등학교'}
-                target={'_blank'}
-              >
-                <OriginalImage
-                  src={theme === 'dark' ? 'teams/gsm_white.webp' : 'teams/gsm.webp'}
-                  alt={'광주소프트웨어마이스터고등학교'}
-                  style={{ height: '64px' }}
-                />
-              </a>
-            </h5>
-            <span className={'serif'}>광주광역시</span>
-            <span className={'serif'}>2018.03 ~ 2021.01</span>
-            <br />
-            <span className={'serif'}>
-              <a
-                href={
-                  'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'
-                }
-                title={'소프트웨어개발과'}
-                target={'_blank'}
-              >
-                소프트웨어개발과
-              </a>
-            </span>
-          </div>
-        </section>
         <section id={'cv-experiences'}>
           <h3>Experiences</h3>
           <div className={'cv-item'}>
@@ -516,6 +483,39 @@ const IndexPage = () => {
             <br />
             <span className={'serif'}>
               계정 인증 미들웨어 및 일부 기능 리팩토링
+            </span>
+          </div>
+        </section>
+        <section id={'cv-education'}>
+          <h3>Education</h3>
+          <div className={'cv-item'}>
+            <h5>
+              <a
+                href={'https://gsm.gen.hs.kr'}
+                className={'cv-item-title noLint'}
+                title={'광주소프트웨어마이스터고등학교'}
+                target={'_blank'}
+              >
+                <OriginalImage
+                  src={theme === 'dark' ? 'teams/gsm_white.webp' : 'teams/gsm.webp'}
+                  alt={'광주소프트웨어마이스터고등학교'}
+                  style={{ height: '64px' }}
+                />
+              </a>
+            </h5>
+            <span className={'serif'}>광주광역시</span>
+            <span className={'serif'}>2018.03 ~ 2021.01</span>
+            <br />
+            <span className={'serif'}>
+              <a
+                href={
+                  'http://gsm.gen.hs.kr/sub/page.php?page_code=info_06#department01'
+                }
+                title={'소프트웨어개발과'}
+                target={'_blank'}
+              >
+                소프트웨어개발과
+              </a>
             </span>
           </div>
         </section>
