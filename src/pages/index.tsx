@@ -19,8 +19,8 @@ const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query getIndexData {
       backendProjects: allProjectsJson(
-        sort: [{ orderLevel: ASC }, { name: ASC }]
-        filter: { isHighlighted: { eq: true }, type: { nin: ["Game"] } }
+        sort: [{ isHighlighted: DESC }, { orderLevel: ASC }, { name: ASC }]
+        filter: { type: { nin: ["Game"] } }
         limit: 4
       ) {
         nodes {
@@ -61,8 +61,8 @@ const IndexPage = () => {
         }
       }
       gameProjects: allProjectsJson(
-        sort: [{ orderLevel: ASC }, { name: ASC }]
-        filter: { isHighlighted: { eq: true }, type: { in: ["Game"] } }
+        sort: [{ isHighlighted: DESC }, { orderLevel: ASC }, { name: ASC }]
+        filter: { type: { in: ["Game"] } }
         limit: 4
       ) {
         nodes {
