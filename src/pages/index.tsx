@@ -102,7 +102,9 @@ const IndexPage = () => {
           }
         }
       }
-      allLanguagesJson {
+      backendLanguages: allLanguagesJson(
+        filter: { type: { in: ["Backend", "All"] } }
+      ) {
         group(field: { level: SELECT }) {
           nodes {
             level
@@ -113,6 +115,25 @@ const IndexPage = () => {
               src
               cover
             }
+            type
+          }
+          fieldValue
+        }
+      }
+      gameLanguages: allLanguagesJson(
+        filter: { type: { in: ["Game", "All"] } }
+      ) {
+        group(field: { level: SELECT }) {
+          nodes {
+            level
+            id
+            name
+            image {
+              background
+              src
+              cover
+            }
+            type
           }
           fieldValue
         }
@@ -139,7 +160,7 @@ const IndexPage = () => {
 
   const backendProjects = data.backendProjects.nodes;
   const gameProjects = data.gameProjects.nodes;
-  const languages = data.allLanguagesJson.group;
+  const languages = mode === 'backend' ? data.backendLanguages.group : data.gameLanguages.group;
   const externals = data.allLinksJson.nodes;
   const groupedLanguages: any = {};
   const labeledExternals: any = {};
@@ -482,7 +503,7 @@ const IndexPage = () => {
             <br />
             <br />
             <span className={'serif'}>
-              계정 인증 미들웨어 및 일부 기능 리팩토링
+              고등학교 2학년 겨울방학에 현장실습으로 1개월간 근무했습니다. 계정 인증 미들웨어를 개선했고 및 일부 기능 리팩토링을 진행했습니다.
             </span>
           </div>
         </section>
