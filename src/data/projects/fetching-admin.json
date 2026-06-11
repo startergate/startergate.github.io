@@ -43,6 +43,6 @@
       "text": "어드민에서 수행 가능한 행동을 기반으로 한 권한을 사용자에게 부여/박탈하고, 사용자에게 부여된 권한을 검사하는 시스템을 개발했습니다"
     }
   ],
-  "isHighlighted": false,
-  "orderLevel": 1
+  "isHighlighted": true,
+  "orderLevel": 0
 }

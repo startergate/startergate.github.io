@@ -53,6 +53,6 @@
     }
   ],
   "imgSrc": "projects/donote.png",
-  "isHighlighted": true,
-  "orderLevel": 0
+  "isHighlighted": false,
+  "orderLevel": 1
 }
