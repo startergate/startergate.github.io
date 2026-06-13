@@ -3,6 +3,21 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Noto Sans CJK KR', 'Noto Sans KR', 'NanumGothic', '나눔고딕', 'Malgun Gothic', '맑은 고딕', sans-serif;
 }
 
+.slogan-gap {
+    display: inline-block;
+    width: 8ch;
+}
+
+.slogan-bracket {
+    display: inline;
+}
+
+@media screen and (max-width: 850px) {
+    .slogan-bracket {
+        display: block;
+    }
+}
+
 .title {
     align-items: center;
     display: flex;

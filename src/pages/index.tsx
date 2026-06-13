@@ -204,7 +204,7 @@ const IndexPage = () => {
       >
         <div>
           <h1>
-            <span className={'slogan'}>Construct [ﾠﾠﾠﾠﾠﾠﾠﾠ]</span>
+            <span className={'slogan'}>Construct</span><span className={'slogan slogan-bracket'}> [<span className={'slogan-gap'} />]</span>
           </h1>
           <p className={'title-name monospace'}>STARTERGATE / 최호승</p>
           <p className={'work'}>
