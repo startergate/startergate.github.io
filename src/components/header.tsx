@@ -45,7 +45,7 @@ const Header = ({ siteTitle }) => {
         <li>
           <SubMenu title={'CV'} link={'/#cv'} />
         </li>
-        <li>
+        <li className="theme-toggle-li">
           <button className="theme-toggle" onClick={toggleTheme} aria-label="테마 전환">
             {theme === 'dark' ? <SunIcon /> : <MoonIcon />}
           </button>

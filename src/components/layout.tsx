@@ -9,12 +9,14 @@ import * as React from 'react';
 import * as PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { ArrowUp } from 'lucide-react';
+import { ArrowUp, Sun, Moon } from 'lucide-react';
 import Header from './header';
+import { useApp } from '../contexts/AppContext';
 import './layout.css';
 import Badge from './images/badge';
 import Links from '../enums/links';
 const Layout = ({ children, bottomActions = null }: { children: React.ReactNode; bottomActions?: React.ReactNode }) => {
+  const { theme, toggleTheme } = useApp();
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {
@@ -31,6 +33,13 @@ const Layout = ({ children, bottomActions = null }: { children: React.ReactNode;
       <main>{children}</main>
       <div className={'float-container'}>
         {bottomActions}
+        <button
+          className={'scroll-top-btn mobile-only'}
+          onClick={toggleTheme}
+          aria-label="테마 전환"
+        >
+          {theme === 'dark' ? <Sun size={18} strokeWidth={2} /> : <Moon size={18} strokeWidth={2} />}
+        </button>
         <button
           className={'scroll-top-btn'}
           onClick={() => typeof window !== 'undefined' && window.scrollTo({ top: 0, behavior: 'smooth' })}

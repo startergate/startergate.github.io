@@ -293,6 +293,12 @@ section section {
   }
 }
 
+@media screen and (min-width: 850px) {
+  .mobile-only {
+    display: none !important;
+  }
+}
+
 .scroll-top-btn {
   width: 38px;
   height: 38px;
