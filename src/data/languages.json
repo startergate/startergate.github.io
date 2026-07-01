@@ -93,6 +93,15 @@
     "level": "using"
   },
   {
+    "name": "React",
+    "type": "Backend",
+    "image": {
+      "src": "langs/react.png",
+      "background": "#1F1F1F"
+    },
+    "level": "using"
+  },
+  {
     "name": "Express.js",
     "type": "Backend",
     "image": {
@@ -160,15 +169,6 @@
     "level": "learned"
   },
   {
-    "name": "React",
-    "type": "Backend",
-    "image": {
-      "src": "langs/react.png",
-      "background": "#1F1F1F"
-    },
-    "level": "learned"
-  },
-  {
     "name": "Gatsby",
     "type": "All",
     "image": {
@@ -223,6 +223,24 @@
     "type": "Backend",
     "image": {
       "src": "langs/rabbitmq.svg",
+      "background": "#FFFFFF"
+    },
+    "level": "using"
+  },
+  {
+    "name": "Elasticsearch",
+    "type": "Backend",
+    "image": {
+      "src": "langs/elasticsearch.svg",
+      "background": "#FFFFFF"
+    },
+    "level": "using"
+  },
+  {
+    "name": "AWS",
+    "type": "Backend",
+    "image": {
+      "src": "langs/aws.svg",
       "background": "#FFFFFF"
     },
     "level": "using"
