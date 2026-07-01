@@ -208,7 +208,7 @@ const IndexPage = () => {
           </h1>
           <p className={'title-name monospace'}>STARTERGATE / 최호승</p>
           <p className={'work'}>
-            {mode === 'backend' ? '백엔드 엔지니어' : '게임 개발자'}
+            {mode === 'backend' ? '백엔드 엔지니어' : '게임 개발자 / 플레이어'}
           </p>
           <p className={'monospace'}>
             <a href={'mailto://me@startergate.dev'}>me@startergate.dev</a>
@@ -653,13 +653,12 @@ const IndexPage = () => {
             </span>
           </div>
         </section>
-        <External.Small
-          data={{
-            type: 'Download',
-            link: '/cv.pdf',
-            external_id: 'Download CV as PDF',
-          }}
-          download
+        <External.DownloadDropdown
+          options={[
+            { label: 'Korean (Short, 1 page)', link: '/cv.pdf', filename: 'cv.pdf' },
+            { label: 'Korean (Full)', link: '/resume-ko.pdf', filename: 'resume-ko.pdf' },
+            { label: 'English (Full)', link: '/resume-en.pdf', filename: 'resume-en.pdf' },
+          ]}
         />
       </section>
       <section id={'link'}>
