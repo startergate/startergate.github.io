@@ -9,7 +9,7 @@
   ],
   "startedAt": "2019-08-09",
   "status": "Canceled",
-  "type": ["Back-end", "Front-end"],
+  "type": ["Full-stack"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL", "AWS EC2"],
   "links": [
     {

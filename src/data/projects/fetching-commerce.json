@@ -14,7 +14,7 @@
   "startedAt": "2021-08-23",
   "finishedAt": "2026-03-31",
   "status": "Done",
-  "type": ["Back-end", "Front-end"],
+  "type": ["Full-stack"],
   "tags": [
     "TypeScript",
     "Node.js",
