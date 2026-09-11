@@ -40,5 +40,14 @@ module.exports = {
     },
     `gatsby-transformer-remark`,
     `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [`G-99G6KZQV5K`],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
   ]
 }
