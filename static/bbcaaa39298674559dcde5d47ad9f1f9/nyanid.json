@@ -9,7 +9,7 @@
   ],
   "startedAt": "2020-01-14",
   "status": "Planning",
-  "type": ["Back-end", "Front-end"],
+  "type": ["Full-stack"],
   "tags": ["TypeScript", "Node.js", "Koa.js", "MySQL"],
   "links": [
     {
