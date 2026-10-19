@@ -1,0 +1,38 @@
+{
+  "name": "Untitled Blockchain Project",
+  "description": "실버 택배 블록체인 보상 체계",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개발"]
+    },
+    {
+      "name": "모훈",
+      "roles": ["개발"]
+    }
+  ],
+  "startedAt": "2018-08-31",
+  "finishedAt": "2018-09-01",
+  "status": "Failed",
+  "type": ["Etc"],
+  "tags": ["Python", "JavaScript", "Node.js"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/SW-Hackathon-2018-GSM",
+      "external_id": "SW-Hackathon-2018-GSM"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/SW-Hackathon-2018-GSM/Blockchain-Post",
+      "external_id": "SW-Hackathon-2018-GSM/Blockchain-Post"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/SW-Hackathon-2018-GSM/Blockchain-Web",
+      "external_id": "SW-Hackathon-2018-GSM/Blockchain-Web"
+    }
+  ],
+  "isHighlighted": false,
+  "orderLevel": 4
+}

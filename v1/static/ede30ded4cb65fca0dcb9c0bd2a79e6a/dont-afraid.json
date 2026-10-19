@@ -1,0 +1,42 @@
+{
+  "name": "Don't Afraid",
+  "description": "트라우마 치료 게임",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["게임 개발", "게임 런처 개발"]
+    },
+    {
+      "name": "김건",
+      "roles": ["개발"]
+    },
+    {
+      "name": "김혜연",
+      "roles": ["개발"]
+    },
+    {
+      "name": "nightgrow",
+      "roles": ["개발"]
+    }
+  ],
+  "startedAt": "2018-08-07",
+  "finishedAt": "2018-08-08",
+  "status": "Done",
+  "type": ["Native Appliation", "Game"],
+  "tags": ["C#", "JavaScript", "Node.js", "Unity", "Electron"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Co-Hackaton-2018-8-1",
+      "external_id": "Co-Hackaton-2018-8-1"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/Co-Hackaton-2018-8-1/DontAfraid",
+      "external_id": "Co-Hackaton-2018-8-1/DontAfraid"
+    }
+  ],
+  "imgSrc": "projects/dontafraid.png",
+  "isHighlighted": false,
+  "orderLevel": 2
+}

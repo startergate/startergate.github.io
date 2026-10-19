@@ -1,0 +1,28 @@
+{
+  "name": "Glack",
+  "description": "GitHub 챗봇",
+  "collaborators": [
+    {
+      "name": "최호승",
+      "roles": ["개인 개발"]
+    }
+  ],
+  "startedAt": "2020-01-13",
+  "status": "Planning",
+  "type": ["Chatbot"],
+  "tags": ["Python"],
+  "links": [
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Glack",
+      "external_id": "Glack"
+    },
+    {
+      "type": "GitHub",
+      "link": "https://github.com/startergate/Gitcord",
+      "external_id": "Gitcord"
+    }
+  ],
+  "isHighlighted": false,
+  "orderLevel": 2
+}
