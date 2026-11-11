@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://startergate.dev/ko/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/timeline/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/timeline/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/timeline/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/timeline/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/timeline/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/timeline/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/timeline/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/timeline/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/basterds/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/basterds/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/basterds/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/basterds/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/basterds/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/basterds/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/basterds/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/basterds/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/bkng/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/bkng/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/bkng/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/bkng/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/bkng/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/bkng/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/bkng/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/bkng/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/blockchain/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/blockchain/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/blockchain/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/blockchain/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/blockchain/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/blockchain/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/blockchain/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/blockchain/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/cdn/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/cdn/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/cdn/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/cdn/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/cdn/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/cdn/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/cdn/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/cdn/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/cloudy/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/cloudy/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/cloudy/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/cloudy/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/cloudy/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/cloudy/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/cloudy/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/cloudy/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/deependency/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/deependency/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/deependency/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/deependency/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/deependency/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/deependency/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/deependency/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/deependency/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/donote-v/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/donote-v/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/donote-v/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/donote-v/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/donote-v/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/donote-v/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/donote-v/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/donote-v/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/donote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/donote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/donote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/donote/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/donote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/donote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/donote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/donote/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/dont-afraid/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/dont-afraid/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/dont-afraid/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/dont-afraid/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/dont-afraid/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/dont-afraid/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/dont-afraid/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/dont-afraid/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/dotori/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/dotori/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/dotori/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/dotori/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/dotori/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/dotori/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/dotori/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/dotori/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/eliverd/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/eliverd/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/eliverd/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/eliverd/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/eliverd/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/eliverd/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/eliverd/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/eliverd/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/fald/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fald/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fald/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fald/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/fald/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fald/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fald/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fald/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/fetching-admin/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-admin/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-admin/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-admin/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/fetching-admin/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-admin/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-admin/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-admin/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/fetching-commerce/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-commerce/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-commerce/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-commerce/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/fetching-commerce/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-commerce/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-commerce/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-commerce/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/fetching-crawler/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-crawler/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-crawler/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-crawler/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/fetching-crawler/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-crawler/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-crawler/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-crawler/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/fetching-data-processor/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-data-processor/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-data-processor/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-data-processor/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/fetching-data-processor/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-data-processor/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-data-processor/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-data-processor/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/fetching-shared-util/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-shared-util/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-shared-util/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-shared-util/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/fetching-shared-util/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/fetching-shared-util/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/fetching-shared-util/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/fetching-shared-util/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/glack/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/glack/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/glack/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/glack/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/glack/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/glack/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/glack/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/glack/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/gsm-pay/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/gsm-pay/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/gsm-pay/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/gsm-pay/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/gsm-pay/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/gsm-pay/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/gsm-pay/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/gsm-pay/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/hakcam/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/hakcam/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/hakcam/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/hakcam/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/hakcam/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/hakcam/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/hakcam/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/hakcam/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/hive/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/hive/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/hive/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/hive/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/hive/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/hive/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/hive/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/hive/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/lost/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/lost/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/lost/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/lost/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/lost/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/lost/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/lost/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/lost/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/moviebot/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/moviebot/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/moviebot/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/moviebot/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/moviebot/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/moviebot/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/moviebot/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/moviebot/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/nearby/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/nearby/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/nearby/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/nearby/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/nearby/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/nearby/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/nearby/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/nearby/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/nyanid/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/nyanid/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/nyanid/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/nyanid/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/nyanid/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/nyanid/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/nyanid/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/nyanid/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/problert/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/problert/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/problert/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/problert/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/problert/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/problert/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/problert/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/problert/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/sid/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/sid/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/sid/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/sid/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/sid/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/sid/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/sid/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/sid/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/startergate-dev-v1/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/startergate-dev-v1/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/startergate-dev-v1/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/startergate-dev-v1/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/startergate-dev-v1/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/startergate-dev-v1/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/startergate-dev-v1/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/startergate-dev-v1/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/startergate-dev-v2/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/startergate-dev-v2/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/startergate-dev-v2/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/startergate-dev-v2/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/startergate-dev-v2/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/startergate-dev-v2/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/startergate-dev-v2/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/startergate-dev-v2/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/steambot/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/steambot/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/steambot/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/steambot/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/steambot/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/steambot/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/steambot/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/steambot/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/the-intersection/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/the-intersection/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/the-intersection/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/the-intersection/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/the-intersection/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/the-intersection/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/the-intersection/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/the-intersection/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/webinar/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/webinar/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/webinar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/webinar/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/webinar/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/webinar/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/webinar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/webinar/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/projects/zero-password/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/zero-password/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/zero-password/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/zero-password/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/zero-password/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/zero-password/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/zero-password/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/zero-password/" />
+</url>
+</urlset>
