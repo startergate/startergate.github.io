@@ -1,0 +1,149 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T1004,<h3>발표자:</h3>
+<p>AAA 게임의 후속작은 어떻게 디자인하는가</p>
+<p>일반적인 시퀄은 원하지 않았다</p>
+<p>다잉 라이트</p>
+<ul>
+<li>2500만장 판매</li>
+<li>3000만 플레이어</li>
+<li>45%가 게임을 완료</li>
+<li>25%가 전체 게임을 완료</li>
+<li>50만 MAU</li>
+<li>8세대 기준 가장 빠르게 성장한 신규 IP</li>
+</ul>
+<h2 id="구상-사전-제작">구상 &amp; 사전 제작</h2>
+<p>게임이 어떻게 받아들여졌는지에 대한 충분한 정보</p>
+<ul>
+<li>도전과제 완수율</li>
+<li>인 게임 이터</li>
+<li>좋아요/싫어요</li>
+<li>완료율</li>
+<li>플레이어 이탈 지점</li>
+<li>... 등 등 방대한 데이터</li>
+</ul>
+<p>데이터를 저장/분석할 방법 찾아야...</p>
+<p>좋아한 부분</p>
+<ul>
+<li>몰입감 높은 파쿠르, 전투</li>
+<li>좋은 이동 메카닉</li>
+<li>창의적 전투</li>
+<li>밤 낮 사이클</li>
+</ul>
+<p>개선해야 할 부분</p>
+<ul>
+<li>너무 간단한 파쿠르</li>
+<li>게임이 진행되도 그대로인 행적 이동</li>
+<li>숫자에만 따라 결정되는 핵 앤 슬래시식 전투</li>
+<li>인카운터 이벤트의 부족</li>
+<li>전투와 파쿠르간의 약한 연결</li>
+<li>밤 시간대를 극복할 방법이 하나뿐임</li>
+<li>플레이어 의지대로 결정 불가능한 스토리</li>
+<li>게임 플레이 속의 우스운 요소</li>
+</ul>
+<p>김은 분석이 필요</p>
+<p>대부분의 다잉라이트 플레이어는 explorer,  achiever이었음</p>
+<ul>
+<li>개선하고 싶은 구체적인 분야 정하기</li>
+<li>달성하기 원하기 원하는 개선 목표 정하기</li>
+<li>실제 플레이어에 집중한 개선</li>
+<li>플레이어가 좋아하는 부분은 바꾸지 마라</li>
+</ul>
+<p>플레이어들이 여전히 같은 게임이구나 느낄 수 있어야함</p>
+<p>다잉라이트가 개선한 부분 
+파쿠르 </p>
+<ul>
+<li>너무 간단한 파쿠르</li>
+<li>진화하지 않는 횡 움직임</li>
+</ul>
+<p>게임이 진행되며 컨트롤 추가 
+사실적인 파쿠르</p>
+<ul>
+<li>컨트롤을 통한 다양한 파쿠르 움직임 종류 증가</li>
+<li>다른 요구사항을 가지는 환경들</li>
+<li>파쿠르 퍼즐 (스태미나 관리)</li>
+<li>미션에 파쿠르 특화 요소 도입</li>
+</ul>
+<p>전투</p>
+<ul>
+<li>숫자에만 따라 결정되는 핵 앤 슬래시식 전투</li>
+<li>인카운터 전투 이벤트의 부족</li>
+<li>전투와 파쿠르간의 약한 연결</li>
+</ul>
+<p>전술적인 전투 경험
+플레이어 실력 기반 승리
+적의 유형에 따른 전략 요구</p>
+<p>파쿠르 전투 매카닉 (위협적인 움직임)
+환경적 전술 기회
+무기 개조
+신규 적 종류 (인간, 감염자)</p>
+<p>옵셔널한 밤 시간</p>
+<ul>
+<li>낮과 밤이 경험의 핵심으로</li>
+<li>낮은 인간 밤에는 감염자</li>
+<li>밤에만 얻을 수 있는 loot</li>
+<li>밤에 사용 가능한 새로운 게임 플레이 메카닉</li>
+</ul>
+<p>플레이어 주체성이 떨어짐</p>
+<ul>
+<li><p>스토리에도 게임플레이와 같은 높은 자유성을 제공</p>
+</li>
+<li><p>내러티브 샌드박스</p>
+</li>
+<li><p>새로 개발하는건 실제로 영향을 주는 것이야 함</p>
+</li>
+<li><p>플레이어 결정에 따라 바뀌는 맵</p>
+</li>
+<li><p>이는 게임 플레이 메카닉에도 영향을 줌</p>
+</li>
+</ul>
+<p>게임 개발 도중에 새로운걸 추가할 수는 없음</p>
+<p>다잉라이트 1 에셋을 사용하여 차기작이 어떻게 되야하는지 새로운 요소가 반영된 내부용 프로토타입을 제작</p>
+<p>새로운 것을 플레이어에게 소개할 수 있고 </p>
+<p>선택과 결정이라는 완전히 새로운 점이라는 초점을 뒀음
+기존 요소를 소개하는데는 늦었던거 같음</p>
+<ul>
+<li>게임을 깊이 분석</li>
+<li>플레이어에 대해 이해</li>
+<li>한 분야에 집중</li>
+<li>새로운 요소는 영향을 끼칠수 있는 것만</li>
+<li>게임의 새로운 시각</li>
+<li>팀과는 기존의 것, 커뮤니티와는 새로운 것 부터</li>
+<li>겸손</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2022","children":"2022"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/g-con-2022/","children":"G-CON 2022"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"다잉라이트 2"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"dying-light-2","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"g-con-2022","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"다잉라이트 2 — G-CON 2022 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/g-con-2022/dying-light-2/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/g-con-2022/dying-light-2/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/g-con-2022/dying-light-2/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/g-con-2022/dying-light-2/"}],["$","meta","7",{"property":"og:title","content":"다잉라이트 2 — G-CON 2022 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/g-con-2022/dying-light-2/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"다잉라이트 2 — G-CON 2022 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/en/conferences/g-con-2022/monster-hunter/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← Previous · DAY 2"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"'몬스터 헌터' 시리즈를 되돌아보다"}]]}],["$","$L11",null,{"href":"/en/conferences/g-con-2022/lies-of-p/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"Next · DAY 2 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"피노키오를 만나다"}]]}]]}]
+14:["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"On this page"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","구상-사전-제작",{"children":["$","a",null,{"href":"#구상-사전-제작","children":"구상 & 사전 제작"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/g-con/2022/day-2/dying-light-2.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

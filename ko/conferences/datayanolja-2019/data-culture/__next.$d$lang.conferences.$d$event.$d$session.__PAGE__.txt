@@ -1,0 +1,165 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T149b,<p><a href="https://youtu.be/xf7bFUlzghA" target="_blank" rel="noreferrer">YouTube</a></p>
+<ul>
+<li>분석의 관점에서 회사와 서비스를 이해하고</li>
+<li>분석의 &quot;지향점&quot;과 &quot;덜지향점&quot;을 구체화</li>
+<li>분석을 위한 실무 가이드라인을 만들자</li>
+</ul>
+<h2 id="분석의-관점에서-회사와-서비스를-이해하고">분석의 관점에서 회사와 서비스를 이해하고</h2>
+<ul>
+<li>분석의 관점에서 우리 서비스는...<ul>
+<li>성별별로 다른 유저 경험<ul>
+<li>문화나 성별에 따른 행동 양상을 구분한 접근이 중요</li>
+</ul>
+</li>
+<li>까다로운 가입 절차</li>
+<li>불량 유저 철퇴</li>
+</ul>
+</li>
+<li>분석의 관점에서 우리 회사는...<ul>
+<li>엄청 빠른 의사결정</li>
+<li>일상화된 데이터 기반 의사결정</li>
+<li>but 다른 구성원들의 제한적인 데이터 접근성</li>
+</ul>
+</li>
+</ul>
+<h2 id="분석의-지향점-과-덜지향점-을-구체화하고">분석의 &quot;지향점&quot;과 &quot;덜지향점&quot;을 구체화하고</h2>
+<h3>지향점</h3>
+<ul>
+<li>빠르게<ul>
+<li>3일 이상 기다리게 하지 않는다</li>
+<li>넓고 얕은 분석</li>
+</ul>
+</li>
+<li>분명하게<ul>
+<li>발견한 내용을 바탕으로 결론</li>
+<li>분석의 결론은 WHAT TO DO</li>
+<li>DO<ul>
+<li>데이터를 통해 얻은 인사이트를 빠짐없이 전달</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>쉽게<ul>
+<li>가장 데이터 리터리시가 낮다고 생각되는 사람을 충분히 이해시킬 수 있도록</li>
+<li>전문용어 X</li>
+<li>좋은 그래프</li>
+</ul>
+</li>
+<li>정확하게</li>
+</ul>
+<h3>비지향점</h3>
+<ul>
+<li>깊고 상세한 분석</li>
+<li>좋은 코드(...)</li>
+</ul>
+<h2 id="분석을-위한-실무-가이드라인을-만들자">분석을 위한 실무 가이드라인을 만들자</h2>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_155700.jpg" alt="1" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_155719.jpg" alt="2" loading="lazy" /></p>
+<h3>빠른 항해를 도와주는 기획 가이드</h3>
+<ul>
+<li>표류의 지름길<ul>
+<li>다짜고짜 데이터 추출부터 하기</li>
+<li>후행지표를 계획 없이 무작정 분석하기</li>
+</ul>
+</li>
+<li>촘촘한 가설 수립하기<ul>
+<li>글로 풀 수 있을 정도로 기획의 높은 완결성 추구<ul>
+<li>진짜 글로 가설을!
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_160131.jpg" alt="3" loading="lazy" /></li>
+<li>뭘 집중해서 봐야하는지 찾아내는데 도움이 됨</li>
+<li>찾아야 될 데이터는 빈칸으로</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>분석의 Decision Tree 만들기<ul>
+<li>가설이 틀렸을 경우 방향 전환 계획과 그에 따른 결론에 대한 경우의 수 정리
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_160232.jpg" alt="4" loading="lazy" /></li>
+</ul>
+</li>
+<li>그 상태로 팀 리뷰하며 기획을 보강<ul>
+<li>실제 데이터가 없어도 분석의 논리적 흐름을 검토하는데 용이
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_160342.jpg" alt="5" loading="lazy" /></li>
+</ul>
+</li>
+<li>충분히 준비된 상태로 데이터를 살펴보기 시작하면 분명한 결론까지 빠르게 도달할 수 있다!</li>
+</ul>
+<h3>실수를 방지하는 분석 가이드</h3>
+<ul>
+<li>분석 기간과 단위 설정 지침<ul>
+<li>서비스 히스토리를 반영한 분석 기간 필터 기준 설정
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_160602.jpg" alt="6" loading="lazy" /></li>
+<li>통일된 기간 단위를 선정하여 혼선을 방지<ul>
+<li>한주가 일요일에 시작할까? 월요일에 시작할까?</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>데이터 추출 지침<ul>
+<li>쿼리, 전처리, 네이밍에서의 컨벤션
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_160836.jpg" alt="7" loading="lazy" /></li>
+</ul>
+</li>
+<li>유저 필터 및 분류 지침<ul>
+<li>서비스 특성을 고려한 유저 분류를 일관성 있게 적용</li>
+</ul>
+</li>
+</ul>
+<h3>직관성을 극대화하는 커뮤니케이션 가이드</h3>
+<p>결과를 전달할 떄...</p>
+<ul>
+<li>용어 가이드<ul>
+<li>청자의 혼동을 막기 위해 정확한 용어를 사용<ul>
+<li>가급적 한글을 사용하고 약어 사용 금지</li>
+<li>애매한 용어 사용 금지</li>
+<li>새로운 지표를 산출할 경우 풀어쓰는게 원칙, 필요 시 연산식을 반드시 명시</li>
+</ul>
+</li>
+<li>구성원들이 빠른 이해!</li>
+</ul>
+</li>
+<li>스타일 가이드<ul>
+<li>청자의 인지를 돕기 위해 도표 및 그래피에 일관된 색상을 활용
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/datayanolja-2019/static/20191019_161455.jpg" alt="8" loading="lazy" /></li>
+</ul>
+</li>
+</ul>
+<h3>분석가가 분석을 잘 할수 있도록!</h3>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2019","children":"2019"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/datayanolja-2019/","children":"데이터야놀자 2019"}],null]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"분석과 커뮤니케이션의 시행착오를 줄이는 데이터 문화 만들기"}],null]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"data-culture","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"datayanolja-2019","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"분석과 커뮤니케이션의 시행착오를 줄이는 데이터 문화 만들기 — 데이터야놀자 2019 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/datayanolja-2019/data-culture/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/datayanolja-2019/data-culture/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/datayanolja-2019/data-culture/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/datayanolja-2019/data-culture/"}],["$","meta","7",{"property":"og:title","content":"분석과 커뮤니케이션의 시행착오를 줄이는 데이터 문화 만들기 — 데이터야놀자 2019 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/datayanolja-2019/data-culture/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"분석과 커뮤니케이션의 시행착오를 줄이는 데이터 문화 만들기 — 데이터야놀자 2019 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/datayanolja-2019/tada-server-data-warehouse/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"타다(TADA) 서비스의 데이터 웨어하우스 : 태초부터 한계까지"}]]}],["$","$L11",null,{"href":"/ko/conferences/datayanolja-2019/fuck-abusers/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"온라인 뉴스 댓글 생태계를 흐리는 어뷰저 분석기"}]]}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","분석의-관점에서-회사와-서비스를-이해하고",{"children":["$","a",null,{"href":"#분석의-관점에서-회사와-서비스를-이해하고","children":"분석의 관점에서 회사와 서비스를 이해하고"}]}],["$","li","분석의-지향점-과-덜지향점-을-구체화하고",{"children":["$","a",null,{"href":"#분석의-지향점-과-덜지향점-을-구체화하고","children":"분석의 \"지향점\"과 \"덜지향점\"을 구체화하고"}]}],["$","li","분석을-위한-실무-가이드라인을-만들자",{"children":["$","a",null,{"href":"#분석을-위한-실무-가이드라인을-만들자","children":"분석을 위한 실무 가이드라인을 만들자"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/datayanolja-2019/data-culture.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

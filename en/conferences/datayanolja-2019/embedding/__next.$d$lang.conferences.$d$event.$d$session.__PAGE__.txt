@@ -1,0 +1,73 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+13:I[97367,["$4"],"OutletBoundary"]
+14:"$Sreact.suspense"
+17:"ViewportBoundary"
+18:I[97367,["$4"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$4"],"$19"]
+1b:I[27201,["$4"],"IconMark"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+8:X
+8:C
+9:X
+12:T6bc,<h3>임베딩?</h3>
+<ul>
+<li>단어나 문장을 벡터로 바꾼 것 혹은 그 과정</li>
+</ul>
+<p>word2vec을 사용. 코사인 유사도.</p>
+<p>벡터 연산 (유추 평가) 가능</p>
+<p>아들 - 딸 + 소녀 = 소년?</p>
+<p>전이학습 (transfer learning)</p>
+<ul>
+<li>초기 정확도 자체가 높음</li>
+</ul>
+<p>임베딩이 좋아지면? =&gt; 딥러닝 모델의 향상</p>
+<h3>임베딩으로 문서 분류하기</h3>
+<p>단어 임베딩의 합으로 문서 벡터를 표현<br />
+도형의 중심은 평균과 밀접한 관련<br />
+단어 벡터의 합 ≒ 단어 벡터의 평균 ≒ 문서 벡터의 중심</p>
+<p>복잡한 모델을 써도 80%대<br />
+임베딩 품질이 좋으면 자연어 처리 성능을 높일 수 있음</p>
+<h3>임베딩이 어떤 의미를 가지는가</h3>
+<ul>
+<li>문서의 의도는 단어 사용 패턴에 따라 들어난다</li>
+<li>단어가 어떤 순서로 나타나는지 =&gt; 시퀸스 정보에 의미가 녹아있다 =&gt; ELMo, BERT</li>
+<li>단어가 어떤 단어와 주로 같이 나타나는지 =&gt; 문맥에 의미가 녹아있다 =&gt; Word level embedding</li>
+</ul>
+<h3>문장 수준 임베딩</h3>
+<ul>
+<li>ELMo, BERT</li>
+<li>동음이의어 분간 가능 =&gt; 문장의 문맥적 의미를 벡터화</li>
+</ul>
+<h3>임베딩 활용</h3>
+<ul>
+<li>전이학습에서 가장 크게 쓰일 수 있음</li>
+</ul>
+<p><a href="https://github.com/ratsgo/embedding" target="_blank" rel="noreferrer">https://github.com/ratsgo/embedding</a><br />
+<a href="https://github.com/SKTBrain/KoBERT" target="_blank" rel="noreferrer">https://github.com/SKTBrain/KoBERT</a></p>
+<h3>Q&amp;A</h3>
+<ul>
+<li>ELMo는 임베딩이 떨어지는 문제는 없음</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2019","children":"2019"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/datayanolja-2019/","children":"데이터야놀자 2019"}],null]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"자연어 처리 모델의 성능을 높이는 비결 - 임베딩"}],null]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/en/conferences/datayanolja-2019/data-visualize/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← Previous"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"나의 리터러시 ≠ 너의 리터러시 : 잘 전달하기 위해 데이터 시각화"}]]}],["$","$L11",null,{"href":"/en/conferences/datayanolja-2019/kartrider-tmi/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"Next →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"카트라이더 TMI 포스트 모템"}]]}]]}]]}],["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":[null,["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/datayanolja-2019/embedding.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]]}]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]],["$","$L13",null,{"children":["$","$14",null,{"name":"Next.MetadataOutlet","children":"$@15"}]}]]}],"p":"$@16","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"embedding","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"datayanolja-2019","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$14",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"자연어 처리 모델의 성능을 높이는 비결 - 임베딩 — 데이터야놀자 2019 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/datayanolja-2019/embedding/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/datayanolja-2019/embedding/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/datayanolja-2019/embedding/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/datayanolja-2019/embedding/"}],["$","meta","7",{"property":"og:title","content":"자연어 처리 모델의 성능을 높이는 비결 - 임베딩 — 데이터야놀자 2019 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/datayanolja-2019/embedding/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"자연어 처리 모델의 성능을 높이는 비결 - 임베딩 — 데이터야놀자 2019 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1b","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1c","v":null,"s":"$9"}},"a":"$@1d","u":"$@1e","b":"vM1F1_CVNcnrKiJDOEGEP"}
+15:null
+1e:true
+9:300
+9:C
+1d:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1c:"$undefined"
+16:"$undefined"

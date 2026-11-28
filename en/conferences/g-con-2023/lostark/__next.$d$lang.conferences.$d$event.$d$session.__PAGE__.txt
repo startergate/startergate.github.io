@@ -1,0 +1,93 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Ta6b,<h3>금강선, 스마일게이트 알피지 CCO</h3>
+<h2 id="게임의-완성에-이르기까지의-7년간의-여정">게임의 완성에 이르기까지의 7년간의 여정</h2>
+<p>로스트아크의 세계관 접근법</p>
+<ul>
+<li>기능성에서부터 생각한 세계관</li>
+<li>온라인 게임은 다향한 취향의 사람들이 모임</li>
+<li>장기간 서비스를 하게 되면 다양한 접근법을 요구 받음</li>
+</ul>
+<p>쿼터뷰 놀이의 블록버스터화</p>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2023/day-1/static/lostark/IMG_4502.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2023/day-1/static/lostark/IMG_4503.jpeg" alt="" loading="lazy" /></p>
+<h3>3년간의 개발 및 비전 제시</h3>
+<ul>
+<li>키워드 문서로 제작하여 게임의 컴포넌트를 쉽게 확인하도록 함</li>
+<li>글을 더 많이 읽을수 있도록 웹 형식의 세계관 문서를 만들어 제공함</li>
+<li>전투 이터레이션을 통해 빠른 전투 메커니즘 검증
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2023/day-1/static/lostark/IMG_4504.jpeg" alt="" loading="lazy" /></li>
+<li>생각하는 게임의 기준선은 빠르게 정리하는것이 좋음<ul>
+<li>프로그래머와의 규약(Capacity Planning)은 빠를수록 좋다
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2023/day-1/static/lostark/IMG_4505.jpeg" alt="" loading="lazy" /></li>
+</ul>
+</li>
+<li>프로그래머와의 대화법
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2023/day-1/static/lostark/IMG_4506.jpeg" alt="" loading="lazy" /></li>
+</ul>
+<h3>리더십의 위기와 승부수</h3>
+<p>
+
+</p>
+<h2 id="라이브-서비스의-5년간의-여정">라이브 서비스의 5년간의 여정</h2>
+<p></p>
+<h3>시즌 2 준비</h3>
+<ul>
+<li>시즌 1의 반성을 토대로 비전 문서를 만듬</li>
+<li>지켜야할 가치와 버려야할 가치를 명확히 구분</li>
+<li>문제 타파를 위해서 이후에 예정되었던 콘텐츠를 먼저 출시</li>
+<li>그러나 이 게임에서 7년동안 쌓아올린 포텐셜은 존중</li>
+</ul>
+<p>
+</p>
+<p>BOTTOM UP의 효과</p>
+<ul>
+<li>동기 부여는 콘텐츠의 완성을 높히는 지름길</li>
+<li>개발자의 기여가 높은 콘텐츠일수록 애정이 높아지고 열정적</li>
+</ul>
+<p></p>
+<h2 id="소통에-대한-이야기">소통에 대한 이야기</h2>
+<p></p>
+<ul>
+<li>말의 표면이 아닌 본질에 집중
+
+
+</li>
+</ul>
+<p>소통은 기술이 아니라 마음</p>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2023","children":"2023"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/g-con-2023/","children":"G-CON 2023"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 1"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"'로스트아크' 12년간의 개발비화"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 1 · 10:00 ~ 10:50"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":[null,["$","$L11",null,{"href":"/en/conferences/g-con-2023/mintrocket/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"Next · DAY 1 · 11:00 ~ 11:50 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"'데이브 더 다이버' 사례로 보는 민트로켓의 개발 전략 이야기"}]]}]]}]]}],["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":["$L13","$L14"]}]]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"lostark","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"g-con-2023","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"'로스트아크' 12년간의 개발비화 — G-CON 2023 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/g-con-2023/lostark/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/g-con-2023/lostark/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/g-con-2023/lostark/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/g-con-2023/lostark/"}],["$","meta","7",{"property":"og:title","content":"'로스트아크' 12년간의 개발비화 — G-CON 2023 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/g-con-2023/lostark/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"'로스트아크' 12년간의 개발비화 — G-CON 2023 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"On this page"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","게임의-완성에-이르기까지의-7년간의-여정",{"children":["$","a",null,{"href":"#게임의-완성에-이르기까지의-7년간의-여정","children":"게임의 완성에 이르기까지의 7년간의 여정"}]}],["$","li","라이브-서비스의-5년간의-여정",{"children":["$","a",null,{"href":"#라이브-서비스의-5년간의-여정","children":"라이브 서비스의 5년간의 여정"}]}],["$","li","소통에-대한-이야기",{"children":["$","a",null,{"href":"#소통에-대한-이야기","children":"소통에 대한 이야기"}]}]]}]]}]
+14:["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/g-con/2023/day-1/lostark.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,205 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T1100,<p><a href="https://youtu.be/2hCbY_mpqSg" target="_blank" rel="noreferrer">YouTube</a></p>
+<h3>발표자: 정재범 (NHN Dooray)</h3>
+<p>개발 담당자가 서비스를 직접 운영</p>
+<p>장점</p>
+<ul>
+<li>빠른 장애 대응</li>
+<li>최적의 서버 구성</li>
+<li>설계/개발 단계에서 운영 고려</li>
+</ul>
+<p>단점</p>
+<ul>
+<li>불안</li>
+<li>피로</li>
+<li>비 전문성</li>
+</ul>
+<h2 id="자동-재시작">자동 재시작</h2>
+<p>재시작이 필요한 경우</p>
+<ul>
+<li>GC death spiral<ul>
+<li></li>
+<li>제한이 없는 요청 응답 레코드 수</li>
+<li>해제되지 않는 객체 참조</li>
+</ul>
+</li>
+<li>스레드 차단이 필요한 경우</li>
+<li>데드락</li>
+</ul>
+<p>bash와 크론탭으로 프로세스 살아있는지 자동 재시작 구성</p>
+<p>하지만 JVM은 OOM 오류에도 죽지 않음</p>
+<p>JVM 실행 옵션에는 ExitOnOutOfMemory 옵션이 있음</p>
+<p>-XX:OnOutOFMemoryError=&#39;script&#39;</p>
+<p>쿠버네티스의 LivenessProbe</p>
+<ul>
+<li></li>
+</ul>
+<p>효과</p>
+<ul>
+<li>일시적인 장애는 익일 확인 후 대응 가능</li>
+<li>무중단 서비스 유지</li>
+</ul>
+<p>위험 관리</p>
+<ul>
+<li>위험 대응<ul>
+<li>정지 -&gt; 생각 -&gt; 호흡 -&gt; 행동</li>
+<li>성급한 대응은 상황을 악화시킴</li>
+</ul>
+</li>
+<li>자동화<ul>
+<li>반복된 패턴은 자동화 지향</li>
+</ul>
+</li>
+</ul>
+<h2 id="과도한-부하를-견디는-방법">과도한 부하를 견디는 방법</h2>
+<p>cascading failure</p>
+<ul>
+<li>소수 서버의 문제가 다른 서버의 문제로 이어지며 이슈가 점진적으로 연결된 서버에 오류 유발</li>
+<li>원인<ul>
+<li>일부 서버 과부하</li>
+<li>자원 부족</li>
+<li>서버 crash</li>
+</ul>
+</li>
+</ul>
+<p>지표의 측정</p>
+<ul>
+<li>Spring Boot의 Actuator 활용<ul>
+<li>Metric과 Prometheus Endpoint</li>
+</ul>
+</li>
+<li>Grafana 연동</li>
+<li>측정 항목<ul>
+<li>CPU 사용률 </li>
+<li>액티브 스레드</li>
+</ul>
+</li>
+</ul>
+<p>대응 방안</p>
+<ul>
+<li>Scale in/out<ul>
+<li>리소스 사용량이 최번시에 급증</li>
+<li>최번시 사용량을 위한 리소스를 항상 확보하기엔 비용 이슈</li>
+</ul>
+</li>
+<li>Message Broker로 지연 처리</li>
+<li>IaaS, K8s Auto Scale<ul>
+<li>단기간에 폭증하는 요청을 Auto Scale이 커버할수 없다</li>
+</ul>
+</li>
+<li>서킷 브레이커 패턴<ul>
+<li>이미 서버에 부하가 발생한 후 동작</li>
+<li>장애가 일시적으로 사용자에게 노출</li>
+<li>간헐적인 오류가 지속 노출</li>
+</ul>
+</li>
+<li>429 - Too Many Request<ul>
+<li>사용자 인터렉션이 없는 API</li>
+<li>기준<ul>
+<li>초당 요청량<ul>
+<li>구현이 쉬움</li>
+<li>서버의 처리량을 일정하게 제한</li>
+</ul>
+</li>
+<li>CPU 사용량<ul>
+<li>연계 서버의 응답 지연으로 백엔드 시스템에서 병목이 발생하는 경우 Cascade Failure 유발</li>
+</ul>
+</li>
+<li>Active Thread 수<ul>
+<li>Spring Boot Actuator의 MetricsEndpoint 활용</li>
+<li></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="백엔드에서-http-cache-활용">백엔드에서 HTTP Cache 활용</h2>
+<ul>
+<li>Cache-Control: must-revalidate</li>
+<li>ETag 헤더<ul>
+<li>응답하는 리소스의 버전을 제공</li>
+</ul>
+</li>
+<li>If-None-Match 헤더<ul>
+<li>HTTP 요청을 조건에 따라 응답 가능</li>
+<li>클라이언트가 ETag를 If-None-Match 헤더에 포함</li>
+<li>ETag를 비교하여 다른 경우에만 응답</li>
+</ul>
+</li>
+</ul>
+<p>Apache HttpClient-Cache의 Storage Backend</p>
+<ul>
+<li>in-memory</li>
+<li>EhCache
+
+</li>
+</ul>
+<p>주의사항</p>
+<ul>
+<li>Shared Cache 주의<ul>
+<li>기본 설정: public인 경우에만 cache</li>
+<li>API의 URL 외 인증 등 기타 정보로 데이터가 변경될 경우 사용하면 큰일남</li>
+</ul>
+</li>
+<li>Method<ul>
+<li>HTTP Cache는 GET에서만 적용됨</li>
+</ul>
+</li>
+<li>Storage Backend</li>
+</ul>
+<h2 id="netty-소켓-서버">Netty 소켓 서버</h2>
+<p>request 크기는 작은데 response 크기가 매우 큼</p>
+<p>Channel.isWritable() 사용</p>
+<ul>
+<li><p>클라이언트 네트워크 상태가 괜찮은가</p>
+</li>
+<li><p>지속적인 작업</p>
+</li>
+<li><p>가시화</p>
+</li>
+<li><p>아이디어</p>
+<ul>
+<li>반복작업 자동화</li>
+<li>RFC, W3C 문서에 보석이 숨어있음</li>
+</ul>
+</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2022","children":"2022"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/nhn-forward-2022/","children":"NHN Forward 2022"}],null]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법"}],null]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"stable-backend","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"nhn-forward-2022","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법 — NHN Forward 2022 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/nhn-forward-2022/stable-backend/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/nhn-forward-2022/stable-backend/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/nhn-forward-2022/stable-backend/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/nhn-forward-2022/stable-backend/"}],["$","meta","7",{"property":"og:title","content":"편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법 — NHN Forward 2022 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/nhn-forward-2022/stable-backend/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"편안한 휴식 시간을 지켜줄 안정적인 백엔드 운영과 개발 기법 — NHN Forward 2022 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[null,["$","$L11",null,{"href":"/ko/conferences/nhn-forward-2022/k8s/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"K8s 도입하면서 겪은 일들"}]]}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","자동-재시작",{"children":["$","a",null,{"href":"#자동-재시작","children":"자동 재시작"}]}],["$","li","과도한-부하를-견디는-방법",{"children":["$","a",null,{"href":"#과도한-부하를-견디는-방법","children":"과도한 부하를 견디는 방법"}]}],["$","li","백엔드에서-http-cache-활용",{"children":["$","a",null,{"href":"#백엔드에서-http-cache-활용","children":"백엔드에서 HTTP Cache 활용"}]}],["$","li","netty-소켓-서버",{"children":["$","a",null,{"href":"#netty-소켓-서버","children":"Netty 소켓 서버"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/NHN-Forward-2022/stable-backend.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,94 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+19:"ViewportBoundary"
+1a:I[97367,["$4"],"$19"]
+1b:"MetadataBoundary"
+1c:I[97367,["$4"],"$1b"]
+1d:"$Sreact.suspense"
+1e:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Ta70,<p><a href="https://youtu.be/dwxSxUkap5g" target="_blank" rel="noreferrer">YouTube</a></p>
+<p>슈퍼앱은 대부분 결제 서비스를 포함</p>
+<h2 id="슈퍼앱-알아보기">슈퍼앱 알아보기</h2>
+<ul>
+<li><p>사용성 편의성 증대</p>
+</li>
+<li><p>시장 점유율 확대</p>
+</li>
+<li><p>수익 증대</p>
+<ul>
+<li>앱 내에서 체류 시간 증가</li>
+<li>광고 수익, 인 앱 결제 등 다양한 수익 모델을 활용</li>
+</ul>
+</li>
+<li><p>신규 비즈니스 기회 제공</p>
+</li>
+<li><p>미니앱의 사용자 검색 및 활성화</p>
+</li>
+<li><p>미니앱을 위한 설계 및 개발 프레임워크</p>
+</li>
+<li><p>미니앱 생태계를 위한 발행 매커니즘</p>
+</li>
+<li><p>슈퍼앱과 미니앱 간의 생태계 공유</p>
+</li>
+</ul>
+<h3>Amazon DataZone</h3>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3588.jpeg" alt="" loading="lazy" /></p>
+<h2 id="kb스타뱅킹-슈퍼앱으로의-진화">KB스타뱅킹, 슈퍼앱으로의 진화</h2>
+<h3>슈퍼앱 등장 배경</h3>
+<ul>
+<li>고객 니즈<ul>
+<li>비대면 선호 추세</li>
+<li>One-App으로 니즈 해결 욕구</li>
+</ul>
+</li>
+<li>경쟁 환경<ul>
+<li>은행과 IT 기업과의 경계가 희미해지는 빅블러 경쟁 심화</li>
+<li>플랫폼 주도권 확보 경쟁</li>
+</ul>
+</li>
+<li>규제 환경<ul>
+<li>진입 규제 완화</li>
+<li>부수/겸영 업무 확대 증 규제 개선 공감대 형성</li>
+</ul>
+</li>
+</ul>
+<h3>KB가 바라본 슈퍼앱 정의</h3>
+<p>고객 가치 실현을 위해 금융에 본질을 두고 그룹을 연결하며 생활을 아우르는 플랫폼
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3589.jpeg" alt="" loading="lazy" /></p>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3591.jpeg" alt="" loading="lazy" /></p>
+<h2 id="컬리페이-세상에게-이득">컬리페이, 세상에게 이득!</h2>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3592.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3593.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3594.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3595.jpeg" alt="" loading="lazy" /></p>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2023","children":"2023"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/aws-summit-seoul-2023/","children":"AWS Summit Seoul 2023"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 1"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"비즈니스 경계를 허무는 혁신: 단 하나의 선택, 슈퍼앱"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 1 · 15:20 ~ 16:00"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":["$L13","$L14"]}]]}],"$L15"]}]}],["$L16"],"$L17"]}],"p":"$@18","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"super-app","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"aws-summit-seoul-2023","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1d",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"비즈니스 경계를 허무는 혁신: 단 하나의 선택, 슈퍼앱 — AWS Summit Seoul 2023 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/aws-summit-seoul-2023/super-app/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/"}],["$","meta","7",{"property":"og:title","content":"비즈니스 경계를 허무는 혁신: 단 하나의 선택, 슈퍼앱 — AWS Summit Seoul 2023 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"비즈니스 경계를 허무는 혁신: 단 하나의 선택, 슈퍼앱 — AWS Summit Seoul 2023 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1e","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1f","v":null,"s":"$9"}},"a":"$@20","u":"$@21","b":"vM1F1_CVNcnrKiJDOEGEP"}
+22:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","$L11",null,{"href":"/en/conferences/aws-summit-seoul-2023/cloud-native-database/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← Previous · DAY 1 · 13:10 ~ 13:50"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"삼성전자/쿠팡의 대규모 트래픽 처리를 위한 클라우드 네이티브 데이터베이스 활용"}]]}]
+14:["$","$L11",null,{"href":"/en/conferences/aws-summit-seoul-2023/cloud-management/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"Next · DAY 1 · 16:30 ~ 17:00 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"Observability를 넘어선 클라우드 운영관리의 미래"}]]}]
+15:["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"On this page"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","슈퍼앱-알아보기",{"children":["$","a",null,{"href":"#슈퍼앱-알아보기","children":"슈퍼앱 알아보기"}]}],["$","li","kb스타뱅킹-슈퍼앱으로의-진화",{"children":["$","a",null,{"href":"#kb스타뱅킹-슈퍼앱으로의-진화","children":"KB스타뱅킹, 슈퍼앱으로의 진화"}]}],["$","li","컬리페이-세상에게-이득",{"children":["$","a",null,{"href":"#컬리페이-세상에게-이득","children":"컬리페이, 세상에게 이득!"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/aws-summit-seoul-2023/day-1/super-app.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+16:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+17:["$","$L22",null,{"children":["$","$1d",null,{"name":"Next.MetadataOutlet","children":"$@23"}]}]
+21:true
+9:300
+23:null
+9:C
+20:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1f:"$undefined"
+18:"$undefined"

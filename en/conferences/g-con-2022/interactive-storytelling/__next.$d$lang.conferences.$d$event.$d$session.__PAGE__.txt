@@ -1,0 +1,198 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T1c79,<h3>발표자: 데이비드 케이지 (퀀틱드림 대표)</h3>
+<p>모든 스토리에는 공통점이 있다</p>
+<p>가장 먼저 인터랙티브 스토리텔링을 시도한건 문학임</p>
+<ul>
+<li>이머시브 씨어터 (몰입형 연극)<ul>
+<li>Punchdrunk라는 유명한 팀이 있음</li>
+</ul>
+</li>
+<li>인터랙티브 TV</li>
+<li>위치 기반 VR</li>
+<li>비디오 게임</li>
+</ul>
+<p>인류는 왜 스토리를 좋아하는가?</p>
+<ul>
+<li><p>그것에서 의미를 찾을 수 있기 때문</p>
+</li>
+<li><p>아이디어와 가치를 전달할수 있는 가장 중요하고 효율적인 수단이기 때문</p>
+</li>
+<li><p>사람들은 이제 스토리의 주체가 되고 싶어함</p>
+</li>
+<li><p>서사적 경험을 게임이라고 볼 수 있는가?</p>
+<ul>
+<li>물리적 행동만을 인터랙트로 여기기 때문에 나오는 시각</li>
+<li>비디오게임은 다양한 형태가 있기 때문에 </li>
+<li>인터랙팅은 행동만이 아니라 느끼는 감정도 포함함</li>
+</ul>
+</li>
+<li><p>내러티브 게임에는 게임 플레이라고 볼 수 있는게 없지 않은가?</p>
+</li>
+<li><p>비디오 게임이 현실의 문제를 다뤄야하는가?</p>
+</li>
+</ul>
+<p>게임 플레이과 스토리텔링의 관계 문제</p>
+<ul>
+<li>&quot;애증&quot;의 관계</li>
+<li>게임 플레이와 스토리텔링 사이의 조절</li>
+<li>컷신이나 스토리로 인한 페이스 이슈</li>
+</ul>
+<h2 id="인터랙티브-스토리텔링의-이점">인터랙티브 스토리텔링의 이점</h2>
+<ul>
+<li>게임에 더 감정적으로 몰입하게 함</li>
+<li>캐릭터에 대한 애착 생성</li>
+<li>의미를 부여해줌</li>
+<li>플레이어가 게임을 끝까지 플레이하게 함<ul>
+<li>게임을 시작한 플레이어의 20~25%의 플레이어만 게임을 완료함</li>
+<li>디트로이트: 비컴 휴먼은 61.7%를 기록함</li>
+</ul>
+</li>
+<li>경험을 기억에 남게 함</li>
+</ul>
+<p>인터랙티브 스토리텔링은 왜 특별한가?</p>
+<ul>
+<li>유일하게 청중과 함께할 컨텐츠를 만드는 방법</li>
+<li>플레이어는 보다 높은 인터렉티비티를 가지고 참여할 수 있어야 함</li>
+</ul>
+<h2 id="이러한-경험은-어떻게-만들어지는가">이러한 경험은 어떻게 만들어지는가?</h2>
+<ul>
+<li>플레이어와 함께 스토리를 풀어야 함</li>
+<li>컷신이 아니라 게임 플레이를 통해서 스토리를 풀어야 함</li>
+<li>사실을 은폐하는게 아니라 결과가 있어야 함<ul>
+<li>실질적으로 결과에 변화를 줄수 있다는 인식을 줘야 함</li>
+</ul>
+</li>
+</ul>
+<p>선형적인 스토리와 인터랙티브 스토리의 차이</p>
+<ul>
+<li>선형적인 스토리는 공간과 시간의 2차원만 존재함</li>
+<li>인터랙티브 각본은 공간 시간 인터랙티비티의 3차원이 존재함</li>
+<li>더 깊이가 생김</li>
+<li>선형적인 스토리보다는 훨씬 복잡해짐</li>
+<li>캐릭터가 플레이어의 선택에 따라서 달라질 수 있음</li>
+<li>게임이나 인터랙티브 스토리에서는 하나의 작품이 여러 의미를 가질 수 있음</li>
+<li>각본이 훨씬 김<ul>
+<li>디트로이트 비컴 휴먼은 4000 페이지였음</li>
+</ul>
+</li>
+<li>=&gt; 새로운 작법이 플요함</li>
+</ul>
+<p>내러티브 공간</p>
+<ul>
+<li>내러티브 공간의 경계를 정해야 함</li>
+<li>그 공간 안에서 플레이어들이 스토리를 만들어감</li>
+</ul>
+<p>트리 구조 바탕의 인터랙티브 스토리</p>
+<ul>
+<li>무작정 분기를 나누고 스토리를 만드는건 불가능함</li>
+<li>적당히 쳐내고 스토리를 만들수 있어야 함
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2022/day-1/statics/image-1.jpg" alt="" loading="lazy" /></li>
+<li>디트로이트같은 게임에는 수천개의 변수가 있음</li>
+<li>모든 것이 일관성을 가지게 해야하고 이게 제일 어려움</li>
+</ul>
+<p>선택과 결과</p>
+<ul>
+<li>항상 염두에 두어야 함</li>
+<li>도덕적인 딜레마</li>
+<li>맥락과 잃게될 것이 명확하게 주어져야 함</li>
+<li>흑백이 되는게 아니라 회색의 영역이 되어야 함<ul>
+<li>모호한 질문을 하면 플레이어가 가치관에 따라서 결정을 내리게 됨</li>
+</ul>
+</li>
+<li>내가 누군지에 따라서 달라질 수 있는 질문을 물어봐야 함</li>
+<li>그래야 사람들이 게임에 흥미를 느낌</li>
+</ul>
+<p>플레이어의 결정이 중요하다는 느낌을 줘야 함</p>
+<ul>
+<li>메인 캐릭터가 죽을 수 있어야 함</li>
+<li>퀀틱 드림에서는 내러티브 하나가 종료되는 것으로</li>
+<li>조연 캐릭터도 죽을 수 있어야 함</li>
+<li>이런 선택을 게임 초반에 주어서 결정이 중요하다는 느낌을 줌</li>
+<li>덜 선택하는 분기도 포용해야 함</li>
+</ul>
+<p>티켓 순간과 도덕적 딜레마</p>
+<ul>
+<li>답이 정해지지 않은 질문</li>
+<li>모든 답이 타당해야 함</li>
+<li>게임을 통해서 나는 누구인가 어떤 가치관을 가지고 있는지 보여준다</li>
+<li><img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2022/day-1/statics/image-2.jpg" alt="" loading="lazy" /></li>
+</ul>
+<p>대본은 영화 각본과 비슷</p>
+<p>이미지를 넣어서 생각을 구체적으로 표현</p>
+<p>드로잉을 넣어서 팀원들이 더 잘 이해할 수 있게 함</p>
+<p>하나의 텍스트 문서로 스토리를 표현하는건 불가능했음</p>
+<p>트리 구조와 다이어그램으로 모든 변수를 반영했는지 관리함</p>
+<p>수많은 차트를 통해서 구조를 잡아감</p>
+<p>퀀틱 드림에서는 게임은 현실적인 문제를 다룰수 있다고 생각함</p>
+<p>사회적 문제를 다루기 위해서 2년간 연구함</p>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/g-con/2022/day-1/statics/image-3.jpg" alt="" loading="lazy" /></p>
+<ul>
+<li>존중하며 다뤄야함</li>
+<li>사람들에게 생각한 거리를 던져줌</li>
+</ul>
+<h2 id="인터랙티브-스토리텔링의-도전">인터랙티브 스토리텔링의 도전</h2>
+<ul>
+<li>모든 분기가 타당해야 함</li>
+<li>모든 것이 일관성이 있어야 함</li>
+<li>프로덕션에 영향을 줌<ul>
+<li>작은 분기를 하나 만들때마다 프로덕션에 큰 영향을 줄 수 있음</li>
+<li>실제로 구현 가능한 것과 균형을 잡아야 함</li>
+</ul>
+</li>
+<li>작가는 새로운 시각을 제공해줄수 있음</li>
+</ul>
+<h2 id="인터랙티브-스토리텔링의-미래">인터랙티브 스토리텔링의 미래</h2>
+<ul>
+<li>수동적이었던 청중은 점점 더 능동적이 되고싶어함</li>
+<li>인터렉티브한 스토리텔링으로 전달되는 이야기는 미래에 더 늘어날 것임</li>
+</ul>
+<p>게임은 지속적으로 진화할 것</p>
+<ul>
+<li>더 의미있는 경험, 특히 액션 게임에서</li>
+<li>각본, 연기, 시네마에 더 많은 관심</li>
+</ul>
+<p>조언?</p>
+<ul>
+<li>게임은 예술처럼 다루어져야 한다</li>
+<li>전달하고자 하는 것을 찾아라</li>
+<li>나만의 방식을 찾아야 한다</li>
+<li>나만의 규칙을 세워야 한다</li>
+</ul>
+<p>창의성, 용기, 개성</p>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2022","children":"2022"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/g-con-2022/","children":"G-CON 2022"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 1"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"인터랙티브 스토리텔링: 도전과 기회"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 1"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"interactive-storytelling","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"g-con-2022","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"인터랙티브 스토리텔링: 도전과 기회 — G-CON 2022 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/g-con-2022/interactive-storytelling/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/"}],["$","meta","7",{"property":"og:title","content":"인터랙티브 스토리텔링: 도전과 기회 — G-CON 2022 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"인터랙티브 스토리텔링: 도전과 기회 — G-CON 2022 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":[null,["$","$L11",null,{"href":"/en/conferences/g-con-2022/game-maker-mindset/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"Next · DAY 1 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"게임 제작자의 올바른 사고 방식"}]]}]]}]
+14:["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"On this page"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","인터랙티브-스토리텔링의-이점",{"children":["$","a",null,{"href":"#인터랙티브-스토리텔링의-이점","children":"인터랙티브 스토리텔링의 이점"}]}],["$","li","이러한-경험은-어떻게-만들어지는가",{"children":["$","a",null,{"href":"#이러한-경험은-어떻게-만들어지는가","children":"이러한 경험은 어떻게 만들어지는가?"}]}],["$","li","인터랙티브-스토리텔링의-도전",{"children":["$","a",null,{"href":"#인터랙티브-스토리텔링의-도전","children":"인터랙티브 스토리텔링의 도전"}]}],["$","li","인터랙티브-스토리텔링의-미래",{"children":["$","a",null,{"href":"#인터랙티브-스토리텔링의-미래","children":"인터랙티브 스토리텔링의 미래"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/g-con/2022/day-1/interactive-storytelling.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

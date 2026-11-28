@@ -1,0 +1,155 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+17:"ViewportBoundary"
+18:I[97367,["$4"],"$17"]
+19:"MetadataBoundary"
+1a:I[97367,["$4"],"$19"]
+1b:"$Sreact.suspense"
+1c:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Ta24,<p><a href="https://youtu.be/pTN2paCE3kc" target="_blank" rel="noreferrer">YouTube</a></p>
+<p>CLI 구현체 =&gt; CLR<br />
+CLS 구현체 =&gt; C#, VB.NET</p>
+<p>C# 1.0</p>
+<ul>
+<li>형식 안정성</li>
+<li>Delegate</li>
+<li>Native 코드와의 쉬운 연동</li>
+</ul>
+<p>C# 2.0</p>
+<ul>
+<li>제네릭 지원<ul>
+<li>CLR 의존</li>
+</ul>
+</li>
+<li>Nullable 지원<ul>
+<li>CLR, .NET BCL 의존</li>
+</ul>
+</li>
+<li>부분 클래스 등등 편의성 향상</li>
+</ul>
+<p>.NET 3.0/3.5</p>
+<ul>
+<li>기존 CLR 2.0 + 추가 라이브러리</li>
+<li>WPF</li>
+<li>WCF</li>
+<li>WF(Workflow Foundation)</li>
+<li>WCS (Windows CardSpace)</li>
+</ul>
+<p>C# 3.0</p>
+<ul>
+<li>LINQ<ul>
+<li>var 예약어</li>
+<li>자동 구현 속성</li>
+<li>객체 초기화</li>
+<li>컬랙션 초기화</li>
+<li>확장 메소드</li>
+<li>람다식</li>
+<li>등등</li>
+</ul>
+</li>
+</ul>
+<p>.NET 4.0</p>
+<ul>
+<li>DLR(동적 언어 런타임) 지원</li>
+<li>추가 IL 없음, CLR 4.0으로 분리<ul>
+<li>GAC 위치 변경</li>
+<li>설치 폴더 변경</li>
+</ul>
+</li>
+</ul>
+<p>C# 4.0</p>
+<ul>
+<li>dynamic 예약어 추가<ul>
+<li>Reflection보다 간편한 멤버 접근(public)</li>
+<li>동적 언어와의 덕타이핑</li>
+<li>동적 언어와의 연동</li>
+</ul>
+</li>
+</ul>
+<p>.NET 4.5</p>
+<ul>
+<li>4.0의 in-place 업데이트 (~ 4.8)</li>
+<li>BCL에 비동기 메소드 추가</li>
+<li>윈도우 8 스토어 앱 지원<ul>
+<li>.NET for Windows 8.x Store apps (.NET 4.5의 서브셋)</li>
+</ul>
+</li>
+<li>PCL(Portable Class Library)<ul>
+<li>대상 플랫폼 설정</li>
+</ul>
+</li>
+</ul>
+<p>C# 5.0</p>
+<ul>
+<li>async/await</li>
+<li>BCL에 포함된 호출자 정보 (CallerInfo) 특성 타입<ul>
+<li>4.0 에서 돌리면 오류가 뜸<ul>
+<li>직접 만들면 됨<ul>
+<li>Roslyn이 만들어 줌</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>.NET 4.6, .NET Core 1.x</p>
+<ul>
+<li>.NET Standard</li>
+</ul>
+<p>C# 6.0</p>
+<ul>
+<li>C# 컴파일러를 닷넷 프레임워크에서 분리</li>
+<li>간편 표기 구문 추가</li>
+</ul>
+<p>.NET 4.7 ~ 4.8, .NET Core 2.0</p>
+<p>C# 7.x</p>
+<ul>
+<li>튜플 지원 (.NET 4.7 BCL - System.ValueTuple)</li>
+<li>async의 사용자 정의 타입 반환</li>
+<li>패턴 매칭 지원</li>
+<li>값 형식의 지원 향상 =&gt; 성능 향상<ul>
+<li>메서드의 매개 변수에 in 변경자 추가</li>
+<li>readonly 구조체 추가</li>
+<li>스택에만 생성할 수 있는 값 타입 및 Span&lt;T&gt;<ul>
+<li>힙에 생성</li>
+<li>GC 회피</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>.NET Core 3.0, C# 8.0</p>
+<ul>
+<li>.NET Standard 2.1</li>
+<li>Windows Form. WPF</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2019","children":"2019"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/dotnet-conf-2019-seoul/","children":".NET Conf 2019 @ Seoul"}],null]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"닷넷 17년의 변화 정리 및 닷넷 코어 3.0"}],null]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":".NET Core로 해보는 AutoML"}]]}],null]}]]}],"$L13"]}]}],["$L14"],"$L15"]}],"p":"$@16","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"dotnet-changes-and-dotnet-core-3","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"dotnet-conf-2019-seoul","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L18",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1a",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1b",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"닷넷 17년의 변화 정리 및 닷넷 코어 3.0 — .NET Conf 2019 @ Seoul | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/"}],["$","meta","7",{"property":"og:title","content":"닷넷 17년의 변화 정리 및 닷넷 코어 3.0 — .NET Conf 2019 @ Seoul | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"닷넷 17년의 변화 정리 및 닷넷 코어 3.0 — .NET Conf 2019 @ Seoul | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1c","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1d","v":null,"s":"$9"}},"a":"$@1e","u":"$@1f","b":"vM1F1_CVNcnrKiJDOEGEP"}
+20:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[null,["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/dotNet-Conf-2019-Seoul/dotNet-changes-and-dotNet-core-3.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+14:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+15:["$","$L20",null,{"children":["$","$1b",null,{"name":"Next.MetadataOutlet","children":"$@21"}]}]
+1f:true
+9:300
+21:null
+9:C
+1e:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1d:"$undefined"
+16:"$undefined"

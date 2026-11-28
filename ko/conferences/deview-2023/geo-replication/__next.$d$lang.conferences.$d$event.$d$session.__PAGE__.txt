@@ -1,0 +1,152 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Tff9,<p><a href="https://youtu.be/LuHuXhIcjRc" target="_blank" rel="noreferrer">YouTube</a></p>
+<p>김영진, 이모원, 신수인 (NAVER Data Insight Center)</p>
+<h2 id="idc-장애의-심각성-그리고-geo-replication">IDC 장애의 심각성 그리고 Geo Replication</h2>
+<p>Geo Replication 적용의 3가지 종류</p>
+<ul>
+<li>Performance</li>
+<li>Scalability</li>
+<li>Availability</li>
+</ul>
+<h2 id="message-queue-in-geo-replication">Message Queue in Geo-Replication</h2>
+<h3>Key Elements</h3>
+<ul>
+<li>Out-of-the-box feature<ul>
+<li>개발 난이도와 관리 측면에서 중요</li>
+</ul>
+</li>
+<li>Synchronous &amp; Asynchronous Replication<ul>
+<li>Synchronous Replication은 데이터 정합정에 강점</li>
+<li>Asynchronous Replication은 Dynamic Scalability wjrdyd rksmd</li>
+</ul>
+</li>
+<li>Visible/Measurable Metrics<ul>
+<li>Asynchronous Replication 의 Replication Lag 측정</li>
+<li>Subscription offset 정보 등의 확인 가능 여부</li>
+</ul>
+</li>
+</ul>
+<h3>Kafka Stretch Cluster</h3>
+<ul>
+<li>Synchronous Replication on Kafka</li>
+<li>IDC 간 Network Latency 발생</li>
+</ul>
+<h3>Kafka MirrorMaker</h3>
+<ul>
+<li>Asynchronous Replication on Kafka</li>
+<li>Active–Active 구성 시, 동일 토픽 간 Multi-named Topic Consuming 필요</li>
+</ul>
+<h3>Pulsar Geo Replication</h3>
+<ul>
+<li>Synchronous Replication<ul>
+<li>Region Aware Placement Policy</li>
+<li>Multi-Cluster + 단일 Zookeeper ensemble</li>
+<li>Multi IDC Data Write Ack</li>
+</ul>
+</li>
+<li>Asynchronous Replication<ul>
+<li>Rack Aware Placement Policy</li>
+<li>Write Ack 없이 동작</li>
+<li>복제 지연 발생 가능</li>
+</ul>
+</li>
+<li>Pulsar Automatic Cluster Failover API<ul>
+<li>Primary Cluster의 장애 탐지 시 Secondary Cluster로 자동 전환</li>
+</ul>
+</li>
+</ul>
+<h2 id="realtime-data-processing-in-geo-replication">Realtime Data Processing in Geo Replication</h2>
+<h3>Key Elements</h3>
+<ul>
+<li>Cloud Friendliness<ul>
+<li>장애시 Catch-up reads와 평상시의 Tailing reads 사이의 탄력적 Resource Scaling</li>
+<li>Cost Efficient 관점에서 중요한 Featu</li>
+</ul>
+</li>
+<li>Reduced Management with Integrated Processing<ul>
+<li>Message Queue System 과 연결 point를 최소화</li>
+<li>Fewer Platforms Pipeline이 Geo Replication에 보다 유리</li>
+</ul>
+</li>
+<li>Data Reusability<ul>
+<li>Data Enrichment 결과 데이터를 얼마나 효과적으로 재사용할 수 있는가?</li>
+<li>장애 복구 시 효과적인 리소스 사용</li>
+</ul>
+</li>
+</ul>
+<h2 id="cloud-friendliness-in-geo-replication">Cloud Friendliness in Geo Replication</h2>
+<p>비용 효율적인 Geo Replication 을 위해서는 클라우드 친화 플랫폼이 필요</p>
+<h3>Key Elements</h3>
+<ul>
+<li>HPA 기반의 Dynamic Resource 할당<ul>
+<li>HPA를 기반으로 한 탄력적 Resource Scaling 을 통해서 빠르게 장애 대응</li>
+<li>Active/Active, Active/Standby 와 같은 다양한 Resource 구성에 효과적으로 대응</li>
+<li>Cost Efficient Geo Replication을 위한 필수적 특징</li>
+</ul>
+</li>
+<li>Modularly Designed Sub-system<ul>
+<li>Monolithic Design 의 경우 Resource 를 효과적으로 Scaling 하기에 불리한 구조</li>
+<li>Micro Service Architecture 에 유리한 Modular design</li>
+</ul>
+</li>
+<li>스케일 인/아웃으로 인한 제약 없음<ul>
+<li>Resource Scaling 으로 성능 저하/기능 제약이 있는 경우 Cloud의 Resource 환경에 부적합</li>
+</ul>
+</li>
+</ul>
+<h2 id="efficiently-lossless-realtime-processing-in-log-data">Efficiently Lossless Realtime Processing in Log-data</h2>
+<h2 id="wrap-up">Wrap up</h2>
+<ul>
+<li>Cloud<ul>
+<li>Cloud 의 유연한 환경에 기반을 둔 비용 효과적인 Resource 사용</li>
+<li>HPA에 기반한 시스템 인프라 구축</li>
+</ul>
+</li>
+<li>Simple<ul>
+<li>불필요한 데이터 흐름을 최소화한 Platform 구조</li>
+<li>Single Cluster 내에서의 데이터 처리</li>
+</ul>
+</li>
+<li>Customized<ul>
+<li>Business Model에 맞는 Tolerant Control</li>
+<li>Client Level Data Rewind, DB side Deduplication 등 다양한 기술 활용</li>
+</ul>
+</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2023","children":"2023"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/deview-2023/","children":"DEVIEW 2023"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 1"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"클라우드 환경 기반 실시간 데이터 처리의 유실 없는 Geo-Replication 구축"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 1 · 17:00 ~ 17:45"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"geo-replication","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"deview-2023","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"클라우드 환경 기반 실시간 데이터 처리의 유실 없는 Geo-Replication 구축 — DEVIEW 2023 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/deview-2023/geo-replication/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/deview-2023/geo-replication/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/deview-2023/geo-replication/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/deview-2023/geo-replication/"}],["$","meta","7",{"property":"og:title","content":"클라우드 환경 기반 실시간 데이터 처리의 유실 없는 Geo-Replication 구축 — DEVIEW 2023 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/deview-2023/geo-replication/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"클라우드 환경 기반 실시간 데이터 처리의 유실 없는 Geo-Replication 구축 — DEVIEW 2023 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/deview-2023/graphql/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 1 · 16:00 ~ 16:45"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"GraphQL 잘 쓰고 계신가요? (Production-ready GraphQL)"}]]}],null]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","idc-장애의-심각성-그리고-geo-replication",{"children":["$","a",null,{"href":"#idc-장애의-심각성-그리고-geo-replication","children":"IDC 장애의 심각성 그리고 Geo Replication"}]}],["$","li","message-queue-in-geo-replication",{"children":["$","a",null,{"href":"#message-queue-in-geo-replication","children":"Message Queue in Geo-Replication"}]}],["$","li","realtime-data-processing-in-geo-replication",{"children":["$","a",null,{"href":"#realtime-data-processing-in-geo-replication","children":"Realtime Data Processing in Geo Replication"}]}],["$","li","cloud-friendliness-in-geo-replication",{"children":["$","a",null,{"href":"#cloud-friendliness-in-geo-replication","children":"Cloud Friendliness in Geo Replication"}]}],["$","li","efficiently-lossless-realtime-processing-in-log-data",{"children":["$","a",null,{"href":"#efficiently-lossless-realtime-processing-in-log-data","children":"Efficiently Lossless Realtime Processing in Log-data"}]}],["$","li","wrap-up",{"children":["$","a",null,{"href":"#wrap-up","children":"Wrap up"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/deview-2023/geo-replication.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

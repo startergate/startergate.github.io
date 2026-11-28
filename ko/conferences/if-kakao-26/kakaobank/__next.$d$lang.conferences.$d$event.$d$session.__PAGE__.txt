@@ -1,0 +1,241 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T33c6,<h2 id="금융은-왜-보수적인가">금융은 왜 보수적인가</h2>
+<ul>
+<li>새로운 기술을 싫어하는 문화라서가 아님<ul>
+<li>결제 / 출금 장애 -&gt; 고객이 당장 자기 돈을 못 씀, 처리 오류 -&gt; 금전 피해</li>
+<li>회사 내부 복구 / 회고로 끝나지 않음 - 사고 성격, 규모에 따라 감독 당국 점검 대상이 됨</li>
+<li>원인뿐 아니라 필요한 절차, 통제를 지켰는지도 확인 대상, 위반 시 제재</li>
+</ul>
+</li>
+<li>돈을 넣고 빼는 코어 업무는 그 영향과 가장 가까움</li>
+<li>더 빠르고 편하고 최신인지보다 &quot;잘못됐을 때 고객에게 무슨 일이 생기는가&quot;를 먼저 따짐</li>
+</ul>
+<h2 id="카드-시스템-msa-클라우드-전환">카드 시스템 MSA / 클라우드 전환</h2>
+<ul>
+<li>계기: 카카오뱅크 페이패스 카드 (25년 2월 출시) 무렵 전환 개발 진행</li>
+<li>코어뱅킹(계정계)은 수신 / 여신 / 외환 / 카드가 묶인 거대한 모놀리스<ul>
+<li>각 영역이 하나의 시스템이어도 이상하지 않을 규모</li>
+</ul>
+</li>
+<li>카드 / 결제 도메인은 신상품 출시가 잦고 그만큼 변경도 잦음 - 시중 은행은 카드사가 따로 있을 정도<ul>
+<li>카드 때문에 다른 업무가 받는 배포, 트래픽, 장애 전파 영향을 줄이고 싶었음</li>
+</ul>
+</li>
+<li>카드 도메인 구성<ul>
+<li>상품 선택 / 발급 / 회원 가입</li>
+<li>승인: 흔히 &quot;결제&quot;라고 떠올리는 영역 (발표자 담당)</li>
+<li>매출 / 정산: 가맹점에 주기적으로 결제 금액 정산</li>
+<li>이의제기 / 사고: 결제 이후 분쟁 처리 (직구했는데 벽돌이 오면?)</li>
+<li>대사: 오간 돈이 오차 없이 오갔는지 확인, 금융에서 빠질 수 없는 구간</li>
+</ul>
+</li>
+<li>카드 도메인을 계정계에서 분리하면서 역할별 애플리케이션으로 나눔<ul>
+<li>EKS에서 운영, 배포 / 데이터 연결 / 복구까지 함께 설계</li>
+</ul>
+</li>
+</ul>
+<h3>분산 트랜잭션: &quot;모름&quot; 상태</h3>
+<ul>
+<li>기존: 카드 승인 + 계정계 출금이 하나의 트랜잭션 -&gt; 문제 시 한꺼번에 롤백, 상태는 성공 / 실패 둘뿐</li>
+<li>분리 후 별도 트랜잭션 -&gt; 카드 시스템 입장에서 &quot;모름&quot; 상태가 추가됨 (상대 시스템 상태를 알 수 없음)<ul>
+<li>방치하면 고아 거래가 생김 -&gt; 상대 시스템에 직접 묻거나 상태 동기화를 위한 보상 거래 요청</li>
+</ul>
+</li>
+<li>정상 흐름: 대외기관 승인 요청 -&gt; 카드가 출금 요청 기록 -&gt; 계정계 출금 요청 -&gt; 출금 성공 응답 -&gt; 승인 내역 저장 / 확정 -&gt; 대외기관에 승인 완료 응답<ul>
+<li>대외기관 = 결제 요청 / 처리 결과를 중개하는 외부 기관</li>
+</ul>
+</li>
+<li>계정계 응답 지연<ul>
+<li>고객 결제를 무한정 기다리게 할 수 없음 -&gt; 대외기관에 먼저 응답</li>
+<li>계좌에서 출금됐을 수도 있으니 취소 거래로 등록 -&gt; 별도 후속 처리 애플리케이션이 되돌리기 요청 (보상 거래)</li>
+<li>보상 거래도 지연되면? 재시도는 몇 번까지? 지연이 쌓이면 우선순위 높은 거래는? -&gt; 시간상 생략, 기술 블로그에서 다룰 예정</li>
+</ul>
+</li>
+<li>처리 도중 애플리케이션 강제 종료<ul>
+<li>graceful shutdown과 별개로 승인 상태를 바꾸지 못한 채 끝남, 대외기관은 타임아웃으로 거절</li>
+<li>일정 시간이 지나도 고아 상태인 거래를 감지하는 기능 구현 -&gt; 후속 처리로 마무리</li>
+<li>실제 운영에선 거의 없는 케이스지만, 방치되면 결제는 거절됐는데 돈이 안 돌아오는 상황이 생김</li>
+</ul>
+</li>
+</ul>
+<h3>승인 DB 샤딩</h3>
+<ul>
+<li>같은 종류 데이터를 기준 키로 나눠 여러 DB에 저장, 기준 키는 회원번호</li>
+<li>목적: 모든 결제를 처리하는 승인 영역의 IO / 자원 부하 분산, 한 DB 장애 시 영향받는 고객 범위 축소</li>
+<li>왜 카드번호가 아니라 회원번호?<ul>
+<li>당시 설계에서 한도를 회원 단위로 관리 - 카드 두 장 중 어느 걸로 결제해도 같은 회원 한도 갱신</li>
+<li>카드별로 나누면 승인 기록과 한도를 서로 다른 DB에서 맞춰야 할 수 있음 -&gt; 함께 읽고 쓰는 데이터를 같은 DB에</li>
+</ul>
+</li>
+<li>대신 전체 승인 내역을 보려면 여러 DB를 함께 조회해야 함 (-&gt; 뒤의 AI 도구로 해결)</li>
+</ul>
+<h3>노코드 시퀀스 다이어그램 -&gt; 코드</h3>
+<ul>
+<li>AS-IS는 드래그 앤 드롭 시퀀스 다이어그램으로 구현한 노코드 툴 -&gt; 하나하나 코드로 옮기며 구조를 잡음</li>
+<li>절차 중심 개발, 시퀀스와 코드 양도 방대 -&gt; 전체 분석 후 재설계는 사실상 불가<ul>
+<li>시퀀스를 A4로 출력해 테이프로 붙여서 대동여지도 보듯 분석</li>
+</ul>
+</li>
+<li>옮기기 -&gt; 공통 / 중복 코드가 보이면 추상화, 클래스 책임 분리 -&gt; 이미 옮긴 코드에도 적용, 이걸 반복<ul>
+<li>초반엔 고치는 범위가 크고 잦았음</li>
+<li>반복할수록 공통 코드 재사용 증가, 중복 감소 -&gt; 구조가 자리 잡은 뒤엔 기능 추가 시 구조 고민 부담 감소</li>
+<li>장기 프로젝트였기에 누적 효용이 컸음</li>
+</ul>
+</li>
+</ul>
+<h3>오픈 전략: 점진 vs 빅뱅</h3>
+<ul>
+<li>점진 전환: 기능 / API / 고객 단위로 조금씩 넘김<ul>
+<li>일부 먼저 운영해보고 범위 확대 가능</li>
+<li>대신 전환 완료까지 두 시스템 병행, 종속성 있는 기능 간 호출 / 데이터 공유 확인 필요</li>
+</ul>
+</li>
+<li>빅뱅 전환: 대상 업무를 한 시점에 한꺼번에<ul>
+<li>간단해 보이지만 문제 시 영향 범위가 큼 -&gt; 제한 시간 내 완료 가능성, 실패 시 롤백 계획을 집중 준비</li>
+</ul>
+</li>
+<li>결론: 거래를 멈추고 마지막 변경분까지 반영, 데이터 검증 후 새 시스템 오픈 (빅뱅)</li>
+</ul>
+<h3>데이터 마이그레이션 (Oracle -&gt; MySQL)</h3>
+<ul>
+<li>수십억 건 데이터, 하루 수백만 건 결제</li>
+<li>데이터 이관 -&gt; 변환 결과 검증</li>
+<li>그동안에도 거래가 계속 발생 -&gt; 최초 이관 시점 이후 변경분을 계속 반영 = Catch-Up<ul>
+<li>사전에 Catch-Up을 최대한 해둬야 중단 구간의 이관 분량이 줄어듦</li>
+</ul>
+</li>
+<li>전환 당일: 거래 중단 -&gt; 추가 유입 / 남은 처리 확인 -&gt; 마지막 변경분 반영 -&gt; 최종 데이터 검증<ul>
+<li>건수 / 금액 대조, 차이 나면 원인 확인 -&gt; 조치 -&gt; 재검증 반복</li>
+</ul>
+</li>
+<li>오픈 판단 단계<ul>
+<li>최종 데이터로 조회성 거래 점검 -&gt; 진행 여부 판단</li>
+<li>대외 거래 가능하도록 내부 설정 / 시스템 기동</li>
+<li>대고객 오픈 전 업데이트가 일어나는 실거래도 정상 처리되는지 점검 -&gt; 다시 오픈 여부 판단</li>
+<li>대외기관에 전체 거래 허용 요청 -&gt; 아침 7시경 대고객 오픈 선언</li>
+</ul>
+</li>
+<li>오픈과 동시에 실거래 유입, 앱 / DB / 인프라 전부 상황실에서 모니터링</li>
+<li>새벽 시간대에 데이터 마이그레이션과 시스템 오픈 성공<ul>
+<li>3년간 이것만 바라봤고 실수 없을 만큼 테스트해서 오픈 직후 기분은 덤덤했음</li>
+</ul>
+</li>
+</ul>
+<h3>전환 결과</h3>
+<ul>
+<li>계정계 안에 있던 카드 업무를 클라우드로 이관 -&gt; 다른 업무의 배포 / 트래픽으로부터 독립</li>
+<li>벤더 솔루션 중심 -&gt; Spring Boot, MySQL, Kafka, Redis 등 앱부터 인프라까지 오픈소스 생태계로 전환</li>
+<li>테스트 커버리지 측정에 JaCoCo 사용, 버그 발견 / 제보로 오픈소스 기여</li>
+<li>코드 재사용성 상승, 설계 / 개발 / 검증에 AI를 쓰면서 개발 속도가 점점 빨라지는 체감</li>
+</ul>
+<h2 id="결제-코어-엔지니어의-소소한-ai-실험">결제 코어 엔지니어의 소소한 AI 실험</h2>
+<ul>
+<li>금융에서도 AI를 쓰나? -&gt; AWS Bedrock, LLM 게이트웨이를 통해 안전하게 적극 활용 중</li>
+<li>일하면서 &quot;이런 도구 있으면 좋겠다&quot; 싶던 것들을 AI와 직접 만들어 봄</li>
+</ul>
+<h3>경량 DB 클라이언트</h3>
+<ul>
+<li>승인 DB 샤딩 이후 운영 관리 비용이 늘어난 건 사실</li>
+<li>운영 환경에 별도 샤딩 프록시 서버를 두지 않음 -&gt; 문제 상황에서 각 DB를 일괄 조회할 무언가가 필요</li>
+<li>클라이언트가 여러 DB를 조회하고 결과 / 집계를 한 화면에 모아 보여줌 - 사람이 반복하던 조회, 집계를 도구에 맡김</li>
+<li>설계: SDD(Spec-Driven Development) 방법론으로 처음엔 Spec Kit, 이후 Ouroboros(오픈소스) 사용<ul>
+<li>개인적으로 Ouroboros가 더 쓰기 편하고 직관적이라 이후 도구 설계에도 사용</li>
+</ul>
+</li>
+<li>결과: 운영 / 테스트 환경에서 적극적으로 쓰이는 툴이 됨</li>
+</ul>
+<h3>AI 코드 리뷰 봇</h3>
+<ul>
+<li>처음부터 만들 생각은 없었고 상용 도구를 써봤지만, 도메인 지식이 중요해서 팀용 툴을 직접 만듦</li>
+<li>변경된 diff만 보면 그 코드가 어떻게 호출되는지, 이미 어떤 처리가 있는지 놓침<ul>
+<li>레포지토리 코드를 읽어 관련 코드까지 함께 보도록 확장</li>
+<li>자체 평가 기준으로 심각도를 분류해 코멘트</li>
+</ul>
+</li>
+<li>기술적인 부분, 사람이 놓칠 만한 부분 피드백을 잘 해줌 -&gt; 개발할 때 적극 활용 중, 리뷰 부담 감소가 명확해서 계속 고도화 예정</li>
+</ul>
+<h3>사내 위키 RAG</h3>
+<ul>
+<li>도메인 지식은 위키에 정리돼 있지만 문서가 많아질수록 기존 검색으로 원하는 설명 찾기가 어려움</li>
+<li>RAG: LLM이 아는 것만으로 답하지 않고 위키 자료를 먼저 가져와 참고해서 답변</li>
+<li>chunking: 검색 정확도를 위해 문서를 작은 단위로 분할<ul>
+<li>일정 길이로만 자르면 표가 중간에 잘려 어떤 헤더의 정보인지 사라짐 -&gt; 표 제목 / 항목 관계가 유지되도록 분할 방식 변경</li>
+</ul>
+</li>
+<li>하이브리드 검색: 키워드 검색(업무 용어가 정확히 일치하는 문서) + 의미 검색(표현이 달라도 의미가 가까운 문서)</li>
+<li>두 검색 후보를 모아 re-ranking -&gt; 선택된 내용을 AI에 전달해 답변 생성</li>
+<li>근거를 제대로 찾았는지, 답변이 근거에 맞게 작성됐는지 평가하며 개선</li>
+<li>사내 메신저로 질문하고 답변 받는 형태</li>
+<li>한계<ul>
+<li>관련 문서를 찾아도 답할 만큼 설명이 충분하지 않거나, 제목에서 기대한 내용이 본문에 없음 -&gt; 문서를 잘 찾는 것과 문서에 답이 있는 것은 별개</li>
+<li>AI로 문서 작성이 잦아지면서 검증 안 된 설명이 문서에 들어가고, RAG가 그걸 다시 답변 근거로 재사용할 수 있음</li>
+<li>검색을 더 잘하는 것뿐 아니라 어떤 문서를 근거로 쓸 수 있는지도 봐야 함</li>
+</ul>
+</li>
+<li>다른 두 도구에 비해 정착하지 못함 - AI / 사람이 쓴 문서 품질을 통제하기 어려움</li>
+</ul>
+<h3>느낀 점</h3>
+<ul>
+<li>구현이 쉬워졌다고 해결하려는 문제까지 쉬워지는 건 아님 - 오히려 무엇이 더 어려운 문제인지가 더 잘 보임<ul>
+<li>RAG에서 고민한 것도 검색 기능 추가보다 &quot;어떤 문서를 믿을 수 있고 그 품질을 어떻게 유지할까&quot;</li>
+</ul>
+</li>
+<li>만들 수 있다는 사실만으로 계속 만들어야 할 이유는 안 됨<ul>
+<li>기능을 더 붙이면 해결될 문제인지, 도구 밖에서 먼저 바뀌어야 할 게 있는지, 다른 방법으로 풀어야 하는지 판단에 더 많은 고민을 쓰게 될 것</li>
+</ul>
+</li>
+</ul>
+<h2 id="마무리">마무리</h2>
+<ul>
+<li>기회가 생기는 것과 그 기회를 활용할 수 있는 것은 다른 일<ul>
+<li>클라우드 / MSA 전환을 하지 않았다면 같은 AI 생태계가 와도 지금처럼 활용하지 못했을 것</li>
+</ul>
+</li>
+<li>모든 제약을 없애는 게 아니라 주어진 조건 안에서 바꿀 수 있는 걸 찾고 직접 설계, 구현해본 것<ul>
+<li>그 경험이 새 기술을 접했을 때 직접 적용해보고 쓸 만한지 판단하는 바탕이 됨</li>
+</ul>
+</li>
+<li>각자 규제, 오래된 시스템, 조직 여건 같은 제약이 있겠지만 지금 할 수 있는 선택이 없는 건 아님</li>
+<li>기술 / 개발 방식을 고를 때 당장의 문제 해결과 함께 &quot;이 선택 이후 우리가 직접 해볼 수 있게 되는 건 뭘까?&quot;를 생각해보기<ul>
+<li>모든 시스템을 전환하라는 게 아니라 작은 도구를 직접 만들거나, 의존하던 걸 이해하고 고쳐보는 것일 수도</li>
+</ul>
+</li>
+<li>이번 전환은 오래 걸렸지만 규제 안에서 내린 선택이었고, AI 생태계를 활용할 바탕이 됨</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2026","children":"2026"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/","children":"if(kakao)26"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"카카오뱅크 결제 시스템 전환 이야기와 결제 코어 엔지니어의 소소한 AI 실험"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[["$","span",null,{"children":"강승현 · 카카오뱅크"}],["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2 · 14:00 ~ 14:30"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"kakaobank","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"if-kakao-26","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"카카오뱅크 결제 시스템 전환 이야기와 결제 코어 엔지니어의 소소한 AI 실험 — if(kakao)26 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/if-kakao-26/kakaobank/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/if-kakao-26/kakaobank/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/if-kakao-26/kakaobank/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/if-kakao-26/kakaobank/"}],["$","meta","7",{"property":"og:title","content":"카카오뱅크 결제 시스템 전환 이야기와 결제 코어 엔지니어의 소소한 AI 실험 — if(kakao)26 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/if-kakao-26/kakaobank/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"카카오뱅크 결제 시스템 전환 이야기와 결제 코어 엔지니어의 소소한 AI 실험 — if(kakao)26 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/kakaotalk-abusing/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 2 · 13:30 ~ 14:00"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"카카오톡에서 발생하는 별별 어뷰징 대응기(aka. SMS Pumping)"}]]}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/db-sharding/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 · DAY 2 · 14:30 ~ 15:00 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"한계를 경계로 바꾸다: 대규모 커머스 DB 샤딩 전환기"}]]}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","금융은-왜-보수적인가",{"children":["$","a",null,{"href":"#금융은-왜-보수적인가","children":"금융은 왜 보수적인가"}]}],["$","li","카드-시스템-msa-클라우드-전환",{"children":["$","a",null,{"href":"#카드-시스템-msa-클라우드-전환","children":"카드 시스템 MSA / 클라우드 전환"}]}],["$","li","결제-코어-엔지니어의-소소한-ai-실험",{"children":["$","a",null,{"href":"#결제-코어-엔지니어의-소소한-ai-실험","children":"결제 코어 엔지니어의 소소한 AI 실험"}]}],["$","li","마무리",{"children":["$","a",null,{"href":"#마무리","children":"마무리"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/if-kakao-26/kakaobank.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

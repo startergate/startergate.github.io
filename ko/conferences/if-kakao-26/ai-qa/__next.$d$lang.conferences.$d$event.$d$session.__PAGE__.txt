@@ -1,0 +1,202 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T28d7,<h2 id="왜-하네스인가">왜 하네스인가</h2>
+<ul>
+<li>QA의 오래된 질문 &quot;이 소프트웨어를 믿을 수 있는가&quot; -&gt; 이제는 &quot;AI가 만든 산출물을 어디까지 믿을 수 있는가&quot;</li>
+<li>되돌릴 수 있는 곳에서 잘못된 산출물은 버그, 결제 / 금융처럼 되돌리기 어려운 곳에서는 사건<ul>
+<li>전 국민이 쓰는 서비스에서는 그 사건이 한 명에게서 끝나지 않음</li>
+</ul>
+</li>
+<li>개발 / 배포는 AI로 빨라지는데 검증 속도는 그대로 -&gt; 만드는 속도와 검증 속도의 간격이 계속 벌어짐</li>
+<li>&quot;위험해도 사람이 승인 단계에서 걸러준다&quot;는 믿음<ul>
+<li>올해 처음으로 외부 연구에서 승인 단계를 대규모로 측정</li>
+<li>사람이 결함을 놓치는 이유는 두 갈래: 지쳐서, 믿어서 (안 지쳐도 경고를 보고 그대로 승인)</li>
+</ul>
+</li>
+</ul>
+<p>AI 검증이 사럼 검증을 대신한다 X
+AI가 사전에 걸러낸다</p>
+<ul>
+<li>앞으로도 사람이 봐야 할 부분은 남음</li>
+<li>앞단에서 걸러주면 뒷단 사람 검증이 볼 양이 줄어 속도를 따라갈 수 있음</li>
+<li>QA가 오래 가져온 관점을 개발 단계로 옮기는 것</li>
+</ul>
+<h2 id="하네스와-품질-게이트">하네스와 품질 게이트</h2>
+<ul>
+<li>하네스: 모델을 둘러싸고 모델이 실제로 어떻게 행동할지 정하는 층<ul>
+<li>어떤 맥락을 보여줄지, 어떤 도구를 줄지, 무엇을 허용할지, 무엇을 기억하고 검증할지</li>
+<li>모델은 그 중 하나, 나머지가 전부 하네스</li>
+</ul>
+</li>
+<li>3층 구조, 사람의 의도에서 출발해 아래에서 위로<ul>
+<li>가운데 층이 페이 메타 하네스 (도메인 무관, 품질 게이트가 여기 있음)</li>
+<li>위가 도메인 하네스 - 새 도메인이 와도 위에 얹으면 됨 (발표 자료도 이 하네스로 만듦)</li>
+<li>하네스를 움직이는 엔진은 넷, 오늘은 품질 게이트와 그 게이트를 만든 방법론만 다룸</li>
+</ul>
+</li>
+<li>보통 하네스는 사람 손을 줄이고 마지막 승인만 남김<ul>
+<li>여기서는 밖으로 나가는 지점에서만 사람이 승인하고, 무엇을 하네스에 넣을지는 사람이 정함</li>
+<li>같은 모델이라도 사람이 책임지는 자리가 결함이 잡히느냐를 가름</li>
+</ul>
+</li>
+</ul>
+<h3>게이트</h3>
+<ul>
+<li>게이트 = 통과 조건을 코드로 고정해둔 테스트</li>
+<li>기존 게이트는 알려주기만 함 -&gt; 경고를 남긴 채 나가고 사고 후에야 돌아옴</li>
+<li>알려주는 게 아니라 막고 서게 만듦, 내보내기 직전이 아니라 만드는 단계에서 걸리게<ul>
+<li>되돌아가는 거리가 짧을수록 비용과 시간이 덜 듦</li>
+<li>예: 문서 정리 중 완료 조건 절이 사라지자 커밋이 멈춤</li>
+</ul>
+</li>
+<li>건너뛰기에 대한 3중 방어<ul>
+<li>커밋 훅: 개발자 PC에서 바로 막지만 한 줄로 건너뛸 수 있음 (직접 만든 건 이것뿐)</li>
+<li>CI 필수 상태 검사: 건너뛸 수 없지만 되돌아가는 거리가 김</li>
+<li>브랜치 보호 규칙 (관리자에게도 적용): 앞의 둘을 건너뛰어도 머지 불가</li>
+<li>GitHub은 막을 자리만 주고, 무엇을 검사할지는 게이트가 정함</li>
+</ul>
+</li>
+</ul>
+<h2 id="방법론-qa-검증-방식을-개발-단계에-적용">방법론 (QA 검증 방식을 개발 단계에 적용)</h2>
+<ul>
+<li>적대적 검토<ul>
+<li>자기가 만든 걸 검토하면 자기가 떠올린 질문 안에서만 의심하게 됨 -&gt; 반박 전담 에이전트를 따로 둠</li>
+<li>결함을 주장하려면 기계가 확인할 수 있는 근거를 대야 함</li>
+<li>고친 걸 원래대로 되돌려 테스트 -&gt; 실패하면 반박이 맞음, 통과하면 틀림</li>
+</ul>
+</li>
+<li>격리하기<ul>
+<li>여러 검토가 같은 맥락을 공유하면 한 사람 의견이 여러 번 반복된 것일 뿐</li>
+<li>결함을 일부러 심고 측정: 심은 쪽과 검토 쪽이 같으면 매번 &quot;잘 나왔다&quot;, 떼어놓으니 라운드마다 결함 발견</li>
+<li>같은 도구, 같은 대상, 바뀐 건 떼어놨는지 하나</li>
+</ul>
+</li>
+<li>다양성 부여<ul>
+<li>여러 모델 사용<ul>
+<li>한 모델로만 검증하면 그 모델의 맹점까지 같이 떠안음 -&gt; 계열이 다른 모델을 섞음</li>
+<li>모델이 좋아지면 같이 좋아짐</li>
+<li>한계: 셋 다 놓치는 자리는 남음, 구조가 비슷해서 생기는 공통 맹점</li>
+<li>외부 측정: 모델들이 틀릴 때 60%는 같은 답으로 틀림, 개별 정확도가 높을수록 오차가 더 겹침</li>
+<li>검증자에게 주는 산출물 / 지시 / 맥락이 같으면 맹점이 보완되지 않음</li>
+</ul>
+</li>
+<li>여러 입장에서 보기<ul>
+<li>만든 사람 자리에선 자기 맥락 안이라 안 보이던 결함이, 변경을 받는 쪽 자리에서 보면 보임</li>
+<li>받는 쪽을 격리하고 사전 맥락 없이 변경을 그대로 돌려봄 -&gt; 나온 리뷰는 다시 진위 검증 = &quot;입장 리뷰&quot;</li>
+<li>모델 다양성과 입장 다양성은 보는 지점이 달라 둘 다 사용</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>사람은 밖으로 나가는 지점 (머지, 릴리즈)에서만 판단, 그 전까지는 기계가 방법론으로 품질을 지킴<ul>
+<li>사람이 책임지는 자리는 하나로 줄고, 게이트를 통과한 것만 올라옴</li>
+</ul>
+</li>
+</ul>
+<h2 id="사례">사례</h2>
+<h3>사내 QA 산출물 생성 프로젝트 (현재 해결됨)</h3>
+<ul>
+<li>기획서 / 버그 리포트를 넣으면 QA 산출물(테스트 케이스)이 나오는 파이프라인</li>
+<li>해피 케이스만 나오고 네거티브 / 상태 전이 케이스가 0건<ul>
+<li>사용자는 설계 순서대로 쓰지 않음 (이리저리 누르고, 백그라운드 갔다 오고, 뒤로 갔다 다시 들어옴)</li>
+<li>원인: 프롬프트가 모호했고 모델이 해석의 여지에서 쉬운 경로를 고름</li>
+</ul>
+</li>
+<li>적대적 검토를 돌리니 빠진 케이스 4종류가 나옴 -&gt; 코딩 에이전트가 두 군데 수정<ul>
+<li>생성과 병합 사이에 검증 노드 추가, 프롬프트의 해석 여지 축소</li>
+<li>같은 문서를 다시 넣자 지목된 4종류 모두 나옴</li>
+<li>프롬프트에만 기대지 않고 파이프라인 구조가 지탱하게 함</li>
+</ul>
+</li>
+</ul>
+<h3>외부 오픈소스 (스타 6,000개 프로젝트)</h3>
+<ul>
+<li>설정 파일을 읽지 못하면 (깨짐, 권한 없음) 백업을 만든 뒤 원본을 기본값(빈 값)으로 덮어씀<ul>
+<li>&quot;읽지 못했다&quot;가 &quot;설정이 비어 있다&quot;로 바뀜 -&gt; 사용자가 몇 달간 쌓은 설정이 오류창 없이 초기화</li>
+<li>자기들 판정 코드도 방법론 이전엔 &quot;애매하면 통과&quot;였음, 언어 / 도메인은 달라도 고장 났을 때 통과시키는 같은 결함</li>
+</ul>
+</li>
+<li>수정 과정에서 방법론을 한 덩어리로 섞어 돌림<ul>
+<li>적대적 검토로 백업 로직을 뚫어 원본을 빈 값으로 지우는 자리를 찾음</li>
+<li>격리: 앞선 판단을 알려주지 않고 서로 떼어놓음 -&gt; 결론을 따라가지 않고, 병렬로 돌려 속도도 붙음</li>
+<li>다양성: 상대 저장소에서 그쪽 규칙으로 직접 돌려 지적과 수정이 실제로 맞는지 확인</li>
+<li>다시 적대적 검토: 수정을 되돌리면 원본이 다시 빈 값이 되는 것, 즉 테스트가 잡는 것을 확인 후 제출</li>
+</ul>
+</li>
+<li>수정: 읽지 못하면 원본을 그대로 둠 -&gt; 수정 요청 없이 그대로 머지 (&quot;초점이 분명하고 기술적으로 타당하고 테스트가 잘 돼 있다&quot;)</li>
+</ul>
+<h3>성과</h3>
+<ul>
+<li>다른 계열 모델이 심은 결함 8건 측정: 일반 검토 5건 -&gt; 관점 추가 6건 -&gt; 게이트까지 8건 전부<ul>
+<li>모델은 그대로, 방법론만으로 잡는 결함 수가 올라감</li>
+</ul>
+</li>
+<li>하루에도 여러 번 도는 검증 루프: 게이트가 막으면 위치 / 이유 / 처방이 나오고 코딩 에이전트가 고쳐 다시 올림, 통과한 것만 사람에게</li>
+<li>외부 성과<ul>
+<li>스타 13만 개 넘는 프로젝트에 메이저 결함 제보 -&gt; 오너가 직접 고쳐 릴리즈</li>
+<li>스타 6천 개 넘는 프로젝트에 릴리즈 4번 기여, PR 하나는 피드백 없이 머지</li>
+<li>Awesome Harness Engineering, Awesome Agent Skills 큐레이션 저장소에 심사 거쳐 등재</li>
+<li>게이트를 공개 레지스트리에 올려 160개 넘는 버전, 누적 다운로드 28,000회 이상</li>
+</ul>
+</li>
+<li>저장소 안에서만 놀면 자기 채점 -&gt; 우리를 모르는 코드, 우리를 모르는 판정자에게 한 번이라도 통과하면 더는 자기 채점이 아님</li>
+</ul>
+<h2 id="가져갈-것">가져갈 것</h2>
+<ul>
+<li>측정하지 않았으면 괜찮다고 하지 않음<ul>
+<li>측정 안 한 걸 정상으로, 안 해봐서 모르는 걸 불가능으로 단정하지 않기</li>
+</ul>
+</li>
+<li>고친 걸 되돌려서 테스트가 실패하는지 봄<ul>
+<li>사람이 짤 땐 고치기 전에 실패를 봤지만, AI는 코드와 테스트를 한꺼번에 내놓아 실패를 볼 기회가 없음 -&gt; 되돌려 볼 수밖에 없고 그 습관을 기계가 하게 만듦</li>
+</ul>
+</li>
+<li>검증자마다 다른 걸 보게 함<ul>
+<li>가장 쉬운 건 입장 바꾸기 (외부 PR에서 상대 저장소, 상대 규칙으로 돌린 것), 결과는 제3자 입장에서 다시 판정</li>
+<li>사람은 검증자를 늘리면 보는 범위도 늘었지만, AI는 늘려도 같은 곳을 놓침 -&gt; 검증자에게 무엇을 어떻게 줄지 따로 설계</li>
+</ul>
+</li>
+<li>앞의 둘은 새 규율이 아니라 QA가 원래 하던 일 (통과를 그대로 믿지 않기, 고치기 전에 재현 테스트)</li>
+<li>&quot;완벽한 테스팅은 불가능하다&quot;는 AI에도 마찬가지, 그래도 QA는 방법을 만들어 왔고 그걸 AI 쪽으로 옮긴 것</li>
+<li>답: 믿어도 되게 만드는 장치를 두고, 그 장치가 실제로 작동해 안정적인 결과를 내는지 확인한다</li>
+</ul>
+<p>forge-harness</p>
+<ul>
+<li>오늘 소개한 장치와 게이트의 공개본, 방법론은 논문으로도 공개</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2026","children":"2026"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/","children":"if(kakao)26"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"AI 산출물을 믿어도 되게 만드는 법: QA가 담금질한 하네스와 품질 게이트"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[["$","span",null,{"children":"권성진 · 카카오페이"}],["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2 · 13:00 ~ 13:30"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"ai-qa","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"if-kakao-26","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"AI 산출물을 믿어도 되게 만드는 법: QA가 담금질한 하네스와 품질 게이트 — if(kakao)26 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/if-kakao-26/ai-qa/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/if-kakao-26/ai-qa/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/if-kakao-26/ai-qa/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/if-kakao-26/ai-qa/"}],["$","meta","7",{"property":"og:title","content":"AI 산출물을 믿어도 되게 만드는 법: QA가 담금질한 하네스와 품질 게이트 — if(kakao)26 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/if-kakao-26/ai-qa/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"AI 산출물을 믿어도 되게 만드는 법: QA가 담금질한 하네스와 품질 게이트 — if(kakao)26 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/finops/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 2 · 10:30 ~ 11:00"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"유휴 서버를 찾다가 Hybrid Cloud까지 갔습니다: 비용 가시화에서 Unit Economics를 향해가는 카카오의 FinOps 여정"}]]}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/kakaotalk-abusing/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 · DAY 2 · 13:30 ~ 14:00 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"카카오톡에서 발생하는 별별 어뷰징 대응기(aka. SMS Pumping)"}]]}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","왜-하네스인가",{"children":["$","a",null,{"href":"#왜-하네스인가","children":"왜 하네스인가"}]}],["$","li","하네스와-품질-게이트",{"children":["$","a",null,{"href":"#하네스와-품질-게이트","children":"하네스와 품질 게이트"}]}],["$","li","방법론-qa-검증-방식을-개발-단계에-적용",{"children":["$","a",null,{"href":"#방법론-qa-검증-방식을-개발-단계에-적용","children":"방법론 (QA 검증 방식을 개발 단계에 적용)"}]}],["$","li","사례",{"children":["$","a",null,{"href":"#사례","children":"사례"}]}],["$","li","가져갈-것",{"children":["$","a",null,{"href":"#가져갈-것","children":"가져갈 것"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/if-kakao-26/ai-qa.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,130 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Ta06,<p>Serverless Computing?
+하드웨어 리소스 공유 -&gt; VM 리소스 공유 -&gt; 컨테이너 자체 공유</p>
+<p>Backend as a Service
+Database as a Service
+Function as a Service</p>
+<p>Apache OpenWhisk?</p>
+<ul>
+<li>Cold Start<ul>
+<li>아무것도 없는 상태</li>
+<li>컨테이너부터 생성</li>
+</ul>
+</li>
+<li>Prewarmed Start<ul>
+<li>컨테이너만 있음</li>
+<li>코드 초기화부터 실행</li>
+</ul>
+</li>
+<li>Warmed Start<ul>
+<li>코드만 실행</li>
+</ul>
+</li>
+<li>스케쥴링 in OpenWhisk?<ul>
+<li>실행 요청을 어떤 Invoker에게 보낼지 결정</li>
+<li>컨테이너의 재사용이 핵심</li>
+<li>Optimal한 스케쥴링은 불가능</li>
+</ul>
+</li>
+<li>OpenWhisk의 스케쥴링 방식<ul>
+<li>Hash 함수를 통해 위치 결정<ul>
+<li>컨테이너 위치 고려 불필요</li>
+</ul>
+</li>
+<li>각 컨트롤러가 리소스를 나누어 가짐<ul>
+<li>Invoker의 리소스 / Controller의 수</li>
+<li>리소스가 없으면 머기</li>
+<li>다른 컨트롤러의 스케쥴링 고려 불필요</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>근데 도커가 느림</p>
+<ul>
+<li><p>도커는 요청을 절차적으로 처리</p>
+</li>
+<li><p>액션간의 간섭</p>
+<ul>
+<li>액션 실행 시마다 컨테이너의 생성과 삭제 발생</li>
+<li>매번 생성하므로 이후의 모든 실행도 느려짐</li>
+<li>해결?<ul>
+<li>액션 별 메시지 큐를 도입해서 액션 간의 간섭 해결</li>
+<li>pull 기반 스케쥴링</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>앞선 실행을 기다리지 않음</p>
+<ul>
+<li>실행 시간 &lt;= 500ms인 경우, 이전 실행을 기다리는 것이 낫다</li>
+<li>해결?<ul>
+<li>컨테이너의 생성과 액션의 실행을 분리<ul>
+<li>컨테이너의 생성이 기존 실행에 영향을 주지 않음 (async하게 돌아감)</li>
+</ul>
+</li>
+<li>ETCD<ul>
+<li>주기적으로 리소스 상태 기록</li>
+</ul>
+</li>
+<li>Scheduler<ul>
+<li>Kafka를 대체하는 큐를 직접 구현</li>
+<li>왜 NO Kafka?<ul>
+<li>kafka는 컨슈머 수와 동일한 수의 파티션 필요</li>
+<li>그래서 미리 충분히 만들어 둬야함</li>
+<li>컨슈머 개수에 비례한 시간이 걸림</li>
+<li>리밸런싱 개발자 결정 불가</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>시스템의 성능 결정 불가</p>
+<ul>
+<li>동일한 환경에서도 실행되는 액션의 수와 실행하는 유저의 수에 따라 성능이 달라짐</li>
+<li>언제 scale-out할지</li>
+<li>얼마나 서버를 늘릴지</li>
+<li>resource planning 불가</li>
+</ul>
+</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2019","children":"2019"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/deview-2019/","children":"DEVIEW 2019"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"ms 단위의 Serverless World에서 Docker의 성능 한계 극복하기 [#](https://deview.kr/data/deview/2019/presentation/[213]김동경-ms+단위의+Serverless+World에서+Docker의+성능+한계+극복하기.pdf)"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2 · 12:00 ~ 12:45"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/en/conferences/deview-2019/vlive/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← Previous · DAY 2 · 11:00 ~ 11:45"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"덕질의 끝을 보여주고 싶은 Vlive [#](https://deview.kr/data/deview/2019/presentation/[242]덕질의+끝+V+LIVE_2(합본).pdf)"}]]}],"$L13"]}]]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"docker","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"deview-2019","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"ms 단위의 Serverless World에서 Docker의 성능 한계 극복하기 [#](https://deview.kr/data/deview/2019/presentation/[213]김동경-ms+단위의+Serverless+World에서+Docker의+성능+한계+극복하기.pdf) — DEVIEW 2019 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/deview-2019/docker/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/deview-2019/docker/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/deview-2019/docker/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/deview-2019/docker/"}],["$","meta","7",{"property":"og:title","content":"ms 단위의 Serverless World에서 Docker의 성능 한계 극복하기 [#](https://deview.kr/data/deview/2019/presentation/[213]김동경-ms+단위의+Serverless+World에서+Docker의+성능+한계+극복하기.pdf) — DEVIEW 2019 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/deview-2019/docker/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"ms 단위의 Serverless World에서 Docker의 성능 한계 극복하기 [#](https://deview.kr/data/deview/2019/presentation/[213]김동경-ms+단위의+Serverless+World에서+Docker의+성능+한계+극복하기.pdf) — DEVIEW 2019 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","$L11",null,{"href":"/en/conferences/deview-2019/speedy-mongodb/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"Next · DAY 2 · 14:00 ~ 14:45 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"속도의, 속도에 의한, 속도를 위한 몽고DB (네이버 컨텐츠검색과 몽고DB) [#](https://deview.kr/data/deview/2019/presentation/[214]Deview2019_박근배.pdf)"}]]}]
+14:["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":[null,["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/deview-2019/day-2/docker.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

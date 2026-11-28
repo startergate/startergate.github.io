@@ -85,6 +85,18 @@
 <xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/cdn/" />
 </url>
 <url>
+<loc>https://startergate.dev/ko/projects/claude-cross-review/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/claude-cross-review/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/claude-cross-review/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/claude-cross-review/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/projects/claude-cross-review/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/claude-cross-review/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/claude-cross-review/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/claude-cross-review/" />
+</url>
+<url>
 <loc>https://startergate.dev/ko/projects/cloudy/</loc>
 <xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/cloudy/" />
 <xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/cloudy/" />
@@ -431,5 +443,1505 @@
 <xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/projects/zero-password/" />
 <xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/projects/zero-password/" />
 <xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/projects/zero-password/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/welcome-speech/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/welcome-speech/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/welcome-speech/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/welcome-speech/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/welcome-speech/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/welcome-speech/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/welcome-speech/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/welcome-speech/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/finops/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/finops/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/finops/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/finops/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/finops/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/finops/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/finops/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/finops/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/ai-qa/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/ai-qa/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/ai-qa/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/ai-qa/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/ai-qa/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/ai-qa/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/ai-qa/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/ai-qa/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/kakaotalk-abusing/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/kakaotalk-abusing/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/kakaotalk-abusing/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/kakaotalk-abusing/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/kakaotalk-abusing/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/kakaotalk-abusing/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/kakaotalk-abusing/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/kakaotalk-abusing/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/kakaobank/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/kakaobank/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/kakaobank/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/kakaobank/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/kakaobank/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/kakaobank/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/kakaobank/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/kakaobank/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/db-sharding/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/db-sharding/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/db-sharding/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/db-sharding/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/db-sharding/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/db-sharding/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/db-sharding/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/db-sharding/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/if-kakao-26/company-search/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/company-search/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/company-search/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/company-search/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/if-kakao-26/company-search/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/if-kakao-26/company-search/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/if-kakao-26/company-search/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/if-kakao-26/company-search/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2024/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2024/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2024/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2024/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2024/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2024/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2024/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2024/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2024/final-fantasy-vii/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2024/final-fantasy-vii/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2024/final-fantasy-vii/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2024/final-fantasy-vii/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2024/final-fantasy-vii/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2024/final-fantasy-vii/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2024/final-fantasy-vii/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2024/final-fantasy-vii/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2024/steam-and-pc-game-in-2024/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2024/steam-and-pc-game-in-2024/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2024/steam-and-pc-game-in-2024/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2024/steam-and-pc-game-in-2024/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2024/steam-and-pc-game-in-2024/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2024/steam-and-pc-game-in-2024/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2024/steam-and-pc-game-in-2024/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2024/steam-and-pc-game-in-2024/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/lostark/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/lostark/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/lostark/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/lostark/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/lostark/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/lostark/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/lostark/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/lostark/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/mintrocket/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/mintrocket/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/mintrocket/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/mintrocket/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/mintrocket/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/mintrocket/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/mintrocket/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/mintrocket/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/littlq-nightmare/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/littlq-nightmare/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/littlq-nightmare/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/littlq-nightmare/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/littlq-nightmare/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/littlq-nightmare/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/littlq-nightmare/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/littlq-nightmare/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/nier-automata/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/nier-automata/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/nier-automata/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/nier-automata/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/nier-automata/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/nier-automata/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/nier-automata/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/nier-automata/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/dead-space/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/dead-space/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/dead-space/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/dead-space/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/dead-space/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/dead-space/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/dead-space/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/dead-space/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/hifi-rush/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/hifi-rush/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/hifi-rush/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/hifi-rush/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/hifi-rush/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/hifi-rush/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/hifi-rush/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/hifi-rush/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2023/sifu/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/sifu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/sifu/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/sifu/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2023/sifu/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2023/sifu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2023/sifu/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2023/sifu/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/cloud-native-database/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/cloud-native-database/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-native-database/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-native-database/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-native-database/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/cloud-native-database/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-native-database/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-native-database/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/super-app/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/super-app/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/super-app/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/super-app/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/cloud-management/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/cloud-management/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-management/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-management/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-management/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/cloud-management/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-management/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/cloud-management/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/socar/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/socar/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/socar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/socar/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/socar/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/socar/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/socar/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/socar/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/data-governance/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/data-governance/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/data-governance/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/data-governance/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/data-governance/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/data-governance/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/data-governance/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/data-governance/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/netapp/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/netapp/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/netapp/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/netapp/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/netapp/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/netapp/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/netapp/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/netapp/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/aws-summit-seoul-2023/recommendation-search/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/recommendation-search/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/recommendation-search/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/recommendation-search/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/aws-summit-seoul-2023/recommendation-search/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/aws-summit-seoul-2023/recommendation-search/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/recommendation-search/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/aws-summit-seoul-2023/recommendation-search/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/airsearch/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/airsearch/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/airsearch/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/airsearch/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/airsearch/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/airsearch/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/airsearch/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/airsearch/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/hbase-random-read/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/hbase-random-read/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/hbase-random-read/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/hbase-random-read/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/hbase-random-read/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/hbase-random-read/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/hbase-random-read/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/hbase-random-read/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/smartsearch/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/smartsearch/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/smartsearch/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/smartsearch/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/smartsearch/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/smartsearch/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/smartsearch/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/smartsearch/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/kafka/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/kafka/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/kafka/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/kafka/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/kafka/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/kafka/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/kafka/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/kafka/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/graphql/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/graphql/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/graphql/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/graphql/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/graphql/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/graphql/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/graphql/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/graphql/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2023/geo-replication/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/geo-replication/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/geo-replication/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/geo-replication/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2023/geo-replication/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2023/geo-replication/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2023/geo-replication/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2023/geo-replication/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/interactive-storytelling/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/interactive-storytelling/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/interactive-storytelling/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/interactive-storytelling/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/game-maker-mindset/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/game-maker-mindset/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/game-maker-mindset/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/game-maker-mindset/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/game-maker-mindset/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/game-maker-mindset/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/game-maker-mindset/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/game-maker-mindset/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/platinum-games-dev-story/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/platinum-games-dev-story/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/platinum-games-dev-story/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/platinum-games-dev-story/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/platinum-games-dev-story/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/platinum-games-dev-story/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/platinum-games-dev-story/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/platinum-games-dev-story/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/cult-of-the-lamb/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/cult-of-the-lamb/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/cult-of-the-lamb/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/cult-of-the-lamb/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/cult-of-the-lamb/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/cult-of-the-lamb/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/cult-of-the-lamb/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/cult-of-the-lamb/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/story-to-image/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/story-to-image/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/story-to-image/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/story-to-image/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/story-to-image/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/story-to-image/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/story-to-image/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/story-to-image/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/monster-hunter/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/monster-hunter/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/monster-hunter/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/monster-hunter/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/monster-hunter/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/monster-hunter/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/monster-hunter/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/monster-hunter/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/dying-light-2/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/dying-light-2/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/dying-light-2/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/dying-light-2/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/dying-light-2/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/dying-light-2/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/dying-light-2/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/dying-light-2/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2022/lies-of-p/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/lies-of-p/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2022/lies-of-p/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2022/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2022/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2022/lies-of-p/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/nhn-forward-2022/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/nhn-forward-2022/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/nhn-forward-2022/stable-backend/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/stable-backend/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/stable-backend/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/stable-backend/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/nhn-forward-2022/stable-backend/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/stable-backend/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/stable-backend/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/stable-backend/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/nhn-forward-2022/k8s/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/k8s/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/k8s/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/k8s/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/nhn-forward-2022/k8s/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/k8s/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/k8s/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/k8s/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/nhn-forward-2022/openapi/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/openapi/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/openapi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/openapi/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/nhn-forward-2022/openapi/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/openapi/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/openapi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/openapi/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/nhn-forward-2022/vault/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/vault/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/vault/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/vault/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/nhn-forward-2022/vault/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/vault/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/vault/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/vault/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/nhn-forward-2022/statics/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/statics/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/statics/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/statics/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/nhn-forward-2022/statics/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/nhn-forward-2022/statics/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/nhn-forward-2022/statics/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/nhn-forward-2022/statics/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/game-storytelling/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/game-storytelling/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/game-storytelling/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/game-storytelling/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/game-storytelling/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/game-storytelling/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/game-storytelling/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/game-storytelling/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/director/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/director/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/director/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/director/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/director/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/director/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/director/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/director/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/tfm/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/tfm/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/tfm/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/tfm/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/tfm/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/tfm/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/tfm/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/tfm/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/ost/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/ost/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/ost/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/ost/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/ost/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/ost/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/ost/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/ost/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/lies-of-p/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/lies-of-p/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/lies-of-p/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/lies-of-p/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/lies-of-p/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/narrative/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/narrative/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/narrative/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/narrative/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/narrative/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/narrative/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/narrative/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/narrative/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/metalic-child/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/metalic-child/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/metalic-child/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/metalic-child/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/metalic-child/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/metalic-child/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/metalic-child/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/metalic-child/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2021/mmorpg-ranking-server/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/mmorpg-ranking-server/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/mmorpg-ranking-server/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/mmorpg-ranking-server/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2021/mmorpg-ranking-server/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2021/mmorpg-ranking-server/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2021/mmorpg-ranking-server/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2021/mmorpg-ranking-server/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/pycon-kr-2020/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/pycon-kr-2020/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/pycon-kr-2020/django-orm/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/django-orm/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/django-orm/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/pycon-kr-2020/launching-service/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/launching-service/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/launching-service/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/launching-service/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/pycon-kr-2020/launching-service/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/launching-service/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/launching-service/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/launching-service/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/pycon-kr-2020/grpc-python/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/grpc-python/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/grpc-python/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/grpc-python/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/pycon-kr-2020/grpc-python/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/grpc-python/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/grpc-python/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/grpc-python/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/pycon-kr-2020/video-streaming/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/video-streaming/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/video-streaming/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/video-streaming/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/pycon-kr-2020/video-streaming/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/pycon-kr-2020/video-streaming/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/pycon-kr-2020/video-streaming/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/pycon-kr-2020/video-streaming/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/realtime-game-server-optimization/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/cpp-redis/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/cpp-redis/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/cpp-redis/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/cpp-redis/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/cpp-redis/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/cpp-redis/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/cpp-redis/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/cpp-redis/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/lightning-talk/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/lightning-talk/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/lightning-talk/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/lightning-talk/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/lightning-talk/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-mini-2020-2/lightning-talk/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/lightning-talk/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-mini-2020-2/lightning-talk/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/monthly-gdg-gwangju-2019-12/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/monthly-gdg-gwangju-2019-12/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/monthly-gdg-gwangju-2019-12/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/monthly-gdg-gwangju-2019-12/note/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/monthly-gdg-gwangju-2019-12/note/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/note/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/note/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/note/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/monthly-gdg-gwangju-2019-12/note/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/note/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/monthly-gdg-gwangju-2019-12/note/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/supercell-culture/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/supercell-culture/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/supercell-culture/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/supercell-culture/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/supercell-culture/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/supercell-culture/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/supercell-culture/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/supercell-culture/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/total-war-three-kingdom/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/total-war-three-kingdom/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/total-war-three-kingdom/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/total-war-three-kingdom/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/total-war-three-kingdom/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/total-war-three-kingdom/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/total-war-three-kingdom/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/total-war-three-kingdom/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/journey/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/journey/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/journey/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/journey/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/journey/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/journey/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/journey/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/journey/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/indie/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/indie/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/indie/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/indie/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/indie/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/indie/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/indie/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/indie/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/europe/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/europe/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/europe/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/europe/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/europe/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/europe/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/europe/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/europe/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/borderlands-3/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/borderlands-3/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/borderlands-3/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/borderlands-3/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/borderlands-3/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/borderlands-3/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/borderlands-3/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/borderlands-3/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/bloodstained/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/bloodstained/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/bloodstained/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/bloodstained/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/bloodstained/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/bloodstained/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/bloodstained/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/bloodstained/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/eve-online/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/eve-online/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/eve-online/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/eve-online/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/eve-online/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/eve-online/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/eve-online/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/eve-online/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/keep-on-moving/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/keep-on-moving/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/keep-on-moving/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/keep-on-moving/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/keep-on-moving/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/keep-on-moving/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/keep-on-moving/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/keep-on-moving/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/g-con-2019/just-cause-4/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/just-cause-4/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/just-cause-4/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/just-cause-4/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/g-con-2019/just-cause-4/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/g-con-2019/just-cause-4/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/g-con-2019/just-cause-4/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/g-con-2019/just-cause-4/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/wifi-ap-map/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/wifi-ap-map/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/wifi-ap-map/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/wifi-ap-map/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/wifi-ap-map/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/wifi-ap-map/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/wifi-ap-map/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/wifi-ap-map/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/bert-into-nmt/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/bert-into-nmt/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/bert-into-nmt/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/bert-into-nmt/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/bert-into-nmt/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/bert-into-nmt/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/bert-into-nmt/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/bert-into-nmt/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/ocr/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/ocr/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/ocr/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/ocr/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/ocr/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/ocr/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/ocr/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/ocr/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/labeling/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/labeling/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/labeling/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/labeling/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/labeling/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/labeling/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/labeling/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/labeling/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/category/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/category/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/category/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/category/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/category/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/category/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/category/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/category/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/ai-designer/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/ai-designer/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/ai-designer/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/ai-designer/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/ai-designer/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/ai-designer/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/ai-designer/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/ai-designer/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/log/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/log/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/log/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/log/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/log/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/log/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/log/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/log/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/vlive/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/vlive/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/vlive/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/vlive/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/vlive/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/vlive/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/vlive/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/vlive/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/docker/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/docker/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/docker/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/docker/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/docker/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/docker/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/docker/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/docker/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/speedy-mongodb/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/speedy-mongodb/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/speedy-mongodb/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/speedy-mongodb/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/speedy-mongodb/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/speedy-mongodb/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/speedy-mongodb/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/speedy-mongodb/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/coupang/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/coupang/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/coupang/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/coupang/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/coupang/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/coupang/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/coupang/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/coupang/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/deview-2019/monitoring/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/monitoring/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/monitoring/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/monitoring/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/deview-2019/monitoring/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/deview-2019/monitoring/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/deview-2019/monitoring/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/deview-2019/monitoring/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/opensource-library/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/opensource-library/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/opensource-library/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/opensource-library/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/opensource-library/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/opensource-library/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/opensource-library/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/opensource-library/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/modern-productive-cs8/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/automl-with-dotnet-core/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/dotnet-conf-2019-seoul/dotnet-changes-and-dotnet-core-3/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/keynote/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/keynote/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/keynote/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/keynote/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/fp/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/fp/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/fp/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/fp/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/fp/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/fp/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/fp/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/fp/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/webgpu/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/webgpu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/webgpu/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/webgpu/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/webgpu/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/webgpu/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/webgpu/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/webgpu/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/toy-project/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/toy-project/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/toy-project/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/toy-project/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/toy-project/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/toy-project/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/toy-project/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/toy-project/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/testable-architecture/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/testable-architecture/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/testable-architecture/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/serverless-content-recommendation/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/serverless-content-recommendation/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/serverless-content-recommendation/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/serverless-content-recommendation/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/serverless-content-recommendation/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/serverless-content-recommendation/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/serverless-content-recommendation/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/serverless-content-recommendation/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/data-visualize/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/data-visualize/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/data-visualize/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/data-visualize/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/embedding/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/embedding/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/embedding/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/embedding/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/embedding/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/embedding/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/embedding/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/embedding/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/kartrider-tmi/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/kartrider-tmi/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/kartrider-tmi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/kartrider-tmi/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/kartrider-tmi/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/kartrider-tmi/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/kartrider-tmi/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/kartrider-tmi/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/data-visualize-via-web/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/data-visualize-via-web/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize-via-web/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize-via-web/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/data-visualize-via-web/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/data-visualize-via-web/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize-via-web/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/data-visualize-via-web/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/tada-server-data-warehouse/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/tada-server-data-warehouse/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/tada-server-data-warehouse/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/tada-server-data-warehouse/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/tada-server-data-warehouse/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/tada-server-data-warehouse/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/tada-server-data-warehouse/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/tada-server-data-warehouse/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/data-culture/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/data-culture/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/data-culture/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/data-culture/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/data-culture/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/data-culture/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/data-culture/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/data-culture/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/fuck-abusers/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/fuck-abusers/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/fuck-abusers/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/fuck-abusers/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/fuck-abusers/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/fuck-abusers/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/fuck-abusers/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/fuck-abusers/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/datayanolja-2019/one-year-on-data-analyst/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/one-year-on-data-analyst/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/one-year-on-data-analyst/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/one-year-on-data-analyst/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/datayanolja-2019/one-year-on-data-analyst/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/datayanolja-2019/one-year-on-data-analyst/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/datayanolja-2019/one-year-on-data-analyst/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/datayanolja-2019/one-year-on-data-analyst/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-seminar-6/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-seminar-6/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-seminar-6/strong-type-in-cpp/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/strong-type-in-cpp/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/strong-type-in-cpp/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/strong-type-in-cpp/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-seminar-6/strong-type-in-cpp/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/strong-type-in-cpp/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/strong-type-in-cpp/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/strong-type-in-cpp/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-seminar-6/cpp-opensource-101/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/cpp-opensource-101/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-opensource-101/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-opensource-101/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-opensource-101/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/cpp-opensource-101/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-opensource-101/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-opensource-101/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-seminar-6/virtual-and-concepts/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/virtual-and-concepts/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/virtual-and-concepts/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/virtual-and-concepts/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-seminar-6/virtual-and-concepts/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/virtual-and-concepts/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/virtual-and-concepts/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/virtual-and-concepts/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-seminar-6/cpp-reference/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/cpp-reference/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-reference/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-reference/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-reference/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/cpp-reference/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-reference/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/cpp-reference/" />
+</url>
+<url>
+<loc>https://startergate.dev/ko/conferences/cpp-kr-seminar-6/system-api-and-coroutine/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/system-api-and-coroutine/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/system-api-and-coroutine/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/system-api-and-coroutine/" />
+</url>
+<url>
+<loc>https://startergate.dev/en/conferences/cpp-kr-seminar-6/system-api-and-coroutine/</loc>
+<xhtml:link rel="alternate" hreflang="ko" href="https://startergate.dev/ko/conferences/cpp-kr-seminar-6/system-api-and-coroutine/" />
+<xhtml:link rel="alternate" hreflang="en" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/system-api-and-coroutine/" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://startergate.dev/en/conferences/cpp-kr-seminar-6/system-api-and-coroutine/" />
 </url>
 </urlset>

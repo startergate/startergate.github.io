@@ -1,0 +1,137 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Ta28,<h2 id="로그-저장-이야기">로그 저장 이야기</h2>
+<p>기존 문제</p>
+<ul>
+<li><p>생산자와 소비자의 강한 결합</p>
+<ul>
+<li>생산자와 소비자의 분리</li>
+</ul>
+</li>
+<li><p>유실 없는 로그 저장</p>
+<ul>
+<li>At-least-once Delivery<ul>
+<li>데이터 중복 발생 가능</li>
+<li>고유 식별자를 바탕으로 RowKey 생성</li>
+<li>같은 로그는 하나의 고유한 식별자가 할당되어야</li>
+<li>How?<ul>
+<li>Hash값<ul>
+<li>내용만 같으면 같은 Hash =&gt; X</li>
+</ul>
+</li>
+<li>시퀀스 값 발급<ul>
+<li>시퀀스 값 발급 서버가 병목 지점이 됨</li>
+</ul>
+</li>
+<li>UUID (범용 고유 식별자)<ul>
+<li>UUID V1 모방<ul>
+<li>+ Variant 값</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p>원하는 기간</p>
+</li>
+<li><p>필요한 필드만</p>
+</li>
+<li><p>돌일한 인터페이스</p>
+</li>
+<li><p>보안 정보 처리</p>
+<ul>
+<li>보안 정보 분리 저장</li>
+<li>주기적 삭제</li>
+<li>데이터 접근 제어</li>
+</ul>
+</li>
+<li><p>데이터를 읽는 패턴과 포맷이 비슷하면 같은 Column Family로 묶는 것이 효율적</p>
+</li>
+<li><p>저장 공간을 용도별로 나눈다</p>
+</li>
+</ul>
+<p>Data Catalog</p>
+<ul>
+<li>사용자 역할 관리</li>
+<li>데이터 필드 정보 및 포맷 관리</li>
+<li>티켓<ul>
+<li>리소스 관리 및 접근 제어</li>
+</ul>
+</li>
+<li>RGM과 티켓 정보만 알면 로그 사용 가능</li>
+</ul>
+<p>로그 활용의 문제점</p>
+<ul>
+<li>번거로운 프로세스</li>
+<li>원하는 시점에 분석 힘듬 (수동적)</li>
+<li>부정확한 지표 (폐쇄적)</li>
+<li>중복된 추출 로직</li>
+<li>반복적인 추출 로직</li>
+<li>서비스에 대한 이해 부족</li>
+</ul>
+<p>=&gt; DataStore</p>
+<p>비 개발 작군에게는 사용성의 한계<br />
+=&gt; SQL 인터페이스</p>
+<p>특정 기간을 기준으로 하면 빠름</p>
+<p>컬럼을 해시 기준으로 지정된 버킷 개수의 파일로 분리해 저장</p>
+<ul>
+<li>partition 날짜 기준 지정 = 디렉토리</li>
+<li>bucket 검색어 기준 분류 = 파일</li>
+</ul>
+<p>bucket</p>
+<ul>
+<li>특정 검색어가 집중되면</li>
+<li>해당 검색어 bucket 파일 사이저가 커짐</li>
+<li>해당 bucket의 생성 시간이 오래 걸림</li>
+<li>shuffle 단계에서 메모리 에러</li>
+<li>위의 문제를 해결하기 위해 메모리를 늘려줄 필요<ul>
+<li>DISC I/O 증가</li>
+</ul>
+</li>
+</ul>
+<p>External Table</p>
+<ul>
+<li>안전</li>
+<li>HDFS가 아니여도 Table화 가능</li>
+<li>데이터 소스 변경 용이</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2019","children":"2019"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/deview-2019/","children":"DEVIEW 2019"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"네이버 로그를 지탱하는 힘  (DataStore 로그 저장소) [#](https://deview.kr/data/deview/2019/presentation/[211]네이버+로그를+지탱하는+힘_20191025_강민우_이윤경.pdf)"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2 · 10:00 ~ 10:45"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/deview-2019/ai-designer/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 1 · 17:15 ~ 18:00"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"AI Designer : 스스로 디자인하는 AI [#](https://deview.kr/data/deview/2019/presentation/[146]%20AI%20Designer%20스스로%20디자인하는%20AI.pdf)"}]]}],"$L13"]}]]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"log","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"deview-2019","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"네이버 로그를 지탱하는 힘  (DataStore 로그 저장소) [#](https://deview.kr/data/deview/2019/presentation/[211]네이버+로그를+지탱하는+힘_20191025_강민우_이윤경.pdf) — DEVIEW 2019 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/deview-2019/log/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/deview-2019/log/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/deview-2019/log/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/deview-2019/log/"}],["$","meta","7",{"property":"og:title","content":"네이버 로그를 지탱하는 힘  (DataStore 로그 저장소) [#](https://deview.kr/data/deview/2019/presentation/[211]네이버+로그를+지탱하는+힘_20191025_강민우_이윤경.pdf) — DEVIEW 2019 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/deview-2019/log/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"네이버 로그를 지탱하는 힘  (DataStore 로그 저장소) [#](https://deview.kr/data/deview/2019/presentation/[211]네이버+로그를+지탱하는+힘_20191025_강민우_이윤경.pdf) — DEVIEW 2019 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","$L11",null,{"href":"/ko/conferences/deview-2019/vlive/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 · DAY 2 · 11:00 ~ 11:45 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"덕질의 끝을 보여주고 싶은 Vlive [#](https://deview.kr/data/deview/2019/presentation/[242]덕질의+끝+V+LIVE_2(합본).pdf)"}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","로그-저장-이야기",{"children":["$","a",null,{"href":"#로그-저장-이야기","children":"로그 저장 이야기"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/deview-2019/day-2/log.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

@@ -1,0 +1,92 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Tca0,<p><a href="https://youtu.be/EZgLfDrUlrk" target="_blank" rel="noreferrer">YouTube</a></p>
+<p><a href="https://github.com/KimSoungRyoul/Django_ORM_pratice_project/files/5286018/PyConKR-2020-.ORM_.pdf" target="_blank" rel="noreferrer">PDF</a></p>
+<h4>Django ORM의 특징</h4>
+<ul>
+<li>Lazy Loading</li>
+<li>실제로 데이터에 접근하는 시점에 SQL을 호출</li>
+<li>Greedy하게 호출하기 때문에 2번 호출하게 되는 경우 발생</li>
+<li>=&gt; QuerySet Caching 필요</li>
+<li><img src="https://raw.githubusercontent.com/startergate/Conferences/master/pycon-kr-2020/statics/1.png" alt="" loading="lazy" /></li>
+<li>즉시 로딩을 통해 해결</li>
+</ul>
+<h4>QuerySet 상세</h4>
+<ul>
+<li>select_related와 prefetch_related</li>
+<li>selected_related</li>
+<li>조인으로 수행</li>
+<li>=&gt; 즉시 로딩</li>
+<li>prefetch_related</li>
+<li>추가 SQL로 수행</li>
+<li>전부 새로운 쿼리셋으로 실행</li>
+<li>=&gt; 필드 하나당 쿼리 하나
+   =&gt; 느린 로딩</li>
+<li>CaptureQueriesContext 활용 - SQL Performance 커버</li>
+<li><img src="https://raw.githubusercontent.com/startergate/Conferences/master/pycon-kr-2020/statics/2.png" alt="" loading="lazy" /></li>
+</ul>
+<h3>실수하기 쉬운 QuerySet의 특성들</h3>
+<ul>
+<li>prefetch_related와 filter는 완전 별개의 쿼리 실행</li>
+<li>메인 쿼리에서 Join하고 추가 쿼리에서 한번 더 조회</li>
+<li><img src="https://raw.githubusercontent.com/startergate/Conferences/master/pycon-kr-2020/statics/3.png" alt="" loading="lazy" /></li>
+<li>annotate =&gt; select_related =&gt; filter =&gt; prefetch_related</li>
+<li>이 순서가 실제 SQL 실행 순서와 가장 유사</li>
+<li>다른건 몰라도 prefetch_related는 filter 뒤에 두는게 낫다.</li>
+<li>QuerySet 캐시를 재활용하지 못하는 queryset 호출</li>
+<li>.all을 호출하고 list 문법 사용해서 사용해야</li>
+<li><img src="https://raw.githubusercontent.com/startergate/Conferences/master/pycon-kr-2020/statics/4.png" alt="" loading="lazy" /></li>
+<li>RawQuerySet (.raw) 은 NativeSQL이 아니다</li>
+<li>여전히 prefetch_related(), Prefetch() 사용 가능</li>
+<li>대신 아래의 내용은 사용 불가</li>
+<li><img src="https://raw.githubusercontent.com/startergate/Conferences/master/pycon-kr-2020/statics/5.png" alt="" loading="lazy" /></li>
+<li>서브 쿼리 발생 조건</li>
+<li>QuerySet 안에 QuerySet이 있는 경우에 발생</li>
+<li>QuerySet이 아니도록 만들어 해결</li>
+<li>exclude를 역방향 참조 모델에 사용하는 경우에 발생</li>
+<li>Join으로 풀리게 유도가 불가능</li>
+<li>prefetch_related(Prefetch())를 사용하는 방식으로 대체</li>
+<li>정방향에서는 정상 작동</li>
+<li>QuerySet의 반환 타입</li>
+<li><img src="https://raw.githubusercontent.com/startergate/Conferences/master/pycon-kr-2020/statics/6.png" alt="" loading="lazy" /></li>
+<li>values(), values_list() 사용시 EagerLoading 무시</li>
+<li>select_related, prefetch_related 전부 무시</li>
+</ul>
+<h3>QuerySet을 잘 사용하는 법</h3>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/pycon-kr-2020/statics/7.png" alt="" loading="lazy" /></p>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2020","children":"2020"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/pycon-kr-2020/","children":"파이콘 한국 2020 (온라인)"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 1"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"[Django ORM (QuerySet)구조와 원리 그리고 최적화전략](https://pycon.kr/2020/program/talk/11)"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 1 · 13:10 ~ 14:10"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"django-orm","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"pycon-kr-2020","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"[Django ORM (QuerySet)구조와 원리 그리고 최적화전략](https://pycon.kr/2020/program/talk/11) — 파이콘 한국 2020 (온라인) | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/pycon-kr-2020/django-orm/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/"}],["$","meta","7",{"property":"og:title","content":"[Django ORM (QuerySet)구조와 원리 그리고 최적화전략](https://pycon.kr/2020/program/talk/11) — 파이콘 한국 2020 (온라인) | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/pycon-kr-2020/django-orm/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"[Django ORM (QuerySet)구조와 원리 그리고 최적화전략](https://pycon.kr/2020/program/talk/11) — 파이콘 한국 2020 (온라인) | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":[null,["$","$L11",null,{"href":"/en/conferences/pycon-kr-2020/launching-service/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"Next · DAY 1 · 14:10 ~ 15:00 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"[글로벌 방송국 서비스 1인 개국기](https://pycon.kr/2020/program/talk/14)"}]]}]]}]
+14:["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":[null,["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/pycon-kr-2020/django-orm.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

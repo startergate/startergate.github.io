@@ -1,0 +1,142 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Tb31,<p>테스트?</p>
+<ul>
+<li>값이 원하는 형태가 되는가</li>
+<li>원하는 동작을 연계해서 수행하는가</li>
+<li>검증하고자 하는 메소드를 수행시켰을 때,<ul>
+<li>원하는 값의 assert()가 true</li>
+<li>원하는 동작의 verify()가 true</li>
+</ul>
+</li>
+</ul>
+<p>테스트를 어렵게 하는 것</p>
+<ul>
+<li>의존 class의 동작<ul>
+<li>Mocking, Stub 활용</li>
+</ul>
+</li>
+<li>안드로이드 의존 동작<ul>
+<li>context 기능을 wrapping</li>
+<li>=&gt; wrapping 클래스를 mocking</li>
+</ul>
+</li>
+<li>=&gt; solve =&gt; testable architecture</li>
+</ul>
+<p>Architecture?</p>
+<ul>
+<li>코드의 역할을 분리하여 여러 이즘을 얻는다<ul>
+<li>가독성 (높은 응집도)</li>
+<li>변경 유연함 (낮은 결합도)</li>
+</ul>
+</li>
+<li>MVP, MVVM</li>
+<li>그냥 사용 시 Not Testable</li>
+<li>몇 원칙을 기반으로 개선하면 Testable Architecture<ul>
+<li>의존성 객체는 모두 주입<ul>
+<li>static class를 일반 클래스로 변경</li>
+</ul>
+</li>
+<li>안드로이드 의존 동작은 wrapping<ul>
+<li>SDK =&gt; Context 기능 Wrapping</li>
+<li>UI =&gt; View Interface로 Wrapping</li>
+<li>DB / API =&gt; Repository Interface로 Wrapping</li>
+<li>=&gt; MVP의 기본</li>
+</ul>
+</li>
+<li>모든 동작은 Presenter를 사용<ul>
+<li>View는 Presenter 실행만</li>
+<li>Passive View</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>Instrument Test</p>
+<ul>
+<li>UI Test</li>
+<li>DB Test</li>
+</ul>
+<p>Testable Architecture라면 View와 Repository만 추가적으로 테스트</p>
+<p>테스트를 어렵게 하는게 저거 2개?<br />
+=&gt; x. QA로 하는게 나은거 같다<br />
+테스트를 추가할 시간이 없다<br />
+효용성을 모르겠다. 너무 바빠서 동기가 안 산다</p>
+<p>테스트의 효용성</p>
+<ul>
+<li>동작 확인</li>
+<li>변경 유연성 확보<ul>
+<li>테스트가 있는 class는 변경해도 안심</li>
+<li>장기적으로 테스트가 있는게 생산성이 훨씬 빠름</li>
+</ul>
+</li>
+<li>코드리뷰를 도움<ul>
+<li>테스트는 의도를 명시화</li>
+<li>테스트를 파악하고 코드를 보면 리뷰가 수월하다</li>
+</ul>
+</li>
+</ul>
+<p>테스트 동기부여</p>
+<ul>
+<li>리포트로 현타를 받자<ul>
+<li>Codecov</li>
+</ul>
+</li>
+<li>익숙해질때까지 강제성을 두자<ul>
+<li>커버리지 이전보다 안 높으면 &quot;Don&#39;t Approve&quot;</li>
+</ul>
+</li>
+<li>쉬운 것부터 차근차근<ul>
+<li>Presenter/Unit 테스트가<ul>
+<li>속도가 빠르다</li>
+<li>수명도 길다</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>결론</p>
+<ul>
+<li>테스트를 잘 하려면 역할이 잘 분리된 Architecture가 필요</li>
+<li>실제 서비스에서는 영향을 주고받는 컨텍스트가 많음<ul>
+<li>QA는 여전히 필요함</li>
+</ul>
+</li>
+<li>복잡하지 않은 동작은 테스트로 검증!</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"Breadcrumb","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/en/conferences/","children":"Conferences"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/#year-2019","children":"2019"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/en/conferences/gdg-devfest-seoul-2019/","children":"GDG Devfest 2019 Seoul"}],null]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"테스트 관점으로 아키텍쳐 완성하기 [#](https://speakerdeck.com/maryang/teseuteu-gwanjeomeuro-akitegcyeo-wanseonghagi-testable-architecture?slide=40)"}],null]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],["$","nav",null,{"aria-label":"Session navigation","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/en/conferences/gdg-devfest-seoul-2019/bert-in-kaggle/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← Previous"}],"$L13"]}],null]}]]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"testable-architecture","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"gdg-devfest-seoul-2019","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"en","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"테스트 관점으로 아키텍쳐 완성하기 [#](https://speakerdeck.com/maryang/teseuteu-gwanjeomeuro-akitegcyeo-wanseonghagi-testable-architecture?slide=40) — GDG Devfest 2019 Seoul | STARTERGATE"}],["$","meta","1",{"name":"description","content":"I'm STARTERGATE. Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/gdg-devfest-seoul-2019/testable-architecture/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/"}],["$","meta","7",{"property":"og:title","content":"테스트 관점으로 아키텍쳐 완성하기 [#](https://speakerdeck.com/maryang/teseuteu-gwanjeomeuro-akitegcyeo-wanseonghagi-testable-architecture?slide=40) — GDG Devfest 2019 Seoul | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/en/conferences/gdg-devfest-seoul-2019/testable-architecture/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"en_US"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"ko_KR"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"테스트 관점으로 아키텍쳐 완성하기 [#](https://speakerdeck.com/maryang/teseuteu-gwanjeomeuro-akitegcyeo-wanseonghagi-testable-architecture?slide=40) — GDG Devfest 2019 Seoul | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"I'm STARTERGATE. Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","span",null,{"className":"sbwKFq_pagerTitle","children":"BERT in Kaggle"}]
+14:["$","aside",null,{"aria-label":"On this page","className":"sbwKFq_toc","children":[null,["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/gdg-devfest-seoul-2019/testable-architecture.md","target":"_blank","rel":"noreferrer","children":["View this note on GitHub",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

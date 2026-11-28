@@ -1,0 +1,132 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:Te3d,<p><a href="https://youtu.be/gZElFqytfac" target="_blank" rel="noreferrer">YouTube</a></p>
+<h2 id="다양한-산업에서의-iot-중요성">다양한 산업에서의 IoT 중요성</h2>
+<h3>제조 산업 트렌드</h3>
+<ul>
+<li>데이터는 석유 그 이상</li>
+<li>디지털로 실행되는 제조업</li>
+<li>서비스로의 제품 (Product-as-a-service)</li>
+<li>스마트 제품</li>
+<li>지속 가능성</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3609.jpeg" alt="" loading="lazy" /></p>
+<h3>IoT 솔루션의 복잡성</h3>
+<ul>
+<li>디바이스 &amp; 센서<ul>
+<li>온보딩</li>
+<li>프로비저닝</li>
+<li>관리</li>
+</ul>
+</li>
+<li>연결성 &amp; 인프라<ul>
+<li>연결</li>
+<li>커뮤니케이션</li>
+<li>보안</li>
+</ul>
+</li>
+<li>분석 &amp; 통찰력<ul>
+<li>분석</li>
+<li>시각화</li>
+<li>조치</li>
+</ul>
+</li>
+<li>어플리케이션 &amp; 서비스<ul>
+<li>참여</li>
+<li>권한부여</li>
+<li>경험</li>
+</ul>
+</li>
+<li>변화 관리<ul>
+<li>변화</li>
+<li>혁신 문화</li>
+</ul>
+</li>
+</ul>
+<h2 id="socar의-carsharing과-fms로-그리는-미래">SOCAR의 Carsharing과 FMS로 그리는 미래</h2>
+<p><img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3610.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3611.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3612.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3613.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3614.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3615.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3616.jpeg" alt="" loading="lazy" />
+<img src="https://raw.githubusercontent.com/startergate/Conferences/master/aws-summit-seoul-2023/day-1/static/IMG_3617.jpeg" alt="" loading="lazy" /></p>
+<h2 id="기술로-풀어보는-iot-데이터">기술로 풀어보는 IoT 데이터</h2>
+<h3>IoT 디바이스가 직면한 문제</h3>
+<ul>
+<li>물리 차량 댓수 증가</li>
+<li>RESTful API 서버의 한계</li>
+<li>관리, 비용 이슈
+</li>
+</ul>
+<h3>힘겨워하는 Aurora</h3>
+<ul>
+<li>IoT Data 적재량 증가</li>
+<li>CPU, Memory, Disk 사용량 증가</li>
+<li>빈번한 데이터 적재 누락</li>
+<li>쓰기 지연 발생</li>
+<li>타 서비스 영향 발생</li>
+</ul>
+<h3>데이터 파이프라인</h3>
+<p></p>
+<h4>스트림 구성</h4>
+<p>요구 사항</p>
+<ul>
+<li>서비스 분석 등을 위해 재사용 가능한 IoT 데이터</li>
+<li>어떠한 종류의 데이터베이스에도 데이터 적재</li>
+<li>쉬운 데이터 파이프라인 추가 &amp; 변경</li>
+<li>=&gt; Data Stream 구성 의사 결정</li>
+</ul>
+<p></p>
+<p>숙제들</p>
+<ul>
+<li>20000여대의 차량이 동시에 전송하는 데이터 핸들링</li>
+<li>어떠한 상황에서도 높은 성능 유지</li>
+<li>유연한 Message Protocol 핸들링</li>
+<li>여러가지 변경 (추가, 수정)에 유연하게 대응<ul>
+<li>Kafka Topic</li>
+<li>Message Protocol</li>
+<li>Database</li>
+</ul>
+</li>
+</ul>
+<p></p>
+<p>
+</p>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2023","children":"2023"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/aws-summit-seoul-2023/","children":"AWS Summit Seoul 2023"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 1"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"SOCAR는 어떻게 2만대의 차량을 운영할까?: IoT Data의 수집부터 분석까지"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[null,["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 1 · 17:20 ~ 18:00"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"socar","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"aws-summit-seoul-2023","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"SOCAR는 어떻게 2만대의 차량을 운영할까?: IoT Data의 수집부터 분석까지 — AWS Summit Seoul 2023 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/aws-summit-seoul-2023/socar/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/aws-summit-seoul-2023/socar/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/aws-summit-seoul-2023/socar/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/aws-summit-seoul-2023/socar/"}],["$","meta","7",{"property":"og:title","content":"SOCAR는 어떻게 2만대의 차량을 운영할까?: IoT Data의 수집부터 분석까지 — AWS Summit Seoul 2023 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/aws-summit-seoul-2023/socar/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"SOCAR는 어떻게 2만대의 차량을 운영할까?: IoT Data의 수집부터 분석까지 — AWS Summit Seoul 2023 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/aws-summit-seoul-2023/cloud-management/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 1 · 16:30 ~ 17:00"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"Observability를 넘어선 클라우드 운영관리의 미래"}]]}],["$","$L11",null,{"href":"/ko/conferences/aws-summit-seoul-2023/data-governance/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 · DAY 2 · 13:10 ~ 13:50 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"데이터 공유와 활용! 전사 데이터 거버넌스를 위한 3가지 비밀 무기"}]]}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","다양한-산업에서의-iot-중요성",{"children":["$","a",null,{"href":"#다양한-산업에서의-iot-중요성","children":"다양한 산업에서의 IoT 중요성"}]}],["$","li","socar의-carsharing과-fms로-그리는-미래",{"children":["$","a",null,{"href":"#socar의-carsharing과-fms로-그리는-미래","children":"SOCAR의 Carsharing과 FMS로 그리는 미래"}]}],["$","li","기술로-풀어보는-iot-데이터",{"children":["$","a",null,{"href":"#기술로-풀어보는-iot-데이터","children":"기술로 풀어보는 IoT 데이터"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/aws-summit-seoul-2023/day-1/socar.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

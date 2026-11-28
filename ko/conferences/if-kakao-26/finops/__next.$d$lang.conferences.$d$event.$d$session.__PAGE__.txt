@@ -1,0 +1,178 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T207d,<h2 id="유휴-서버-줄이면-되는-것-아닌가요">유휴 서버, 줄이면 되는 것 아닌가요?</h2>
+<ul>
+<li>매년 서버 구매 예산 때마다 &quot;정말 이만큼 필요한가?&quot; - 재무는 구매 규모가 부담, 서비스 조직은 여유를 원함</li>
+<li>그런데 이미 가진 서버 중 CPU / 메모리 / 네트워크 사용률이 낮은 유휴 서버도 적지 않음 -&gt; 회수해서 재배치하면 되지 않나?</li>
+</ul>
+<p>사용률이 낮다 -&gt;</p>
+<ul>
+<li>서비스가 끝났는데 정리되지 않은 자원<ul>
+<li>사용 여부 확인 후 회수하면 됨</li>
+</ul>
+</li>
+<li>장애가 났을때 대신 일해야 하는 자원</li>
+<li>배치, 이벤트를 기다리는 자원<ul>
+<li>사용률이 낮다는 이유만으로 바로 회수할 수 없음</li>
+</ul>
+</li>
+<li>&quot;남아 보인다&quot;와 &quot;회수할 수 있다&quot;는 다른 이야기</li>
+<li>파드 리소스 리퀘스트처럼 여유를 두는 건 합리적이지만, 필요한 여유와 과도하게 확보한 자원을 구분할 데이터가 없었음</li>
+<li>서버를 하나하나 들여다볼 수는 없으니 판단 기준이 필요</li>
+</ul>
+<p>그래서 우리는 무엇을 근거로 가장 효율적인 판단을 할 수 있는가?</p>
+<ul>
+<li>그 판단의 기준을 찾아온 여정</li>
+<li>실제로 카카오는 무엇을 바꿔왔는가</li>
+</ul>
+<h2 id="이-서버-누가-왜-쓰고-있나요">이 서버, 누가 왜 쓰고 있나요?</h2>
+<ul>
+<li>서버 신청서로 알 수 있던 것: 어떤 조직이 얼마나 샀는지, 작년 대비 증가량, 공통 플랫폼이 산 서버 양</li>
+<li>알 수 없던 것: 조직이 아니라 어떤 서비스가 얼마나 쓰는지, 공통 플랫폼을 실제로 쓰는 서비스가 어딘지<ul>
+<li>플랫폼마다 사용자 구분 방식이 다름 (조직 / 계정 / 플랫폼 자체 기준)</li>
+<li>플랫폼 비용 증가를 서비스 변화와 연결해서 따라가기 어려움</li>
+</ul>
+</li>
+<li>자원 제공 방식의 변화: SE가 함께 규모 산정 -&gt; 사용자가 직접 신청하는 셀프 서비스<ul>
+<li>속도는 유지하되, 각 팀이 확보한 자원이 적정한지 전사가 같은 기준으로 볼 수 있어야 함</li>
+</ul>
+</li>
+<li>관점 전환: 어느 조직이 샀는가 -&gt; 어떤 서비스가 쓰는가</li>
+</ul>
+<p>서비스 카탈로그</p>
+<ul>
+<li>서버, DB, 플랫폼을 서비스라는 기준으로 연결</li>
+<li>실무적으로 가장 어려웠던 작업 - 플랫폼별 사용자 관리 방식이 다르고, 이미 운영 중인 시스템에 새 기준을 연결해야 했음</li>
+<li>결과: 서비스별 서버 / DB / 공통 플랫폼 사용량과 그 비용 추적 가능 (수치는 비공개)</li>
+</ul>
+<h2 id="비용이-늘었는데-그건-나쁜건가요">비용이 늘었는데 그건 나쁜건가요?</h2>
+<ul>
+<li>비용만으로는 잘 쓰고 있는지 판단 불가 - 같은 비용 곡선이라도 처리량을 같이 보면 효율 차이가 보임</li>
+<li>지연시간, 에러율을 처리량과 함께 보듯 비용도 함께 보기<ul>
+<li>정상 처리 요청 1,000건당 비용</li>
+<li>메시지 100만 건 전달 비용</li>
+</ul>
+</li>
+<li>단위당 비용 = Unit Economics, 카카오가 향하는 방향<ul>
+<li>같은 결과를 내는 데 무엇이 더 효율적인지 판별 가능</li>
+</ul>
+</li>
+</ul>
+<p>장애, 이벤트에 대비한 여유를 어떻게 확보할 것인가 고민함</p>
+<ul>
+<li>여유는 필요하지만, 지금처럼 유휴 자원을 운영하는 방식이 최선인지 재검토</li>
+</ul>
+<h2 id="피크-때문에-1년-내내-들고-있어야-하나요">피크 때문에 1년 내내 들고 있어야 하나요?</h2>
+<ul>
+<li>피크 기준으로 확보한 자원은 평시엔 유휴로 보이지만 피크엔 서비스를 지키는 힘<ul>
+<li>여유를 없애는 건 위험 -&gt; 여유를 제공하는 방식을 바꾸기로 함</li>
+</ul>
+</li>
+<li>서비스간 자원 공유 (공유 풀)<ul>
+<li>서비스별 과다 할당을 조정하고, 각자 확보한 여유를 공용 풀로 모음</li>
+<li>서비스마다 피크 시간이 다를수록 효과가 큼</li>
+<li>한계: 새해 첫 순간처럼 메시지, 선물하기 등 여러 서비스 피크가 동시에 오면 공용 풀만으로 부족</li>
+</ul>
+</li>
+<li>하이브리드 클라우드 구성<ul>
+<li>계속 보유할 자원은 내부 자원으로, 특정 기간만 쓸 자원은 빌렸다 반납하는 퍼블릭 클라우드로</li>
+</ul>
+</li>
+<li>질문의 변화: &quot;남는 서버가 있는데 왜 또 사나?&quot; -&gt; &quot;내부 자원을 적정하게 쓰고 공유 여력을 늘린 뒤에도 부족한 순간만 외부에서 잠깐 확보할 수 있을까?&quot;</li>
+</ul>
+<h2 id="그래서-카카오는-실제로-무엇을-했나요">그래서 카카오는 실제로 무엇을 했나요?</h2>
+<h3>DKOS - 인하우스 OpenStack 위의 Kubernetes 플랫폼</h3>
+<ul>
+<li>서비스별 Kubernetes 클러스터를 만들어 운영, 서비스 카탈로그와 연동</li>
+</ul>
+<h4>온프로미즈 환경</h4>
+<ul>
+<li>onprem 환경에서의 비용 절감 - Karpenter 기반 노드 오토스케일러<ul>
+<li>기존 DKOS는 파드 단위 HPA만 제공 -&gt; 실질적 자원 효율화를 위해 노드 오토스케일링 필요</li>
+</ul>
+</li>
+<li>워크로드 리퀘스트 사이즈 자동 조정<ul>
+<li>사용자들은 리퀘스트를 실사용량보다 높게 잡는 경향</li>
+<li>파드 사용량을 모니터링하다가 리퀘스트 대비 실사용량이 작으면 리퀘스트를 실사용량 근처로 자동 축소</li>
+<li>리퀘스트 축소 -&gt; 빈패킹으로 일부 노드에 파드 집약 -&gt; 빈 노드는 Karpenter가 삭제 -&gt; 공용 풀로 반환</li>
+<li>같은 워크로드를 더 적은 노드로 운영, 공용 풀 가용 자원 증가 -&gt; 이벤트 대응 여력 확보</li>
+</ul>
+</li>
+<li>20~30%의 컴퓨팅 자원 절감 기대<ul>
+<li>현재 점진 적용 중, 대상 서비스가 많아 전체 적용엔 시간이 걸릴 것</li>
+</ul>
+</li>
+</ul>
+<h4>하이브리드</h4>
+<ul>
+<li>온프레미스 상시 서버는 최소화, 급하게 필요한 버스트 자원은 퍼블릭 클라우드로</li>
+<li>검토한 두 가지 방식<ul>
+<li>퍼블릭 클라우드의 관리형 Kubernetes 사용 -&gt; 사용자가 두 곳에 배포해야 하고, 카카오 사내 정책에 맞게 수정 필요</li>
+<li>기존 DKOS 클러스터에 노드 추가 -&gt; 사용자는 기존 방식 그대로, 반납도 간편</li>
+</ul>
+</li>
+<li>기존 DKOS 노드에 클라우드 노드를 추가하도록 함</li>
+<li>외부 트래픽은 카카오 DC로 받고, 퍼블릭 클라우드와는 DX(전용선)로 연결<ul>
+<li>클라우드 VPC는 외부에 노출되지 않는 구조</li>
+</ul>
+</li>
+</ul>
+<h4>검증: 선물하기 대기열</h4>
+<ul>
+<li>버스트 트래픽이 잦은 선물하기 대기열 서비스를 직접 올려 검증<ul>
+<li>스파이크 때 평시 대비 최대 16배 트래픽</li>
+</ul>
+</li>
+<li>GSLB로 유입 -&gt; 선물하기 게이트에서 레이트 리밋 도달 시 대기열 오픈 -&gt; 관제 컴포넌트가 지표를 보고 대기열 서버 파드 증설</li>
+<li>버스트 대응 전략 4단계 (시간 순)<ol>
+<li>도메인 경험 기반 예측 - 명절, 발렌타인 / 화이트 / 빼빼로데이, 수능 전날, 크리스마스 등 알려진 이벤트 전에 미리 대기열 생성</li>
+<li>AI로 트래픽 패턴 감지 -&gt; 신호 발생 -&gt; 사람이 증설 판단</li>
+<li>실시간 임계치 감시 - 50% 넘으면 경고 + 대기열 생성</li>
+<li>신호를 놓치고 피크가 오면 즉시 대기열 생성</li>
+</ol>
+</li>
+<li>상시 보유하면 온프렘이 훨씬 싸지만, 특정 기간만 쓰면 클라우드가 더 싼 구간이 존재 -&gt; 그 경계를 넘지 않게 관리하는 것이 목표</li>
+<li>현재 일부를 수동 구성해 동작 확인, 11월 말까지 자동화 완료 목표</li>
+</ul>
+<h2 id="정리">정리</h2>
+<ul>
+<li>필요한 여유는 지키면서 단위당 비용을 낮춘 이야기</li>
+<li>효율을 알려면 측정할 수 있어야 하고, 단위당 서비스 비용에 답할 수 있어야 함 - 출발점은 측정</li>
+<li>지연시간과 에러율을 볼 때 비용이라는 축도 함께 관리해보자</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2026","children":"2026"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/","children":"if(kakao)26"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"유휴 서버를 찾다가 Hybrid Cloud까지 갔습니다: 비용 가시화에서 Unit Economics를 향해가는 카카오의 FinOps 여정"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[["$","span",null,{"children":"백정태, 정원천 · 카카오"}],["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2 · 10:30 ~ 11:00"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"finops","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"if-kakao-26","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"유휴 서버를 찾다가 Hybrid Cloud까지 갔습니다: 비용 가시화에서 Unit Economics를 향해가는 카카오의 FinOps 여정 — if(kakao)26 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/if-kakao-26/finops/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/if-kakao-26/finops/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/if-kakao-26/finops/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/if-kakao-26/finops/"}],["$","meta","7",{"property":"og:title","content":"유휴 서버를 찾다가 Hybrid Cloud까지 갔습니다: 비용 가시화에서 Unit Economics를 향해가는 카카오의 FinOps 여정 — if(kakao)26 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/if-kakao-26/finops/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"유휴 서버를 찾다가 Hybrid Cloud까지 갔습니다: 비용 가시화에서 Unit Economics를 향해가는 카카오의 FinOps 여정 — if(kakao)26 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/welcome-speech/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 2 · 10:00 ~ 10:20"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"Welcome Speech"}]]}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/ai-qa/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 · DAY 2 · 13:00 ~ 13:30 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"AI 산출물을 믿어도 되게 만드는 법: QA가 담금질한 하네스와 품질 게이트"}]]}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","유휴-서버-줄이면-되는-것-아닌가요",{"children":["$","a",null,{"href":"#유휴-서버-줄이면-되는-것-아닌가요","children":"유휴 서버, 줄이면 되는 것 아닌가요?"}]}],["$","li","이-서버-누가-왜-쓰고-있나요",{"children":["$","a",null,{"href":"#이-서버-누가-왜-쓰고-있나요","children":"이 서버, 누가 왜 쓰고 있나요?"}]}],["$","li","비용이-늘었는데-그건-나쁜건가요",{"children":["$","a",null,{"href":"#비용이-늘었는데-그건-나쁜건가요","children":"비용이 늘었는데 그건 나쁜건가요?"}]}],["$","li","피크-때문에-1년-내내-들고-있어야-하나요",{"children":["$","a",null,{"href":"#피크-때문에-1년-내내-들고-있어야-하나요","children":"피크 때문에 1년 내내 들고 있어야 하나요?"}]}],["$","li","그래서-카카오는-실제로-무엇을-했나요",{"children":["$","a",null,{"href":"#그래서-카카오는-실제로-무엇을-했나요","children":"그래서 카카오는 실제로 무엇을 했나요?"}]}],["$","li","정리",{"children":["$","a",null,{"href":"#정리","children":"정리"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/if-kakao-26/finops.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

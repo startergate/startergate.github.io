@@ -1,0 +1,10 @@
+:HL["/_next/static/chunks/0_elwuds9zw9j.css","style"]
+:HL["/_next/static/chunks/3ts4cn7isggxc.css","style"]
+:HL["/_next/static/media/07c7676b89ed2778-s.p.2bn3s6zvc0dyp.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/53897e768d329f66-s.p.3t6q91iet4nsy.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+4:[["children",{"s":"__PAGE__","h":160}]]
+3:[["children",{"s":{"n":"event","t":"d","k":"cpp-kr-seminar-6","s":[]},"h":96,"c":"$Q4"}]]
+2:[["children",{"s":"conferences","h":64,"c":"$Q3"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"b":"vM1F1_CVNcnrKiJDOEGEP","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

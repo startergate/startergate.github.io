@@ -1,0 +1,214 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T2570,<h2 id="출발점-이거-혹시-아시는-분-계실까요">출발점: &quot;이거 혹시 아시는 분 계실까요?&quot;</h2>
+<ul>
+<li>회사에서 일하다 보면 자주 하게 되는 질문<ul>
+<li>이 코드는 왜 이렇게 됐는지, 이 결정은 왜 이렇게 내려졌는지</li>
+<li>문서도 있고, 메신저 대화도 있고, 코드도 있고, 기록은 다 남아 있음</li>
+</ul>
+</li>
+<li>그런데 보통은 쉬운 길을 찾음 - 아는 동료에게 물어보기<ul>
+<li>정작 그 내용을 아는 동료가 잘 없음</li>
+</ul>
+</li>
+<li>그 동료가 해주던 일 = 여기저기 흩어진 기록을 모아 하나의 맥락을 설명해 주는 것<ul>
+<li>어떤 문서와 논의를 거쳐 어떤 결정이 됐고, 그게 어떤 의미였는지</li>
+</ul>
+</li>
+<li>사내 지식베이스는 이 질문에서 출발 - 흩어진 기록에서 답을 찾을 수 있게</li>
+<li>AI가 기록을 활용하려면 누가 남긴 기록인지, 어떤 업무와 관련된 기록인지 구분할 수 있어야 함</li>
+<li>발표 구성<ol>
+<li>연결: 사람과 문서를 어떻게 구별하고 연결했는지</li>
+<li>사용하기 위한 조건: 누구에게 보여줄 수 있는지, 언제까지 유효한지</li>
+<li>실제 활용과 확장: 업무 질문에 답하는 사례, 스킬 활용, 다른 업무로의 확장</li>
+</ol>
+</li>
+</ul>
+<h2 id="1-연결">1. 연결</h2>
+<h3>흩어진 원본</h3>
+<ul>
+<li>사내에서 목적별로 여러 시스템을 씀<ul>
+<li>컨플루언스: 문서 / 회의록, 지라: 작업 기록</li>
+<li>슬랙 / 아지트: 논의</li>
+<li>그룹웨어 등 사내 시스템: 조직 / 직원 정보</li>
+<li>코드 저장소 등</li>
+</ul>
+</li>
+<li>형태가 다른 정보를 AI가 바로 파악할 수는 없음 -&gt; AI가 함께 쓸 수 있게 정의하는 과정 필요</li>
+<li>AI용 문서를 따로 만들지 않음<ul>
+<li>원본은 원래 쓰던 곳에서 그대로 수정하고, 가져와서 처리</li>
+<li>어떤 문서 / 대화에서 가져왔는지 출처를 함께 남김 -&gt; 답변을 보고 원본을 확인할 수 있게</li>
+</ul>
+</li>
+</ul>
+<h3>파이프라인</h3>
+<ul>
+<li>각 시스템에서 수집 -&gt; 수집 데이터 검사 (민감 정보 마스킹 등) -&gt; 공통 모델로 통합 -&gt; 저장</li>
+<li>질문이 들어오면 여러 방식으로 조회하고 종합해서 답변</li>
+<li>원본이 바뀌면 그 변화를 놓치지 않고 따라가게 함</li>
+</ul>
+<h3>작성자 ≠ 담당자</h3>
+<ul>
+<li>공통 모델로 통합 = 문서 형식만 맞춘다는 의미가 아님</li>
+<li>회의록을 내가 썼어도 실제 그 업무 담당자는 다른 사람일 수 있음<ul>
+<li>누가 썼는지와 누구에게 물어봐야 하는지는 다른 의미</li>
+<li>회의록을 썼다는 이유로 AI가 나를 담당자로 지목하면 곤란</li>
+</ul>
+</li>
+<li>&quot;작성했다&quot;를 &quot;담당한다&quot;로 해석하지 않도록 관계를 구분해야 했음</li>
+</ul>
+<h3>온톨로지 모델</h3>
+<ul>
+<li>직원 / 조직 / 문서처럼 서로 다른 대상과, 대상 사이의 관계를 공통으로 정의<ul>
+<li>대상: 직원, 조직, 문서 등 + 속성 (수정 시간, 상태 등)</li>
+<li>관계: 직원 -소속-&gt; 조직, 직원 -작성-&gt; 문서 등, 방향과 의미를 하나씩 정의</li>
+</ul>
+</li>
+<li>예: 컨플루언스 회의록은 철수가 작성, 실제 논의는 슬랙 스레드에서 다른 사람들이 남김 -&gt; 이 연결이 모두 남음</li>
+<li>&quot;우리 팀이 작성한 기록 찾아줘&quot;<ul>
+<li>질문자의 소속 팀 확인 -&gt; 그 팀이 작성한 기록 탐색</li>
+<li>팀 이름이 없어도 팀원이 작성한 기록일 수 있음</li>
+<li>반대로 다른 팀이 우리 팀을 언급한 기록은 우리 팀이 작성한 게 아님</li>
+<li>팀 이름 검색만으로는 구분 불가 -&gt; 조직 / 직원 정보를 써서 문서 / 메시지와 연결</li>
+</ul>
+</li>
+</ul>
+<h3>구조화할 것과 하지 않을 것</h3>
+<ul>
+<li>직원 소속, 문서 작성자: 시스템에 정의된 값 -&gt; 바로 연결</li>
+<li>왜 이 방식을 선택했는지, 왜 기존안을 반대했는지: 당시 문서 / 논의를 읽어야 함<ul>
+<li>회의록 하나에도 검토안, 최종 결정, 개인 의견이 섞여 있음</li>
+<li>전부 구조화하면 뭐가 검토안이고 최종 결정인지 판단해야 하고, 결정이 바뀌면 저장된 정보를 다 고쳐야 함</li>
+<li>-&gt; 이런 질문은 필요한 문서 / 논의를 찾아 읽고 답하게 함</li>
+</ul>
+</li>
+<li>처음부터 다 구조화하지 않고, 원본이 바뀌었을 때 쉽게 반영할 수 있는 것부터 모델에 넣음</li>
+</ul>
+<h3>계정 매핑</h3>
+<ul>
+<li>시스템마다 같은 직원의 계정 / 표기가 다름</li>
+<li>이름만 보고 같은 사람으로 보면 안 됨 - 동명이인 (발표자 팀에도 같은 이름이 두 명, 팀장님과 바로 뒷자리 동료)<ul>
+<li>AI가 둘을 하나로 합쳐버리면 곤란</li>
+</ul>
+</li>
+<li>시스템별 계정을 직원 단위로 매핑 -&gt; 계정이 다른 같은 직원의 기록을 함께 찾을 수 있음</li>
+</ul>
+<h2 id="2-사용하기-위한-조건">2. 사용하기 위한 조건</h2>
+<ul>
+<li>연결한 정보를 누가 볼 수 있는지, 원본이 바뀌면 어떻게 반영할지</li>
+</ul>
+<h3>권한</h3>
+<ul>
+<li>수집할 수 있는 자료 ≠ 질문자에게 보여줄 수 있는 자료<ul>
+<li>같은 팀 직원 A, B - 제한 문서는 A에게만 공개</li>
+<li>&quot;우리 팀 문서 보여줘&quot;가 전부 읽어도 된다는 의미는 아님</li>
+</ul>
+</li>
+<li>수집할 때 누가 읽을 수 있는지 권한 정보(ACL)를 함께 가져옴</li>
+<li>질문이 오면 직원 정보로 질문자 확인 -&gt; 문서 ACL과 대조 -&gt; 읽을 수 있는 내용만 답변에 사용<ul>
+<li>원문을 추가로 가져올 때도 동일, 권한을 확인 못 하거나 권한 없는 문서는 가져오지 않음</li>
+</ul>
+</li>
+<li>같은 질문이어도 A는 더 자세한 답변, B는 제한 문서가 빠진 답변을 받음</li>
+</ul>
+<h3>변경 반영</h3>
+<ul>
+<li>원본 시스템에서 내용 / 공개 범위가 바뀌었는데 지식베이스에 반영이 안 되면 예전 권한으로 판단하게 됨<ul>
+<li>조직 이동한 직원도 예전 조직 기준으로 판단되는 문제</li>
+</ul>
+</li>
+<li>본문만이 아니라 소속, 권한 같은 정보도 변경을 꾸준히 따라가게 함</li>
+<li>삭제된 문서는 검색 결과 / 답변에 쓰지 않고, 지식베이스 안에서도 그대로 반영</li>
+</ul>
+<h3>출처</h3>
+<ul>
+<li>실제 업무에 쓰려면 AI가 정리한 내용만이 아니라 어떤 기록을 보고 한 얘기인지 출처를 보여줘야 함</li>
+<li>참고한 문서 / 대화를 직접 확인할 수 있게 링크 제공</li>
+</ul>
+<h2 id="3-활용과-확장">3. 활용과 확장</h2>
+<h3>사례 1: 결정 배경 찾기</h3>
+<ul>
+<li>&quot;우리 팀 슬랙에서 얘기했던 검색 방식은 왜 지금처럼 고친 거야?&quot;<ul>
+<li>실제로는 이렇게 예쁘게 안 물어봄, 발표용으로 친절하게</li>
+</ul>
+</li>
+<li>당시 논의를 바탕으로 검토한 방법과 실제 적용한 내용을 정리하고 출처도 보여줌</li>
+<li>이어서 관련 PR을 물어보면, 실제 담당자는 다른 사람이었다는 것과 PR까지 찾아줌</li>
+<li>기억나는 문제에서 시작해서 당시 논의, 필요한 변경까지 따라갈 수 있음</li>
+</ul>
+<h3>사례 2: 다음 업무로 이어가기</h3>
+<ul>
+<li>진행 상황 / 남은 일 정리 -&gt; 팀에 공유 -&gt; 회의 일정 잡기 -&gt; 관련 문서 작성 -&gt; 슬랙 메시지 발송</li>
+<li>자료 찾기부터 문서 정리, 동료 공유, 회의 준비까지 한 대화 안에서 이어짐</li>
+</ul>
+<h3>평소 쓰는 도구에서</h3>
+<ul>
+<li>지식베이스 화면에서만 쓸 수 있으면 아쉬움 - 작업하다 창을 옮겨야 함</li>
+<li>Claude Code, Codex 같은 도구에서 바로 사내 지식베이스를 쓸 수 있게 만듦<ul>
+<li>개발 중이나 문서 작성 중에 필요한 사례 / 자료를 바로 찾음</li>
+</ul>
+</li>
+<li>사용하는 도구가 달라도 같은 검색 / 조회 도구와 같은 권한 정책을 그대로 사용</li>
+<li>만든 도구를 마켓플레이스로 공유 -&gt; 각 도메인, 비개발 조직에서도 사용<ul>
+<li>도구 공유를 시작하면서 활용이 빠르게 확장됨</li>
+</ul>
+</li>
+</ul>
+<h3>다른 업무로 확장</h3>
+<ul>
+<li>지식베이스를 확장하는 것 = AI가 도울 수 있는 업무를 넓히는 것</li>
+<li>예: &quot;이 IP의 해외 캠페인, 무엇을 더 확인해야 할까?&quot;<ul>
+<li>관련 업무 기록, 성과 데이터, 계약 조건부터 진행 상태까지 필요</li>
+<li>작품과 성과가 어떤 기준으로 집계됐는지, 어떤 조건이 적용되는지 업무에 맞게 정리돼 있어야 함</li>
+</ul>
+</li>
+<li>온톨로지 모델을 회사의 다른 업무 / 도메인에도 적용 중<ul>
+<li>조회로 끝나지 않고, 확인한 내용을 AI와 함께 검토하고 승인까지 이어지는 흐름을 보고 있음</li>
+</ul>
+</li>
+</ul>
+<h2 id="정리">정리</h2>
+<ul>
+<li>흩어진 사내 지식을 AI가 답하게 만든다 = 무엇을, 누구에게, 언제까지 보여줄지 정하는 일<ul>
+<li>무엇을 어떤 의미로 연결할지: 온톨로지</li>
+<li>누구에게 보여줄지: 직원 정보와 권한(ACL)으로 판단</li>
+<li>언제까지 유효한지: 원본의 연결과 상태 변경을 꾸준히 추적</li>
+</ul>
+</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2026","children":"2026"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/","children":"if(kakao)26"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"흩어진 사내 지식을 AI가 답할 수 있게 만들기"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[["$","span",null,{"children":"이한승 · 카카오엔터테인먼트"}],["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2 · 15:00 ~ 15:30"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"company-search","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"if-kakao-26","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"흩어진 사내 지식을 AI가 답할 수 있게 만들기 — if(kakao)26 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/if-kakao-26/company-search/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/if-kakao-26/company-search/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/if-kakao-26/company-search/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/if-kakao-26/company-search/"}],["$","meta","7",{"property":"og:title","content":"흩어진 사내 지식을 AI가 답할 수 있게 만들기 — if(kakao)26 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/if-kakao-26/company-search/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"흩어진 사내 지식을 AI가 답할 수 있게 만들기 — if(kakao)26 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/db-sharding/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 2 · 14:30 ~ 15:00"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"한계를 경계로 바꾸다: 대규모 커머스 DB 샤딩 전환기"}]]}],null]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","출발점-이거-혹시-아시는-분-계실까요",{"children":["$","a",null,{"href":"#출발점-이거-혹시-아시는-분-계실까요","children":"출발점: \"이거 혹시 아시는 분 계실까요?\""}]}],["$","li","1-연결",{"children":["$","a",null,{"href":"#1-연결","children":"1. 연결"}]}],["$","li","2-사용하기-위한-조건",{"children":["$","a",null,{"href":"#2-사용하기-위한-조건","children":"2. 사용하기 위한 조건"}]}],["$","li","3-활용과-확장",{"children":["$","a",null,{"href":"#3-활용과-확장","children":"3. 활용과 확장"}]}],["$","li","정리",{"children":["$","a",null,{"href":"#정리","children":"정리"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/if-kakao-26/company-search.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"

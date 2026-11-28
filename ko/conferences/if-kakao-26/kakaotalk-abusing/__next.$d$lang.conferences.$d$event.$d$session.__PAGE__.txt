@@ -1,0 +1,167 @@
+3:"$Sreact.fragment"
+4:"/_next/static/chunks/1i9-tfa9fnp30.js"
+5:I[39756,["$4"],"default"]
+6:I[37457,["$4"],"default"]
+f:"/_next/static/chunks/0dp8zy6jdg23s.js"
+10:"/_next/static/chunks/0go9xxzk26uoe.js"
+11:I[22016,["$f","$10"],""]
+18:"ViewportBoundary"
+19:I[97367,["$4"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$4"],"$1a"]
+1c:"$Sreact.suspense"
+1d:I[27201,["$4"],"IconMark"]
+8:X
+8:C
+9:X
+12:T1fd6,<h2 id="sms-pumping이란">SMS Pumping이란</h2>
+<ul>
+<li>전화번호 기반 서비스라면 어디든 대상, &quot;인증번호 받기&quot; 버튼이 있으면 공격 대상</li>
+<li>카카오톡 / 왓츠앱 / 텔레그램 모두 전화번호 필수 -&gt; 가입 시 서비스가 인증 문자 발송, 비용은 서비스 제공사가 통신사에 지불</li>
+<li>인증 문자 시장: 글로벌 연 약 220억 달러 (약 30조 원)<ul>
+<li>국제 SMS 인증 트래픽 중 약 5% 정도를 어뷰저의 부정 요청으로 추정, 연 약 10억 달러 (약 1조 4천억 원)</li>
+</ul>
+</li>
+<li>카카오톡도 1년간 수억 원 이상이 부정 요청으로 지출된 사례<ul>
+<li>어느 날 콩고민주공화국 인증 요청이 분당 50건 이상으로 급증, 일주일에 23만 건</li>
+<li>실제 가입 완료는 100명도 안 됨</li>
+<li>85% (20만 건)는 안티어뷰징 시스템이 차단, 나머지 15% (3만 건) 통과 -&gt; SMS 비용 약 천만 원</li>
+<li>전혀 못 막았으면 억 단위, 실제로는 수십 개 국가 번호를 돌려가며 공격하므로 못 막으면 하루 2~3억도 쉽게 나감</li>
+</ul>
+</li>
+<li>AIT (Artificially Inflated Traffic, 인위적으로 부풀린 가짜 트래픽) 중 인증 문자를 노리는 공격이 SMS Pumping<ul>
+<li>취약점이나 API 해킹이 아니라 그냥 인증 요청을 많이 보낼 뿐 -&gt; 공격이 쉬움</li>
+</ul>
+</li>
+</ul>
+<h2 id="어뷰저는-어떻게-돈을-버는가">어뷰저는 어떻게 돈을 버는가</h2>
+<ul>
+<li>문자 비용은 통신사로 가는데 어뷰저는 어떻게 돈을 버나? -&gt; 복잡한 통신사 구조</li>
+<li>통신사 간 정산: 발신자가 자기 통신사에 비용 지불 -&gt; 일부를 수신 측 통신사에 접속료로 지불<ul>
+<li>문자를 받는 상대 통신사도 전달 대가로 돈을 범, 돈이 메시지 방향을 따라 흐름</li>
+</ul>
+</li>
+<li>MVNO (알뜰폰, 국내 약 60여 곳): 망을 빌려 영업, 망 사용료를 통신사에 지불</li>
+<li>해외는 더 복잡<ul>
+<li>MVNA: 망 도매상, 대형 통신사 망을 대량으로 빌려 작은 MVNO에 재판매</li>
+<li>망을 여러 회사가 합작해서 운영하기도 함, 부가서비스 플랫폼까지 얽힘</li>
+</ul>
+</li>
+<li>카카오톡은 전세계 통신사와 일일이 계약 불가 (약 195개국, 국가별 수~수십 개 통신사)<ul>
+<li>API로 발송 대행사 이용 -&gt; 여러 중개사, 현지 통신사를 거쳐 전달</li>
+<li>카카오가 낸 비용이 경로상 통신사 / 도매상 / MVNO에게 나뉘어 들어감</li>
+</ul>
+</li>
+<li>이 회사들의 공통점: 문자가 많을수록 돈을 범<ul>
+<li>소형 MVNO, 영세 통신사 입장에선 자기 번호로 인증 문자가 올 때마다 수익, 비용은 서비스 회사가 냄</li>
+<li>일부 계약은 실제 수신 여부와 무관하게 발송 요청 / 망 접수 기준으로 과금</li>
+<li>구조가 복잡해 내부에서 무슨 일이 일어나는지 파악하기 어려움 -&gt; 감시 / 규제가 덜한 국가의 영세 사업자가 유혹에 빠지기 쉬움</li>
+<li>어뷰저는 이 사이 누군가와 수익을 나눔, 명백한 범죄지만 잡아내기 어려움</li>
+</ul>
+</li>
+<li>2022년 일론 머스크: 해외 통신사들이 인증 문자를 반복 발생시켜 트위터가 연간 6천만 달러 손해를 본다고 주장</li>
+<li>국가별 단가<ul>
+<li>국내 문자는 건당 15원 이하</li>
+<li>아프리카 / 러시아 / 중앙아시아: 비싼 나라는 건당 1,000원 넘고 평균 600원 안팎</li>
+<li>중동 / 남아시아 / 동남아시아: 400~700원</li>
+<li>국내의 40~100배, 카카오톡 인증 어뷰징이 몰린 곳도 바로 이 권역 -&gt; 단가 비싼 나라를 골라서 공격</li>
+</ul>
+</li>
+<li>ARS 인증도 대안이 못 됨<ul>
+<li>문자를 받기 어렵거나 접근성 지원이 필요한 사용자용으로 제공하지만 SMS보다 더 비쌈</li>
+<li>SMS는 건당, ARS는 통화 시간 비례 (파키스탄 분당 약 2,000원, 국내 30배 이상)</li>
+<li>어뷰저가 전화를 받고 안 끊으면 비용 계속 증가, 통신 구조 문제도 그대로</li>
+</ul>
+</li>
+</ul>
+<h2 id="왜-막기-어려운가">왜 막기 어려운가</h2>
+<ul>
+<li>기본 탐지: 요청 특성 / 환경 / 반복 패턴 분석<ul>
+<li>비슷한 IP 대역, 디바이스, 모델, 언어 설정, User-Agent 등을 묶어 반복 조합 차단</li>
+<li>머신러닝, 요즘은 AI도 사용 / 특별한 기법이 있는 건 아님</li>
+</ul>
+</li>
+<li>그래도 원천 차단이 어려운 이유 3가지<ul>
+<li>데이터 부족: 번호 인증은 가입 첫 단계, 이력도 이용자 데이터도 없음 -&gt; 정보가 가장 없는 시점에 가장 중요한 판단</li>
+<li>오탐 피해가 큼: 정상 사용자를 막으면 가입 자체가 불가, CS 폭발 -&gt; 차단 범위를 넓히는 데 소극적일 수밖에 없음</li>
+<li>어뷰저도 학습함: 차단되면 환경 / 패턴을 바꿔 재시도, 무한 반복 -&gt; 점점 정상 요청과 비슷해짐</li>
+</ul>
+</li>
+</ul>
+<h2 id="카카오톡의-대응-mo-인증">카카오톡의 대응: MO 인증</h2>
+<ul>
+<li>핵심은 오탐 리스크를 줄이는 것 (100% 구분하는 모델은 불가능)<ul>
+<li>기존: 어뷰징으로 판단하면 바로 차단 (인증 SMS를 안 보냄) -&gt; 오탐이면 정상 유저 가입 불가 -&gt; 탐지 범위가 계속 줄어듦</li>
+</ul>
+</li>
+<li>카카오톡 기획팀이 안티어뷰징 팀에 새 인증 수단을 줌: MO (Mobile Originated) 인증<ul>
+<li>카카오뱅크 같은 금융 앱처럼 사용자가 직접 문자를 보내 인증</li>
+<li>&quot;인증 문자 전송하기&quot; -&gt; SMS 앱으로 전환, 코드를 직접 발송 -&gt; 앱으로 돌아오면 인증 완료</li>
+<li>방향이 반대: 서비스 -&gt; 사용자가 아니라 사용자 -&gt; 서비스, 비용을 사용자 쪽에서 냄</li>
+</ul>
+</li>
+<li>어뷰저 확률에 따라 차단과 선택적으로 적용<ul>
+<li>매우 높음 (예: 99%, 88%): 기존대로 차단</li>
+<li>매우 낮음 (예: 1%): 기존처럼 카카오가 SMS 발송</li>
+<li>애매한 구간 (예: 50%): 차단하지 않고 MO 인증으로 전환</li>
+</ul>
+</li>
+<li>차단만 있을 때<ul>
+<li>기준을 50%로 두면 정상 유저도 같이 차단, 구제 방법도 없음</li>
+<li>그래서 확률이 매우 높을 때만 (예: 70% 이상) 차단 -&gt; 어뷰저 일부를 놓침</li>
+<li>이게 앞의 23만 건 중 85%는 막았지만 15% 때문에 손해가 컸던 상황</li>
+</ul>
+</li>
+<li>MO 인증 추가 후<ul>
+<li>오탐이 걱정돼 통과시키던 애매한 구간부터 MO 인증으로 변경 -&gt; 어뷰저가 통과되는 경우가 사라짐</li>
+<li>정상 유저도 일부 MO 인증으로 바뀌지만 직접 문자를 보내면 가입 가능, 불편하지만 대안이 생김</li>
+</ul>
+</li>
+</ul>
+<h2 id="효과">효과</h2>
+<ul>
+<li>MO 인증을 적용하자 전체 SMS 발송량이 예상보다 훨씬 많이 줄어듦<ul>
+<li>인지하던 것보다 훨씬 많은 어뷰징이 있었던 것</li>
+</ul>
+</li>
+<li>한 번 줄어든 뒤에도 시간이 지나며 계속 감소<ul>
+<li>애매한 구간까지 메우자 어뷰저에게 돈이 안 됨 -&gt; 시도 자체가 줄어듦</li>
+<li>어뷰징 요청이 줄자 부정 요청 식별도 쉬워짐 -&gt; 선순환, 잘 막을수록 더 쉽게 막게 됨</li>
+</ul>
+</li>
+</ul>
+<h2 id="업계-동향">업계 동향</h2>
+<ul>
+<li>메신저뿐 아니라 사용자에게 문자를 보내는 기능이 있으면 누구나 대상, 해외 번호를 서비스하면 더더욱</li>
+<li>트위터: SMS 2단계 인증을 유료 구독자 전용으로 변경</li>
+<li>위챗: 캡차를 적극 사용, 지금은 카카오처럼 MO 인증도 병행</li>
+<li>텔레그램: 유료 멤버십 결제를 해야 인증 문자 발송</li>
+<li>어뷰징 대응에 정답은 하나가 아님</li>
+</ul>
+<h2 id="정리">정리</h2>
+<ul>
+<li>전화번호 인증이 있는 서비스라면 SMS Pumping의 타깃이 될 수 있음</li>
+<li>순식간에 큰 비용 손실이 날 수 있으므로 미리 막아두는 게 중요</li>
+</ul>
+e:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$3","c",{"children":[["$","div",null,{"className":"wrap sbwKFq_page","children":["$","div",null,{"className":"sbwKFq_noteLayout","children":[["$","article",null,{"className":"sbwKFq_note","children":[["$","nav",null,{"aria-label":"위치","className":"mono sbwKFq_breadcrumb","children":[["$","$L11",null,{"href":"/ko/conferences/","children":"컨퍼런스"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/#year-2026","children":"2026"}],["$","span",null,{"aria-hidden":"true","children":"/"}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/","children":"if(kakao)26"}],[["$","span",null,{"aria-hidden":"true","children":"/"}],["$","span",null,{"className":"sbwKFq_breadcrumbCurrent","children":"DAY 2"}]]]}],["$","header",null,{"className":"sbwKFq_noteHead","children":[["$","h1",null,{"className":"sbwKFq_noteTitle","children":"카카오톡에서 발생하는 별별 어뷰징 대응기(aka. SMS Pumping)"}],["$","div",null,{"className":"sbwKFq_noteMeta","children":[["$","span",null,{"children":"박종훈, 한은경 · 카카오"}],["$","span",null,{"className":"mono sbwKFq_noteTime","children":"DAY 2 · 13:30 ~ 14:00"}]]}]]}],["$","div",null,{"lang":"ko","className":"sbwKFq_markdown","dangerouslySetInnerHTML":{"__html":"$12"}}],"$L13"]}],"$L14"]}]}],["$L15"],"$L16"]}],"p":"$@17","v":null,"s":"$9"}}]]
+c:[["children",{"s":{"n":"session","t":"d","k":"kakaotalk-abusing","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@d","v":"$8","s":"$9"},"c":"$Qe"}]]
+a:[["children",{"s":{"n":"event","t":"d","k":"if-kakao-26","s":[]},"h":96,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@b","v":"$8","s":"$9"},"c":"$Qc"}]]
+2:[["children",{"s":"conferences","h":64,"d":{"r":["$","$3","c",{"children":[null,["$","$L5",null,{"parallelRouterKey":"children","template":["$","$L6",null,{}]}]]}],"p":"$@7","v":"$8","s":"$9"},"c":"$Qa"}]]
+1:[["children",{"s":{"n":"lang","t":"d","k":"ko","s":["og","og.png"]},"h":48,"c":"$Q2"}]]
+0:{"t":{"t":{"s":"","h":80,"c":"$Q1"},"h":{"r":["$","$3","h",{"children":[null,["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"color-scheme","content":"dark light"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$1c",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"카카오톡에서 발생하는 별별 어뷰징 대응기(aka. SMS Pumping) — if(kakao)26 | STARTERGATE"}],["$","meta","1",{"name":"description","content":"최호승(STARTERGATE), Backend Developer."}],["$","link","2",{"rel":"manifest","href":"/manifest.webmanifest"}],["$","link","3",{"rel":"canonical","href":"https://startergate.dev/ko/conferences/if-kakao-26/kakaotalk-abusing/"}],["$","link","4",{"rel":"alternate","hrefLang":"ko","href":"https://startergate.dev/ko/conferences/if-kakao-26/kakaotalk-abusing/"}],["$","link","5",{"rel":"alternate","hrefLang":"en","href":"https://startergate.dev/en/conferences/if-kakao-26/kakaotalk-abusing/"}],["$","link","6",{"rel":"alternate","hrefLang":"x-default","href":"https://startergate.dev/en/conferences/if-kakao-26/kakaotalk-abusing/"}],["$","meta","7",{"property":"og:title","content":"카카오톡에서 발생하는 별별 어뷰징 대응기(aka. SMS Pumping) — if(kakao)26 | STARTERGATE"}],["$","meta","8",{"property":"og:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","9",{"property":"og:url","content":"https://startergate.dev/ko/conferences/if-kakao-26/kakaotalk-abusing/"}],["$","meta","10",{"property":"og:site_name","content":"STARTERGATE"}],["$","meta","11",{"property":"og:locale","content":"ko_KR"}],["$","meta","12",{"property":"og:image","content":"https://startergate.dev/og.png"}],["$","meta","13",{"property":"og:image:type","content":"image/png"}],["$","meta","14",{"property":"og:image:width","content":"1200"}],["$","meta","15",{"property":"og:image:height","content":"630"}],["$","meta","16",{"property":"og:image:alt","content":"STARTERGATE"}],["$","meta","17",{"property":"og:locale:alternate","content":"en_US"}],["$","meta","18",{"property":"og:type","content":"website"}],["$","meta","19",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","20",{"name":"twitter:creator","content":"@satellite_stg"}],["$","meta","21",{"name":"twitter:title","content":"카카오톡에서 발생하는 별별 어뷰징 대응기(aka. SMS Pumping) — if(kakao)26 | STARTERGATE"}],["$","meta","22",{"name":"twitter:description","content":"최호승(STARTERGATE), Backend Developer."}],["$","meta","23",{"name":"twitter:image","content":"https://startergate.dev/og.png"}],["$","meta","24",{"name":"twitter:image:alt","content":"STARTERGATE"}],["$","meta","25",{"name":"twitter:image:type","content":"image/png"}],["$","meta","26",{"name":"twitter:image:width","content":"1200"}],["$","meta","27",{"name":"twitter:image:height","content":"630"}],["$","link","28",{"rel":"icon","href":"/favicon.ico?favicon.00vo_o-phyp4y.ico","sizes":"256x256","type":"image/x-icon"}],["$","link","29",{"rel":"icon","href":"/icon.png?icon.18duky2b0o_ts.png","sizes":"460x460","type":"image/png"}],["$","link","30",{"rel":"apple-touch-icon","href":"/apple-icon.png?apple-icon.21-k_244mempa.png","sizes":"180x180","type":"image/png"}],["$","$L1d","31",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$9"}},"a":"$@1f","u":"$@20","b":"vM1F1_CVNcnrKiJDOEGEP"}
+21:I[97367,["$4"],"OutletBoundary"]
+:HL["/_next/static/chunks/1hr3va82156pk.css","style"]
+13:["$","nav",null,{"aria-label":"세션 이동","className":"sbwKFq_pager","children":[["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/ai-qa/","className":"sbwKFq_pagerLink","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"← 이전 · DAY 2 · 13:00 ~ 13:30"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"AI 산출물을 믿어도 되게 만드는 법: QA가 담금질한 하네스와 품질 게이트"}]]}],["$","$L11",null,{"href":"/ko/conferences/if-kakao-26/kakaobank/","className":"sbwKFq_pagerLink sbwKFq_pagerNext","children":[["$","span",null,{"className":"mono sbwKFq_pagerHint","children":"다음 · DAY 2 · 14:00 ~ 14:30 →"}],["$","span",null,{"className":"sbwKFq_pagerTitle","children":"카카오뱅크 결제 시스템 전환 이야기와 결제 코어 엔지니어의 소소한 AI 실험"}]]}]]}]
+14:["$","aside",null,{"aria-label":"목차","className":"sbwKFq_toc","children":[["$","div",null,{"children":[["$","div",null,{"className":"mono sbwKFq_tocTitle","children":"목차"}],["$","ol",null,{"className":"sbwKFq_tocList","children":[["$","li","sms-pumping이란",{"children":["$","a",null,{"href":"#sms-pumping이란","children":"SMS Pumping이란"}]}],["$","li","어뷰저는-어떻게-돈을-버는가",{"children":["$","a",null,{"href":"#어뷰저는-어떻게-돈을-버는가","children":"어뷰저는 어떻게 돈을 버는가"}]}],["$","li","왜-막기-어려운가",{"children":["$","a",null,{"href":"#왜-막기-어려운가","children":"왜 막기 어려운가"}]}],["$","li","카카오톡의-대응-mo-인증",{"children":["$","a",null,{"href":"#카카오톡의-대응-mo-인증","children":"카카오톡의 대응: MO 인증"}]}],["$","li","효과",{"children":["$","a",null,{"href":"#효과","children":"효과"}]}],["$","li","업계-동향",{"children":["$","a",null,{"href":"#업계-동향","children":"업계 동향"}]}],["$","li","정리",{"children":["$","a",null,{"href":"#정리","children":"정리"}]}]]}]]}],["$","a",null,{"className":"sbwKFq_sourceLink","href":"https://github.com/startergate/Conferences/blob/master/if-kakao-26/kakaotalk-abusing.md","target":"_blank","rel":"noreferrer","children":["GitHub에서 이 노트 보기",["$","svg",null,{"width":"14","height":"14","viewBox":"0 0 24 24","fill":"none","stroke":"currentColor","strokeWidth":"2","strokeLinecap":"round","strokeLinejoin":"round","aria-hidden":"true","children":["$","path",null,{"d":"M7 17L17 7M9 7h8v8"}]}]]}]]}]
+15:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/1hr3va82156pk.css","precedence":"next"}]
+16:["$","$L21",null,{"children":["$","$1c",null,{"name":"Next.MetadataOutlet","children":"$@22"}]}]
+20:true
+9:300
+22:null
+9:C
+1f:0
+d:"$undefined"
+b:"$undefined"
+7:"$undefined"
+1e:"$undefined"
+17:"$undefined"
